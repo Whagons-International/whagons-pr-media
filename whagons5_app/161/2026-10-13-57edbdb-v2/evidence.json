@@ -1,0 +1,15 @@
+{
+  "applicationHead": "57edbdb34db43a06a5a3c80ba69646755dff440b",
+  "comparisonBase": "0fe65690dee6a9a978f48c4bcd7b98bec6d5735a",
+  "captureDate": "2026-10-13",
+  "runtime": "React Native Expo Web, isolated local Gonvex with optional query unregistered",
+  "viewport": "390x844 CSS pixels",
+  "steps": [
+    "Missing query: before FAB absent, after visible",
+    "Select existing QA template and save",
+    "Reload and confirm QA task #304234 persists",
+    "Restore real roles query: QA member receives [] and FAB is hidden"
+  ],
+  "savedTaskId": "01a136d6-817b-7916-9af9-d28eb7393fc5",
+  "editing": "Untrimmed original after recording; GIF preview generated from it. Screenshots are unchanged real app captures."
+}
