@@ -1,0 +1,35 @@
+{
+  "task": 3994,
+  "applicationHead": "839e575a19e2e64dde6c7a2dc23a94bcf41aeccf",
+  "currentPrHead": "dfd2e8b8217aba3631ffdec98931abb5f0b32cc6",
+  "applicationSourceEquivalentExceptTestTarget": true,
+  "comparison": "Historical original failing baseline from October9. Captures from actual839 required CI38475146387 successful retry1. The corrected test-target head needs fresh exact-head browser verification; these images are not current approval evidence.",
+  "runtime": "Real main application in isolated required CI, PostgreSQL/auth test fixture",
+  "captureDate": "2026-10-13T22:09:21.670647+00:00",
+  "browser": {
+    "head": "839e575a19e2e64dde6c7a2dc23a94bcf41aeccf",
+    "results": [
+      {
+        "status": "failed",
+        "retry": 0,
+        "duration": 60859,
+        "startTime": "2026-10-13T22:08:08.789Z"
+      },
+      {
+        "status": "passed",
+        "retry": 1,
+        "duration": 40842,
+        "startTime": "2026-10-13T22:09:10.338Z"
+      }
+    ],
+    "retry": 1,
+    "limitation": "First attempt status/assignment/sidebar assertions passed; openTaskByName without target then visited first unrelated calendar workspace. Built-in retry1 passed. Target is fixed in a test-only follow-up; fresh gate still needed."
+  },
+  "privacy": "Synthetic test data only, no source/traces/credentials/customer data uploaded",
+  "sha256": {
+    "before-original.png": "09b3a370795df6d6a70c05559249e7385b2a9ed1d522bf5d6a43466d82c1bb41",
+    "initial.png": "40beb406dd151cf58d8283a27288ca1617ef15b618e4c44e3b8b066d5dfbed9b",
+    "after.png": "11b7f71426366a0375b68f62ea9f096c10b177b4a918b9648749fb09eab1321b",
+    "persisted.png": "6f288ad0fbbf684163c95803e241bcaf6a29204f65c3f7a5dba1ae6c33b727a0"
+  }
+}
