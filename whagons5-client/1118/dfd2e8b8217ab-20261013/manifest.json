@@ -1,0 +1,29 @@
+{
+  "task": 3994,
+  "applicationHead": "dfd2e8b8217aba3631ffdec98931abb5f0b32cc6",
+  "currentPrHead": "7bed0d1a7766a538aca2089f7318de3d0c77175d",
+  "applicationSourceEquivalentExceptTestTarget": true,
+  "comparison": "Original historical failing baseline from October9. Actual DFD application38478751435 passed first attempt/retry0; latest7bed changes only documentation and has byte-identical application source. Exact docs-head checks remain pending. Images keep their actual DFD SHA.",
+  "runtime": "Real main application in isolated required CI, PostgreSQL/auth test fixture",
+  "captureDate": "2026-10-13T22:39:27.563545+00:00",
+  "browser": {
+    "head": "dfd2e8b8217aba3631ffdec98931abb5f0b32cc6",
+    "results": [
+      {
+        "status": "passed",
+        "retry": 0,
+        "duration": 61698,
+        "startTime": "2026-10-13T22:39:01.511Z"
+      }
+    ],
+    "retry": 0,
+    "limitation": "Passed first attempt/retry0 after correcting the seeded workspace target. Current7bed is documentation only; application source byte-identical."
+  },
+  "privacy": "Synthetic test data only, no source/traces/credentials/customer data uploaded",
+  "sha256": {
+    "before-original.png": "09b3a370795df6d6a70c05559249e7385b2a9ed1d522bf5d6a43466d82c1bb41",
+    "initial.png": "5035c8aecff9f0bff98444641c6abe3ab523b3e213d7da5a7fd6626a51191287",
+    "after.png": "e4b024a96e04d1dafe09d45813a9e886c9bc2e03456303cd81402bf0c6c7cf85",
+    "persisted.png": "c45f50fb8f7c5aaecb2408bf859d14bde81e9c59a5a98fe854a814a005317f9f"
+  }
+}
