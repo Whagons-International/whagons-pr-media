@@ -1,0 +1,28 @@
+{
+  "task": 3994,
+  "applicationHead": "7bed0d1a7766a538aca2089f7318de3d0c77175d",
+  "currentPrHead": "7bed0d1a7766a538aca2089f7318de3d0c77175d",
+  "comparison": "Original historical failing baseline from October9. Actual current7bed application in required CI38480747680 passed first attempt/retry0. Candidate SHA verified from browser report metadata; these captures retain their actual7bed SHA.",
+  "runtime": "Real main application in isolated required CI, PostgreSQL/auth test fixture",
+  "captureDate": "2026-10-13",
+  "browser": {
+    "head": "7bed0d1a7766a538aca2089f7318de3d0c77175d",
+    "results": [
+      {
+        "status": "passed",
+        "retry": 0,
+        "duration": 52708,
+        "startTime": "2026-10-13T22:57:13.484Z"
+      }
+    ],
+    "retry": 0,
+    "limitation": "Required CI backend wrapper reports one passing suite; no per-Go-case count is claimed. Browser first attempt, retry0; CI did not record video."
+  },
+  "privacy": "Synthetic test data only, no source/traces/credentials/customer data uploaded",
+  "sha256": {
+    "before-original.png": "09b3a370795df6d6a70c05559249e7385b2a9ed1d522bf5d6a43466d82c1bb41",
+    "initial.png": "54a433f3afaf0df13fd66fb3e891506211b57e2a3a25bb20753d16306b11a214",
+    "after.png": "90a09d1d786da0db291165b94d391e66ef6289c1fbeaaa4b48be466ca3863ea7",
+    "persisted.png": "e335c6073e84eb10312e08bc11fdda04702c4da891bcb32d11621a057d524cdd"
+  }
+}
