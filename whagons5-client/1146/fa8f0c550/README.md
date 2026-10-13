@@ -1,0 +1,1 @@
+German localization review media. Sanitized local test tenant only. Before staging 3a79928dc; after fa8f0c550. Chromium, desktop 1280x800 and phone 390x844, captured 2026-10-13. The before video omits an idle wait. Application source is not included.
