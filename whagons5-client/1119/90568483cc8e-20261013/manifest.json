@@ -1,0 +1,19 @@
+{
+  "task": 3994,
+  "applicationHead": "90568483cc8e9a23dae14217129eba80fc96d7fe",
+  "integratedBase": "e7d105ecb9e949ce1fd199e40b617fac84ccfa94",
+  "capturedAt": "2026-10-13T22:20:44.038548+00:00",
+  "platform": "Web, 1920x900 screenshot; private Rust/PostgreSQL and Firebase auth emulator",
+  "coveredSteps": "Actual UI: workflow Initial-empty -> globally initial Paused assigns human Member; reset/repeat preserve; sidebar navigation persists.",
+  "before": "Original reproduced failure from 2026-10-09, preserved as historical comparison. Exact screenshot source SHA was not separately recorded. Its assignee column is offscreen; the original failing assertion proves the empty assignment.",
+  "video": "Actual successful browser recording trimmed from7s to the end, removing authentication/setup. Cropped unused gray video padding only. Final real frame held1.5s for reading, clip5.52s, not a latency measurement. Browser first attempt13.5s, retries0.",
+  "privacy": "Synthetic disposable test data only. No source, traces, authentication payloads, credentials or production/customer records uploaded.",
+  "sha256": {
+    "before-original.png": "d41759a18fbcac4d6012c5cc692d4f59886c035b5a006673928201b1e649ec40",
+    "initial.png": "79ce49e45172d5f6a4d9122b0301a01995d1117054a99af1e3ddc8d8855690ba",
+    "after.png": "cfb0727e81fd3c5af09f36cbb3723df892a77255260d34f0da58bb03941240e3",
+    "persisted.png": "086fa89f3478a761703c4fe993f3816bda6c048eefb23f4afb0d72dc6c6cf9a0",
+    "after.gif": "774306eefa8ef52905ce735411c66843d3c65a7aef381861eb10208547b13cf1",
+    "after.webm": "923ab9ab40dc9dcdf1b25774a7eb2d0b50363ca4fab05d2b07074f655f43441b"
+  }
+}
