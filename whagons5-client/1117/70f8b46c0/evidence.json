@@ -1,0 +1,16 @@
+{
+  "task": 3993,
+  "applicationHead": "70f8b46c0dc5653926803ab00ef54ba71d3918a5",
+  "comparisonBase": "e7d105ecb9e949ce1fd199e40b617fac84ccfa94",
+  "runtime": "fc5726ad94ec8b035196c91af34b719fb4268942",
+  "captureDate": "2026-10-13",
+  "platform": "Chromium on Linux, desktop 1280x720",
+  "data": "Synthetic test accounts in a private Firebase Auth Emulator and Gonvex/PostgreSQL stack",
+  "covered": [
+    "Spanish self system_admin/admin save and reopen",
+    "Developer-mode exit restores self-role lock",
+    "System Admin workspace membership scoping",
+    "Normal System Admin step-down persists and locks"
+  ],
+  "clips": "Fixture setup and idle save waits removed; videos preserve real UI action order. No traces, application source or credentials are published."
+}
