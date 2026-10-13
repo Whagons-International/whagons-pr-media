@@ -1,0 +1,14 @@
+{
+  "applicationHead": "57edbdb34db43a06a5a3c80ba69646755dff440b",
+  "comparisonBase": "0fe65690dee6a9a978f48c4bcd7b98bec6d5735a",
+  "captureDate": "2026-10-13",
+  "runtime": "React Native Expo Web, isolated local Gonvex with optional query unregistered",
+  "viewport": "390x844 CSS pixels",
+  "steps": [
+    "Missing query: before FAB absent, after visible",
+    "Select existing QA template and save",
+    "Reload and confirm QA task #304233 persists"
+  ],
+  "savedTaskId": "01a136d1-5df0-741d-9ff3-bc3029d98b3a",
+  "editing": "Removed idle wait from after recording; screenshots are unchanged real app captures"
+}
