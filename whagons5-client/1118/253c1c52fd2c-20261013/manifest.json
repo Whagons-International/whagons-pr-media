@@ -1,0 +1,23 @@
+{
+  "task": 3994,
+  "applicationHead": "253c1c52fd2c5c471911b712d6121e1b6b2dc981",
+  "currentPrHead": "a4466ce6db7ecaffeb4838f7a9656952566fbf91",
+  "sourceEquivalentExceptDocs": true,
+  "comparison": "Original failing pre-fix baseline from October9, historical. Current application proof from required CI38463349115; current PRa446 is docs-only and exact-head CI pending.",
+  "runtime": "Real main application in isolated required CI, PostgreSQL/auth test fixture",
+  "captureDate": "2026-10-13T20:35:54.790Z",
+  "browser": {
+    "status": "PASS",
+    "retries": 0,
+    "durationSeconds": 61.132,
+    "screenshotHead": "253c1c52fd2c5c471911b712d6121e1b6b2dc981",
+    "captureDate": "2026-10-13T20:35:54.790Z"
+  },
+  "privacy": "Synthetic test data only, no source/traces/credentials/customer data uploaded",
+  "sha256": {
+    "before-original.png": "09b3a370795df6d6a70c05559249e7385b2a9ed1d522bf5d6a43466d82c1bb41",
+    "initial.png": "d0f3419c57698a2ad23351cb884830d61a019f71445f74a712da964abacbefbc",
+    "after.png": "25d049358298fb6d1be2939d58450da40224709698d47c04284ab1e5f26513e8",
+    "persisted.png": "ca52c99a0cd7e621e1586cadc1bfb0c72837046489868f74d626606de28de71c"
+  }
+}
