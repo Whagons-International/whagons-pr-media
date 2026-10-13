@@ -1,0 +1,56 @@
+{
+  "applicationHead": "e8d71a9e76c6704535ff2dbef14fda6c0aaac124",
+  "comparisonBase": "65a57d825b0382dbee4dec1a2ed79267d0e43f2f",
+  "beforeTestSeconds": 34.9,
+  "platform": "Web desktop 1280x800 and mobile web 390x844; local Go runtime and disposable test tenant",
+  "beforeExpectedBehavior": "UI acknowledgment executes workflow status change; source disappears from inbox on both viewports",
+  "clips": [
+    {
+      "name": "before",
+      "liveSourceStartSeconds": 42.21167969703674,
+      "liveSeconds": 4.707042455673218,
+      "actualResultScreensHeldSecondsEach": 2,
+      "clipSeconds": 8.71,
+      "heldScreens": [
+        "before.png",
+        "before-mobile.png"
+      ]
+    },
+    {
+      "name": "after",
+      "liveSourceStartSeconds": 31.7167866230011,
+      "liveSeconds": 6.31206750869751,
+      "actualResultScreensHeldSecondsEach": 2,
+      "clipSeconds": 10.31,
+      "heldScreens": [
+        "after-file-content.png",
+        "after-mobile.png"
+      ]
+    }
+  ],
+  "assets": {
+    "before.png": "b6616c35661bc61f071b6a69da9b0baae19f759a49cb7872eb6c6c7141882a9c",
+    "before-mobile.png": "3b732f607781b1dd7392d772388b45c10d518d6d69c89e58dd414b19bf5d5cc9",
+    "after.png": "d2dcdc7fb14b04eb28a399741d6ad18ff9652045b9fac0a9a8e21a8a776a10f9",
+    "after-files.png": "1c9a813d46b7214bff41fc1922fc5f29f9674961cedbcb42bd3d6d9ac196be60",
+    "after-mobile.png": "82e1c132ac4f1db6f575096867516b9be014aa2a961b48b0706334e6ab39f9ad",
+    "after-file-content.png": "ad709b7111ebbf0d72bb8c21dd94d6c30c4a26946ccb735405c7dcb2aa35f19d",
+    "new-request-pending.png": "4fc14687e9124f7e3754277c0c07b9a5823ef93e281e6f18d1c42706274e8e12",
+    "new-request-mobile-pending.png": "77689d83b601d605236a0a6850f29947a8653e6a3983001e53d798a5c735925b",
+    "new-request-acknowledged.png": "9ceedf9c56abcb16086c20c2c7d38da3ef42e45bb58035ba3818669050ee8065",
+    "before.webm": "d6f3bf371c759b17b87f2f36f750f3811c8b07684289e369a023e80b699a037d",
+    "before.gif": "01774586e9d0b13ec8f61d458a8f41fe08b4a6b49b701c1a16df37a5d0157681",
+    "after.webm": "45b1cab5105516821d23f47b70ac05846ed815cf659899e87e4aa69830c2ef33",
+    "after.gif": "aed445c3cff77f317637235bcd08814d7f8240bd3f2273b55176eeb7405baee0"
+  },
+  "capturedAtUtc": "2026-10-13T23:31:15.072780+00:00",
+  "frameworkCommit": "361ccd855a0940dad485e07e0568cabadcd23831",
+  "comparisonFixtures": "Equivalent isolated fixtures, workflow, audience, attachment payload and viewports; generated task IDs and titles differ by run.",
+  "uiRegressionResults": {
+    "retentionAndFilesSeconds": 47.0,
+    "laterRequestSeconds": 59.3,
+    "passed": 2,
+    "retries": 0
+  },
+  "clipEditing": "Live acknowledgment interaction with setup/loading cut, followed by two-second holds of the actual captured result screens. No UI was synthesized."
+}
