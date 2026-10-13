@@ -1,0 +1,19 @@
+{
+  "task": 3994,
+  "applicationHead": "6edda50615f961df2b851f63158879f91ba966eb",
+  "integratedBase": "3a79928dc02124c50b0084cca18c1cab1ed9cb8f",
+  "capturedAt": "2026-10-13T20:35:10.974176+00:00",
+  "platform": "Web, 1920x900 screenshot; private Rust/PostgreSQL and Firebase auth emulator",
+  "coveredSteps": "Normal workspace status dropdown: initial unassigned -> Paused assigns actor; initial reset and repeat preserve actor; Everything/sidebar navigation persists assignment. Creation/different-assignee/other-negative paths are backend regressions.",
+  "before": "Original reproduced failure from 2026-10-09, preserved as historical comparison. Exact screenshot source SHA was not separately recorded. Its assignee column is offscreen; the original failing assertion proves the empty assignment.",
+  "video": "Real successful browser recording trimmed from 7s to the end, removing sign-in/setup. Final real frame held for 1.5s for reading. Clip is not a latency measurement; the test passed first attempt in 13.8s with retries disabled.",
+  "privacy": "Synthetic disposable test data only. No source, traces, authentication payloads, credentials or production/customer records uploaded.",
+  "sha256": {
+    "before-original.png": "d41759a18fbcac4d6012c5cc692d4f59886c035b5a006673928201b1e649ec40",
+    "initial.png": "a59793b3a7a8f2a6d3e30df8c43acb05edab5be72879505961a83858b80fb037",
+    "after.png": "28090696b72b90bc593a7fb6d014f88fd2510ce058aa872027f3406d49ef4c9f",
+    "persisted.png": "57875bd8344c3e7c64bc657a04ff6876969f5744beda926eb9a06187eebfd686",
+    "after.gif": "de94c005018c186a71c27ca41cf45791495ad5726bb3c516a96d3ad24451093f",
+    "after.webm": "d41fa1f14daf02ae1c32827ac25b2740106555ee212a4fdceb37ea562b4066ad"
+  }
+}
