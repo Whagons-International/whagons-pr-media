@@ -1,0 +1,23 @@
+{
+  "task": 3999,
+  "base": "5a4f761",
+  "testedApplicationHead": "de8e8fd852dfa10c9b537f2d112071823e5adf05",
+  "prHead": "3e4833e8832296cab2e5b75a2a2569c88ce331c6",
+  "laterCommit": "Production compatibility test snapshot only; application code and runtime unchanged",
+  "captured": "2026-10-14 US/Pacific",
+  "browser": "React Native web target at 390x844; real disposable production Go runtime/Postgres testing tenant",
+  "native": "iPhone 16 Pro simulator, iOS 18.4, existing native debug shell loading tested application JS; Maestro UI taps",
+  "data": "Synthetic El Rey-like operations tenant; no settings flipped",
+  "before": "Current-main cached control case: eventually loads correctly; not a persistent blank-task reproduction",
+  "automatedRed": "Uncached hydration regression fails on base assignees; original PR hydration also fails direct form/signature/GPS regression",
+  "fingerprints": {
+    "ios": {
+      "base": "82bffa6f767bbbcab5b1d1811e5f6e049bca2970",
+      "head": "82bffa6f767bbbcab5b1d1811e5f6e049bca2970"
+    },
+    "android": {
+      "base": "2e175e5b66e624261805d7a97a6f50e7912d17d9",
+      "head": "2e175e5b66e624261805d7a97a6f50e7912d17d9"
+    }
+  }
+}
