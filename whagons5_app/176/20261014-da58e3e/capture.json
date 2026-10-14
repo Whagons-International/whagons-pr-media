@@ -1,0 +1,24 @@
+{
+  "task": 3999,
+  "base": "7893a5d810b4328c4b17487a6a3c58fee528b8be",
+  "testedApplicationHead": "da58e3e9396f10d253902f5b4da1809f71d17877",
+  "captured": "2026-10-14 13:18\u201313:25 PT",
+  "platforms": [
+    "React Native web target 390x844",
+    "Native iPhone 16 Pro simulator iOS 18.4, existing debug native shell"
+  ],
+  "runtime": "Real disposable Go runtime/Postgres testing tenant with synthetic El Rey-like data; default settings",
+  "path": "Tasks > source #403537 > Hallazgos (mobile after, mobile finding, web after, web finding A-Z) > mobile finding > Ver tarea > #403538 with location/dates/assignee/creator",
+  "merge": "Normal two-parent merge of origin/main. Only conflict: package.json test:ci; both test:findings and test:linked-finding-task retained. No force-push/history rewrite.",
+  "fingerprints": {
+    "ios": "82bffa6f767bbbcab5b1d1811e5f6e049bca2970",
+    "android": "2e175e5b66e624261805d7a97a6f50e7912d17d9"
+  },
+  "baselineFingerprints": {
+    "ios": "82bffa6f767bbbcab5b1d1811e5f6e049bca2970",
+    "android": "2e175e5b66e624261805d7a97a6f50e7912d17d9"
+  },
+  "ci": "https://github.com/Whagons-International/whagons5_app/actions/runs/38631137140",
+  "before": "Current-main cached control case, eventually complete; not persistent blank-task reproduction",
+  "mediaRefresh": "List ordering changed after main integration, so current before/after captures replace previous revision."
+}
