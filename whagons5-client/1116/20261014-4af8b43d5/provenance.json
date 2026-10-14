@@ -1,0 +1,24 @@
+{
+  "task": 3995,
+  "applicationHead": "4af8b43d5c6e52026bd280e063b41bea7542202a",
+  "comparisonBase": "cb2bd27d316daa8a32d997a106175e5c761df83a",
+  "platform": "Web / Chromium / Linux",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": "Private Rust Gonvex/Postgres and Firebase Auth Emulator",
+  "runtimeRevision": "fc5726ad94ec8b035196c91af34b719fb4268942",
+  "capturedAt": {
+    "before": "2026-10-14T20:14:27.997Z",
+    "after": "2026-10-14T20:15:30.468Z"
+  },
+  "coveredSteps": [
+    "workspace entry",
+    "light and dark themes",
+    "pinned and unpinned sidebar",
+    "collapsed keyboard tooltip",
+    "footer options hidden"
+  ],
+  "globalBannerComparison": "Missing fresh staging-host pair. E2E Auth Emulator bundle refuses a non-localhost deployment. The October 9 global-banner media is superseded."
+}
