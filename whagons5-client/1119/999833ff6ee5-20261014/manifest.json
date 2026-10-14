@@ -1,0 +1,22 @@
+{
+  "task": 3994,
+  "applicationHead": "999833ff6ee5f035655bb3afa2eeaea991af7e30",
+  "currentPrHead": "f961bd43eb2281a859216da90c66944e7b9c1159",
+  "integratedBase": "dd8cc40df50b4ad8197c4c1fd9cdee0378fe6a4c",
+  "capturedAt": "2026-10-14T02:34:37.402Z",
+  "platform": "Web, 1920x900; private Rust ef96e1565 / PostgreSQL / Firebase emulator; normal human path. Required compatibility CI uses repository pin fc5726ad.",
+  "coveredSteps": "Normal workspace grid: Initial/unassigned -> globally-initial Paused assigns human Member; initial reset/repeat retain it; actual sidebar navigation away and workspace reopening verify persistence",
+  "before": "Fresh comparison base dd8cc40df, current application source with the same copied UI test. Actual status change to Paused left Responsible empty; expected member assignment failed with []. Screenshot and clip show the state after the real interaction.",
+  "video": "Fresh actual baseline/candidate recordings. Setup/authentication removed; unused padding cropped. Before6.5s; after starts9.84s and holds last actual frame1.5s. No speed or latency claim.",
+  "privacy": "Synthetic disposable test data only. No source, traces, authentication payloads, credentials or production/customer records uploaded.",
+  "sha256": {
+    "before-original.png": "edce5cc8dbdd6c2fe7262537c5eb314bbf921f3720da5543fbdbd67c13db64c5",
+    "initial.png": "dcee9a36eff62fac2ee5c0ecf0f43d3762d9b7e2a3777bc3108334bf00ab93da",
+    "after.png": "6803adb12de6b745afa73a60f07e7cce77f70c8d065220ddfebd9ee08e0ae0bc",
+    "persisted.png": "7f6bf07bfee10a04bf96f4811b747b4f49299a64af6003e8572eaa6c735e8d55",
+    "before.gif": "3f134daa1d85a2bbfb5454f81b69644be210722691a67c6e219a653896b33f94",
+    "before.webm": "6e713e8d65b0e718b8b295b2537f919e26092c6d5520187bd9c041240458e122",
+    "after.gif": "a90949997df613aaef7bba6745a850ab0cffbafdaac583a701986e46b12480dd",
+    "after.webm": "35c1b184d2c016db3d55e8bc7605a1f3128d2de5fca55cb11e917ce0de81d7c5"
+  }
+}
