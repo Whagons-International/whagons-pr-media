@@ -1,0 +1,26 @@
+{
+  "captured": "2026-10-14",
+  "syntheticDataOnly": true,
+  "web": {
+    "head": "07a4d2021a78d9cef11510fa323dd1b218274ccc",
+    "before": "77bd180fe",
+    "viewport": "1280x800",
+    "steps": "workspace badge; default Name; select; Edit Task inline list"
+  },
+  "mobile": {
+    "applicationHead": "83f51f1cf3795f4b2fc4b88596090bd465952320",
+    "currentHead": "8f81cbe",
+    "before": "5a4f7612014321c794c7417cf6926e2a40bab4f3",
+    "platform": "Expo Web; 390x844; isolated Go runtime includes #1164",
+    "steps": "task Findings tab; alphabetical list; finding details",
+    "subsequentChanges": "8f81cbe updates production contract test snapshot only; app code/runtime unchanged"
+  },
+  "staging": {
+    "applicationHead": "0b43c48f3bbc7f22a5cd48bdc946f62cdba93415",
+    "before": "887e1af46",
+    "platform": "Chromium1280x800; native Rust runtime; Local Replica",
+    "steps": "normal workspace badge; default Name; four persisted synthetic titles",
+    "subsequentChanges": "ledger-only commits; app code/runtime unchanged",
+    "limitation": "Edit Task uses the existing summary instead of the main inline list; the unused inline helper also receives the ordering comparator, without changing visibility"
+  }
+}
