@@ -1,0 +1,30 @@
+{
+  "task": 3994,
+  "applicationHead": "25ed5c330f7e266b333164aa9d5787d530264c30",
+  "currentPrHead": "44b882b3b08a5229daff3cd4804379787eda0626",
+  "integratedBase": "cb2bd27d316daa8a32d997a106175e5c761df83a",
+  "applicationComparisonBase": "c6e692f2d7e1d36732ed7bb9c130ab3664a0b550",
+  "latestNonApplicationUpdate": {
+    "paths": [
+      "AGENTS.md"
+    ],
+    "appBackendAndBrowserTestSourceUnchanged": true,
+    "sourceApplicationHead": "25ed5c330f7e266b333164aa9d5787d530264c30"
+  },
+  "capturedAt": "2026-10-14T19:48:37.120Z",
+  "platform": "Web, 1920x900; private Rust ef96e1565 / PostgreSQL / Firebase emulator; normal human path. Required compatibility CI uses repository pin fc5726ad.",
+  "coveredSteps": "Normal workspace grid: Initial/unassigned to globally-initial Paused assigns human Member; initial reset and Paused repeat preserve assignee; actual sidebar navigation to Everything and workspace reopening prove persistence",
+  "before": "Fresh comparison base c6e692f2d, current application source with the same copied UI test. Actual status change to Paused left Responsible empty; expected member assignment failed with []. Screenshot and clip show the state after the real interaction.",
+  "video": "Fresh actual baseline/candidate recordings. Authentication and setup cut; unused bottom padding cropped. Before starts 8.363s and runs 6.52s. After starts 7.222s, runs 5.8s, and holds the final actual frame for 1.5s. Playback speed unchanged; no latency claim.",
+  "privacy": "Synthetic disposable test data only. No source, traces, authentication payloads, credentials or production/customer records uploaded.",
+  "sha256": {
+    "before-original.png": "98bafbacf435150970c8725225910dca834f8f0fc79eea14e84db5ec1c20e966",
+    "initial.png": "2e2f95952127ad431e32342b6533f91fe89398d4c603f4d64cfffa00f9d074fb",
+    "after.png": "b7e55b100121cc94dfe82b5a28be0f03a87bbf4c4a9846d262f7dfca99b5e5a3",
+    "persisted.png": "c057040fe571bb4ef6c4b37f7f7f9a553031d55be17f4f9c9e6525e56ea1164b",
+    "before.gif": "806f21db1ed378b0b5073fba1143499e783b3638ce10a53b3ac87e9d952998a2",
+    "before.webm": "b6233acded1c0aae53f3f28f8736b89ae51438d2a42163c7d38b131c5d424fd4",
+    "after.gif": "57fecf44eac14a96c389461e2a614a0fa61cefebfc96dde3ded851b9800a6bf4",
+    "after.webm": "131cb26e9a28db6bbd36a8d11304f715bb1221ab052ee9feb77dcd3e04f5710f"
+  }
+}
