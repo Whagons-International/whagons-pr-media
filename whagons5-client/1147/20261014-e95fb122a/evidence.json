@@ -1,0 +1,170 @@
+{
+  "applicationHead": "e95fb122a8ee4628c7ed1a0e773d0f93f2d4b158",
+  "comparisonBase": "cb2bd27d316daa8a32d997a106175e5c761df83a",
+  "capturedAt": "2026-10-14T20:08:00Z/2026-10-14T20:18:35Z",
+  "platform": "Linux, T3 collaborative Chromium browser, Vite e2e mode, local Rust Gonvex/PostgreSQL/Firebase Auth Emulator",
+  "viewports": {
+    "desktop": "1440x1000 CSS pixels",
+    "mobile": "390x844 CSS pixels"
+  },
+  "comparison": "Base and head frontends use the same isolated candidate runtime and fictional fixture so only UI source differs. Baseline is a UI comparison; authoritative writes were tested on the PR head.",
+  "prerequisite": "Existing Assets powerup enabled through More > Manage Powerups. Local fixture administrator has existing Assets and Maps permissions. No new setting or gate added.",
+  "processing": "Real app captures only. Dialogs/videos cropped to affected panels. Short clips hold their final frame to meet five seconds. No application/media commits followed the captured head.",
+  "files": [
+    {
+      "name": "after-agenda.png",
+      "bytes": 92938,
+      "sha256": "e1f79f661a7b2be9301f5f18dd86db4723ab3b5e6707853a226643e6015a614c"
+    },
+    {
+      "name": "after-assignment.png",
+      "bytes": 56310,
+      "sha256": "ffccd83ba6ff3f09aae0124c66923a9063de7855defefb1765e7d69b99092518"
+    },
+    {
+      "name": "after-costa-rica.png",
+      "bytes": 131304,
+      "sha256": "94c86e76f0cf51f3355367308e902585a3cc438f19308ba1b666bafc75981c5f"
+    },
+    {
+      "name": "after-create-assignment.gif",
+      "bytes": 648640,
+      "sha256": "e1055bc56cc2765954f642b8690d1f618cc9279ddf85a153dbd3b6e73f5ef491"
+    },
+    {
+      "name": "after-create-assignment.mp4",
+      "bytes": 108398,
+      "sha256": "473257d7152e09e05521d9aafcd492e41f7f8fa89f0a9ebced3e2b93087f57e2"
+    },
+    {
+      "name": "after-create-assignment.png",
+      "bytes": 51199,
+      "sha256": "0396db897ce165ec99a571772e3c0d3155b52c8a4ca4cfa052d2d75ef9228d42"
+    },
+    {
+      "name": "after-gps-options.png",
+      "bytes": 22863,
+      "sha256": "1e5bdb74c87b6ba4c4fdcc567d50bf6375fa84cf33a6dcb19ec47eeb746fd100"
+    },
+    {
+      "name": "after-grid-menu.png",
+      "bytes": 93050,
+      "sha256": "bc3077dd6fe4c1ea99275c27757468fcd365bad4986300eb6b61091969bdd0ba"
+    },
+    {
+      "name": "after-inventory-to-fleet.gif",
+      "bytes": 628879,
+      "sha256": "21585da60b9ac701c5f7785f1fe2532cbe039872c4a6e4f443573c6f48202b76"
+    },
+    {
+      "name": "after-inventory-to-fleet.mp4",
+      "bytes": 102506,
+      "sha256": "fc8dac4b8143c6ac6575e45710f18dd544b1389068b6f4ea2a13c4f6a3da5969"
+    },
+    {
+      "name": "after-inventory.png",
+      "bytes": 111716,
+      "sha256": "5b51777e241ee29fe89729bf66552f1daf879b3a38fe25beafc7c5e30fd57ad7"
+    },
+    {
+      "name": "after-mobile-fleet.png",
+      "bytes": 157369,
+      "sha256": "17f0a31457681cc6d95b1e00572ee7c1c78ec87b331a23a015dc8b1992f8f18c"
+    },
+    {
+      "name": "after-mobile-inventory.png",
+      "bytes": 105535,
+      "sha256": "7139744767c3a798fef97e657e4616671c1f610e11cf043f01f1adde504eeae1"
+    },
+    {
+      "name": "after-mobile-navigation.gif",
+      "bytes": 524061,
+      "sha256": "8ff6a3b110aece85d0e53ebdbde51af899e1926a1d50b966111155540830a2c3"
+    },
+    {
+      "name": "after-mobile-navigation.mp4",
+      "bytes": 98052,
+      "sha256": "3af02b996e3db0bd1704f586cc3a0de207b0c1f5c99ffc4159df94bf49729ebd"
+    },
+    {
+      "name": "after-mobile-workspace-map.png",
+      "bytes": 165815,
+      "sha256": "9201dd4dfe30dfcb412625477892b08d7f28ff479831b81865f4381e0d0e78b4"
+    },
+    {
+      "name": "after-region-switch.gif",
+      "bytes": 745367,
+      "sha256": "02dc6317472d0d2499ccbd7b2de7be39d675cb653d86ccabecb71a80725ce5b5"
+    },
+    {
+      "name": "after-region-switch.mp4",
+      "bytes": 162193,
+      "sha256": "a2f573069842cda7efbfb1e6f05696135e8fd3b02c0d8b77c20f4308bb80c9fb"
+    },
+    {
+      "name": "after-registration-table.png",
+      "bytes": 90399,
+      "sha256": "de1083a09eac6869373e253d882edc9e35b7eace7fd059b2543b180c834e229e"
+    },
+    {
+      "name": "after-sidebar-order.gif",
+      "bytes": 506483,
+      "sha256": "4de6be1f143306eb4b9697f2544521b54f97ba6f19e6d58d4828167a39f4b9e0"
+    },
+    {
+      "name": "after-sidebar-order.mp4",
+      "bytes": 66007,
+      "sha256": "891bf2d5442de616e6f2248cea7fa36826d23debc17f262754127f22651beca8"
+    },
+    {
+      "name": "after-sidebar-order.png",
+      "bytes": 114503,
+      "sha256": "16e3c5ced173673455e433fad5ac9a7674b604377ec2cc1a2b214cfbe4877d8b"
+    },
+    {
+      "name": "after-street-map.png",
+      "bytes": 237827,
+      "sha256": "d4a76135443fb61eda3e4c4db3550b5b596fc901f15def89a421d4e2991af108"
+    },
+    {
+      "name": "after-workspace-map.png",
+      "bytes": 194850,
+      "sha256": "820149df7c2faed38f934e327534766f199270b667ccfdf58354947417bdd413"
+    },
+    {
+      "name": "before-asset-detail.png",
+      "bytes": 100951,
+      "sha256": "6c9af2dae07672df44428f2cffcec070a2876a533edbcee6d45a471365639924"
+    },
+    {
+      "name": "before-inventory-walkthrough.gif",
+      "bytes": 630422,
+      "sha256": "70e67166338a40e3fa945796b75cd76d4abd0cd8f52238c2abb226799c0894e9"
+    },
+    {
+      "name": "before-inventory-walkthrough.mp4",
+      "bytes": 106402,
+      "sha256": "0287b9966a861ad8c5cc22c344ca0d4337c78e17194c6e07f48bde8030493821"
+    },
+    {
+      "name": "before-inventory.png",
+      "bytes": 106768,
+      "sha256": "9e1bf0b40282e4d5e7647772b21b14e836321fa684a1e6f6839816b60f36b932"
+    },
+    {
+      "name": "before-mobile-inventory.png",
+      "bytes": 86959,
+      "sha256": "d9627a5394b0855aa992503037cf0f480caedd16e8f8a576958055c3cdab7e5a"
+    },
+    {
+      "name": "before-task-dialog.png",
+      "bytes": 41473,
+      "sha256": "03e927710292273f351605d0814bb065ddedc143ce9f0a4342c71d5acdc2a8e0"
+    },
+    {
+      "name": "before-workspace-map.png",
+      "bytes": 690064,
+      "sha256": "dcd7c95aabd8044ea7e5db2722c4f022db885adaf839b51011243962e370c3f5"
+    }
+  ]
+}
