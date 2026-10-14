@@ -1,0 +1,15 @@
+{
+  "task": 3997,
+  "captureDate": "2026-10-14",
+  "webBefore": "77bd180fe",
+  "webAfter": "e7665cd27e533df5b627afe10bf577d4be9bc738",
+  "appBefore": "5a4f7612014321c794c7417cf6926e2a40bab4f3",
+  "appAfter": "7814c5286c497927b5498517613b8cff830945d0",
+  "runtime": "isolated Gonvex production-compatible test runtime whagons-3997; includes main #1164 for mobile create QA",
+  "platforms": {
+    "web": "Chromium 1280x800",
+    "mobile": "real Expo app web build at 390x844, not a native device"
+  },
+  "data": "synthetic QA3997 task and findings only",
+  "covered": "Workspace Hallazgos badge; default ordering; select details; Edit Task list; mobile Task Details > Findings. Added and renamed synthetic mobile finding, then deleted it to restore comparison data."
+}
