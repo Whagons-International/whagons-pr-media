@@ -1,0 +1,61 @@
+{
+  "task": 3995,
+  "applicationHead": "3ae9691d64ca7aa42b170c8ed0b0037a19c1206b",
+  "comparisonBase": "8e840a41effb6517fd09724220d59e03e3b503d1",
+  "platform": "Web / Chromium / Linux",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "runtime": "Private Rust Gonvex/Postgres; Firebase Auth Emulator for signed-in workspace captures",
+  "runtimeRevision": "fc5726ad94ec8b035196c91af34b719fb4268942",
+  "capturedAt": {
+    "before": "2026-10-14T21:36:56.557Z",
+    "after": "2026-10-14T21:38:02.903Z"
+  },
+  "coveredSteps": [
+    "workspace entry",
+    "light and dark themes",
+    "pinned and unpinned sidebar",
+    "collapsed keyboard tooltip",
+    "footer options hidden"
+  ],
+  "globalBannerComparison": {
+    "status": "verified before visible, after absent on real public privacy route",
+    "auth": "normal Firebase adapter, signed out, no emulator on this route",
+    "network": "browser-only staging-host DNS mapping to loopback TLS proxy; unchanged app responses and private runtime",
+    "captures": {
+      "before": {
+        "commit": "8e840a41e",
+        "capturedAt": "2026-10-14T21:33:42.527Z",
+        "route": "/privacy",
+        "mode": "development, normal Firebase adapter, signed out",
+        "privateRuntime": "127.0.0.1:8195",
+        "hostname": "wh3995.staging.whagons.com",
+        "transport": "loopback TLS proxy; browser-only DNS mapping",
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        }
+      },
+      "after": {
+        "commit": "3ae9691d6",
+        "capturedAt": "2026-10-14T21:33:45.445Z",
+        "route": "/privacy",
+        "mode": "development, normal Firebase adapter, signed out",
+        "privateRuntime": "127.0.0.1:8195",
+        "hostname": "wh3995.staging.whagons.com",
+        "transport": "loopback TLS proxy; browser-only DNS mapping",
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        }
+      }
+    }
+  },
+  "clips": {
+    "seconds": 12,
+    "resolution": "1280x900",
+    "setup": "trimmed from original real workspace recordings; login omitted"
+  }
+}
