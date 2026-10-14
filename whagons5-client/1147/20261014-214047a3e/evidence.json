@@ -1,0 +1,61 @@
+{
+  "sourcePr": "https://github.com/Whagons-International/whagons5-client/pull/1147",
+  "applicationHead": "214047a3e3695f682d8358852aada1f8d31410ff",
+  "comparisonBase": "276e824778aa57f5a8cdf1d053451308224b630b",
+  "captureDate": "2026-10-14",
+  "timezone": "US/Pacific",
+  "platform": "Linux, T3 collaborative Chromium, real routes, isolated Rust Gonvex/PostgreSQL/Auth Emulator",
+  "viewports": {
+    "desktop": "1440x1000 CSS px",
+    "mobile": "390x844 CSS px"
+  },
+  "backendComparison": "Both frontend revisions use the isolated candidate backend updated to application head 214047a3e, with fictional local data. Before captures compare staging UI source. Authoritative writes and rejection checks run on the application head.",
+  "existingPrerequisite": "Existing Assets powerup enabled through normal More > Manage Powerups screen. No new gate or default change.",
+  "coveredSteps": [
+    "inventory search/cards/table and existing vehicle settings",
+    "template task creation, saved crew, companion clearing and grid shortcut",
+    "workspace scoped Vehicles/Team map",
+    "regional overview/street map, URL persistence and agenda",
+    "sidebar pinning/order/reload/keyboard and mobile navigation"
+  ],
+  "processing": [
+    "Cropped to affected panel; no UI content altered.",
+    "GIF previews derived from original browser recordings.",
+    "Short clips hold final frame to reach five seconds.",
+    "Application code and runtime unchanged after capture; this commit contains media only.",
+    "Headless street-map renderer uses the provider raster fallback; the actual map renders successfully."
+  ],
+  "sha256": {
+    "after-agenda.png": "55371e82f0796699b8ae9069be36ca6d062ecf7c04d03e611abfffa8e9858ee7",
+    "after-assignment.png": "b2cc95f135966a2b61c51de13c94e3f890e941db3cbeec80fc2e86b81fd3d392",
+    "after-costa-rica.png": "dd1343037a2fe1383ea4372fea722bd3183bdf4d33cd00d6b9b3bd1fbc23ed04",
+    "after-create-assignment.gif": "161c866aba10a716bcfdeda607f2e13fbf2eeb649e3803368f4760ed6a3f065b",
+    "after-create-assignment.mp4": "aa0f806ad91f90339037eae008fe173b45e61c00561b1bdf6228316d4aab6dd4",
+    "after-create-assignment.png": "5f8c0bf289cd2cefa35cfeb5d2f62bed0f39c731107db90d354123092f97a43b",
+    "after-gps-options.png": "d2fb4fb0282035570c8e398a9b1d9da5ef39ba6bc832fea88a3a5f81db286635",
+    "after-grid-menu.png": "eae90a39b87f7534dee3fbf49397f736c1ea27af0cef8e4f5ae359b866fa2e3e",
+    "after-inventory-to-fleet.gif": "a8570bc102ecfe115efe2bf20c404fb2ddff148da7d9a7c82d797607f08403d0",
+    "after-inventory-to-fleet.mp4": "4d9559fccfa52bfa0b2636b2645cd317661feee0e5f4aa364d6d95c22f72be98",
+    "after-inventory.png": "b423835d36e3ccb8dfb971280d13ad344e1add90ca23e5c9fef7d07f95cbc9be",
+    "after-mobile-fleet.png": "0183612dfe9d5df87f55a27591547b099ab074c608c99c94e740fe9ce1067639",
+    "after-mobile-inventory.png": "d652de7fd8ae10c6c83d0dca7a6f70a5572a2e7b1381aaed48c0cf0651f8e43b",
+    "after-mobile-navigation.gif": "7d9eb32baa4d6dc6bc45f04ec09711acc4bc2329d79339ba1543a676643708e4",
+    "after-mobile-navigation.mp4": "d4531e0fb08595ab5625c5fbac3d75a447186f836e7d0cc2d500ec67a81415de",
+    "after-mobile-workspace-map.png": "0164e31bb3017927eaec169b77e3138f229254241d6d383804542e761fd94c00",
+    "after-region-switch.gif": "ad3ba9724f86ef1621c4483b403c9b7ec5422ddaca743428f4fba29d0e0eaed0",
+    "after-region-switch.mp4": "26aa8733cd98db88b49b35f01d9930ba280e9675e696c391a7884d5331dd119f",
+    "after-registration-table.png": "b429db2d03cd0aa03723398c9cd5237a3b5d47d5278d2404413a6ce6d987ea3b",
+    "after-sidebar-order.gif": "f13d2ef4f2284e2e1614b7ce6e9e333edf88da7d6135b5e731bd913265f9c31d",
+    "after-sidebar-order.mp4": "2798c5f2f34748e5f95670b7632efd34ba8fb68a33f7987f2ad8308c260373f2",
+    "after-sidebar-order.png": "99a78ef8d827b1e8505a3083312121d219b617dc3ee3c199131896f2344848e0",
+    "after-street-map.png": "e05bec02ae0f1446549af3ccd2433491d1684c47977a1e9ad39055ca5d1480d1",
+    "after-workspace-map.png": "f7d41c63bad981f8b274c4899c00d5b98ae67642d32ee73a4e171e6c8a5355de",
+    "before-asset-detail.png": "2accee66549f29568ef81bd97ed4ddcbfcc4da634f79a3be3807c51b1093f74d",
+    "before-inventory-walkthrough.gif": "f598fc2fd41a4c9e7fda820e8687ba68b8439ef84da93aa836f42792c46fa0d4",
+    "before-inventory-walkthrough.mp4": "6883cbe82795ad14c495f60a839361761025c23700c59fa41360edbec925477c",
+    "before-inventory.png": "2caeaeffa0bacd5fd2c8a26980bf5ae20340db72a5e14b9de5a8ee42918b2e87",
+    "before-mobile-inventory.png": "3e5ed7665ff8c044fc4aee123fbc366956b5bc9d27c1bd0482f3b86ea4c53ed2",
+    "before-task-dialog.png": "03e927710292273f351605d0814bb065ddedc143ce9f0a4342c71d5acdc2a8e0",
+    "before-workspace-map.png": "bb50560887522918127f77362da80f6c3aabbfc204cb1b187bc4d3ca4c8fbf8b"
+  }
+}
