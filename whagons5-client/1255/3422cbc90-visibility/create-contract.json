@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "plain",
+    "id": 21,
+    "templateId": null,
+    "requiresAcknowledgment": null,
+    "approvalId": null
+  },
+  {
+    "kind": "templated",
+    "id": 22,
+    "templateId": "e2e_smh3ri_templates_zq7xE2E-4019-general_zq7xE2E-4019-general_Template",
+    "requiresAcknowledgment": null,
+    "approvalId": null
+  },
+  {
+    "kind": "comunicado",
+    "id": 23,
+    "templateId": "e2e_oip6pw_templates_zq7xE2E-4019_zq7xE2E-4019_Template",
+    "requiresAcknowledgment": true,
+    "approvalId": "b908effb-83bd-4190-a66a-abdbc06a6577"
+  }
+]

@@ -1,0 +1,18 @@
+--- FAIL: TestReferenceWorkspacesAndTemplatesMatchMainWebScope (0.00s)
+    template_visibility_test.go:50: workspaces = [workspace-a workspace-b workspace-c], main web = [workspace-a]
+    template_visibility_test.go:50: reportingWorkspaces = [], main web = [workspace-b]
+    template_visibility_test.go:50: teamSettingsWorkspaces = [workspace-a workspace-b workspace-c], main web = [workspace-a workspace-b]
+    template_visibility_test.go:50: categories = [category-a category-hidden category-reported category-shared], main web = [category-a category-reported category-shared]
+    template_visibility_test.go:50: templates = [out-of-scope own-private own-public report-private report-public shared-private shared-public], main web = [own-private own-public report-public shared-public]
+    template_visibility_test.go:62: unidentified caller exposed workspaces
+--- FAIL: TestReferenceScopeRevokesTeamAndWorkspaceAccess (0.00s)
+    template_visibility_test.go:74: revoked membership still exposes workspaces: []interface {}{map[string]interface {}{"_id":"workspace-a", "teams":[]interface {}{"team-a"}}, map[string]interface {}{"_id":"workspace-b", "teams":[]interface {}{"team-b"}}, map[string]interface {}{"_id":"workspace-c", "teams":[]interface {}{"team-c"}}}
+--- FAIL: TestWorkspaceExplicitTeamsWinOverCategoryFallback (0.00s)
+    template_visibility_test.go:93: category team overrode explicit workspace membership
+--- FAIL: TestSystemAdminKeepsAuthoritativeWorkspaceBypass (0.00s)
+    template_visibility_test.go:112: private ownership gate changed: [out-of-scope own-private own-public report-private report-public shared-private shared-public]
+--- FAIL: TestReferenceMembershipsCarryReleasedUserID (0.00s)
+    template_visibility_test.go:122: userTeams lost released/canonical identities: map[string]interface {}{"_id":"membership-a", "memberId":"member-a", "teamId":"team-a"}
+FAIL
+FAIL	whagons/legacy-convex-v5.1.29-bridge	0.011s
+FAIL
