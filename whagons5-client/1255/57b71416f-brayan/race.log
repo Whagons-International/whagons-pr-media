@@ -1,0 +1,399 @@
+=== RUN   TestReleasedProjectAliasesAndTenantSlugsReachTheRustProject
+--- PASS: TestReleasedProjectAliasesAndTenantSlugsReachTheRustProject (0.01s)
+=== RUN   TestAliasConfigurationIsValidated
+--- PASS: TestAliasConfigurationIsValidated (0.00s)
+=== RUN   TestCheckedInSupportPolicyRoutesEveryReleasedAppThroughTheBridge
+--- PASS: TestCheckedInSupportPolicyRoutesEveryReleasedAppThroughTheBridge (0.00s)
+=== RUN   TestForcedUpdatePolicyLoadsFromFileWithEnvironmentOverrides
+--- PASS: TestForcedUpdatePolicyLoadsFromFileWithEnvironmentOverrides (0.00s)
+=== RUN   TestConvexSessionBelowTheMinimumIsRefusedWithAnUpdateMessage
+--- PASS: TestConvexSessionBelowTheMinimumIsRefusedWithAnUpdateMessage (0.01s)
+=== RUN   TestConvexSessionAtOrAboveTheMinimumKeepsItsIdentityReads
+--- PASS: TestConvexSessionAtOrAboveTheMinimumKeepsItsIdentityReads (0.00s)
+=== RUN   TestCheckedInPolicyRetiresExactlyTheConvexSDKReleases
+--- PASS: TestCheckedInPolicyRetiresExactlyTheConvexSDKReleases (0.00s)
+=== RUN   TestGonvexPhoneIsBlockedOnceItsHeartbeatReportsABlockedVersion
+--- PASS: TestGonvexPhoneIsBlockedOnceItsHeartbeatReportsABlockedVersion (0.11s)
+=== RUN   TestBridgeE2ELegacyProtocolAgainstLiveGonvex
+    bridge_e2e_test.go:235: live bridge integration test is unconfigured; set BRIDGE_E2E_GONVEX_URL, BRIDGE_E2E_PROJECT_ID, BRIDGE_E2E_TENANT, and BRIDGE_E2E_TOKEN
+--- SKIP: TestBridgeE2ELegacyProtocolAgainstLiveGonvex (0.00s)
+=== RUN   TestBridgeE2EDisconnectDuringAuthResubscribeKeepsBridgeAlive
+    bridge_e2e_test.go:402: live bridge integration test is unconfigured; set BRIDGE_E2E_GONVEX_URL, BRIDGE_E2E_PROJECT_ID, BRIDGE_E2E_TENANT, and BRIDGE_E2E_TOKEN
+--- SKIP: TestBridgeE2EDisconnectDuringAuthResubscribeKeepsBridgeAlive (0.00s)
+=== RUN   TestNormalizeLegacyNotificationAddsConvexCreationTime
+--- PASS: TestNormalizeLegacyNotificationAddsConvexCreationTime (0.00s)
+=== RUN   TestTranslateNotificationResultUsesTenantRoutedSnapshotAndAddsCreationTime
+--- PASS: TestTranslateNotificationResultUsesTenantRoutedSnapshotAndAddsCreationTime (0.00s)
+=== RUN   TestTranslateResultSynthesizesTenantIDForLegacyDocuments
+--- PASS: TestTranslateResultSynthesizesTenantIDForLegacyDocuments (0.00s)
+=== RUN   TestDebugEndpointIsNotPublicByDefault
+--- PASS: TestDebugEndpointIsNotPublicByDefault (0.00s)
+=== RUN   TestDebugEndpointCanBeEnabledForPrivateDiagnostics
+--- PASS: TestDebugEndpointCanBeEnabledForPrivateDiagnostics (0.00s)
+=== RUN   TestLegacyQuerySubscriptionTranslatesToGonvex
+--- PASS: TestLegacyQuerySubscriptionTranslatesToGonvex (0.00s)
+=== RUN   TestLegacyTenantSelectorsAnswerReleasedSlugs
+--- PASS: TestLegacyTenantSelectorsAnswerReleasedSlugs (0.00s)
+=== RUN   TestLegacyQuerySubscriptionSuppressesUnchangedGonvexSnapshots
+--- PASS: TestLegacyQuerySubscriptionSuppressesUnchangedGonvexSnapshots (0.15s)
+=== RUN   TestLegacyTaskViewsAnswerReleasedSeenByRows
+--- PASS: TestLegacyTaskViewsAnswerReleasedSeenByRows (0.00s)
+=== RUN   TestLegacyPaginationMetadataIsRemovedBeforeGonvex
+--- PASS: TestLegacyPaginationMetadataIsRemovedBeforeGonvex (0.00s)
+=== RUN   TestTaskResultsExposeNumericIDThroughLegacyPgIDAlias
+--- PASS: TestTaskResultsExposeNumericIDThroughLegacyPgIDAlias (0.00s)
+=== RUN   TestTaskResultsDropVolatileGonvexPerfMetadata
+--- PASS: TestTaskResultsDropVolatileGonvexPerfMetadata (0.00s)
+=== RUN   TestLegacyTaskCompositeKeepsCollapsedTailReactiveAndHonorsRecentScope
+--- PASS: TestLegacyTaskCompositeKeepsCollapsedTailReactiveAndHonorsRecentScope (0.05s)
+=== RUN   TestLegacyFinalTaskStatusesMatchVFiveOneTwentyNine
+--- PASS: TestLegacyFinalTaskStatusesMatchVFiveOneTwentyNine (0.00s)
+=== RUN   TestLegacyRecentScopeDoesNotLetHistoricalTasksConsumeTheCollapseBudget
+--- PASS: TestLegacyRecentScopeDoesNotLetHistoricalTasksConsumeTheCollapseBudget (0.02s)
+=== RUN   TestSettledApprovalStopsReadingAsPendingToLegacyApp
+--- PASS: TestSettledApprovalStopsReadingAsPendingToLegacyApp (0.00s)
+=== RUN   TestResolvedUserActionsStopLookingActionableToLegacyApp
+--- PASS: TestResolvedUserActionsStopLookingActionableToLegacyApp (0.00s)
+=== RUN   TestLegacyApprovalStateWithoutApprovalIsNotActionable
+--- PASS: TestLegacyApprovalStateWithoutApprovalIsNotActionable (0.00s)
+=== RUN   TestLegacyApprovalStateUsesLatestDecisionPerApprover
+--- PASS: TestLegacyApprovalStateUsesLatestDecisionPerApprover (0.00s)
+=== RUN   TestUserResultsExposePhysicalIDThroughLegacyConvexIDAlias
+--- PASS: TestUserResultsExposePhysicalIDThroughLegacyConvexIDAlias (0.00s)
+=== RUN   TestGonvexStorageURLsAreRewrittenToTheBridge
+--- PASS: TestGonvexStorageURLsAreRewrittenToTheBridge (0.00s)
+=== RUN   TestStorageRequestsAreProxiedToGonvex
+--- PASS: TestStorageRequestsAreProxiedToGonvex (0.00s)
+=== RUN   TestPublicTaskShareTokenRestoresTenantAndLegacyPreview
+--- PASS: TestPublicTaskShareTokenRestoresTenantAndLegacyPreview (0.01s)
+=== RUN   TestLegacyCommentReactionsPersistAndMergeWithGonvexRows
+--- PASS: TestLegacyCommentReactionsPersistAndMergeWithGonvexRows (0.01s)
+=== RUN   TestLegacyVoiceFallbackDraftPersistsAndShapesReview
+--- PASS: TestLegacyVoiceFallbackDraftPersistsAndShapesReview (0.01s)
+=== RUN   TestVoiceFallbackRecognizesUnavailableLocalTranscription
+--- PASS: TestVoiceFallbackRecognizesUnavailableLocalTranscription (0.00s)
+=== RUN   TestLegacyNFCProgrammedFallbackUsesTextTimestamp
+--- PASS: TestLegacyNFCProgrammedFallbackUsesTextTimestamp (0.00s)
+=== RUN   TestLegacyInvitationControlArgsRejectTenantSelectors
+--- PASS: TestLegacyInvitationControlArgsRejectTenantSelectors (0.00s)
+=== RUN   TestLegacyTaskModesAreTranslatedOnlyAtTheBridge
+=== RUN   TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/hot_window
+=== RUN   TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/archive_window
+=== RUN   TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/soft_deletion
+=== RUN   TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/complete_corpus
+=== RUN   TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/missing_mode
+--- PASS: TestLegacyTaskModesAreTranslatedOnlyAtTheBridge (0.00s)
+    --- PASS: TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/hot_window (0.00s)
+    --- PASS: TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/archive_window (0.00s)
+    --- PASS: TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/soft_deletion (0.00s)
+    --- PASS: TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/complete_corpus (0.00s)
+    --- PASS: TestLegacyTaskModesAreTranslatedOnlyAtTheBridge/missing_mode (0.00s)
+=== RUN   TestSupportedReleaseSmokeWritesUseCurrentSchemas
+--- PASS: TestSupportedReleaseSmokeWritesUseCurrentSchemas (0.01s)
+=== RUN   TestTasksGetUnwrapsCurrentReplicaRowForLegacyClients
+--- PASS: TestTasksGetUnwrapsCurrentReplicaRowForLegacyClients (0.00s)
+=== RUN   TestTasksGetReturnsNullForAMissingOrForeignTask
+--- PASS: TestTasksGetReturnsNullForAMissingOrForeignTask (0.00s)
+=== RUN   TestLegacyTaskNumberArgumentsStopAtTheBridge
+--- PASS: TestLegacyTaskNumberArgumentsStopAtTheBridge (0.00s)
+=== RUN   TestLegacyTasksByWorkspaceMapsToLegacyGrid
+--- PASS: TestLegacyTasksByWorkspaceMapsToLegacyGrid (0.00s)
+=== RUN   TestLegacyTaskGridArgsTranslatePaginationFiltersAndSort
+--- PASS: TestLegacyTaskGridArgsTranslatePaginationFiltersAndSort (0.00s)
+=== RUN   TestLegacyTaskPageResultConvertsOffsetPagination
+--- PASS: TestLegacyTaskPageResultConvertsOffsetPagination (0.00s)
+=== RUN   TestLegacyTaskPivotPlanComposesFilteredRowsAndHonorsLimit
+--- PASS: TestLegacyTaskPivotPlanComposesFilteredRowsAndHonorsLimit (0.00s)
+=== RUN   TestLegacyCurrentMemberCompositeUsesAuthenticatedAccount
+--- PASS: TestLegacyCurrentMemberCompositeUsesAuthenticatedAccount (0.00s)
+=== RUN   TestUsersMeUsesCanonicalAccountWhenFirebaseSubjectDiffers
+--- PASS: TestUsersMeUsesCanonicalAccountWhenFirebaseSubjectDiffers (0.01s)
+=== RUN   TestLegacyProtocolKindAdaptersAreExplicit
+--- PASS: TestLegacyProtocolKindAdaptersAreExplicit (0.00s)
+=== RUN   TestCompatibilityDatabaseURLTargetsOnlyTheConfiguredTenantDatabase
+--- PASS: TestCompatibilityDatabaseURLTargetsOnlyTheConfiguredTenantDatabase (0.00s)
+=== RUN   TestLegacyUserAliasesCoverCanonicalAndConvexEraIDs
+--- PASS: TestLegacyUserAliasesCoverCanonicalAndConvexEraIDs (0.00s)
+=== RUN   TestReplicaCollectionAdapterMaterializesDeltasReopensResetsAndCloses
+--- PASS: TestReplicaCollectionAdapterMaterializesDeltasReopensResetsAndCloses (0.00s)
+=== RUN   TestReplicaCollectionAdapterSurfacesReplicaErrors
+--- PASS: TestReplicaCollectionAdapterSurfacesReplicaErrors (0.00s)
+=== RUN   TestUpstreamApplicationFramesStripTopLevelTenantRoutingArgs
+--- PASS: TestUpstreamApplicationFramesStripTopLevelTenantRoutingArgs (0.00s)
+=== RUN   TestLegacyReplicaRegistryMatchesSupportedReleaseSources
+--- PASS: TestLegacyReplicaRegistryMatchesSupportedReleaseSources (1.58s)
+=== RUN   TestLegacyAuthenticationExchangesFirebaseTokenBeforeControlAuth
+--- PASS: TestLegacyAuthenticationExchangesFirebaseTokenBeforeControlAuth (0.00s)
+=== RUN   TestAuthenticatedTenantRoutingExchangesFirebaseTokenBeforeTenantAuth
+--- PASS: TestAuthenticatedTenantRoutingExchangesFirebaseTokenBeforeTenantAuth (0.00s)
+=== RUN   TestLegacyQueriesRefreshAfterAuthentication
+--- PASS: TestLegacyQueriesRefreshAfterAuthentication (0.00s)
+=== RUN   TestLegacyFindingQueryDoesNotBlockAuthenticationWhileLoading
+--- PASS: TestLegacyFindingQueryDoesNotBlockAuthenticationWhileLoading (0.00s)
+=== RUN   TestLegacyMutationAndActionResponsesAdvanceConvexClock
+--- PASS: TestLegacyMutationAndActionResponsesAdvanceConvexClock (0.00s)
+=== RUN   TestLegacySupportTelemetryUsesNativeGonvexFrames
+--- PASS: TestLegacySupportTelemetryUsesNativeGonvexFrames (0.00s)
+=== RUN   TestFindingValueUpdateRecomposesListTextBeforeForwarding
+--- PASS: TestFindingValueUpdateRecomposesListTextBeforeForwarding (0.01s)
+=== RUN   TestFindingDescriptionUpdateMapsToNotesBeforeForwarding
+=== RUN   TestFindingDescriptionUpdateMapsToNotesBeforeForwarding/replace
+=== RUN   TestFindingDescriptionUpdateMapsToNotesBeforeForwarding/clear
+--- PASS: TestFindingDescriptionUpdateMapsToNotesBeforeForwarding (0.00s)
+    --- PASS: TestFindingDescriptionUpdateMapsToNotesBeforeForwarding/replace (0.00s)
+    --- PASS: TestFindingDescriptionUpdateMapsToNotesBeforeForwarding/clear (0.00s)
+=== RUN   TestLegacyFindingReorderTranslatesCompleteOrderToCanonicalReducer
+--- PASS: TestLegacyFindingReorderTranslatesCompleteOrderToCanonicalReducer (0.00s)
+=== RUN   TestLegacyPerFindingReorderBuildsOneCompleteCanonicalOrder
+--- PASS: TestLegacyPerFindingReorderBuildsOneCompleteCanonicalOrder (0.00s)
+=== RUN   TestDisabledBoardsPowerupFallsBackToLegacyBoardMessageWriter
+--- PASS: TestDisabledBoardsPowerupFallsBackToLegacyBoardMessageWriter (0.01s)
+=== RUN   TestDisabledBoardsPowerupFallbackDoesNotBypassBoardVisibility
+--- PASS: TestDisabledBoardsPowerupFallbackDoesNotBypassBoardVisibility (0.01s)
+=== RUN   TestStaleApprovalContextFallsBackToTheCurrentUsersTaskDecision
+--- PASS: TestStaleApprovalContextFallsBackToTheCurrentUsersTaskDecision (0.00s)
+=== RUN   TestApprovalRefreshReachesOtherOpenLegacySessions
+--- PASS: TestApprovalRefreshReachesOtherOpenLegacySessions (0.06s)
+=== RUN   TestSuccessfulChatMessageRefreshesLegacyReactiveMessageQuery
+--- PASS: TestSuccessfulChatMessageRefreshesLegacyReactiveMessageQuery (0.06s)
+=== RUN   TestCompatibilityRefreshSuppressesUnchangedQueryResult
+--- PASS: TestCompatibilityRefreshSuppressesUnchangedQueryResult (0.21s)
+=== RUN   TestCompatibilityRefreshDoesNotBlockFollowingClientMessages
+--- PASS: TestCompatibilityRefreshDoesNotBlockFollowingClientMessages (0.06s)
+=== RUN   TestRepeatedLegacyMarkAsReadForSameMessageSnapshotIsCoalesced
+--- PASS: TestRepeatedLegacyMarkAsReadForSameMessageSnapshotIsCoalesced (0.16s)
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/nfc.updateTag
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/documents.createAssociation
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.create
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.update
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskFindings.update
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/calls.sendSignal
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.decideTaskWorkspaceApprovalContext
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.acknowledgeTaskWorkspaceContext
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.assignUser
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.unassignUser
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.createNote
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.recordTaskViewByTaskId
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskPublicShares.createOrGet
+=== RUN   TestSuccessfulWritesRefreshLegacyQuerySnapshots/settings.markRead
+--- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/nfc.updateTag (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/documents.createAssociation (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.create (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.update (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskFindings.update (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/calls.sendSignal (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.decideTaskWorkspaceApprovalContext (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/tasks.acknowledgeTaskWorkspaceContext (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.assignUser (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.unassignUser (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.createNote (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskResources.recordTaskViewByTaskId (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/taskPublicShares.createOrGet (0.00s)
+    --- PASS: TestSuccessfulWritesRefreshLegacyQuerySnapshots/settings.markRead (0.00s)
+=== RUN   TestLegacyQueryCloseDoneIsIdempotent
+--- PASS: TestLegacyQueryCloseDoneIsIdempotent (0.00s)
+=== RUN   TestLegacyBoardByIDToleratesTenantIDFreeRows
+--- PASS: TestLegacyBoardByIDToleratesTenantIDFreeRows (0.00s)
+=== RUN   TestLegacyBoardMessageInsertDoesNotWriteTenantIDColumn
+--- PASS: TestLegacyBoardMessageInsertDoesNotWriteTenantIDColumn (0.00s)
+=== RUN   TestDisabledBoardsPowerupFallbackResolvesTenantIDFreeBoards
+--- PASS: TestDisabledBoardsPowerupFallbackResolvesTenantIDFreeBoards (0.01s)
+=== RUN   TestClientContractRejectionFailsPendingRequests
+--- PASS: TestClientContractRejectionFailsPendingRequests (0.00s)
+=== RUN   TestCompatibilityRefreshDoesNotOverwriteANewerLivePush
+--- PASS: TestCompatibilityRefreshDoesNotOverwriteANewerLivePush (0.46s)
+=== RUN   TestLegacyConvexSessionReceivesProtocolPings
+--- PASS: TestLegacyConvexSessionReceivesProtocolPings (0.08s)
+=== RUN   TestLegacyConvexPingDefaultsBelowClientInactivityThreshold
+--- PASS: TestLegacyConvexPingDefaultsBelowClientInactivityThreshold (0.00s)
+=== RUN   TestReleasedGonvexPhoneProtocolUsesRustBridge
+--- PASS: TestReleasedGonvexPhoneProtocolUsesRustBridge (0.01s)
+=== RUN   TestPhoneRetryKeySurvivesBridgeRestartAndSeparatesIntents
+--- PASS: TestPhoneRetryKeySurvivesBridgeRestartAndSeparatesIntents (0.02s)
+=== RUN   TestOfflineReplayWithANewCallIDCreatesExactlyOneTask
+--- PASS: TestOfflineReplayWithANewCallIDCreatesExactlyOneTask (0.01s)
+=== RUN   TestLegacyConvexOfflineReplayUsesTheOperationIdentity
+--- PASS: TestLegacyConvexOfflineReplayUsesTheOperationIdentity (0.01s)
+=== RUN   TestOfflineMetadataNeverLeaksIntoTaskUpdates
+--- PASS: TestOfflineMetadataNeverLeaksIntoTaskUpdates (0.01s)
+=== RUN   TestInvalidOfflineOperationIsRejectedBeforeTheRuntime
+--- PASS: TestInvalidOfflineOperationIsRejectedBeforeTheRuntime (0.00s)
+=== RUN   TestOfflineCompatibilityEntityIDsAreDeterministic
+--- PASS: TestOfflineCompatibilityEntityIDsAreDeterministic (0.00s)
+=== RUN   TestLegacyReferenceUsersCarryReleasedUserFields
+--- PASS: TestLegacyReferenceUsersCarryReleasedUserFields (0.00s)
+=== RUN   TestReleasedWriteShapesReachTheCurrentSchemas
+--- PASS: TestReleasedWriteShapesReachTheCurrentSchemas (0.00s)
+=== RUN   TestV5141TaskTagWritesCarryTheCurrentLinkIdentity
+--- PASS: TestV5141TaskTagWritesCarryTheCurrentLinkIdentity (0.01s)
+=== RUN   TestV5141QueryAdaptersAnswerWithReleaseShapes
+--- PASS: TestV5141QueryAdaptersAnswerWithReleaseShapes (0.02s)
+=== RUN   TestV5143PendingAcknowledgmentCountMatchesTheWebSidebar
+--- PASS: TestV5143PendingAcknowledgmentCountMatchesTheWebSidebar (0.01s)
+=== RUN   TestGamificationSourcesFilterByTheAuthenticatedMember
+--- PASS: TestGamificationSourcesFilterByTheAuthenticatedMember (0.02s)
+=== RUN   TestRecipientTaskPermissionsRecheckCurrentAuthorityOnRevocation
+--- PASS: TestRecipientTaskPermissionsRecheckCurrentAuthorityOnRevocation (0.02s)
+=== RUN   TestSupportedReleaseArgumentKeysMatchCurrentSchemas
+--- PASS: TestSupportedReleaseArgumentKeysMatchCurrentSchemas (1.82s)
+=== RUN   TestReleaseCapabilitiesFollowVisibleBoardAndExactMember
+--- PASS: TestReleaseCapabilitiesFollowVisibleBoardAndExactMember (0.00s)
+=== RUN   TestReleaseAcknowledgmentsKeepGroupTargetingAndRecipientScope
+--- PASS: TestReleaseAcknowledgmentsKeepGroupTargetingAndRecipientScope (0.00s)
+=== RUN   TestReleaseGroupCountsCoverWholeCollectionAndExplicitFallback
+--- PASS: TestReleaseGroupCountsCoverWholeCollectionAndExplicitFallback (0.04s)
+=== RUN   TestReleasedTaskUpdateShapesReachRustUpdatesObject
+--- PASS: TestReleasedTaskUpdateShapesReachRustUpdatesObject (0.00s)
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.31-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.32-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.33-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.34-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.35-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.36-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.37-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.38-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.39-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.40-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.41-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.42-via-gonvex-0.1-bridge
+=== RUN   TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.43-via-gonvex-0.1-bridge
+--- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage (1.49s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.31-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.32-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.33-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.34-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.35-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.36-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.37-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.38-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.39-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.40-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.41-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.42-via-gonvex-0.1-bridge (0.00s)
+    --- PASS: TestSupportedReleaseInventoriesHaveNativeGonvexCoverage/v5.1.43-via-gonvex-0.1-bridge (0.00s)
+=== RUN   TestSupportedBridgeNotificationContractsHaveFocusedVerifier
+--- PASS: TestSupportedBridgeNotificationContractsHaveFocusedVerifier (0.29s)
+=== RUN   TestV5129ReleaseSmokeCoversReactiveTailTaskState
+--- PASS: TestV5129ReleaseSmokeCoversReactiveTailTaskState (0.00s)
+=== RUN   TestReferenceWorkspacesAndTemplatesMatchMainWebScope
+--- PASS: TestReferenceWorkspacesAndTemplatesMatchMainWebScope (0.00s)
+=== RUN   TestReferenceScopeRevokesTeamAndWorkspaceAccess
+--- PASS: TestReferenceScopeRevokesTeamAndWorkspaceAccess (0.00s)
+=== RUN   TestWorkspaceExplicitTeamsWinOverCategoryFallback
+--- PASS: TestWorkspaceExplicitTeamsWinOverCategoryFallback (0.00s)
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/owning-task-types
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/empty-workspace-teams
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/linked-task-type
+--- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams (0.00s)
+    --- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/owning-task-types (0.00s)
+    --- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/empty-workspace-teams (0.00s)
+    --- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/linked-task-type (0.00s)
+=== RUN   TestBrayanCannotBrowseHallazgosOutsideHisTeam
+--- PASS: TestBrayanCannotBrowseHallazgosOutsideHisTeam (0.00s)
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u55
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u03
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u04
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u18
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u19
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u23
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u43
+--- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u55 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u03 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u04 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u18 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u19 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u23 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u43 (0.00s)
+=== RUN   TestSystemAdminKeepsAuthoritativeWorkspaceBypass
+--- PASS: TestSystemAdminKeepsAuthoritativeWorkspaceBypass (0.00s)
+=== RUN   TestReferenceMembershipsCarryReleasedUserID
+--- PASS: TestReferenceMembershipsCarryReleasedUserID (0.00s)
+=== RUN   TestScopedReferenceCatalogNeverOverridesCreateDenial
+--- PASS: TestScopedReferenceCatalogNeverOverridesCreateDenial (0.00s)
+=== RUN   TestDedupeCacheIsBoundedByTTLAndSize
+--- PASS: TestDedupeCacheIsBoundedByTTLAndSize (0.00s)
+=== RUN   TestUpstreamDeliveryNeverBlocksTheReaderAndKeepsTheLatestSnapshot
+--- PASS: TestUpstreamDeliveryNeverBlocksTheReaderAndKeepsTheLatestSnapshot (0.00s)
+=== RUN   TestIntentionalUpstreamCloseClosesQueryStreams
+--- PASS: TestIntentionalUpstreamCloseClosesQueryStreams (0.05s)
+=== RUN   TestDeadUpstreamIsEvictedAndThePhoneReconnectsToAFreshOne
+2026/10/16 12:20:31 WARN legacy bridge lost its Gonvex upstream; closing the phone connection so it reconnects tenant=tenant-a error="websocket: close 1006 (abnormal closure): unexpected EOF"
+--- PASS: TestDeadUpstreamIsEvictedAndThePhoneReconnectsToAFreshOne (0.00s)
+=== RUN   TestHalfOpenUpstreamIsDetectedByKeepalive
+2026/10/16 12:20:31 WARN legacy bridge lost its Gonvex upstream; closing the phone connection so it reconnects tenant=tenant-a error="read tcp 127.0.0.1:55228->127.0.0.1:40841: i/o timeout"
+--- PASS: TestHalfOpenUpstreamIsDetectedByKeepalive (0.10s)
+=== RUN   TestSessionExpiredRefreshesAndRestoresSubscriptions
+2026/10/16 12:20:31 INFO legacy bridge refreshed its Gonvex session tenant=tenant-a reason=session-expired
+2026/10/16 12:20:31 INFO legacy bridge refreshed its Gonvex session tenant=tenant-a reason=membership-changed
+--- PASS: TestSessionExpiredRefreshesAndRestoresSubscriptions (0.01s)
+=== RUN   TestSessionRefreshesBeforeTheAccessTokenExpires
+2026/10/16 12:20:31 INFO legacy bridge refreshed its Gonvex session tenant="" reason=proactive-refresh
+2026/10/16 12:20:31 INFO legacy bridge refreshed its Gonvex session tenant=tenant-a reason=proactive-refresh
+--- PASS: TestSessionRefreshesBeforeTheAccessTokenExpires (0.06s)
+=== RUN   TestUnrecoverableSessionClosesThePhoneConnection
+2026/10/16 12:20:31 WARN legacy bridge could not recover its Gonvex session tenant=tenant-a reason=session-expired error="refresh failed (refresh Gonvex session: refresh token reuse detected; this login was revoked); Firebase re-exchange failed: exchange Firebase token: Firebase ID token has expired"
+2026/10/16 12:20:31 WARN legacy bridge lost its Gonvex upstream; closing the phone connection so it reconnects tenant=tenant-a error="Gonvex session session-expired: refresh failed (refresh Gonvex session: refresh token reuse detected; this login was revoked); Firebase re-exchange failed: exchange Firebase token: Firebase ID token has expired"
+--- PASS: TestUnrecoverableSessionClosesThePhoneConnection (0.01s)
+=== RUN   TestSessionRecoveryFallsBackToTheFirebaseExchange
+2026/10/16 12:20:31 INFO legacy bridge refreshed its Gonvex session tenant=tenant-a reason=session-expired
+--- PASS: TestSessionRecoveryFallsBackToTheFirebaseExchange (0.01s)
+=== RUN   TestReleasedGonvexPhoneSurvivesSessionExpiry
+2026/10/16 12:20:31 INFO legacy bridge refreshed its Gonvex session tenant=tenant-a reason=session-expired
+--- PASS: TestReleasedGonvexPhoneSurvivesSessionExpiry (0.01s)
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.31
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.32
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.33
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.34
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.35
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.36
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.37
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.38
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.39
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.40
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.41
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.42
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+=== RUN   TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.43
+2026/10/16 12:20:31 WARN could not cache legacy public task preview error="public share result is not an object"
+--- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge (0.60s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.31 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.32 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.33 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.34 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.35 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.36 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.37 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.38 (0.03s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.39 (0.03s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.40 (0.03s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.41 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.42 (0.02s)
+    --- PASS: TestEverySupportedLegacyQueryRoutesThroughBridge/v5.1.43 (0.02s)
+=== RUN   TestV2RoutingContractUsesExplicitAliasesAndProtocols
+--- PASS: TestV2RoutingContractUsesExplicitAliasesAndProtocols (0.00s)
+=== RUN   TestV2CompositeRoutingForwardsEveryPlanSource
+--- PASS: TestV2CompositeRoutingForwardsEveryPlanSource (0.00s)
+=== RUN   TestV2RoutingDoesNotClassifyControlPlaneCallsAsTenantModules
+--- PASS: TestV2RoutingDoesNotClassifyControlPlaneCallsAsTenantModules (0.00s)
+=== RUN   TestV5129RoutingPreservesModuleNames
+--- PASS: TestV5129RoutingPreservesModuleNames (0.00s)
+PASS
+ok  	whagons/legacy-convex-v5.1.29-bridge	8.802s

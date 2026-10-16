@@ -1,0 +1,6 @@
+=== RUN   TestBrayanCannotBrowseHallazgosOutsideHisTeam
+    template_visibility_test.go:211: Brayan can browse [workspace-01 workspace-02 workspace-03 workspace-04 workspace-05 workspace-06 workspace-07 workspace-08 workspace-09]; same-user main web allows only Comunicados MKT, excluding Hallazgos
+--- FAIL: TestBrayanCannotBrowseHallazgosOutsideHisTeam (0.00s)
+FAIL
+FAIL	whagons/legacy-convex-v5.1.29-bridge	0.005s
+FAIL

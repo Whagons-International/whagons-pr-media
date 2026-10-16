@@ -1,0 +1,17 @@
+{
+  "case": "U55 / Brayan + W04 / Hallazgos (named in private PR)",
+  "freshReadOnlySnapshotMatchesReplay": true,
+  "captureTime": "2026-10-16T19:19:44.356059+00:00",
+  "nativeRole": "admin",
+  "memberTeamAliases": [
+    "team-03"
+  ],
+  "workspaceAndCategoryTeamAlias": "team-05",
+  "beforeWorkspaceCount": 9,
+  "mainAndAfterWorkspaceCount": 1,
+  "retainedWorkspaceAlias": "workspace-05",
+  "beforeTemplateCount": 10,
+  "mainAndAfterTemplateCount": 2,
+  "reportScreenshotSHA256": "e7734a70f31290041d91788251ed7be6e01aaf39d5a9bb562d5d55f8aa4d8b08",
+  "method": "Actual staging metadata; existing authenticated isolated Rust runtime replay with locked store SDK 0.1.32. No customer login or live business writes."
+}

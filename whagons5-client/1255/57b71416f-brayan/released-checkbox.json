@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "v5.1.39",
+    "available": true,
+    "containsGenericComunicadoControl": false,
+    "revision": "c020d9924fe257d1bab02b8535b4de28851d7b4b"
+  },
+  {
+    "tag": "v5.1.40",
+    "available": true,
+    "containsGenericComunicadoControl": false,
+    "revision": "c1dfa22c0595f68516be9d6c527d9fa5f2976a44"
+  },
+  {
+    "tag": "v5.1.41",
+    "available": true,
+    "containsGenericComunicadoControl": true,
+    "revision": "f64c848046965223c048d2cfc73ee83d7f2828e3"
+  },
+  {
+    "tag": "v5.1.42",
+    "available": true,
+    "containsGenericComunicadoControl": true,
+    "revision": "461cfa6b1bcbd584924606ead9df2bdd22eb5f73"
+  },
+  {
+    "tag": "v5.1.43",
+    "available": true,
+    "containsGenericComunicadoControl": true,
+    "revision": "7ee3fdc8e9fb750cac78215678db009653689dc8"
+  }
+]
