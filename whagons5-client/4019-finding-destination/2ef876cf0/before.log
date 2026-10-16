@@ -1,0 +1,360 @@
+
+ RUN  v4.1.7 /mnt/data/work/task-4019-findings/staging
+
+ ❯ gonvex/module/findingTaskDestination.test.ts (10 tests | 8 failed) 70ms
+     × routes the reported rounds finding to its team's configured destination (grouped=false) and preserves the source link 26ms
+     × routes the reported rounds finding to its team's configured destination (grouped=true) and preserves the source link 8ms
+     × uses the template's fixed destination instead of inventing a Hallazgos destination 4ms
+     × uses configured template team when the released client sends no team override 4ms
+     × uses the team's default destination when no findings destination is set 3ms
+     × uses the selected team's destination before fixed template workspace defaults, as main does 3ms
+     × retains a configured corrective template's category in the resolved destination 3ms
+     × rejects disabled finding creation and invalid configured teams 7ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 8 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > routes the reported rounds finding to its team's configured destination (grouped=false) and preserves the source link
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > routes the reported rounds finding to its team's configured destination (grouped=true) and preserves the source link
+AssertionError: expected { …(53) } to match object { workspaceId: 'corrective', …(2) }
+(50 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "categoryId": "corrective-category",
++   "categoryId": "rounds-category",
+    "teamId": "administrators",
+-   "workspaceId": "corrective",
++   "workspaceId": "rounds",
+  }
+
+ ❯ gonvex/module/findingTaskDestination.test.ts:52:39
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/8]⎯
+
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > uses the template's fixed destination instead of inventing a Hallazgos destination
+AssertionError: expected { …(53) } to match object { workspaceId: 'fixed', …(1) }
+(51 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "categoryId": "fixed-category",
+-   "workspaceId": "fixed",
++   "categoryId": "rounds-category",
++   "workspaceId": "rounds",
+  }
+
+ ❯ gonvex/module/findingTaskDestination.test.ts:57:39
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/8]⎯
+
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > uses configured template team when the released client sends no team override
+AssertionError: expected { …(53) } to match object { workspaceId: 'corrective', …(2) }
+(50 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "categoryId": "corrective-category",
+-   "teamId": "administrators",
+-   "workspaceId": "corrective",
++   "categoryId": "rounds-category",
++   "teamId": "rounds-team",
++   "workspaceId": "rounds",
+  }
+
+ ❯ gonvex/module/findingTaskDestination.test.ts:62:39
+     60|   it("uses configured template team when the released client sends no …
+     61|     const result = await host.execute("createCorrectiveTask", { findin…
+     62|     expect(taskPatch(result)?.fields).toMatchObject({ workspaceId: "co…
+       |                                       ^
+     63|     expectLink(result);
+     64|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/8]⎯
+
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > uses the team's default destination when no findings destination is set
+AssertionError: expected { …(53) } to match object { workspaceId: 'admin-default', …(1) }
+(51 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "categoryId": "default-category",
+-   "workspaceId": "admin-default",
++   "categoryId": "rounds-category",
++   "workspaceId": "rounds",
+  }
+
+ ❯ gonvex/module/findingTaskDestination.test.ts:74:39
+     72|     state.tables.teams.rows[0].findingsWorkspaceId = null;
+     73|     const result = await host.execute("createCorrectiveTask", { findin…
+     74|     expect(taskPatch(result)?.fields).toMatchObject({ workspaceId: "ad…
+       |                                       ^
+     75|     expectLink(result);
+     76|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/8]⎯
+
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > uses the selected team's destination before fixed template workspace defaults, as main does
+AssertionError: expected { …(53) } to match object { workspaceId: 'corrective', …(1) }
+(51 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "categoryId": "corrective-category",
+-   "workspaceId": "corrective",
++   "categoryId": "rounds-category",
++   "workspaceId": "rounds",
+  }
+
+ ❯ gonvex/module/findingTaskDestination.test.ts:79:39
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/8]⎯
+
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > retains a configured corrective template's category in the resolved destination
+AssertionError: expected { …(53) } to match object { workspaceId: 'corrective', …(2) }
+(50 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "categoryId": "corrective-category",
+-   "templateId": "corrective-template",
+-   "workspaceId": "corrective",
++   "categoryId": "rounds-category",
++   "templateId": null,
++   "workspaceId": "rounds",
+  }
+
+ ❯ gonvex/module/findingTaskDestination.test.ts:89:39
+     87|     state.tables.templates.rows.push(template);
+     88|     const result = await host.execute("createCorrectiveTask", { findin…
+     89|     expect(taskPatch(result)?.fields).toMatchObject({ workspaceId: "co…
+       |                                       ^
+     90|     expectLink(result);
+     91|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/8]⎯
+
+ FAIL  gonvex/module/findingTaskDestination.test.ts > finding task destination parity with main > rejects disabled finding creation and invalid configured teams
+AssertionError: promise resolved "{ …(6) }" instead of rejecting
+
+- Expected
++ Received
+
+- Error {
+-   "message": "rejected promise",
++ {
++   "deferred": [],
++   "patches": [
++     {
++       "entity": "taskNumberCounters",
++       "fields": {
++         "nextValue": 631,
++         "updatedAt": 2000,
++       },
++       "op": "patch",
++       "rowId": "counter",
++     },
++     {
++       "entity": "tasks",
++       "fields": {
++         "_creationTime": 2000,
++         "_id": "linked",
++         "approvalId": null,
++         "assetId": null,
++         "attributedCreatorId": null,
++         "audienceRules": null,
++         "categoryId": "rounds-category",
++         "completedAt": null,
++         "createdAt": 2000,
++         "createdBy": "member",
++         "createdByWorkflowId": null,
++         "createdByWorkflowRunId": null,
++         "createdVia": null,
++         "deletedAt": null,
++         "deletedBy": null,
++         "description": "Source task: Supervisor rounds
++
++ Finding: Cleaning - Entrance
++
++ Description: Finding notes",
++         "dueDate": null,
++         "expectedDuration": null,
++         "firstViewedAt": null,
++         "flagColor": null,
++         "fleetCompanionId": null,
++         "fleetLeaderId": null,
++         "fleetVehicleId": null,
++         "formId": null,
++         "formVersionId": null,
++         "guestId": null,
++         "guestReportSeenAt": null,
++         "guestVip": false,
++         "id": 630,
++         "latitude": null,
++         "longitude": null,
++         "name": "Action plan: Cleaning - Entrance",
++         "occurrenceDate": null,
++         "priorityId": null,
++         "recurrenceId": null,
++         "reportedByGuest": false,
++         "reportedByTeamId": null,
++         "reportedByUserId": "member",
++         "requiresAcknowledgment": null,
++         "requiresSignature": null,
++         "rowHash": null,
++         "slaId": null,
++         "spotId": null,
++         "startDate": null,
++         "statusId": "open",
++         "teamId": "rounds-team",
++         "templateId": null,
++         "updatedAt": 2000,
++         "workflowTriggeredByUserId": null,
++         "workplanId": null,
++         "workplanInstanceId": null,
++         "workplanItemId": null,
++         "workspaceId": "rounds",
++       },
++       "op": "insert",
++       "rowId": "linked",
++     },
++     {
++       "entity": "taskLogs",
++       "fields": {
++         "_creationTime": 2000,
++         "_id": "3a749368-4094-8e62-a76b-706361e542f6",
++         "action": "TICKET_CREATED",
++         "newValues": {
++           "name": "Action plan: Cleaning - Entrance",
++           "workspaceId": "rounds",
++         },
++         "oldValues": null,
++         "taskId": "linked",
++         "timestamp": 2000,
++         "userId": "member",
++         "uuid": null,
++       },
++       "op": "insert",
++       "rowId": "3a749368-4094-8e62-a76b-706361e542f6",
++     },
++     {
++       "entity": "taskFindings",
++       "fields": {
++         "linkedTaskId": "linked",
++         "updatedAt": 2000,
++       },
++       "op": "patch",
++       "rowId": "finding",
++     },
++     {
++       "entity": "taskLogs",
++       "fields": {
++         "_creationTime": 2000,
++         "_id": "b6e9d6cc-0e91-8536-99db-fab93894bd59",
++         "action": "FINDING_TASK_LINKED",
++         "newValues": {
++           "findingId": "finding",
++           "linkedTaskId": "linked",
++         },
++         "oldValues": null,
++         "taskId": "source",
++         "timestamp": 2000,
++         "userId": "member",
++         "uuid": null,
++       },
++       "op": "insert",
++       "rowId": "b6e9d6cc-0e91-8536-99db-fab93894bd59",
++     },
++   ],
++   "readRows": [
++     {
++       "entity": "taskFindings",
++       "rowId": "finding",
++     },
++     {
++       "entity": "tasks",
++       "rowId": "source",
++     },
++     {
++       "entity": "workspaces",
++       "rowId": "rounds",
++     },
++     {
++       "entity": "categories",
++       "rowId": "rounds-category",
++     },
++     {
++       "entity": "teams",
++       "rowId": "rounds-team",
++     },
++     {
++       "entity": "taskNumberCounters",
++       "rowId": "counter",
++     },
++     {
++       "entity": "tasks",
++       "rowId": "linked",
++     },
++   ],
++   "readTables": [
++     "categories",
++     "categoryCustomFields",
++     "memberTeams",
++     "permissions",
++     "plugins",
++     "rolePermissions",
++     "roles",
++     "statuses",
++     "taskCustomFieldValues",
++     "taskFindings",
++     "taskNumberCounters",
++     "tasks",
++     "teams",
++     "workflows",
++     "workspaces",
++   ],
++   "result": {
++     "alreadyLinked": false,
++     "id": 630,
++     "taskId": "linked",
++   },
++   "scanTables": [
++     "categoryCustomFields",
++     "memberTeams",
++     "permissions",
++     "plugins",
++     "rolePermissions",
++     "roles",
++     "statuses",
++     "taskCustomFieldValues",
++     "taskNumberCounters",
++     "tasks",
++     "workflows",
++   ],
+  }
+
+ ❯ gonvex/module/findingTaskDestination.test.ts:93:152
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/8]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  8 failed | 2 passed (10)
+   Start at  12:46:56
+   Duration  1.08s (transform 776ms, setup 0ms, import 896ms, tests 70ms, environment 0ms)
+

@@ -1,0 +1,21 @@
+{
+  "sdk": "@gonvex/client 0.1.32",
+  "releasedApp": "5.1.43 / 59",
+  "before": {
+    "error": "GonvexClientError: function \"taskFindings.createLinkedTask\" arguments do not match its schema: $.findingId: required field is missing"
+  },
+  "after": {
+    "value": {
+      "alreadyLinked": false,
+      "id": 27,
+      "taskId": "71928ed5-b09e-8d38-b438-a3e2ed200eaf"
+    },
+    "taskId": "71928ed5-b09e-8d38-b438-a3e2ed200eaf",
+    "taskNumber": 27,
+    "workspaceId": "e2e_2oyway_workspaces_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Workspace",
+    "categoryId": "e2e_1xkip4v_categories_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Category",
+    "teamId": "e2e_tcqi5l_team_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Team",
+    "sourceTaskId": "e2e_1v6yeit_task_zq7xE2E-4019_Finding_Source-0-Supervisor_Rounds_-_Destination_QA_Supervisor_Rounds_-_Destination_QA",
+    "linkedTaskId": "71928ed5-b09e-8d38-b438-a3e2ed200eaf"
+  }
+}
