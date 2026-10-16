@@ -1,0 +1,18 @@
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u03
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u04
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u18
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u19
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u23
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u43
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u55
+--- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u03 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u04 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u18 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u19 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u23 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u43 (0.00s)
+    --- PASS: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u55 (0.00s)
+PASS
+ok  	whagons/legacy-convex-v5.1.29-bridge	0.004s

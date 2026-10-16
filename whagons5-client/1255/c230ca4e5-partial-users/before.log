@@ -1,0 +1,28 @@
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u03
+    template_visibility_test.go:181: templates = [template-01 template-02 template-03 template-04 template-05 template-06 template-07 template-08 template-09 template-10], same-user web = [template-01 template-02 template-04 template-05 template-09 template-10]
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u04
+    template_visibility_test.go:181: templates = [template-01 template-02 template-03 template-04 template-05 template-06 template-07 template-08 template-09 template-10], same-user web = [template-01 template-02 template-09 template-10]
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u18
+    template_visibility_test.go:181: templates = [template-01 template-02 template-03 template-04 template-05 template-06 template-07 template-08 template-09 template-10], same-user web = [template-06 template-07]
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u19
+    template_visibility_test.go:181: workspaces = [workspace-02 workspace-04 workspace-06 workspace-07 workspace-09], same-user web = [workspace-02 workspace-06 workspace-07 workspace-09]
+    template_visibility_test.go:181: templates = [template-01 template-02 template-03 template-04 template-05 template-06 template-07 template-08 template-09 template-10], same-user web = [template-03 template-06 template-07 template-08]
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u23
+    template_visibility_test.go:181: templates = [template-01 template-02 template-03 template-04 template-05 template-06 template-07 template-08 template-09 template-10], same-user web = [template-03]
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u43
+    template_visibility_test.go:181: templates = [template-01 template-02 template-03 template-04 template-05 template-06 template-07 template-08 template-09 template-10], same-user web = [template-04 template-05]
+=== RUN   TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u55
+    template_visibility_test.go:181: workspaces = [workspace-01 workspace-02 workspace-03 workspace-04 workspace-05 workspace-06 workspace-07 workspace-08 workspace-09], same-user web = [workspace-05]
+    template_visibility_test.go:181: templates = [template-01 template-02 template-03 template-04 template-05 template-06 template-07 template-08 template-09 template-10], same-user web = [template-04 template-05]
+--- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser (0.00s)
+    --- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u03 (0.00s)
+    --- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u04 (0.00s)
+    --- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u18 (0.00s)
+    --- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u19 (0.00s)
+    --- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u23 (0.00s)
+    --- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u43 (0.00s)
+    --- FAIL: TestPartialWorkspaceAndTemplateDifferencesMatchEachStagingUser/account-u55 (0.00s)
+FAIL
+FAIL	whagons/legacy-convex-v5.1.29-bridge	0.004s
+FAIL

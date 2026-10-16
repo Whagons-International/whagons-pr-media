@@ -1,0 +1,357 @@
+[
+  {
+    "user": "U03",
+    "role": "member",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-01",
+      "workspace-03",
+      "workspace-05"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-03",
+      "workspace-05"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-03",
+      "workspace-05"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-01",
+      "workspace-03",
+      "workspace-05"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-04",
+      "template-05",
+      "template-09",
+      "template-10"
+    ],
+    "mainWebTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-04",
+      "template-05",
+      "template-09",
+      "template-10"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-04",
+      "template-05",
+      "template-09",
+      "template-10"
+    ]
+  },
+  {
+    "user": "U04",
+    "role": "member",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-01",
+      "workspace-03"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-03"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-03"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-01",
+      "workspace-03"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-09",
+      "template-10"
+    ],
+    "mainWebTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-09",
+      "template-10"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-09",
+      "template-10"
+    ]
+  },
+  {
+    "user": "U18",
+    "role": "member",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-02",
+      "workspace-06",
+      "workspace-07"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-02",
+      "workspace-06",
+      "workspace-07"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-02",
+      "workspace-06",
+      "workspace-07"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-02",
+      "workspace-06",
+      "workspace-07"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-06",
+      "template-07"
+    ],
+    "mainWebTemplateIds": [
+      "template-06",
+      "template-07"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-06",
+      "template-07"
+    ]
+  },
+  {
+    "user": "U19",
+    "role": "member",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-02",
+      "workspace-04",
+      "workspace-06",
+      "workspace-07",
+      "workspace-09"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-02",
+      "workspace-04",
+      "workspace-06",
+      "workspace-07",
+      "workspace-09"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-02",
+      "workspace-06",
+      "workspace-07",
+      "workspace-09"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-02",
+      "workspace-06",
+      "workspace-07",
+      "workspace-09"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-03",
+      "template-06",
+      "template-07",
+      "template-08"
+    ],
+    "mainWebTemplateIds": [
+      "template-03",
+      "template-06",
+      "template-07",
+      "template-08"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-03",
+      "template-06",
+      "template-07",
+      "template-08"
+    ]
+  },
+  {
+    "user": "U23",
+    "role": "member",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-04",
+      "workspace-08"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-04",
+      "workspace-08"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-04",
+      "workspace-08"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-04",
+      "workspace-08"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-03"
+    ],
+    "mainWebTemplateIds": [
+      "template-03"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-03"
+    ]
+  },
+  {
+    "user": "U43",
+    "role": "member",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-05"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-05"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-05"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-05"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-04",
+      "template-05"
+    ],
+    "mainWebTemplateIds": [
+      "template-04",
+      "template-05"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-04",
+      "template-05"
+    ]
+  },
+  {
+    "user": "U55",
+    "role": "admin",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-05"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-05"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-04",
+      "template-05"
+    ],
+    "mainWebTemplateIds": [
+      "template-04",
+      "template-05"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-04",
+      "template-05"
+    ]
+  }
+]
