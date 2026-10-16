@@ -1,0 +1,73 @@
+{
+  "fixture": "isolated staging Rust runtime, same member and unchanged app used for existing PR captures",
+  "memberId": "member_c814fc320eb340329e3eb1326c377bca",
+  "memberTeamIds": [
+    "e2e_2yqr49_team_zq7xE2E-4019-plain_zq7xE2E-4019-plain_Team",
+    "e2e_16yzyvb_team_zq7xE2E-4019_zq7xE2E-4019_Team",
+    "e2e_cin1ll_team_zq7xE2E-4019-general_zq7xE2E-4019-general_Team"
+  ],
+  "workspace": {
+    "_id": "e2e_1schd1w_workspaces_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Workspace",
+    "name": "zq7xE2E-4019-template-hidden Workspace",
+    "teams": [
+      "e2e_txxkjb_team_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Team"
+    ],
+    "categoryId": null
+  },
+  "taskTypes": [
+    {
+      "_id": "e2e_z4jb19_categories_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Category",
+      "name": "zq7xE2E-4019-template-hidden Category",
+      "teamId": "e2e_txxkjb_team_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Team",
+      "workspaceId": "e2e_1schd1w_workspaces_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Workspace",
+      "reportingTeamIds": null
+    }
+  ],
+  "templates": [
+    {
+      "_id": "1e524d11-b1a3-4661-b7b9-2164ef8ef94b",
+      "name": "Out Of Scope",
+      "categoryId": "e2e_z4jb19_categories_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Category",
+      "isPrivate": false
+    },
+    {
+      "_id": "e2e_rpples_templates_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Template",
+      "name": "zq7xE2E-4019-template-hidden Template",
+      "categoryId": "e2e_z4jb19_categories_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Category",
+      "isPrivate": null
+    }
+  ],
+  "beforeWorkspaceIds": [
+    "e2e_comaks_workspaces_zq7xE2E-4019-template-report_zq7xE2E-4019-template-report_Workspace",
+    "e2e_1schd1w_workspaces_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Workspace",
+    "e2e_tdn0i8_workspaces_zq7xE2E-4019_zq7xE2E-4019_Workspace",
+    "e2e_xh721a_workspaces_zq7xE2E-4019-general_zq7xE2E-4019-general_Workspace",
+    "e2e_13sb9ce_workspaces_zq7xE2E-4019-plain_zq7xE2E-4019-plain_Workspace"
+  ],
+  "afterWorkspaceIds": [
+    "e2e_tdn0i8_workspaces_zq7xE2E-4019_zq7xE2E-4019_Workspace",
+    "e2e_xh721a_workspaces_zq7xE2E-4019-general_zq7xE2E-4019-general_Workspace",
+    "e2e_13sb9ce_workspaces_zq7xE2E-4019-plain_zq7xE2E-4019-plain_Workspace"
+  ],
+  "beforeTemplateIds": [
+    "b34ac2de-51e3-4c1f-94f8-9ac25afef090",
+    "e2e_oip6pw_templates_zq7xE2E-4019_zq7xE2E-4019_Template",
+    "e2e_smh3ri_templates_zq7xE2E-4019-general_zq7xE2E-4019-general_Template",
+    "94081ff7-2e5f-4f0a-81cb-0ed1f55fe6a3",
+    "1e524d11-b1a3-4661-b7b9-2164ef8ef94b",
+    "bb9c34d0-da20-4dec-b87d-54d5c9d26188",
+    "d0ace5ad-7933-4bee-b1f2-3de90b8b6ef4",
+    "89aaf0d4-8259-4c99-9f05-234d6cb07632",
+    "e2e_rpples_templates_zq7xE2E-4019-template-hidden_zq7xE2E-4019-template-hidden_Template",
+    "e2e_5y96us_templates_zq7xE2E-4019-template-report_zq7xE2E-4019-template-report_Template"
+  ],
+  "afterTemplateIds": [
+    "b34ac2de-51e3-4c1f-94f8-9ac25afef090",
+    "e2e_oip6pw_templates_zq7xE2E-4019_zq7xE2E-4019_Template",
+    "e2e_smh3ri_templates_zq7xE2E-4019-general_zq7xE2E-4019-general_Template",
+    "bb9c34d0-da20-4dec-b87d-54d5c9d26188",
+    "d0ace5ad-7933-4bee-b1f2-3de90b8b6ef4",
+    "89aaf0d4-8259-4c99-9f05-234d6cb07632",
+    "e2e_5y96us_templates_zq7xE2E-4019-template-report_zq7xE2E-4019-template-report_Template"
+  ]
+}

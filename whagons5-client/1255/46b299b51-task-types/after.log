@@ -1,0 +1,10 @@
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/owning-task-types
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/empty-workspace-teams
+=== RUN   TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/linked-task-type
+--- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams (0.00s)
+    --- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/owning-task-types (0.00s)
+    --- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/empty-workspace-teams (0.00s)
+    --- PASS: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/linked-task-type (0.00s)
+PASS
+ok  	whagons/legacy-convex-v5.1.29-bridge	0.004s

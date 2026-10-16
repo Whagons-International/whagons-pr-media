@@ -1,0 +1,12 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./scripts/reactCompilerPolicy" without a file extension (vitest.config.ts:1:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.7 /mnt/data/work/task-4019-templates/staging
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  11:46:16
+   Duration  1.05s (transform 49ms, setup 0ms, import 168ms, tests 22ms, environment 734ms)
+

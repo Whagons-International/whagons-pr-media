@@ -1,0 +1,31 @@
+--- FAIL: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams (0.00s)
+    --- FAIL: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/owning-task-types (0.00s)
+        template_visibility_test.go:137: team a workspaces = [workspace-a workspace-b], task-type assignment requires [workspace-a]
+        template_visibility_test.go:137: team a teamSettingsWorkspaces = [workspace-a workspace-b], task-type assignment requires [workspace-a]
+        template_visibility_test.go:137: team a categories = [category-a category-b], task-type assignment requires [category-a]
+        template_visibility_test.go:137: team a templates = [template-a-private template-a-public template-b-private template-b-public], task-type assignment requires [template-a-private template-a-public]
+        template_visibility_test.go:137: team b teamSettingsWorkspaces = [workspace-a workspace-b], task-type assignment requires [workspace-b]
+        template_visibility_test.go:137: team b categories = [category-a category-b], task-type assignment requires [category-b]
+        template_visibility_test.go:137: team b templates = [template-a-private template-a-public template-b-private template-b-public], task-type assignment requires [template-b-private template-b-public]
+        template_visibility_test.go:137: team b workspaces = [workspace-a workspace-b], task-type assignment requires [workspace-b]
+    --- FAIL: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/empty-workspace-teams (0.00s)
+        template_visibility_test.go:137: team a workspaces = [workspace-a workspace-b], task-type assignment requires [workspace-a]
+        template_visibility_test.go:137: team a teamSettingsWorkspaces = [workspace-a workspace-b], task-type assignment requires [workspace-a]
+        template_visibility_test.go:137: team a categories = [category-a category-b], task-type assignment requires [category-a]
+        template_visibility_test.go:137: team a templates = [template-a-private template-a-public template-b-private template-b-public], task-type assignment requires [template-a-private template-a-public]
+        template_visibility_test.go:137: team b workspaces = [workspace-a workspace-b], task-type assignment requires [workspace-b]
+        template_visibility_test.go:137: team b teamSettingsWorkspaces = [workspace-a workspace-b], task-type assignment requires [workspace-b]
+        template_visibility_test.go:137: team b categories = [category-a category-b], task-type assignment requires [category-b]
+        template_visibility_test.go:137: team b templates = [template-a-private template-a-public template-b-private template-b-public], task-type assignment requires [template-b-private template-b-public]
+    --- FAIL: TestWorkspaceTaskTypesMustBelongToCurrentMembersTeams/linked-task-type (0.00s)
+        template_visibility_test.go:137: team a workspaces = [workspace-a workspace-b], task-type assignment requires [workspace-a]
+        template_visibility_test.go:137: team a teamSettingsWorkspaces = [workspace-a workspace-b], task-type assignment requires [workspace-a]
+        template_visibility_test.go:137: team a categories = [category-a category-b], task-type assignment requires [category-a]
+        template_visibility_test.go:137: team a templates = [template-a-private template-a-public template-b-private template-b-public], task-type assignment requires [template-a-private template-a-public]
+        template_visibility_test.go:137: team b workspaces = [workspace-a workspace-b], task-type assignment requires [workspace-b]
+        template_visibility_test.go:137: team b teamSettingsWorkspaces = [workspace-a workspace-b], task-type assignment requires [workspace-b]
+        template_visibility_test.go:137: team b categories = [category-a category-b], task-type assignment requires [category-b]
+        template_visibility_test.go:137: team b templates = [template-a-private template-a-public template-b-private template-b-public], task-type assignment requires [template-b-private template-b-public]
+FAIL
+FAIL	whagons/legacy-convex-v5.1.29-bridge	0.004s
+FAIL
