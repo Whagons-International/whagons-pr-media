@@ -1,0 +1,10 @@
+--- FAIL: TestTaskCreationPreflightSupportsExistingMobileFallback (0.01s)
+    --- FAIL: TestTaskCreationPreflightSupportsExistingMobileFallback/plain_task (0.00s)
+        task_creation_preflight_test.go:37: existing app cannot fall back to authoritative creation: map[string]interface {}{"error":"invalid structured query: live query \"roles.taskCreationOptions\" is not registered", "id":"preflight", "type":"query.error"}
+    --- FAIL: TestTaskCreationPreflightSupportsExistingMobileFallback/templated_task (0.00s)
+        task_creation_preflight_test.go:37: existing app cannot fall back to authoritative creation: map[string]interface {}{"error":"invalid structured query: live query \"roles.taskCreationOptions\" is not registered", "id":"preflight", "type":"query.error"}
+    --- FAIL: TestTaskCreationPreflightSupportsExistingMobileFallback/comunicado (0.00s)
+        task_creation_preflight_test.go:37: existing app cannot fall back to authoritative creation: map[string]interface {}{"error":"invalid structured query: live query \"roles.taskCreationOptions\" is not registered", "id":"preflight", "type":"query.error"}
+FAIL
+FAIL	whagons/legacy-convex-v5.1.29-bridge	0.013s
+FAIL

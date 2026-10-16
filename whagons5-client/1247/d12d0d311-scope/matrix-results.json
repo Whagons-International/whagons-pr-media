@@ -1,0 +1,47 @@
+[
+  {
+    "phase": "before",
+    "kind": "plain",
+    "outcome": "preflight rejected",
+    "error": "GonvexClientError: invalid structured query: live query \"roles.taskCreationOptions\" is not registered"
+  },
+  {
+    "phase": "before",
+    "kind": "templated",
+    "outcome": "preflight rejected",
+    "error": "GonvexClientError: invalid structured query: live query \"roles.taskCreationOptions\" is not registered"
+  },
+  {
+    "phase": "before",
+    "kind": "comunicado",
+    "outcome": "preflight rejected",
+    "error": "GonvexClientError: invalid structured query: live query \"roles.taskCreationOptions\" is not registered"
+  },
+  {
+    "phase": "after",
+    "kind": "plain",
+    "outcome": "created",
+    "taskId": "a87fdf0d-e7c2-8425-9a39-7d1da66d4973",
+    "id": 5,
+    "templateId": null,
+    "requiresAcknowledgment": null
+  },
+  {
+    "phase": "after",
+    "kind": "templated",
+    "outcome": "created",
+    "taskId": "8018c105-2928-8378-87ab-d648210a7fe5",
+    "id": 6,
+    "templateId": "e2e_smh3ri_templates_zq7xE2E-4019-general_zq7xE2E-4019-general_Template",
+    "requiresAcknowledgment": null
+  },
+  {
+    "phase": "after",
+    "kind": "comunicado",
+    "outcome": "created",
+    "taskId": "391d1287-b9ba-8682-be70-db72205eb536",
+    "id": 7,
+    "templateId": "e2e_oip6pw_templates_zq7xE2E-4019_zq7xE2E-4019_Template",
+    "requiresAcknowledgment": true
+  }
+]
