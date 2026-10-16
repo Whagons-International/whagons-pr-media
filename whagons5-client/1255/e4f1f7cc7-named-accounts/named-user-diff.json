@@ -1,0 +1,187 @@
+[
+  {
+    "user": "U55",
+    "role": "admin",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-05"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-05"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-04",
+      "template-05"
+    ],
+    "mainWebTemplateIds": [
+      "template-04",
+      "template-05"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-04",
+      "template-05"
+    ],
+    "teamIds": [
+      "team-03"
+    ],
+    "extraWorkspaces": [
+      "workspace-04",
+      "workspace-08",
+      "workspace-06",
+      "workspace-01",
+      "workspace-03",
+      "workspace-02",
+      "workspace-09",
+      "workspace-07"
+    ],
+    "extraTemplates": [
+      "template-07",
+      "template-09",
+      "template-06",
+      "template-10",
+      "template-03",
+      "template-08",
+      "template-01",
+      "template-02"
+    ]
+  },
+  {
+    "user": "U00",
+    "role": "system_admin",
+    "bridgeBeforeWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "stagingWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "mainWebWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "bridgeAfterWorkspaceIds": [
+      "workspace-01",
+      "workspace-02",
+      "workspace-03",
+      "workspace-04",
+      "workspace-05",
+      "workspace-06",
+      "workspace-07",
+      "workspace-08",
+      "workspace-09"
+    ],
+    "bridgeBeforeTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "stagingWebTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "mainWebTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "bridgeAfterTemplateIds": [
+      "template-01",
+      "template-02",
+      "template-03",
+      "template-04",
+      "template-05",
+      "template-06",
+      "template-07",
+      "template-08",
+      "template-09",
+      "template-10"
+    ],
+    "teamIds": [
+      "team-02",
+      "team-05",
+      "team-06",
+      "team-03",
+      "team-01",
+      "team-04"
+    ],
+    "extraWorkspaces": [],
+    "extraTemplates": []
+  }
+]

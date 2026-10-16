@@ -1,0 +1,6 @@
+{
+  "candidate": "existing bridge-combined; visibility patch plus task-creation/saved-audience patch",
+  "scopeSourceSHA256": "ad0e5d30992629295b899cfa916f7f8da2b73a124a3094f7c49c405d81d73600",
+  "binarySHA256": "d00b6637e7e5e52386fb7469a7162a133ec00d4975ff3857100e1897fe2e3c14",
+  "freshBuild": "not run after resource refusal"
+}

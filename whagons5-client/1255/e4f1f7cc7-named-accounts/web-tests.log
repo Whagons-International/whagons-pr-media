@@ -1,0 +1,9 @@
+
+ RUN  v4.1.7 /mnt/data/work/task-4019-templates/staging
+
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  13:09:47
+   Duration  1.50s (transform 672ms, setup 0ms, import 784ms, tests 42ms, environment 555ms)
+
