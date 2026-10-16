@@ -1,0 +1,43 @@
+{
+  "sourceTaskId": "e2e_1v6yeit_task_zq7xE2E-4019_Finding_Source-0-Supervisor_Rounds_-_Destination_QA_Supervisor_Rounds_-_Destination_QA",
+  "expectedDestination": "e2e_2oyway_workspaces_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Workspace",
+  "baselineWorkspace": "e2e_m3j9p6_workspaces_zq7xE2E-4019_Finding_Source_zq7xE2E-4019_Finding_Source_Workspace",
+  "cases": [
+    {
+      "phase": "BEFORE",
+      "taskId": "cbcd07e3-b5e0-418b-ad8f-60839cfc4092",
+      "taskNumber": 25,
+      "workspaceId": "e2e_m3j9p6_workspaces_zq7xE2E-4019_Finding_Source_zq7xE2E-4019_Finding_Source_Workspace",
+      "categoryId": "e2e_1e51err_categories_zq7xE2E-4019_Finding_Source_zq7xE2E-4019_Finding_Source_Category",
+      "teamId": "e2e_tcqi5l_team_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Team",
+      "findingId": "c3158dff-c55c-4ebd-8a5f-233f9381885e",
+      "sourceTaskId": "e2e_1v6yeit_task_zq7xE2E-4019_Finding_Source-0-Supervisor_Rounds_-_Destination_QA_Supervisor_Rounds_-_Destination_QA",
+      "linkedTaskId": "cbcd07e3-b5e0-418b-ad8f-60839cfc4092",
+      "sourceDescription": "Source task: Supervisor Rounds - Destination QA\n\nFinding: Cleaning - Entrance BEFORE\n\nDescription: Cleaning - Entrance BEFORE"
+    },
+    {
+      "phase": "AFTER",
+      "taskId": "dae8b37f-4838-4966-ad63-da9ff2f0a6cb",
+      "taskNumber": 28,
+      "workspaceId": "e2e_2oyway_workspaces_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Workspace",
+      "categoryId": "e2e_1xkip4v_categories_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Category",
+      "teamId": "e2e_tcqi5l_team_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Team",
+      "findingId": "ec4be922-6de2-40da-928f-076b12bf6e73",
+      "sourceTaskId": "e2e_1v6yeit_task_zq7xE2E-4019_Finding_Source-0-Supervisor_Rounds_-_Destination_QA_Supervisor_Rounds_-_Destination_QA",
+      "linkedTaskId": "dae8b37f-4838-4966-ad63-da9ff2f0a6cb",
+      "sourceDescription": "Source task: Supervisor Rounds - Destination QA\n\nFinding: Cleaning - Entrance AFTER\n\nDescription: Cleaning - Entrance AFTER"
+    },
+    {
+      "phase": "AFTER 81321d2",
+      "taskId": "52dacba4-19e6-4a51-807d-ed8b3cc6a89f",
+      "taskNumber": 34,
+      "workspaceId": "e2e_2oyway_workspaces_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Workspace",
+      "categoryId": "e2e_1xkip4v_categories_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Category",
+      "teamId": "e2e_tcqi5l_team_zq7xE2E-4019_Corrective_Destination_zq7xE2E-4019_Corrective_Destination_Team",
+      "findingId": "83d98326-f001-4e8f-bad4-ec0dfd823c6a",
+      "sourceTaskId": "e2e_1v6yeit_task_zq7xE2E-4019_Finding_Source-0-Supervisor_Rounds_-_Destination_QA_Supervisor_Rounds_-_Destination_QA",
+      "linkedTaskId": "52dacba4-19e6-4a51-807d-ed8b3cc6a89f",
+      "sourceDescription": "Source task: Supervisor Rounds - Destination QA\n\nFinding: Cleaning - Entrance AFTER 81321d2\n\nDescription: Cleaning - Entrance AFTER 81321d2"
+    }
+  ]
+}

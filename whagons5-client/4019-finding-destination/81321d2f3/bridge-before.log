@@ -1,0 +1,6 @@
+=== RUN   TestReleasedFindingCreationRoutesToCorrectiveReducer
+    finding_creation_test.go:15: released creation must use the canonical corrective reducer, got []map[string]interface {}{}
+--- FAIL: TestReleasedFindingCreationRoutesToCorrectiveReducer (0.00s)
+FAIL
+FAIL	whagons/legacy-convex-v5.1.29-bridge	0.006s
+FAIL

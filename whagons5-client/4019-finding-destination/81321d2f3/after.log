@@ -1,0 +1,9 @@
+
+ RUN  v4.1.7 /mnt/data/work/task-4019-findings/staging
+
+
+ Test Files  3 passed (3)
+      Tests  23 passed (23)
+   Start at  12:54:19
+   Duration  1.56s (transform 2.15s, setup 0ms, import 2.51s, tests 108ms, environment 0ms)
+

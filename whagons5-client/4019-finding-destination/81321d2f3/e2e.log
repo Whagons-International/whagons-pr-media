@@ -1,0 +1,15 @@
+
+Running 1 test using 1 worker
+
+(node:2702394) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2702394) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[playwright navigation] creates finding tasks in the configured team destination and retains source linkage after reopening landed on http://1e772ab8-1a73-653d-8608-c8705580eb23.localhost:8481/auth/signin
+[playwright browser console] [ERROR][API] Reducer taskFindings.create fell back to server-only execution: incompleteReplica (table taskFindings) {path: taskFindings.create, phase: call, reason: incompleteReplica, table: taskFindings, intentId: 4915fb2e-62a2-43e3-b40f-98cf01b3570c} (http://1e772ab8-1a73-653d-8608-c8705580eb23.localhost:8481/@vite/client:532)
+[playwright browser console] There is no tab id, please check if you have rendered the tab panel before the tab list. (http://1e772ab8-1a73-653d-8608-c8705580eb23.localhost:8481/@vite/client:532)
+[playwright browser console] [ERROR][API] Reducer taskFindings.createCorrectiveTask fell back to server-only execution: incompleteReplica (table teams) {path: taskFindings.createCorrectiveTask, phase: call, reason: incompleteReplica, table: teams, intentId: 67370ada-c3f2-4d3e-bdfa-41566f13e8e3} (http://1e772ab8-1a73-653d-8608-c8705580eb23.localhost:8481/@vite/client:532)
+[playwright browser console] [ERROR][API] Reducer taskResources.recordTaskViewByTaskId fell back to server-only execution: incompleteReplica (table taskViews) {path: taskResources.recordTaskViewByTaskId, phase: call, reason: incompleteReplica, table: taskViews, intentId: 12f2387c-ade8-4550-8f76-2fde41877744} (http://1e772ab8-1a73-653d-8608-c8705580eb23.localhost:8481/@vite/client:532)
+  ✓  1 tests/e2e/tasks/10-findings-workflow.spec.ts:33:3 › Hallazgos workflow › creates finding tasks in the configured team destination and retains source linkage after reopening (13.7s)
+
+  1 passed (14.8s)

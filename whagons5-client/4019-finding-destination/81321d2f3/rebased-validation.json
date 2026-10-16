@@ -1,0 +1,22 @@
+{
+  "head": "81321d2f3d9ab4ffe0d8db315c7addd76110fa5b",
+  "base": "a824ee3ef39cd486fa28a382006b001b8034982f",
+  "mainReference": "08d519c55d1e73255de04b36682ec0379b34d1f6",
+  "backendRegression": {
+    "before": {
+      "failed": 8,
+      "passed": 2
+    },
+    "after": {
+      "passed": 23
+    }
+  },
+  "bridgeRace": "9.281s passed",
+  "desktopE2E": "1 passed (14.8s)",
+  "storeTask": 31,
+  "desktopTask": 34,
+  "customerWrites": false,
+  "liveDeployment": false,
+  "apkChanges": false,
+  "moduleArtifactHash": "b5ac42197814dd202e2c172e5833625ac8876e95ad368da7a3240e2f2ef57bac"
+}
