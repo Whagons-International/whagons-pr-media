@@ -1,0 +1,379 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1292,
+  "result": "browser-pass",
+  "scope": "Complete two-step PR How to test: sign in/open a workspace with tasks; table and task details load; open a pending comunicado and preserve planned recipient shape and name visibility. Added creator/restricted-member comparison and actual expandable/scrollable group checks. No claim about unrelated product flows.",
+  "head": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+  "base": "2b8b803afec955811963df5063476eaba86b1483",
+  "limitations": "Both frontend variants share the isolated head backend; executable/schema equality verified. Reused native runtime binary compilation provenance is unverified. Videos retained privately: only sampled frames were inspected, so no video is published. All16published PNGs were visually inspected. This is browser evidence, not a Coach image pass or owner approval.",
+  "captures": [
+    {
+      "sha256": "459c918db07585e7c0b56b489767bed1b24793a8b3eb93f0dc096167773cb94a",
+      "bytes": 138242,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-creator-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/01-base-creator-details.png"
+    },
+    {
+      "sha256": "a7363f2b5131fde08dfdef5a4722e6f648fd167939f565b31234b9609af00ea5",
+      "bytes": 159383,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/02-base-creator-expanded-member.png"
+    },
+    {
+      "sha256": "7bbe46d3408173e35ec1009234eb3c9f7bc3981e1c65268cc7e3cf82d00a2d76",
+      "bytes": 69414,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-creator-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/03-base-creator-workspace.png"
+    },
+    {
+      "sha256": "e1f2734ef575ff7c066ed6c356b821ece91d27c24402ac9627696e9eb894cfef",
+      "bytes": 138229,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-creator-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/04-head-creator-details.png"
+    },
+    {
+      "sha256": "be5bf77482ee541616d445c97241172380a9837c37682d4a5444b284207cc1a4",
+      "bytes": 159354,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/05-head-creator-expanded-member.png"
+    },
+    {
+      "sha256": "4682939087b3b21918e75632c13dda7894b1ab8e51f476bfe205290649230481",
+      "bytes": 69382,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-creator-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/06-head-creator-workspace.png"
+    },
+    {
+      "sha256": "98c99abcaa47630c6beeb4b09bea81685edc7df2c2399f1b5078da3d1b55387d",
+      "bytes": 159348,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/07-base-creator-expanded-member.png"
+    },
+    {
+      "sha256": "3ef8a2f444445890593b9bac17997bec62aa6f780750032208a31572cbb8b276",
+      "bytes": 156019,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-creator-list-bottom",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/08-base-creator-list-bottom.png"
+    },
+    {
+      "sha256": "e9ba4e355a6d5338dd7f33a91e54c956f5a122ec7b5bb28b9f00625b98ba17cb",
+      "bytes": 159267,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/09-head-creator-expanded-member.png"
+    },
+    {
+      "sha256": "e27e78e9405f65d12a17e44a1bb5abf12dc5e9371c06ecf59c0eaeaaf711c6b8",
+      "bytes": 155982,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-creator-list-bottom",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/10-head-creator-list-bottom.png"
+    },
+    {
+      "sha256": "418cf11b6448b28fa86c0e58ee6484670298b3954cc3842d0511ab79d0599329",
+      "bytes": 118397,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-floating-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/11-base-floating-details.png"
+    },
+    {
+      "sha256": "f5d0ee63e0591b4cc67fd619af3cb99823a64f6661636e72649aa1f8c4f7f4e2",
+      "bytes": 124802,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-floating-planned-audience",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/12-base-floating-planned-audience.png"
+    },
+    {
+      "sha256": "4a5bc067cfdf0d722d2d0e96e32fe2e95428741c40fe965570f35050a862b348",
+      "bytes": 61433,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "base",
+      "applicationSha": "2b8b803afec955811963df5063476eaba86b1483",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "base-floating-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/13-base-floating-workspace.png"
+    },
+    {
+      "sha256": "418cf11b6448b28fa86c0e58ee6484670298b3954cc3842d0511ab79d0599329",
+      "bytes": 118397,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-floating-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/14-head-floating-details.png"
+    },
+    {
+      "sha256": "8747594eb441e896485ca59e106bc1e0780272c396615ae7466eddd236d867b4",
+      "bytes": 124784,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-floating-planned-audience",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/15-head-floating-planned-audience.png"
+    },
+    {
+      "sha256": "cd8cb4adc9d824676be6dbfcf70ee220366a17deff7f3e1a5e9c0bc679da2986",
+      "bytes": 61931,
+      "testedHead": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "comparisonBase": "2b8b803afec955811963df5063476eaba86b1483",
+      "variant": "head",
+      "applicationSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "backendApplicationManifestSha": "539c0293b49b4d0276034b3fa12dfc8fe4fa34ec",
+      "state": "head-floating-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "sanitizationNote": "Disposable local QA identities, tasks and references only; no production/customer data, API tokens or credentials in selected media.",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-539c0293/16-head-floating-workspace.png"
+    }
+  ]
+}
