@@ -1,0 +1,387 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1292,
+  "result": "browser-pass",
+  "head": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+  "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+  "scope": "Complete PR HOWTO: workspace grid and task details; pending comunicado planned audience. Added actual creator/restricted viewer parity, member expansion, list scrolling and English walkthrough for both identities.",
+  "limitations": [
+    "Desktop Chromium1440x1000 only; this type/import PR has no mobile HOWTO requirement.",
+    "One actual head backend served both frontends. Exact stored source and equality of executable JavaScript/functions/schema/visibility/crons/invitation reducer are proved; no distinct baseline backend is claimed.",
+    "Task views and first-view counts can change through these real UI reads. Planned recipient count/name privacy remained unchanged.",
+    "Videos are retained privately because continuous playback was not inspected. Only16 inspected English PNGs are publication candidates.",
+    "Cached native runtime compilation source is unverified.",
+    "No AskLuna provider request, Coach image pass, GitHub approval, label/flag/status change, queue or merge is claimed."
+  ],
+  "captures": [
+    {
+      "sha256": "f5a8cdb9ed08c22c53b75d1f4d5bec3f641154d9ac451eb8c906b6cc895ad854",
+      "bytes": 139446,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-creator-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/01-base-creator-details.png"
+    },
+    {
+      "sha256": "48cf99217b93bcc2b5924df686305c4fa6380cb9bcd423b97798f7a2b7ed556f",
+      "bytes": 160006,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/02-base-creator-expanded-member.png"
+    },
+    {
+      "sha256": "f9dcca8728d7d157142e95ef6a3b1badac041620a52356730ff55ce111bb514b",
+      "bytes": 70264,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-creator-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/03-base-creator-workspace.png"
+    },
+    {
+      "sha256": "143f66a1c3ff9f4d010b8dc0df1db993f21709d6b9b5d5a5c65e4873a39f652d",
+      "bytes": 119457,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-floating-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/04-base-floating-details.png"
+    },
+    {
+      "sha256": "9fa8604cb7f00748dc363b930f2b42aba1250740e9a3ecf6e70749f64e86dcfa",
+      "bytes": 124762,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-floating-planned-audience",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/05-base-floating-planned-audience.png"
+    },
+    {
+      "sha256": "5eb36f86559504b1db5b13d6ee505e0e6ebb095feb78841b281792e55010adc9",
+      "bytes": 62714,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-floating-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/06-base-floating-workspace.png"
+    },
+    {
+      "sha256": "ee568a2d6ff67ca15f8289e65b99d61ce41b8754cf14911149a09d5ccb6ea99e",
+      "bytes": 139420,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-creator-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/07-head-creator-details.png"
+    },
+    {
+      "sha256": "1229928cd32e23fb3661a8250ad1c13363b786a22abe901756db496f1668cff9",
+      "bytes": 159982,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/08-head-creator-expanded-member.png"
+    },
+    {
+      "sha256": "261d92b945d8bd100850e0bd455a74cd4bd18c178fc12977121c038de8ddae3b",
+      "bytes": 70230,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-creator-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/09-head-creator-workspace.png"
+    },
+    {
+      "sha256": "b54ccd5a09a10d1e06067f28f2449ba360a3cb1395fcfa4b78e4c19c92d18a5e",
+      "bytes": 119466,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-floating-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/10-head-floating-details.png"
+    },
+    {
+      "sha256": "e3833a687e426e0fbebb23e73025aa4a5bfc772b15533824fc7a71f5101977d5",
+      "bytes": 124781,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-floating-planned-audience",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/11-head-floating-planned-audience.png"
+    },
+    {
+      "sha256": "f2dc633d9975623e2cf9ec9c90da32fa6cd0cda38850c3863c429b22201f7083",
+      "bytes": 62711,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-floating-workspace",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/12-head-floating-workspace.png"
+    },
+    {
+      "sha256": "1b5d9463b46df407f64181a2d4d4cdb44d1082a34da649ec61e563aeab93dcc4",
+      "bytes": 159966,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/13-base-creator-expanded-member.png"
+    },
+    {
+      "sha256": "4a2ef9f14973e388888e32ef7cb6383ae0dda06db2dcf1f0034968f96af14260",
+      "bytes": 156703,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-creator-list-bottom",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/14-base-creator-list-bottom.png"
+    },
+    {
+      "sha256": "e0401aa3b43f5cad226fbcd81f626913615162ae5ca052fa7e641cb9ecb76ce6",
+      "bytes": 159980,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-creator-expanded-member",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/15-head-creator-expanded-member.png"
+    },
+    {
+      "sha256": "5bee30a05461244cc05c7e1ae312bfbfecacd5f76309c9d5eb6cc8cb0a6a00ad",
+      "bytes": 156771,
+      "testedHead": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "variant": "head",
+      "state": "head-creator-list-bottom",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "view_image contact sheet scaled to710px wide; head creator-expanded and restricted audience also viewed original1440x1000",
+      "backendApplicationManifestSha": "d0006e401b92d4d6d0cf770d2ff6fafeae903e9e",
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "whagons5-client/1292/sweep-1017-d0006e40/16-head-creator-list-bottom.png"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. All video derivatives withheld."
+}
