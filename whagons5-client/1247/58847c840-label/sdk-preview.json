@@ -1,0 +1,65 @@
+{
+  "sdk": "@gonvex/client 0.1.32",
+  "beforeHead": "6536b3c239bfc369738ae163c1bbb4d1a485c249",
+  "afterHead": "58847c840333e8fb0705ca0fef6ab92a01ad2c63",
+  "phases": {
+    "before": {
+      "acknowledgmentsRequired": 1,
+      "followUpTaskMax": 1,
+      "groupCount": 1,
+      "groups": [
+        {
+          "key": "user:member_c814fc320eb340329e3eb1326c377bca",
+          "label": "member_c814fc320eb340329e3eb1326c377bca",
+          "recipientCount": 1,
+          "recipientUserIds": [
+            "member_c814fc320eb340329e3eb1326c377bca"
+          ],
+          "targetUserId": "member_c814fc320eb340329e3eb1326c377bca",
+          "warnings": []
+        }
+      ],
+      "presetEnabled": true,
+      "recipientCount": 1,
+      "recipientUsers": [
+        {
+          "_id": "member_c814fc320eb340329e3eb1326c377bca",
+          "id": "member_c814fc320eb340329e3eb1326c377bca",
+          "name": "zq7xE2E-4019-plain User",
+          "tenantId": "1e772ab8-1a73-653d-8608-c8705580eb23"
+        }
+      ],
+      "teamCount": 0,
+      "truncated": false
+    },
+    "after": {
+      "acknowledgmentsRequired": 1,
+      "followUpTaskMax": 1,
+      "groupCount": 1,
+      "groups": [
+        {
+          "key": "user:member_c814fc320eb340329e3eb1326c377bca",
+          "label": "zq7xE2E-4019-plain User",
+          "recipientCount": 1,
+          "recipientUserIds": [
+            "member_c814fc320eb340329e3eb1326c377bca"
+          ],
+          "targetUserId": "member_c814fc320eb340329e3eb1326c377bca",
+          "warnings": []
+        }
+      ],
+      "presetEnabled": true,
+      "recipientCount": 1,
+      "recipientUsers": [
+        {
+          "_id": "member_c814fc320eb340329e3eb1326c377bca",
+          "id": "member_c814fc320eb340329e3eb1326c377bca",
+          "name": "zq7xE2E-4019-plain User",
+          "tenantId": "1e772ab8-1a73-653d-8608-c8705580eb23"
+        }
+      ],
+      "teamCount": 0,
+      "truncated": false
+    }
+  }
+}

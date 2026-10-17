@@ -1,0 +1,67 @@
+{
+  "bridgeHead": "58847c840333e8fb0705ca0fef6ab92a01ad2c63",
+  "baselineHead": "6536b3c239bfc369738ae163c1bbb4d1a485c249",
+  "captureDate": "2026-10-16",
+  "platform": "Android 16 / API 36 existing QA emulator",
+  "installedPackage": "com.whagons.v5.qa3981",
+  "installedVersion": "5.1.43",
+  "installedBuild": 59,
+  "unchangedMobileJSSource": "d91aed9dead1d9ddbce1a0d5aa05d219c0f1e04a",
+  "storeContractSource": "v5.1.43 / 7ee3fdc8e9fb750cac78215678db009653689dc8",
+  "storeSDK": "@gonvex/client 0.1.32",
+  "environment": "isolated local Rust runtime with synthetic data; no shared staging or tenant data mutation",
+  "newAPKBuildOrInstall": false,
+  "appScreenSourceChanges": false,
+  "taskCreates": [
+    {
+      "kind": "comunicado",
+      "pgId": 35,
+      "taskId": "6c6726f6-aee7-8988-92d9-dc4c4af7f152",
+      "workspaceId": "e2e_tdn0i8_workspaces_zq7xE2E-4019_zq7xE2E-4019_Workspace",
+      "templateId": "e2e_oip6pw_templates_zq7xE2E-4019_zq7xE2E-4019_Template",
+      "requiresAcknowledgment": true,
+      "approvalId": "b908effb-83bd-4190-a66a-abdbc06a6577",
+      "audienceRules": [
+        {
+          "audienceFilterTeamIds": [],
+          "audienceJobPositionIds": [],
+          "audiencePresetId": "870bcf16-5383-4e1a-bf8e-cb82cd25659d",
+          "audienceRoleIds": [],
+          "audienceSpotIds": [],
+          "audienceTeamIds": [],
+          "audienceUserIds": [],
+          "statusId": "e2e_1vkjstr_statuses_zq7xE2E-4019_zq7xE2E-4019_Open"
+        }
+      ],
+      "reopenedInAPK": true
+    },
+    {
+      "kind": "templated",
+      "pgId": 36,
+      "taskId": "0565e912-2f30-8d59-8553-c5799d54d221",
+      "workspaceId": "e2e_xh721a_workspaces_zq7xE2E-4019-general_zq7xE2E-4019-general_Workspace",
+      "templateId": "e2e_smh3ri_templates_zq7xE2E-4019-general_zq7xE2E-4019-general_Template",
+      "requiresAcknowledgment": null,
+      "approvalId": null,
+      "audienceRules": null,
+      "reopenedInAPK": true
+    },
+    {
+      "kind": "plain",
+      "pgId": 37,
+      "taskId": "3b677110-5a13-80ad-915d-06935e2e6432",
+      "workspaceId": "e2e_13sb9ce_workspaces_zq7xE2E-4019-plain_zq7xE2E-4019-plain_Workspace",
+      "templateId": null,
+      "requiresAcknowledgment": null,
+      "approvalId": null,
+      "audienceRules": null,
+      "reopenedInAPK": true
+    }
+  ],
+  "images": {
+    "after-audience.png": "2b07caf63fdb3b8fb983a0aeea5a0d327575ca354e107d3e1ebeee70872317d7",
+    "after-created-detail.png": "43f026d9532e27b6d553cf7f4dd3c9e54d1a0a1609ca46533e4a35eadabfa90e",
+    "after-templated.png": "e3e8798d78f6ed8e4baf86e9791a5b806a261d3e74bdcc70cd082197c94b9857",
+    "after-plain.png": "eea3c227618fc25c9d1ed5653a5e8ce0f019cf715fc113628aeb704086d97f52"
+  }
+}
