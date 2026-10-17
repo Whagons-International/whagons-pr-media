@@ -1,0 +1,1272 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1226,
+  "result": "browser-partial-blocked",
+  "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+  "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+  "scope": [
+    "Actual create/open; signature required and signed self checkout; picker rangeOverflow plus server max7-day rejection; actual Damaged return; authoritative returned/maintenance wait, unchanged damaged-to-available rejection; Back in service Good persists Available and history.",
+    "Actual Edit/Retire/Delete; lent deletion disabled and server rejected; after return deletion disables real QR and deleted URL is Tool not found. Category description clearing/deletion and uncategorization persist; existing asset prefill preserves typed fields; keyboard detail entry; restricted desktop/phone route and create/checkout reducers denied.",
+    "Actual R2 location/material minimum10, receive20, Count8 requires reason and writes\u221212 adjustment. New R2 contributes one low-stock item; exact global2 includes physically retained R1 item, both IDs verified. Material unit/location edits persist. Immediate reserve3\u2192Count2 blocks UI+server. Deterministic same open dialog preserves count2/reason through real reserve3, release, receive2; reserved/delta update without remount. Cleared draft quantity allows real task creation with no supply line.",
+    "Normal and bulk archive of separate R2 tasks cancel their own reservations, release exact stock, record movements and leave open queue. Actual Issue now2 to active R2 worker; worker actual use1; worker UI has no return and public return reducer rejected; manager actual unused return1; exact stored supply issued2/consumed1/returned1. Retained R1 balance row remains byte-identical8/3.",
+    "Actual request and material/location/movement filters, readable actor/recipient/reason and real task navigation. Filtered adjustment CSV exactly1 row with apostrophe formula protection; stock CSV exact2 fixture rows including retained R1 witness. Actual desktop/phone reload, loading, empty/search, forbidden/missing and server-refusal states; exact c151 before and91b after individually inspected, with supplementary scrolled phone cards/actions.",
+    "Step3 actual mobile/self/other and checkout-notification parts passed; overdue-native parts remain blocked."
+  ],
+  "limitations": [
+    "Cached native Rust runtime/module-host/sandbox compilation provenance remains unverified; exact app manifests/stored module/functions/schema/visibility were proved separately. No application scheduler defect is established from this harness failure.",
+    "The failed20s native assertion remains a failure. No later observation or manual reducer invocation substitutes for it.",
+    "Comparison source remains explicitly c151. Observed live5dd production runtime/build configuration/dependency equality does not claim all compiler/test inputs equal: TaskDialog.performance.test.tsx differs.",
+    "Raw failure outputs remain private; the disposable AuthEmulator login failure context and credential-bearing derivatives are excluded from public media.",
+    "No fresh video evidence was recorded. Only individually inspected/sanitized loaded-state PNGs are eligible."
+  ],
+  "captures": [
+    {
+      "sha256": "51826320b2dd057b7f65785eea41c3cd508be7f9d745606e6051d0e2ef653ba6",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "Current-head tools dashboard with physically retained R1 fictional loans; not empty.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image. Filename says empty, but actual retained R1 fictional tools visible; label as retained-data dashboard.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/01-head-01-tools-empty.png"
+    },
+    {
+      "sha256": "909ae7237b23a677a2f6b98e5e572867d0bf0bfe9591b6d5048336da98149f4d",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 02 signature due limit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/02-head-02-signature-due-limit.png"
+    },
+    {
+      "sha256": "a84604af37e630748768236321cac01343e50868fdb2d611d464ab0fdd7424fc",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 03 self loan delete blocked",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/03-head-03-self-loan-delete-blocked.png"
+    },
+    {
+      "sha256": "c1bb0ec12ccc967bd27d388d161869bcc7711953f815e254ae17aeed2ab4fe09",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "Count8 with reason entered before save; mandatory-reason disabled state was asserted earlier.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/04-head-12-count-reason-required.png"
+    },
+    {
+      "sha256": "4f1fd8d66b4b6b642a5cb7211e5d69ed381496c3669617e7a81a6a0d27250051",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 13 low stock eight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/05-head-13-low-stock-eight.png"
+    },
+    {
+      "sha256": "bf476ae624c975916777e5132b8f0ae2e3213f148f33c45d4451d838b81f9d69",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 16 task reserved",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/06-head-16-task-reserved.png"
+    },
+    {
+      "sha256": "2aca1f1b658e3f1919161bef727bad1b2b94a5b0325dbc0fa5ae759691ed9d12",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 17 below reserved refused",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/07-head-17-below-reserved-refused.png"
+    },
+    {
+      "sha256": "1ed0060da1f4032dc5f3249b6210a176103142b7e9d3d295c2cf9ec24dababc2",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 18 archive closed request",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/08-head-18-archive-closed-request.png"
+    },
+    {
+      "sha256": "c488c585922f80d2541cfbe343b3024f5b7c4172c75b907f503ecf0d5f270c53",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 19 archive release movement",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/09-head-19-archive-release-movement.png"
+    },
+    {
+      "sha256": "857d8356a875ceccccd122ed0c27e82e5749bec1206dfe0fc5bee998e35ea04a",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 20 category cleared",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/10-head-20-category-cleared.png"
+    },
+    {
+      "sha256": "2f52f33e9f76b960d1bbe72e6489a569042fc8f84391fc76938b944163c0f513",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 21 asset preserves typed",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/11-head-21-asset-preserves-typed.png"
+    },
+    {
+      "sha256": "029c0f469c270342c1119f02791267ac6f38b8a27d00eef34030440cd6516bd2",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 22 uncategorized keyboard detail",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/12-head-22-uncategorized-keyboard-detail.png"
+    },
+    {
+      "sha256": "a054a120703e2b050e6229706d4c78b58fcf13716902cc40cd6bcb8358c1c6af",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 27 bulk selection",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/13-head-27-bulk-selection.png"
+    },
+    {
+      "sha256": "4a2fa0bd69269231acb281126b820f246ed60dbe15502c4d0ef3212dbfad70b7",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 28 bulk archive release",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/14-head-28-bulk-archive-release.png"
+    },
+    {
+      "sha256": "5e89f8606dafaf6dddaa119f1b9b025218254df00bda2077ede9ce1a82ebb45a",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 29 issued to worker",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/15-head-29-issued-to-worker.png"
+    },
+    {
+      "sha256": "31935c17d0e220ab4844d0decd61a2edac0ac8ed6ce46527cdb7b2430f17d6bf",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 29b with workers filter",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/16-head-29b-with-workers-filter.png"
+    },
+    {
+      "sha256": "06fa3aa0aae43c9610b6acfd6234d6f96d5859b83745a7879f737ee4b0820d7d",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 30 worker consumed no return",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/17-head-30-worker-consumed-no-return.png"
+    },
+    {
+      "sha256": "2f845de8ecc05f0843f7c640eca9981ff7042d08e3ee7ce82a9693ad08d26003",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 33 manager unused return",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/18-head-33-manager-unused-return.png"
+    },
+    {
+      "sha256": "69f9201939743390c633101dc5e3f7d363d5b5092fad9072b76c3f9b913a7131",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "All requests loaded, upper viewport with issued/bulk-archived/live-balance rows; lower normal-archive row asserted by test.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/19-head-34-all-requests-archived.png"
+    },
+    {
+      "sha256": "e9d83d42458393cbb2f23317fe1a3fdb16ca3a3a31c6eb0d6439da68e711424d",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 35 issued person task",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/20-head-35-issued-person-task.png"
+    },
+    {
+      "sha256": "d13e2af732cb06581f56fe00e60fd36d094cdc9fc068c2c2fef753719713cdb2",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 35b movement opens task",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/21-head-35b-movement-opens-task.png"
+    },
+    {
+      "sha256": "6beb05ec4216afd99bc288c690f9bfa4b782157e535f490c6a658d2f6aa7ec57",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 39 restricted desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/22-head-39-restricted-desktop.png"
+    },
+    {
+      "sha256": "79e9578f12afca32d337f7331206973b77ab36bb54a22db31e57aa5d3b4040f0",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 40 restricted phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/23-head-40-restricted-phone.png"
+    },
+    {
+      "sha256": "da81fed3ee5a219d2ef0699a268b05c4bbb976db1cf7ff5db5332c61327bd68f",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 41 cleared draft save enabled",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/24-head-41-cleared-draft-save-enabled.png"
+    },
+    {
+      "sha256": "abb5ec3c7e42cc4d5559e4e6eea49e42247074df07ab074663b98a4472f88938",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 42 cleared draft created",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/25-head-42-cleared-draft-created.png"
+    },
+    {
+      "sha256": "1741411dd1e06003f5c6e5450208097f971d7ec3956fbf8d04f0f21d851ac9ee",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 43 live reservation preserves draft",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/26-head-43-live-reservation-preserves-draft.png"
+    },
+    {
+      "sha256": "60c11b66b711a0d255a4e9a23ada34381db79477cd394722a32d90b13eb2ac43",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "Live Count dialog10onHand/0reserved, same count2/reason and delta\u22128; visible dimmed background8/3 association to selected row is unproved, retained R1 also8/3.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data, no credentials or customer data. Actual UI inspected individually using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/27-head-44-live-onhand-delta-draft-retained.png"
+    },
+    {
+      "sha256": "ec5b7257bfd6691bb2cb62cb97a850aa2d9d1e862bd52e4a04ab90909e978e4b",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualTree": "323013822458066c1e275c5b3b8923dc74bc0dad",
+      "variant": "base",
+      "state": "base 01 tools dashboard",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/28-base-01-tools-dashboard.png"
+    },
+    {
+      "sha256": "462940f066ebf41f77ca6ed9c316b6e64a34bb3db93a0801ebc361389007c954",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualTree": "323013822458066c1e275c5b3b8923dc74bc0dad",
+      "variant": "base",
+      "state": "base 02 tool detail actions",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/29-base-02-tool-detail-actions.png"
+    },
+    {
+      "sha256": "4f4a5f97cd59ccd8321e5ab389064350deb7446b7ffa2bdda59d5a14462f1523",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualTree": "323013822458066c1e275c5b3b8923dc74bc0dad",
+      "variant": "base",
+      "state": "Baseline checkout form: Expected return input IS present, source has no max-date bound; no absent-date-input claim.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image. Actual Expected return control exists; filename means no max-date constraint, not absent date input. Record generic baseline checkout state.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/30-base-03-checkout-no-due-limit-control.png"
+    },
+    {
+      "sha256": "a0ba27873f58caa2572ac8fa73d5b3b0ef3ad0f47be13591e3f1a3bd95fec7be",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualTree": "323013822458066c1e275c5b3b8923dc74bc0dad",
+      "variant": "base",
+      "state": "base 04 phone tool actions",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/31-base-04-phone-tool-actions.png"
+    },
+    {
+      "sha256": "120f3defaa366d75c7981155da1bd8bcb7096d11938252ccb6abff3636f75490",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualTree": "323013822458066c1e275c5b3b8923dc74bc0dad",
+      "variant": "base",
+      "state": "base 05 stock no count or edit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/32-base-05-stock-no-count-or-edit.png"
+    },
+    {
+      "sha256": "d9443d3c4bf133ac1c35c7ab01888da8873537ff99e760b206ef469ec034b892",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualTree": "323013822458066c1e275c5b3b8923dc74bc0dad",
+      "variant": "base",
+      "state": "base 06 movements no filter or csv",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/33-base-06-movements-no-filter-or-csv.png"
+    },
+    {
+      "sha256": "ad3566a5fcb3d11620f03ad61fab7d85a6acb279d3fd5fe4d41e176a0edf8119",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 04 repaired available",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/34-head-04-repaired-available.png"
+    },
+    {
+      "sha256": "a967ad43bed08dd6f36c5c430e3726984548f9ae535fdf26a321ede77739dba3",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 05 loan history",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/35-head-05-loan-history.png"
+    },
+    {
+      "sha256": "119eb21b4eca9eb66f85758e45243082b2474560d8b44f7630bcbd0dc3d485ea",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 06 phone other checkout",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/36-head-06-phone-other-checkout.png"
+    },
+    {
+      "sha256": "f004b0e3648e25a8626e178b345681a61e5bb8ccb3fa0fe29959c52e54a5cb92",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 07 phone returned",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/37-head-07-phone-returned.png"
+    },
+    {
+      "sha256": "d485e6edaae5a4fe85eca2088da2a4f74fe5453042e25e76a9a24d373e0b0504",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 08 other named history",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/38-head-08-other-named-history.png"
+    },
+    {
+      "sha256": "63b2e3f7bf06e4de831f02ec391617f73839eabbebb255c1755cc758f230079e",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 09 retired",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/39-head-09-retired.png"
+    },
+    {
+      "sha256": "4e13b284adb270f1895e36a14494430f5e0f5a3d4a94edc9a6a702f2449170a6",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 10 deleted url",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/40-head-10-deleted-url.png"
+    },
+    {
+      "sha256": "c56bea05e94abc0a455db3553f97a85256e69c5f7ffffe57b5b515eb9e189b4e",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 10b disabled qr url",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/41-head-10b-disabled-qr-url.png"
+    },
+    {
+      "sha256": "b9cde57af6a31d9f3ba903b1aeddd11d347ee43ba437818c93e30091c923b9cf",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 15 filtered formula safe csv",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/42-head-15-filtered-formula-safe-csv.png"
+    },
+    {
+      "sha256": "77879c397ee0b1648846c081abdb324f5e95c80483c3591478b4ef187257e293",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 38 empty filter",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/43-head-38-empty-filter.png"
+    },
+    {
+      "sha256": "d5bd96b7761c156e24a602d3a0be46854847522e8ba610d10a3d7fa0ae1f3b62",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 45 damaged maintenance authoritative",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/44-head-45-damaged-maintenance-authoritative.png"
+    },
+    {
+      "sha256": "1e3924395abbefd2d071172dbdb95bf2677b85c58bc081be524b4f8f83b0d0d0",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 46 stock csv retained exact rows",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Fictional local data. Individually inspected using view_image.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/45-head-46-stock-csv-retained-exact-rows.png"
+    },
+    {
+      "sha256": "1d7dc6b203e2a6071e987cd2bd730bb2d273511e5373170ce492258d3e97a73d",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualTree": "323013822458066c1e275c5b3b8923dc74bc0dad",
+      "variant": "base",
+      "state": "base 08 phone scrolled stock",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Actual c151 baseline phone stored stock card after scrolling; fictional local data only.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/46-base-08-phone-scrolled-stock.png"
+    },
+    {
+      "sha256": "e9624616bccb6d7f1203b72aece0eae957218ee2c9694084999c21c067b42773",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 47 phone scrolled release card",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Real app390x844 scrolled to actual loaded fictional R2 data/actions. No credentials/customer data.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/47-head-47-phone-scrolled-release-card.png"
+    },
+    {
+      "sha256": "3e5194b7105c387e38ffe85fefe8da70535d5c38f66d82333e6a733ed7c01542",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 48 phone scrolled stock count",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Real app390x844 scrolled to actual loaded fictional R2 data/actions. No credentials/customer data.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/48-head-48-phone-scrolled-stock-count.png"
+    },
+    {
+      "sha256": "5c154576c96e9eec5b285cefbdba7fcf2243f3b914e16fc83a23485af59e72ba",
+      "head": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "testedHead": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "base": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "comparisonBase": "c1513f03f869e3e6526d1e32023e82a84a8552e0",
+      "actualSource": "91b03bbecf70f5cecefb18b7c65ac3cbdc168646",
+      "actualTree": "062666131c498363de3c1a3e5fa1bed595153d8f",
+      "variant": "head",
+      "state": "head 50 notification opens tool",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Actual loaded checkout notification and linked tool with fictional local borrower; this is not a native overdue reminder.",
+      "withheldReason": null,
+      "path": "whagons5-client/1226/sweep-1017-91b03bbe/partial/49-head-50-notification-opens-tool.png"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. All video derivatives withheld.",
+  "blocker": {
+    "howtoStep": 3,
+    "description": "At 20:33:00.438 UTC, queued tools.checkOverdueItems job cron_dde8429c8c5caa9e5544e55df6153130 remained pending after the existing 20-second bound. Its claim sequence was 0, claim token empty, run_at 20:32:41.228880 UTC, and completed_at null. R2 loan c3842f4c-9f83-87f6-8e0a-da6b6b9910ef and retained R1 loan 3881ca9f-2684-86e6-a76d-06549a08202a were active and unstamped. No completed job or reminder is present, and native execution is unproved. A final read at 20:37:06.886677 UTC after a normal preserved-project restart still found pending/claim sequence 0 and no reminders. Startup had re-synced run_at to October 18 at 08:00 UTC, so the final row is not described as still past due.",
+    "test": "final-head.spec.ts:13 \u2014 native overdue cron two actual completed scheduled jobs, one stamp and reminder",
+    "error": "expect.poll(actual queued job status).toBe(\"completed\") received \"pending\"; the existing 20,000 ms expectation expired.",
+    "nextStep": "Provide a trusted local native runtime/job-runner setup that actually claims the queued committed cron; independently execute the same overdue loan twice, record both completed job IDs, one reminder stamp/notification and its actual UI link. Preserve R1 data and failed bounds. Cached binary source provenance is unverified, so an application scheduler defect is not established."
+  },
+  "notTested": [
+    "Two actual completed native cron executions on same overdue loan; no native execution proved.",
+    "Transactional overdue reminder deduplication/stamp and overdue-reminder notification name/link after actual native run.",
+    "No video recording/publication or continuous playback evidence claimed."
+  ],
+  "additionalVisualFindings": [
+    {
+      "finding": "Capture 44 shows the foreground Count dialog at 10 on hand / 0 reserved, with delta \u22128 and the typed draft retained. Visible dimmed background text reads 8/3. No DOM or trace was saved at that moment to prove the row association; intentionally retained R1 is also 8/3. No confirmed mismatch or application defect is claimed.",
+      "sources": [
+        "whagons5-client/1226/sweep-1017-91b03bbe/partial/27-head-44-live-onhand-delta-draft-retained.png",
+        "whagons5-client/1226/sweep-1017-91b03bbe/partial/45-head-46-stock-csv-retained-exact-rows.png"
+      ],
+      "nextStep": "Coach may inspect the capture and establish row association before judging any mismatch. No animation or cause is claimed."
+    }
+  ]
+}
