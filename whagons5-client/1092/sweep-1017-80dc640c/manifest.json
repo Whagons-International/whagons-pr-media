@@ -1,0 +1,591 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1092,
+  "result": "browser-pass",
+  "head": "80dc640c5218f4ebe698e40329e2357125ede097",
+  "base": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+  "scope": [
+    "Exact staging Today/pipeline comparison with separately installed base backend",
+    "Real OpenRouter Jev/gpt-4o-mini rank, draft, clipboard copy and mailto values",
+    "Schedule prefill, saved activity, handled state, urgent pipeline marker and reload persistence",
+    "390x844 ranked card, draft, scheduling and reload persistence",
+    "Absent provider visible error, earlier ranking retained across reload"
+  ],
+  "limitations": [
+    "Browser account was a local tenant owner. Restricted-role visibility is covered by source tests; no second-role browser session.",
+    "Mailto URL and clipboard contents were verified; no external mail client was launched or message sent.",
+    "Cached native binaries have recorded hashes; their compilation source is unverified.",
+    "Fictional fixtures were reset between distinct runs; live model reasons can differ.",
+    "Provider-absent UI exposes a raw runtime capability error; no credential value is displayed.",
+    "Phone prefill transition capture is private; stable desktop prefill and completed phone workflow are published.",
+    "Review harness initial failures preserved: missing preview mode, alias hostname, invalid afterEach timing field. Assertions were unchanged.",
+    "All app tests/render jobs finished before own service harness exited127 at eep during shutdown after an in-place script edit; cleanup removed provider secret, stopped scope and closed all nine ports.",
+    "Videos are edited/slowed actual recordings. Every selected source frame was inspected; continuous playback is not claimed."
+  ],
+  "captures": [
+    {
+      "sha256": "208ecef1ec854b3c752b2913c8e310b908db1a6c73271edddb1946db4a9d3e46",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "state": "base-01-powerup-enabled",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:29.755849+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/01-base-01-powerup-enabled.png"
+    },
+    {
+      "sha256": "b43c5745a71648e50a3f0638e3f938a7ef5e39b8dee018d8fa791cd738ebcd39",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "state": "base-02-today-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:32.431805+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/02-base-02-today-desktop.png"
+    },
+    {
+      "sha256": "92d352be93f68ebb3c45901d1345a04ef36949543324f95f930ffeb58cf73c07",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "state": "base-03-pipeline",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:33.638991+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/03-base-03-pipeline.png"
+    },
+    {
+      "sha256": "7b3859cead55e76fcd1765773cae734fa12f3dccecedf311216a23db89a2c300",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "state": "base-04-today-phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imageSize": [
+        390,
+        844
+      ],
+      "captureAtUtc": "2026-10-17T18:07:34.888100+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/04-base-04-today-phone.png"
+    },
+    {
+      "sha256": "3a2c51cd4c838bd54caa8c9b723019cbcb75c7049942024925ec72a05f1cd7b7",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-01-powerup-enabled",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:14:14.046482+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/05-head-01-powerup-enabled.png"
+    },
+    {
+      "sha256": "d2dc2e4705f8112d0b06ddaf73e0e87409206374845bcfc75d80d8d0acf30f8f",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-02-today-before-ranking",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:14:15.922508+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/06-head-02-today-before-ranking.png"
+    },
+    {
+      "sha256": "77fbe45beae79b4599b40521e83622efc8446fdba90221aff7cb3ea9010e7580",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-03-ranking",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:14:16.458516+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/07-head-03-ranking.png"
+    },
+    {
+      "sha256": "d6ab1fc273a8b5632d6542506cf30e3b3e6bc6374fcf2d217920d5fb4123794e",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-04-ranked",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:53.542181+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/08-head-04-ranked.png"
+    },
+    {
+      "sha256": "f2b4e2ffaa6ceabf1ffabc22afa863391a5750ab836633fff6db99f27e2f2a79",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-05-pipeline-marker",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:55.320138+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/09-head-05-pipeline-marker.png"
+    },
+    {
+      "sha256": "c14d3653f264531922a53bd455d6682b34b8d057bb2dd52ffa3904fe921c2dc8",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-06-draft-email",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:56.841886+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/10-head-06-draft-email.png"
+    },
+    {
+      "sha256": "a07ac65ede0adc01e82178fc8417aacb5c24b00cff3f8129c6e099bb23ba3d90",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-07-schedule-prefilled",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:57.506767+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/11-head-07-schedule-prefilled.png"
+    },
+    {
+      "sha256": "33ad9a0ac001cccc7a961e2a264d11a6e3d14e7831b59c1fb31b39d4afc2db47",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-08-handled",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:07:58.080245+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/12-head-08-handled.png"
+    },
+    {
+      "sha256": "5cb1400c8b1902d6b0c7edad9c11e20c413ef88086034967597d241526cff547",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-09-today-phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imageSize": [
+        390,
+        844
+      ],
+      "captureAtUtc": "2026-10-17T18:07:58.175374+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/13-head-09-today-phone.png"
+    },
+    {
+      "sha256": "8de42081b8f1a16a3148c3b710469c3cff850f02389570584541241a7c552f1d",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-10-phone-reloaded",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imageSize": [
+        390,
+        844
+      ],
+      "captureAtUtc": "2026-10-17T18:07:59.187260+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/14-head-10-phone-reloaded.png"
+    },
+    {
+      "sha256": "9462ee6da4b76d3671f43ed4a43f473f6353a843484450a18c1517afc0a7f6b1",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-11-provider-error",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:02:48.925916+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/15-head-11-provider-error.png"
+    },
+    {
+      "sha256": "c3fabb8f70f79d62b7e08158cebef2a69c6a7eb180eb0100d308d8fae28c441a",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-12-prior-ranking-retained",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imageSize": [
+        1440,
+        1000
+      ],
+      "captureAtUtc": "2026-10-17T18:02:50.001391+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/16-head-12-prior-ranking-retained.png"
+    },
+    {
+      "sha256": "0e8c2c1841f83a6b906fafac6cc3e310dddf5a3309265de07ba146b0ca2c129a",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-13-phone-ranked",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imageSize": [
+        390,
+        844
+      ],
+      "captureAtUtc": "2026-10-17T18:14:19.967565+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/17-head-13-phone-ranked.png"
+    },
+    {
+      "sha256": "beaf13199dd51f6376c49703444bc8571e5f9cc27da5e79ad6b1a7eba26155c4",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-14-phone-draft",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imageSize": [
+        390,
+        844
+      ],
+      "captureAtUtc": "2026-10-17T18:14:20.083566+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/18-head-14-phone-draft.png"
+    },
+    {
+      "sha256": "8de42081b8f1a16a3148c3b710469c3cff850f02389570584541241a7c552f1d",
+      "kind": "screenshot",
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "state": "head-16-phone-scheduled-persisted",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imageSize": [
+        390,
+        844
+      ],
+      "captureAtUtc": "2026-10-17T18:14:22.070148+00:00",
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image full-resolution screenshot; actual UI, English fictional fixtures",
+      "sanitized": true,
+      "publicEligible": true,
+      "exclusion": null,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/19-head-16-phone-scheduled-persisted.png"
+    },
+    {
+      "sha256": "36136ebf7d4940e33814626ab4ccdc6afcad23caabd2b38d4647719a8193d12e",
+      "bytes": 47666,
+      "kind": "video",
+      "sourceVariant": "base",
+      "durationSeconds": 5.5,
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sourceCommit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceFramesOneBased": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        16,
+        17,
+        18,
+        19
+      ],
+      "edited": "Removed loading/viewport setup, slowed display to2source frames per second; output6fps duplicates frames. No frame content added.",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Every selected source output frame inspected on six contact sheets; final GIF first frame inspected; deterministic duplicates/cuts add no frame content. Continuous playback not claimed.",
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/20-base.mp4"
+    },
+    {
+      "sha256": "dd3dc68f1ad124ed3f0fd3115c067e3034e5cab6f837ab16f5fafdffe1a38de1",
+      "bytes": 232333,
+      "kind": "animated-gif",
+      "sourceVariant": "base",
+      "durationSeconds": 5.5,
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sourceCommit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "sourceFramesOneBased": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        16,
+        17,
+        18,
+        19
+      ],
+      "edited": "Removed loading/viewport setup, slowed display to2source frames per second; output6fps duplicates frames. No frame content added.",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Every selected source output frame inspected on six contact sheets; final GIF first frame inspected; deterministic duplicates/cuts add no frame content. Continuous playback not claimed.",
+      "animatedFrames": 33,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/21-base.gif"
+    },
+    {
+      "sha256": "fafe2d6eefdbba354d285161c0eb6f3a1c5728e9d505d0c40ea4f9cd45ca01a3",
+      "bytes": 105426,
+      "kind": "video",
+      "sourceVariant": "head",
+      "durationSeconds": 8.5,
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sourceFramesOneBased": [
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "edited": "Removed loading/viewport setup, slowed display to2source frames per second; output6fps duplicates frames. No frame content added.",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Every selected source output frame inspected on six contact sheets; final GIF first frame inspected; deterministic duplicates/cuts add no frame content. Continuous playback not claimed.",
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/22-head.mp4"
+    },
+    {
+      "sha256": "81e0ac49978749ea38875a900949836a449e12de5bc38c9ff557cfdd8cf836f8",
+      "bytes": 519576,
+      "kind": "animated-gif",
+      "sourceVariant": "head",
+      "durationSeconds": 8.5,
+      "testedHead": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sourceCommit": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sourceFramesOneBased": [
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "edited": "Removed loading/viewport setup, slowed display to2source frames per second; output6fps duplicates frames. No frame content added.",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Every selected source output frame inspected on six contact sheets; final GIF first frame inspected; deterministic duplicates/cuts add no frame content. Continuous playback not claimed.",
+      "animatedFrames": 51,
+      "path": "whagons5-client/1092/sweep-1017-80dc640c/23-head.gif"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. Edited clips include only visually inspected source frames; all raw recordings remain private."
+}
