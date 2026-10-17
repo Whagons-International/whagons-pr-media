@@ -1,0 +1,434 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1202,
+  "result": "browser-pass",
+  "head": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+  "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+  "scope": [
+    "Built exact base and head separately from matching installed dependencies; asserted own project ID only in each built bundle.",
+    "Created fixed Friday/Saturday09\u201317 Europe/Zurich schedule through UI; saved/reopened. Created rotating schedule with anchored Oct12 start and real22\u201306 overnight shift, reopened persisted zone/date.",
+    "Assigned direct schedule through actual People\u2192Work UI, reloaded, changed effective end, cleared it, waited unchanged-bound authoritative null and reloaded empty. Priority100 survived.",
+    "Real profile matrix: current direct beats high team/position priority; future direct becomes effective Nov2; team10 beats team1; then job-position and default fallbacks. Restored all matrix fixtures through public reducers.",
+    "Ordinary requester in America/Los_Angeles previewed/saved future Thursday\u2013Monday as exactly2 scheduled days, reloaded pending and saw overlap and annual-limit rejection. These initial sequential assertions/captures completed before the first scope OOM; no complete result is claimed for the OOM run. Their persisted original request ID was reconciled before any continuation.",
+    "Fleet Manual UI refused08\u201308:30 outside schedule, then created09\u201309:30 booking. Separate actual approver approved original leave; updating same task into leave interval returned generic crew-unavailable without private reason. Same task/crew/start/end proved unchanged authoritatively after refusal.",
+    "Actual requester cancelled eligible approved future leave. Same task and crew could then be retimed and persisted, and reopened UI showed saved10\u201310:30 Zurich. No uncertain writes repeated after OOM.",
+    "Separate requests cancelled and rejected; exact IDs/statuses reconciled after asynchronous decisions; reload and balances restored.",
+    "Approval-free type submitted by ordinary member became Approved with zero approval instances and appeared in WorkingHours. Unconfigured ordinary member saw explicit Mon\u2013Fri3-day fallback and lacked schedule edit/team review actions.",
+    "Real manager roster/upcoming leave, ordinary dashboard, approver withdrawal notification and requester approval/rejection notifications verified. Desktop1440x1000 and compact390x844 captures inspected."
+  ],
+  "limitations": [
+    "Unverified compilation source of read-only cached native runtime; binaries hashed in setup receipt.",
+    "External email/push delivery not tested; actual in-app notifications were checked.",
+    "Restricted ordinary requester list rendered historical rejection actor as Unknown member; actual approver identity and role are proved separately. No privacy permission broadened to expose it.",
+    "Browser sign-out/sign-in occasionally logged transient closed-auth synchronization; existing helper recovered within unchanged bounds.",
+    "No production/customer access, source changes, GitHub writes/labels/flags/approval, queue, merge or Coach image pass claimed."
+  ],
+  "captures": [
+    {
+      "sha256": "766b28b5dedd2befe582af8d19d6ee61779361aa6c37737d060b6a7a37d96249",
+      "bytes": 57920,
+      "source": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "backendApplicationManifestSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-01-working-hours",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034604+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/01-base-01-working-hours.png"
+    },
+    {
+      "sha256": "abb4f0c6bc526e77e8bd1b883eb88a877cca20f1635ad5f49087d83a25b39418",
+      "bytes": 71069,
+      "source": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "backendApplicationManifestSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-04-people-work",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034651+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/02-base-04-people-work.png"
+    },
+    {
+      "sha256": "798203b8923de2f1e2354e8df04d9cc19cd9070b0ddad91a8d174a22cf40873f",
+      "bytes": 59538,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-03-saved-schedule",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034686+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/03-head-03-saved-schedule.png"
+    },
+    {
+      "sha256": "f4b119fab146520e880bc9fe5c22b7d31979c79de02384a981d87b5eee13fdf8",
+      "bytes": 102162,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-05-people-reloaded",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034723+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/04-head-05-people-reloaded.png"
+    },
+    {
+      "sha256": "cd27dd6512066c80377d58c66548bb22352fb97c0fe23b9c326c9e137c8526ef",
+      "bytes": 71622,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-09-two-scheduled-days-la",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034754+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/05-head-09-two-scheduled-days-la.png"
+    },
+    {
+      "sha256": "66e053eb82da550718561c26193f1db55d74462a8814971392d823eeae77a66d",
+      "bytes": 61682,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-13-separate-approver",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034782+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/06-head-13-separate-approver.png"
+    },
+    {
+      "sha256": "2f38668dd6b5bc54147563f7763b0555ed7663d57530f2879a49304db28ddcb0",
+      "bytes": 126743,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-22-rotation-persisted",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034821+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/07-head-22-rotation-persisted.png"
+    },
+    {
+      "sha256": "1db0e0a94603cd87a357b276323894f9f97a6045860d205dce0592f43a66f195",
+      "bytes": 76031,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-25-explicit-default-workweek",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034850+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/08-head-25-explicit-default-workweek.png"
+    },
+    {
+      "sha256": "07d003a9c8303613e186207e951a807afbd9dcb6b0e259c66f556288411e7f60",
+      "bytes": 71770,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-26-fleet-leave-save-refused",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034878+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/09-head-26-fleet-leave-save-refused.png"
+    },
+    {
+      "sha256": "8ab73ac58342ff12452a2cb81545a168da6808e27788b3e1d1b5e636c5f68052",
+      "bytes": 106810,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-32-team-priority",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034912+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/10-head-32-team-priority.png"
+    },
+    {
+      "sha256": "147d2d652eee54fc0278b6f01e43e609014a1dee968dd35090a389140ade0d16",
+      "bytes": 76913,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-35-automatic-approval",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034945+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/11-head-35-automatic-approval.png"
+    },
+    {
+      "sha256": "eb482b836090954e141eaec6ecd413b7c3f638bcc42e88a4a63b1ab81f5617f7",
+      "bytes": 38825,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-38-cleared-assignment-detail",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1232,
+        "height": 560
+      },
+      "captureKind": "element",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034972+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/12-head-38-cleared-assignment-detail.png"
+    },
+    {
+      "sha256": "7c115d161eb3bd8af297371ad606ebd986a4385ef2e57d418abb25bb255cf242",
+      "bytes": 36069,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-41-compact-upcoming-leave",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pixelSize": {
+        "width": 390,
+        "height": 844
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.034994+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/13-head-41-compact-upcoming-leave.png"
+    },
+    {
+      "sha256": "14ee452d6bf6429ba3a65390dbc001a62958e48e8143842e45acd623431fbf11",
+      "bytes": 120100,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-42-fleet-reopened-recovered",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.035030+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/14-head-42-fleet-reopened-recovered.png"
+    },
+    {
+      "sha256": "40880962af43f5f20852953eb1de419ce69ca8d83007889de1e12ce2bcd7d32e",
+      "bytes": 80643,
+      "source": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "visuallyInspected": true,
+      "testedHead": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "backendApplicationManifestSha": "ba6bb60165b374d385eba8c5e5741d4274e74c58",
+      "variant": "head",
+      "state": "head-43-settled-manager-dashboard",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureKind": "page",
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed each original PNG with view_image; synthetic local QA fixture only; no customer/tenant records, production login, credentials, auth tokens, secret fields or diagnostic dumps in selected pixels. No image edits/redactions were needed.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), independent browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:32:03.035058+00:00",
+      "path": "whagons5-client/1202/sweep-1017-ba6bb601/15-head-43-settled-manager-dashboard.png"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. All video derivatives withheld."
+}
