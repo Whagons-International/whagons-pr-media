@@ -1,0 +1,1123 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1223,
+  "result": "browser-pass",
+  "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+  "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+  "scope": null,
+  "limitations": [],
+  "captures": [
+    {
+      "sha256": "f59ba90dfa62807cd6b932c4f6d13f7d1e0a22d317d620c96fffd9d1a4fbda8f",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-01-types",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/01-base-01-types.png"
+    },
+    {
+      "sha256": "f40049a3796e7490bd3931bd05b8665d0a2f4f9dd706eebaf1d3fa8c1a06e815",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-02-asset-form",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/02-base-02-asset-form.png"
+    },
+    {
+      "sha256": "dcae7eade7306ff1bf59ecfbb8578b61b2cdd3d69a43415baf8a016df9c9b461",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-03-inventory",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/03-base-03-inventory.png"
+    },
+    {
+      "sha256": "1a7d20b1d7b20e393ef0384f5f11199ad012a477277f20f71066e1a07e6dbdf2",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-04-detail",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/04-base-04-detail.png"
+    },
+    {
+      "sha256": "8dbbfe6789f22e465a29ae83e5ee94b00bcc463f366e2f8ddac650db863d27cd",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-04b-custom-values-lost-after-reload",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/05-base-04b-custom-values-lost-after-reload.png"
+    },
+    {
+      "sha256": "d00a0d1c1f396305f31130ae9aae1a93e351a23ae7d8c5fe680d811bbe76b578",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-05-maintenance",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/06-base-05-maintenance.png"
+    },
+    {
+      "sha256": "748f634cd58432bef48d1f01586ddd6a9188970c4145de87542c63be4076c029",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-01-types-required-fields",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/07-head-01-types-required-fields.png"
+    },
+    {
+      "sha256": "60205c701db831f0255bfe434fa4ecd34251a2852a744ddcf8d2782e9e59f89f",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-02-required-save-blocked",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/08-head-02-required-save-blocked.png"
+    },
+    {
+      "sha256": "08df9e511e3be3dbc65b7d00b5ac3e6c78da3344be58caa490a620e8ec907266",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-03-detail-persisted",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/09-head-03-detail-persisted.png"
+    },
+    {
+      "sha256": "70c2a6bb68df9f1108312c29b8ec9577df88864a3f062f0efe1bf0448dbf329c",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-03b-custom-values-after-reload",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/10-head-03b-custom-values-after-reload.png"
+    },
+    {
+      "sha256": "4237b2e1ead7ddc465cdaa36d38243886a163d6f2ff70fec35c22d5c2b891725",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-04-one-custom-history",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/11-head-04-one-custom-history.png"
+    },
+    {
+      "sha256": "339017f8f190f06aa78f404aa130fea803feddc19245ee4cf571b16352586b08",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-05-calendar-cost-advanced",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/12-head-05-calendar-cost-advanced.png"
+    },
+    {
+      "sha256": "218f32538d49555931fa48f1b4db50039081bbdaf1897d0806dc344b28762bb8",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-06-meter-plan-2020",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/13-head-06-meter-plan-2020.png"
+    },
+    {
+      "sha256": "1c1f0142326a47a00eeef3dbfb44a9c2472ad7d39900a7563915ae4801a3fdb1",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-07-duplicate-identifiers-clear",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/14-head-07-duplicate-identifiers-clear.png"
+    },
+    {
+      "sha256": "e878efd7abe568d7d318fd8cd76eca6b5a2f526091d4db42233fdd3eda5477a2",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-08-component-person",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/15-head-08-component-person.png"
+    },
+    {
+      "sha256": "11cc76bb9b39094cbb76c24c91000caa281ed9eec556a7d287c88c8689dbe78c",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-06b-older-reading-preserves-latest",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/16-head-06b-older-reading-preserves-latest.png"
+    },
+    {
+      "sha256": "3522c18bfa34771ef88108e51f93991a45dc15357d45fb1a517f82253f3180ec",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-07-duplicate-identifiers-clear",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/17-head-07-duplicate-identifiers-clear.png"
+    },
+    {
+      "sha256": "df2597a050a287ee9bfb456563d359e4728465840a3ecd651ac4224ae365d2bd",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-09-filtered-table-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/18-head-09-filtered-table-light.png"
+    },
+    {
+      "sha256": "2c2e99ebb69baa7adb091a35ca4bad208e8c4f8c25b10910f7bf309daabcd0d1",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-10-filtered-table-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/19-head-10-filtered-table-dark.png"
+    },
+    {
+      "sha256": "0fb707ad89d14040e42b3be3259f7751630d4ad3d20e837f431e209ff3af7f2a",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-11-inventory-compact-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/20-head-11-inventory-compact-dark.png"
+    },
+    {
+      "sha256": "9949e44632c3fc1476ff3bec5047cdc39f91a840e65bd4c6d7c9425378266573",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-12-detail-compact-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/21-head-12-detail-compact-dark.png"
+    },
+    {
+      "sha256": "42eb91bed96319d20e9656881ea3b00dbf720a0a4ae6ec81f72248bf1e6d735f",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-28-archived-component-empty-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/22-head-28-archived-component-empty-desktop.png"
+    },
+    {
+      "sha256": "ad6c8bd60243bde342a2ad745ba13ecbc1712f66a788e69f8201475e12a7806a",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-29-archived-component-empty-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/23-head-29-archived-component-empty-compact.png"
+    },
+    {
+      "sha256": "a082f4e25af7499c0ff3caca2dff96d67e0bd2100804420d6c23b2ea38b09f95",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-30-parent-components-after-archive",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/24-head-30-parent-components-after-archive.png"
+    },
+    {
+      "sha256": "bf93a89c8706d8a3e9127382c65cc4c2016248851bb01b87c8d40407f98e228a",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-13-nginx-types-reload",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/25-head-13-nginx-types-reload.png"
+    },
+    {
+      "sha256": "2afebcea29046109c53443329855ada4bf5a78d3ba80d24fe2aa2b4fb83a6a69",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-14-nginx-asset-reload",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/26-head-14-nginx-asset-reload.png"
+    },
+    {
+      "sha256": "9d5d4877faecb26cf790e065a7e1cbb58d4139ba0ca87a90cfba4cec1be2c7a4",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-27-real-provider-loading-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/27-head-27-real-provider-loading-compact.png"
+    },
+    {
+      "sha256": "e452d4326eaa65e7a202903c5a17eb4dcf50c0c5ff3ab76664ef9a5cbdde50b6",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-20-real-provider-loading-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/28-base-20-real-provider-loading-desktop.png"
+    },
+    {
+      "sha256": "917103869205ab39554034e1754bd76ce8b66b95dc06714b773f6bd7b560e199",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-21-real-provider-ready-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/29-base-21-real-provider-ready-desktop.png"
+    },
+    {
+      "sha256": "7d50ea5ab0d3ca7e03e3c657443bc380d68777e01a55d48ff4b5fc5549afd8fe",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-22-manually-panned-zoomed",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/30-base-22-manually-panned-zoomed.png"
+    },
+    {
+      "sha256": "41f67a66cc9f1d8fd12b082b0ced762f664b2f50ab7087a7fd47681e5dc3c59b",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-23-after-location-update-and-tick",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/31-base-23-after-location-update-and-tick.png"
+    },
+    {
+      "sha256": "17c3e55fe69efa75585f387bc1de1a06d95b3ea8aa7dafff9ae98b15320273cf",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-24-empty-filter-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/32-base-24-empty-filter-desktop.png"
+    },
+    {
+      "sha256": "dbd2faf3227ed082a18c6ee83638e836373dbbfcee2a02c99c0f1d63a2576f91",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-25-empty-filter-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/33-base-25-empty-filter-compact.png"
+    },
+    {
+      "sha256": "d113964eefecc548a4cfdcf987f9438601d72be986cb56423af9e10a570242d3",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualTree": "1a113f72d0c05cf83f3458ddf796858106830184",
+      "variant": "base",
+      "state": "base-26-real-provider-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/34-base-26-real-provider-compact.png"
+    },
+    {
+      "sha256": "b51a210be63adf58ee6fd509f3508cba6a4536c8844954c113150d3386a4c74e",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-20-real-provider-loading-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/35-head-20-real-provider-loading-desktop.png"
+    },
+    {
+      "sha256": "bce6ebb1db7b26b65d35a2d7fa447da0a91cd0ad3b810050cbfcf4db694f526c",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-21-real-provider-ready-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/36-head-21-real-provider-ready-desktop.png"
+    },
+    {
+      "sha256": "9ac34e7956dff10ffd6f123a06357cf9b29af571d12b9a1f8b242cbf7c401131",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-22-manually-panned-zoomed",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/37-head-22-manually-panned-zoomed.png"
+    },
+    {
+      "sha256": "3d42b850f2155426a04b942ec42ade06baeed722cbf7eba5b87d651064a9cba3",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-23-after-location-update-and-tick",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/38-head-23-after-location-update-and-tick.png"
+    },
+    {
+      "sha256": "5def22e1c26708aafa4ff4cb06c058517fb0c2fd901831cff685258c0281e798",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-24-empty-filter-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/39-head-24-empty-filter-desktop.png"
+    },
+    {
+      "sha256": "c326999f9c6ccbf9b494563cbd750736f8fc758296dc0782e254203d222b5a89",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-25-empty-filter-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/40-head-25-empty-filter-compact.png"
+    },
+    {
+      "sha256": "f75f3da139c8671c4b0010922b3ac03374d5c05e87bea2498afe19bb00967215",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-26-real-provider-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/41-head-26-real-provider-compact.png"
+    },
+    {
+      "sha256": "c818568c268edc243fc870a7ef5b1c3a70687e6b36f18d4a4ccb579ae46e9e11",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-15-refused-save-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/42-head-15-refused-save-desktop.png"
+    },
+    {
+      "sha256": "3b9c9beb2e6b3d44cf4af8cac1010e7075c98205e860904e3c0c3623e8a5acd5",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-16-refused-save-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/43-head-16-refused-save-compact.png"
+    },
+    {
+      "sha256": "787ccb897e5ecec82c2219aac05968e4924f4b2ac47eb59b66990ca402fe61e4",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-17-retired-excluded-from-attention",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/44-head-17-retired-excluded-from-attention.png"
+    },
+    {
+      "sha256": "1188a5966e1480eee4440d6d81d7755fab4cdacaf13ef488c3e1058f10529c37",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-18-tenant-eur-cost",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/45-head-18-tenant-eur-cost.png"
+    },
+    {
+      "sha256": "3d4b803f5f9fa8ac256257e1092db416595f9cbaa95fafe4b8063703189844ad",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-19-restricted-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "imagePixels": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/46-head-19-restricted-desktop.png"
+    },
+    {
+      "sha256": "79e9578f12afca32d337f7331206973b77ab36bb54a22db31e57aa5d3b4040f0",
+      "head": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualTree": "e42d7686b2f4c8dbb87a12723f92bd76b1831fdd",
+      "variant": "head",
+      "state": "head-20-restricted-compact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "imagePixels": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/47-head-20-restricted-compact.png"
+    },
+    {
+      "sha256": "c9cbcdf5a7ecec3f8b6785e69a4d6d537c4ba59e3538953fee7719674fdba5ad",
+      "frameCount": 8,
+      "framesPerSecond": 1,
+      "allIncludedSourceFramesInspected": true,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualSource": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "variant": "head",
+      "continuousRawPlaybackClaim": false,
+      "inspection": "Every included source frame and every decoded output frame visually inspected; edited 1fps derivative, raw recordings remain private.",
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/48-pr1223-head-inspected-frames.mp4"
+    },
+    {
+      "sha256": "886361de80fef72314547f62952305b0508f6ddff7ed7cb23ac65a78a9f85619",
+      "frameCount": 8,
+      "framesPerSecond": 1,
+      "allIncludedSourceFramesInspected": true,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "testedHead": "01ecd9b6137ccd709b4b386753c26ee55194bc9f",
+      "actualSource": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "continuousRawPlaybackClaim": false,
+      "inspection": "Every included source frame and every decoded output frame visually inspected; edited 1fps derivative, raw recordings remain private.",
+      "path": "whagons5-client/1223/sweep-1017-01ecd9b6/49-pr1223-base-inspected-frames.mp4"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. Edited clips include only visually inspected source frames; all raw recordings remain private."
+}
