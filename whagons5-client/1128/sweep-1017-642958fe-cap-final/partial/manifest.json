@@ -1,0 +1,264 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1128,
+  "result": "browser-partial-blocked",
+  "head": "642958fef5b942de77d0c812c70dfe3108c951f7",
+  "base": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+  "scope": [
+    {
+      "attempt": "r9-2102",
+      "stage": "before-1128",
+      "result": "PASS loaded exact1070 baseline"
+    },
+    {
+      "attempt": "r5-2018",
+      "stage": "after-1128",
+      "result": "2PASS5FAIL preserved",
+      "selectedPassingTests": [
+        "Directory cards/table filters and actual CSV BOM/formula safe export",
+        "Custom status missing-expiry guard, indefinite/future values and controlled local expiry without replica write"
+      ]
+    },
+    {
+      "attempt": "r9-2102",
+      "stage": "after-1128",
+      "result": "1PASS5FAIL preserved",
+      "selectedPassingTests": [
+        "UI CSV comma+quote+LF exact parser field/counts and authoritative work-location restoration"
+      ]
+    },
+    {
+      "attempt": "r10-2118",
+      "stage": "after-1128",
+      "result": "HR passed1.7min, subsequent scope escape prevents cappedrelease",
+      "selectedPassingTests": [
+        "HR assignment/center/profile/native501incomplete/all501cleanup/readyreload/offboarding metrics and disposable position cleanup"
+      ]
+    }
+  ],
+  "limitations": [
+    "Earlier functional browser cases ran with a nominal 3GiB/300% scope. A later actual Chromium main process was observed moved by the host session-bus systemd portal into its own app scope. Prior whole-browser process-tree containment is therefore UNVERIFIED; original functional assertions and source identities remain evidence only of those observed behaviors.",
+    "Exact native binary hashes and checkout source are recorded, but compilation-source correspondence is unverified. No fresh native compilation claim.",
+    "Required Check is absent on the feature bases; browser evidence cannot replace it. Parent1067 also remains under Coach image review/visual hold. Coach image pass and review-app verified 24h veto remain separate requirements.",
+    "Only explicit public-API deletion/deactivation/restoration outcomes count; normal soft-removed member/account/audit rows and standard E2E fixtures can remain. No direct PG writes/broad reset performed.",
+    "Internal horizontal bars were observed on People Home/Timeoff phone surfaces inherited from the comparison base. No global no-overflow claim.",
+    "Fresh contained full before/after execution and allHOWTOcleanup",
+    "Headed private-X11 genuine hidden/Date-onlyjump/stale-before-return/visible status expiry",
+    "Ordinary legitimate invitation, exact unchanged account/member role+grants, own editable/owner read-only desktop+390",
+    "Skills active manual\u2192expiry fallback\u2192training and Timeoff avatar; flight validation/reduced motion/desktop+390",
+    "Actual People nav, populated Orgchart with owner flight avatar and restored reporting link",
+    "Finite20daypolicy realoneweekdayapproved request,19of20 meter desktop+390, Balances flight avatar; cancel/delete/archive cleanup",
+    "Normal known ordinary member soft-removal/statusremoved/activeDirectoryabsence/historicalProfile retained",
+    "Cancel exact r10 Skills request, remove its policy/archive its type, clear only own manual status, verifyauthoritative/UI outcomes; old canceled/archived audit history legitimately remains",
+    "Known disposable ordinary-member status/active row and one named Skills fixture remain; exact normal cleanup is pending, no broad reset or role escalation.",
+    "r5 custom-expiry case used Playwright clock.fastForward, advancing browser Date and timers; no elapsed-wall-time claim. Intended focus/resume case uses Date-only setSystemTime, but failed preconditions before that advance and never passed."
+  ],
+  "captures": [
+    {
+      "sha256": "6dae968ca60a5a859aa43d638b1cae51a5230079417290d7850dd6cd43c9ed91",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/01-before1128-directory-1440x1000.png"
+    },
+    {
+      "sha256": "90a5960b10a5dd72459cc6a2333961f4f587e090d35b4c585a3bb450ce8bbab1",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/02-before1128-directory-phone-390x844.png"
+    },
+    {
+      "sha256": "3d231e575fb896698b6b9083e82c6f8cd4e49c28905862258f43272c4b7be312",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/03-before1128-home-1440x1000.png"
+    },
+    {
+      "sha256": "68fc024918f58683112bcd7f05d5e0eaea7101f78f2fcfde9be2c6be1247562b",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/04-before1128-home-phone-390x844.png"
+    },
+    {
+      "sha256": "128aafb6096fff09ea4a3c0647b256a0ddb54f28fcfb93b1ef5209d00e8dac0a",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/05-before1128-org-chart-1440x1000.png"
+    },
+    {
+      "sha256": "244b75c03ec3b720a2584bc0ef76aafe1ffdba4f27b6fc20f492b5b381f5ce2c",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/06-before1128-org-chart-phone-390x844.png"
+    },
+    {
+      "sha256": "2be985ce52812955ca3dce93c4ef086f57b3b52d59469761931e16e812702a0a",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/07-before1128-profile-1440x1000.png"
+    },
+    {
+      "sha256": "395d44e080590681e81b7d774777f3b22e70efe1e22c041739b3da7637af6a08",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/08-before1128-profile-phone-390x844.png"
+    },
+    {
+      "sha256": "14fe98e4832faef1a58d68d8956bba8830ed00f8003154a4029551d9dbf7ee3b",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/09-before1128-time-off-1440x1000.png"
+    },
+    {
+      "sha256": "9e45bd316f224d2a9db1100b57425b30ae59ecd1e07d14470ba754e7db4cfd52",
+      "variant": "before",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "013a9ce0bd431e149fae5c5310d40be9c6779693",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/10-before1128-time-off-phone-390x844.png"
+    },
+    {
+      "sha256": "79b1c63630db81dfd06806ba84a21863369ac330480323e46118785cdaf87691",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/11-after1128-csv-comma-quote-newline-fixture-1440x1000.png"
+    },
+    {
+      "sha256": "9ae5c4d2f5cab8c1e8459ab2b5063a593b8ddf5ae294cafee1fd172610f77c90",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/12-after1128-directory-filtered-cards-1440x1000.png"
+    },
+    {
+      "sha256": "9352913d5dbd07fb25ddec93df7bc5be0fb19891fc7b2adbbb683cbebf83cf3c",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/13-after1128-directory-filtered-phone-390x844.png"
+    },
+    {
+      "sha256": "22d6edf8783710a3d005e0d5ad22cbb95f8913c0bcb293d05341f423a290afec",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/14-after1128-directory-filtered-table-1440x1000.png"
+    },
+    {
+      "sha256": "c178173cfc40dcf4cb14e0cb1e5e057d09eaf056ff47ef9dfc0cb70e1eb749c0",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/15-after1128-empty-expiration-blocked-1440x1000.png"
+    },
+    {
+      "sha256": "47db7d5cbe70dadec650b66c76cefb89b7458783519a13c02fea66b92c7590b6",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/16-after1128-explicit-indefinite-status-1440x1000.png"
+    },
+    {
+      "sha256": "d67ed61ccce51ffafa4805a23beaa7ac513e192efb6a22c1887be9f055c4eb99",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/17-after1128-future-expiration-active-1440x1000.png"
+    },
+    {
+      "sha256": "90b406c6849de6c9ef859197daff0583d9b3b42ceaf684bf81da937b6e77f58c",
+      "variant": "after",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "testedHead": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "actualSource": "642958fef5b942de77d0c812c70dfe3108c951f7",
+      "publicEligible": true,
+      "inspection": "Unchanged PNG inspected in the earlier functional run; fictional isolated local fixtures. Aggregate browser-main cap coverage for that run is unverified; not a fresh contained-run capture.",
+      "path": "whagons5-client/1128/sweep-1017-642958fe-cap-final/partial/18-after1128-status-expired-without-replica-write-1440x1000.png"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. All video derivatives withheld.",
+  "blocker": {
+    "description": "Final contained recovery passed its resource/private-bus gates but failed before the first backend/browser stage: cached gonvex-runtime executable is missing, runtime-start-before-1070.log/runner line78 exit1. No Chromium or browser flow reached. Earlier browser-main cap coverage is unverified; no product defect is inferred.",
+    "test": "native runtime start before exact1067 baseline/browser stage",
+    "line": 78,
+    "error": "Cached gonvex-runtime is missing; native build required.",
+    "nextStep": "Complete exact1070 baseline and1128 full HOWTO under actual whole-process cap proof. Prior functional partial does not satisfy browser gate."
+  }
+}
