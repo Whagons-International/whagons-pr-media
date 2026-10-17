@@ -1,0 +1,825 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1236,
+  "result": "browser-partial-blocked",
+  "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+  "base": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+  "scope": [
+    "Existing2 KPI E2E tests, template and scratch creation, saved settings, custom fields, toggle, delete",
+    "Builder Solid presets12/36/60/84, live preview, forced low-contrast warning, light text correction",
+    "Custom hex#0e7490, Gradient save/reload, theme swatch clears custom selection",
+    "Amber/emerald in dark theme, phone controls and persisted Soft12",
+    "Gradient12/36/60/84, blue/amber/emerald Auto/Light/Dark, save/reload persisted style/tone",
+    "Legacy border/solid/gradient actual app previews before/after in light/dark, composite background and opaque text channel tolerance unchanged at4",
+    "Actual workspace legacy cards and selected states before/after in light/dark",
+    "Actual workspace vivid fill saved/reloaded, selected outer ring, unchanged fill, white ink/change chip visible in light/dark",
+    "Fresh phone builder geometry before/after reproduced identically9.625x10.5px"
+  ],
+  "limitations": [
+    "No full browser pass or independent approval. Phone workspace HOWTO state remains untested because app hides it.",
+    "Phone builder preview is unusably tiny on both baseline and head. This pre-existing issue is shown and measured, not silently cleared.",
+    "DnD disabled wrapper propagates aria-disabled although physical pointer operation works. Review used real mouse coordinates for the visible card/menu, no direct handler invocation.",
+    "Immediate selection assertion after saving a workspace card failed in an intermediary attempt. A genuine reload before exercising the saved card passed. Root cause of the transient failure was not proven.",
+    "Before/after videos and GIFs are trimmed/slowed derivatives, not continuously inspected. They remain private and are not publication candidates.",
+    "Cached runtime binary compilation source is unverified. SHA256 hashes are recorded.",
+    "Two isolated dark screenshot sparkline-edge pixels differ by10/17 channels. Every other pixel in that crop differs\u22644. No animation cause is claimed proven."
+  ],
+  "captures": [
+    {
+      "sha256": "53faed085afad9ac95ee831deb2c3ea662883eac83f0cde0f53986575c45c258",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-border-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/01-base-border-dark.png"
+    },
+    {
+      "sha256": "4c8793c229c74223726af5d70ba6471c5081c12e5d4683bc076b2a8652d33f77",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-border-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/02-base-border-light.png"
+    },
+    {
+      "sha256": "0c1c85cc5b829320ec01e9359d798de0334be29883989f34e26dfc3e7e784ee8",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-border-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/03-head-border-dark.png"
+    },
+    {
+      "sha256": "51885c0e54ded9937f77ae9b458258731935fded921e063884f4534e00bac644",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-border-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/04-head-border-light.png"
+    },
+    {
+      "sha256": "f2240c2390f6f827dfeb041fa6fde558e50f3878e716f017d21ee956e9ffcf2a",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-gradient-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/05-base-gradient-dark.png"
+    },
+    {
+      "sha256": "42f2b99632e506465a4a4ac61080267b80e3f5e62cb87ed77e3b7c21dfc7b88c",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-gradient-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/06-base-gradient-light.png"
+    },
+    {
+      "sha256": "8add9dffa1886ff6c436dc2db06ab6c73cf8d80ff4e0296e066d0ab08111b76e",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/07-head-gradient-dark.png"
+    },
+    {
+      "sha256": "4b7f56c5efdde1a66e298c6dbd08f083c602bf2c21a1314a281cd5625da65ac1",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/08-head-gradient-light.png"
+    },
+    {
+      "sha256": "9f56da245be2a450221132bacd3bef2d32e97c720734dd36912e8d6bce277d9f",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-solid-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/09-base-solid-dark.png"
+    },
+    {
+      "sha256": "0e493d2f4bd7418425d883d56f79f67168db2fa4dc9ad5b70e1895c43a1b435d",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-solid-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/10-base-solid-light.png"
+    },
+    {
+      "sha256": "021e23b73c64c66c15d333480e9b14fe71a5121dbfee97e2a092112d1819f1df",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-solid-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/11-head-solid-dark.png"
+    },
+    {
+      "sha256": "b4d17e33b8c7026cd01992f0aab5583ca03f1590f06bca1dfad52609c6c54408",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-solid-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/12-head-solid-light.png"
+    },
+    {
+      "sha256": "2eeeb279724400cfa50d93516ed49dbe1bc138ba96692a90321399beffa58a5e",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-amber-auto",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/13-head-amber-auto.png"
+    },
+    {
+      "sha256": "59d9bccf68e687e414e71eb14278d138b84a5ea6bedadb1b22de77b0560ef483",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-amber-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/14-head-amber-dark.png"
+    },
+    {
+      "sha256": "3a4af4128edfddcdab655e86f5c17ee843beff8dfeeae9c37ada131a30b8e4e3",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-blue-deep",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/15-head-blue-deep.png"
+    },
+    {
+      "sha256": "e8f2a1946b22bfd2a425f3837fbaccb7034752ca6b3f320b862e0f5f4804f08d",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-blue-low-contrast",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/16-head-blue-low-contrast.png"
+    },
+    {
+      "sha256": "421d9966fc471ce363491e4f913db72888ce16ffa23962db3d70183eae9105aa",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-custom-gradient-persisted",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/17-head-custom-gradient-persisted.png"
+    },
+    {
+      "sha256": "ff7ec2e49831a8a5d2de8cfc3a9d9d14ddb3cb2b06095d1a746dc1ddfc1d725e",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-emerald-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/18-head-emerald-dark.png"
+    },
+    {
+      "sha256": "58427685b9deaf9ab40df298c0e99b3a853ee789de6ffc941b3a40405d684130",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-mobile-fill-controls",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/19-head-mobile-fill-controls.png"
+    },
+    {
+      "sha256": "02bfeb3a8b68fe61892bed6f212e2e69742c80f1835db43d3bc9096fa6a8da2a",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-mobile-persisted",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/20-head-mobile-persisted.png"
+    },
+    {
+      "sha256": "0a70d2c92e1ec8565901512bed2042aeaca39a47f67279636072219b1bd329ca",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-workspace-legacy-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/21-base-workspace-legacy-dark.png"
+    },
+    {
+      "sha256": "2448e704c873bfcc1c7d5f0ac1b104e05219ca0e5532db6c6114407259682a74",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-workspace-legacy-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/22-base-workspace-legacy-light.png"
+    },
+    {
+      "sha256": "fdd657b18fff312e7bae2256455ca9ac90b03d5f747322e2b3cda4a7ab4b7ce4",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-workspace-selected-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/23-base-workspace-selected-dark.png"
+    },
+    {
+      "sha256": "38a33580a54feb44bdf4132cca374632d30a24dbdb54ba9d16fcc53d02fecdb2",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-workspace-selected-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/24-base-workspace-selected-light.png"
+    },
+    {
+      "sha256": "f61e98613b0f191fef47e3989f25c7e4d0b9c72f8c88194b392c71f5b32b2a7e",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-workspace-legacy-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/25-head-workspace-legacy-dark.png"
+    },
+    {
+      "sha256": "b21b649d13f5798eeecdd925fb5b7bacc3338fa55f1376f9d8a446fe1a0f2e1b",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-workspace-legacy-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/26-head-workspace-legacy-light.png"
+    },
+    {
+      "sha256": "2f2221190b0d9d7064f2fbc7dccb5a483486682d46fef673454e3cf3c8e24c87",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-workspace-selected-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/27-head-workspace-selected-dark.png"
+    },
+    {
+      "sha256": "7e9aa7bed4d01d8dc9752345ef4b5f8771d811cea3c7f509b98738361f75c9c4",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-workspace-selected-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/28-head-workspace-selected-light.png"
+    },
+    {
+      "sha256": "68793df192c1c6c844782fafaf2e51e5f21f68ccbfe9aef6718376d87e80c838",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-workspace-vivid-selected-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/29-head-workspace-vivid-selected-dark.png"
+    },
+    {
+      "sha256": "abfeb7560a9ac41c5638f2e62e0c2efd86244c915d5a1e184a92217ad301364a",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-workspace-vivid-selected-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/30-head-workspace-vivid-selected-light.png"
+    },
+    {
+      "sha256": "b4f3426b5dda121b82093dace7462e9b44459100f399994bb908417cb0fc5257",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-amber-auto",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/31-head-gradient-amber-auto.png"
+    },
+    {
+      "sha256": "c92baca1cb51090560c89e44acf0d24634791d6a6410c28e149f8d4660f54f77",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-amber-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/32-head-gradient-amber-dark.png"
+    },
+    {
+      "sha256": "3a942fc30dc1e07c2fcc4d8b1365d8dbe5d2e5f1ef96168e21da7fb00ff180b5",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-amber-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/33-head-gradient-amber-light.png"
+    },
+    {
+      "sha256": "76e08796cf1a9b7f0e0538c63b6bd85103a34d5e2239f804182daec1643af4d2",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-blue-auto",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/34-head-gradient-blue-auto.png"
+    },
+    {
+      "sha256": "7ded7529f80cb2fdb7e4d247fcd0280a97723bf13d35de2a6147f13083024fa5",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-blue-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/35-head-gradient-blue-dark.png"
+    },
+    {
+      "sha256": "3ad170d91e80915a5da0a1dbef08787198b55c42e262dcac65254d126045ed50",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-blue-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/36-head-gradient-blue-light.png"
+    },
+    {
+      "sha256": "48ecd117f6b22bb0e1418b3bf0f5dea9679299c62b798baa89894a0198525504",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-deep",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/37-head-gradient-deep.png"
+    },
+    {
+      "sha256": "f5c167a60ae5b5ca7999d9896404014216164dcaf7801ee7816b5bd506463402",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-emerald-auto",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/38-head-gradient-emerald-auto.png"
+    },
+    {
+      "sha256": "e40f6c060446effdbe0f515aa62f9ce8447598e964f78a5a1c14eb8954cc571a",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-emerald-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/39-head-gradient-emerald-dark.png"
+    },
+    {
+      "sha256": "60a58b5e00962447d25f042fdc0535d8759c5b616abda994a79f91c122c88269",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-emerald-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/40-head-gradient-emerald-light.png"
+    },
+    {
+      "sha256": "a3220c036b30669714273cb0938b44982bf150470a451d891702c098171525ba",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-medium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/41-head-gradient-medium.png"
+    },
+    {
+      "sha256": "99e27bd3a18a4bb38babc8cc8e4819d8462fecd461d8441b0c9465eb507c64c3",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-soft",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/42-head-gradient-soft.png"
+    },
+    {
+      "sha256": "f1be33ed90786b25d2ff54d249f8e93c836e467ea2a592a523d6c5f2fadf8e6a",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-gradient-vivid",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/43-head-gradient-vivid.png"
+    },
+    {
+      "sha256": "f3c9155496e9372484966c39e05cd616de21e296c72dfa899a53a2bafd480f28",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "state": "base-phone-preview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/44-base-phone-preview.png"
+    },
+    {
+      "sha256": "b38ea321cc8ab74137fb50e47efb9deedfab3ab4c2ef3977be661783f09a78a3",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "head-phone-preview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image, contact sheet, scaled to710px wide or native phone size",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/45-head-phone-preview.png"
+    },
+    {
+      "sha256": "fae2cae0ce43949308b8dd3db35e6a5182d141f15fe60a67fe3bbe5952108b8f",
+      "kind": "screenshot",
+      "head": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "comparisonBase": "ffd55440013352d7db418eeec7a26d41f99dcf53",
+      "sourceCommit": "bba7429f6632a82ece52e8e6647f66db95939f22",
+      "state": "phone workspace, KPI panel absent, blocked assertion",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "inspectionMethod": "view_image original",
+      "sanitized": true,
+      "publicCandidate": true,
+      "path": "whagons5-client/1236/sweep-1017-bba7429f/partial/46-test-failed-2.png"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. All video derivatives withheld.",
+  "blocker": {
+    "howtoStep": 4,
+    "description": "HOWTO requires workspace KPI indicators, selected ring and change chips on a phone viewport; the app intentionally removes the whole workspace KPI panel on mobile. The required state cannot be reached.",
+    "test": "actual workspace legacy and vivid cards keep indicators and selected fill readable",
+    "line": 55,
+    "error": "TimeoutError: locator.scrollIntoViewIfNeeded: Timeout20000ms exceeded",
+    "locator": "[data-kpi-card-id] filtered by Created today review, first()",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "nextStep": "Implement a supported phone workspace KPI path or explicitly resolve the promised phone scope in the owning PR thread; rerun all required states on the resulting current head."
+  }
+}
