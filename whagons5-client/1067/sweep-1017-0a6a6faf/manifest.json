@@ -1,0 +1,256 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1067,
+  "result": "browser-pass",
+  "head": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+  "base": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+  "scope": [
+    "Enable existing People powerup in private fixture if needed; navigate from People sidebar/home to Time off.",
+    "Create Holiday type and10-day annual policy, no carryover, manager approval off.",
+    "Validate invalid holiday text; create and delete a public holiday.",
+    "Preview2030-03-04 through2030-03-08:5 days deducted,5 days left; submit and verify Approved.",
+    "Reject overlap and6-day2030-03-11 through2030-03-18 request with only5 days available.",
+    "Add3 days effective2030-01-01; second request shows2 days remaining and becomes Approved.",
+    "Cancel both requests and verify Cancelled; delete policy and archive type.",
+    "Check policy and request form at390x844; strict panel width/overflow and preview/submit visibility assertions."
+  ],
+  "limitations": [
+    "Browser scope covers the complete documented five-step administrator HOWTO plus public holidays and phone layout. Multi-person approval chains and localized UI were not exercised in this browser run.",
+    "Nonfatal existing incompleteReplica fallbacks for daily login/presence appeared in browser logs; no Time off assertion failed in the passing run.",
+    "Coach image check, exact-head GitHub gates/review state and review-app24h veto remain separate requirements."
+  ],
+  "captures": [
+    {
+      "variant": "before",
+      "commit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "name": "before-people-home.png",
+      "sha256": "4c446d2efa03326172c5866a33d14ab5fa0958e33319fcc88cee77ece2d0e125",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/01-before-people-home.png"
+    },
+    {
+      "variant": "before",
+      "commit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "name": "before-profile-time-off-mobile.png",
+      "sha256": "b2968905d2cd317379f11a8600e5d719e752db24721b4be1ee6a9b242ebbdda4",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/02-before-profile-time-off-mobile.png"
+    },
+    {
+      "variant": "before",
+      "commit": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "name": "before-profile-time-off.png",
+      "sha256": "2647355ab24a53755efc7c3bb13909726922192c8b511dd2a659cf937661abe2",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/03-before-profile-time-off.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-balance-adjusted-three-days-1440x1000.png",
+      "sha256": "11e1d3a0eb56707276a5a846b5aa4c6f2f8cb5d9b8c4b5154ee9040e45ae298e",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/04-after-balance-adjusted-three-days-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-both-requests-cancelled-1440x1000.png",
+      "sha256": "815203198a1f46b6f9eaa5e7b2d94bfbef46870d769da8e731fea595645ec70f",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/05-after-both-requests-cancelled-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-cleanup-complete-1440x1000.png",
+      "sha256": "a60f6e5d256d5531f5b90f45d7386836b53741e9e56e8c83215b88a30de6c9f8",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/06-after-cleanup-complete-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-empty-my-time-off-1440x1000.png",
+      "sha256": "61c0b9fc893760fa9158bd2373f824fd575f2ffc2c6cbc5f4150d054d8adc0e5",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/07-after-empty-my-time-off-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-first-approved-1440x1000.png",
+      "sha256": "38f1f1770ed3b364aea01259ae98a3e2b3e0ed0e71bf220672f02b330bf1d796",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/08-after-first-approved-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-five-day-preview-1440x1000.png",
+      "sha256": "060f0eb1cb01708d0a10b3b1da7065819485b582b76e013989050a5bf36eaf0a",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/09-after-five-day-preview-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-holiday-created-1440x1000.png",
+      "sha256": "b9afec6c8dc4f3c1075f927014577f68540deee2539ba09089cdbcc2d48b2a40",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/10-after-holiday-created-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-holiday-validation-error-1440x1000.png",
+      "sha256": "8bcc56b7f8facfe82ba2d07b7478141c007307a761a3acf78a79eb06a2d62281",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/11-after-holiday-validation-error-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-over-balance-blocked-1440x1000.png",
+      "sha256": "a40da89b03aec601318f4f52cd2de2f70c0345eaee03a9e76c26cde31bfaf476",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/12-after-over-balance-blocked-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-overlap-blocked-1440x1000.png",
+      "sha256": "dc44337b810798c799a5e6fe82d88855bb700ba96bfcfbafee8b75e3464eeb7a",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/13-after-overlap-blocked-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-policy-created-1440x1000.png",
+      "sha256": "a75329623a647e982cd5427f1e6a4414bb4a460703a43d7c7afafeeb4f70c14f",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/14-after-policy-created-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-policy-dialog-1440x1000.png",
+      "sha256": "6b9875847640aa4840189573733a52c386a00fcd2e7fb8c29960b944ade5b115",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/15-after-policy-dialog-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-policy-mobile-390x844.png",
+      "sha256": "ace1b862e03d886d08f766aee17bde2320b27761bcdb4e210093b7783a1b6204",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/16-after-policy-mobile-390x844.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-request-preview-mobile-details-390x844.png",
+      "sha256": "b55978e3aeeac96337d33b6225e7d983f4d9c304b1b0542fbcd52ceb5c9cbbef",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/17-after-request-preview-mobile-details-390x844.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-request-preview-mobile-submit-390x844.png",
+      "sha256": "b55978e3aeeac96337d33b6225e7d983f4d9c304b1b0542fbcd52ceb5c9cbbef",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/18-after-request-preview-mobile-submit-390x844.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-request-preview-mobile-top-390x844.png",
+      "sha256": "7de67009d6f721b60c1d25fadc144dfef575283d5dba55fed6d388bda6df4092",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/19-after-request-preview-mobile-top-390x844.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-second-approved-1440x1000.png",
+      "sha256": "7417fe81d0c2377749984a3e634f2a7b0af2c7553c7456fe85907d3cbffa38a3",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/20-after-second-approved-1440x1000.png"
+    },
+    {
+      "variant": "after",
+      "commit": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "name": "after-second-preview-two-days-left-1440x1000.png",
+      "sha256": "a14204a2ec6aa78ba0375b17b8bc47926f5cf012c1ef43b7f5b44036862c6a29",
+      "visuallyInspected": true,
+      "publicEligible": true,
+      "sanitized": true,
+      "testedHead": "0a6a6faf91886dc51ab3a648adb044cf83a92d9e",
+      "path": "whagons5-client/1067/sweep-1017-0a6a6faf/21-after-second-preview-two-days-left-1440x1000.png"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. All video derivatives withheld."
+}
