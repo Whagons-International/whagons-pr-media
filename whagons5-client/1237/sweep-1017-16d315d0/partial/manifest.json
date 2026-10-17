@@ -1,0 +1,374 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1237,
+  "result": "browser-partial-blocked",
+  "head": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+  "base": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+  "scope": [
+    "Actual profile picker offers exactly English, Espa\u00f1ol, Deutsch; Portuguese absent. Actual member setting saved de, reloaded German, then Spanish/English cycle persisted to same member.",
+    "Equivalent Global picker and390x844 profile picker offer exactly the same3 languages.",
+    "Accurate c9 baseline comparison: English picker offers Portuguese, German approvals-help remains mixed Spanish/English, German Work Plans falls back to English body and English cover. Phone baseline retains Portuguese.",
+    "Actual German workspace chrome and route navigation exercised. Grid was marked initialized but capture still showed row skeletons; no complete task-row walkthrough claimed.",
+    "Corrected settings continuation completed before stop: visible German breadcrumbs and settled settings surfaces for approvals-help, users, teams, reminder rules and locations. Actual reminder create dialog labels inspected. Targeted string assertions passed, but visual inspection found remaining raw English below.",
+    "Actual Work Plans current-head page rendered German heading/body and asserted exact German cover source/poster URLs; current cover visibly blank."
+  ],
+  "limitations": [
+    "Read-only cached native runtime compilation source unverified; initial runtime binary SHA recorded in setup receipt.",
+    "Source/SDK/generated files frozen, both source worktrees tracked-clean.",
+    "No production/customer writes/login, GitHub writes/approval/labels/flags/queue/merge, image approval or deployment."
+  ],
+  "captures": [
+    {
+      "sha256": "e2b9461bd587a8d6c8faa7ba290088658d5c8ed7d1bfe68ab67036c958d9ef63",
+      "bytes": 125609,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "backendApplicationManifestSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-01-language-picker",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.111664+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/01-base-01-language-picker.png"
+    },
+    {
+      "sha256": "f12ba48c2a6f85afd1e3afda03439c7c6395138aa5175f45e308074acbe24fc3",
+      "bytes": 129964,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "backendApplicationManifestSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-r2-03-approvals-help",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.111830+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/02-base-r2-03-approvals-help.png"
+    },
+    {
+      "sha256": "6d0b8265d819fc831319ed74afc6381b13f0bc9ed4299e691c08a7395db86ea5",
+      "bytes": 190665,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "backendApplicationManifestSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-r2-04-work-plans-guide",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112042+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/03-base-r2-04-work-plans-guide.png"
+    },
+    {
+      "sha256": "6d59e8e0121c37b1cdab5776346d24ac10d0b7fb2f77e1dc89b27c9f5bb43e36",
+      "bytes": 55438,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "backendApplicationManifestSha": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "variant": "base",
+      "state": "base-r2-05-picker-phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pixelSize": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112130+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/04-base-r2-05-picker-phone.png"
+    },
+    {
+      "sha256": "70b0d79cfd35bf942d406d7171e8df1dc579e8acbb46ddba549c0a8337db79c5",
+      "bytes": 128203,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-01-supported-language-picker",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112266+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/05-head-01-supported-language-picker.png"
+    },
+    {
+      "sha256": "48f58a2fdae27f597456e1e595411ff2942ba03e48bff4b611744c1edf44a98b",
+      "bytes": 185551,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-03-global-language-picker",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112420+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/06-head-03-global-language-picker.png"
+    },
+    {
+      "sha256": "88b703e4e326c8014ea734f537d3fc961ae79c5cdceba4fb506f765786926ef8",
+      "bytes": 57264,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-04-phone-language-picker",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pixelSize": {
+        "width": 390,
+        "height": 844
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112488+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/07-head-04-phone-language-picker.png"
+    },
+    {
+      "sha256": "ed9b6f2eea5ccb2db280b57c9a656aca62d8e9092788bda9941f7a9ebb67f6b6",
+      "bytes": 135084,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-r2-05-approvals-help-german",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112624+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/08-head-r2-05-approvals-help-german.png"
+    },
+    {
+      "sha256": "b1afee33585710609c99ed1d6eeca4f017a5d3ce7478cd32d56fd258d7736667",
+      "bytes": 62244,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-r2-05-users-german",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112696+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/09-head-r2-05-users-german.png"
+    },
+    {
+      "sha256": "66f949f340fd133d807ec92ba90e63fa944f6557faa4f6e79c31d278c8bc4767",
+      "bytes": 54459,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-r2-05-locations-german",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112762+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": null,
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/10-head-r2-05-locations-german.png"
+    },
+    {
+      "sha256": "a7da1f4b70dbb243afac1ef55e598727e3046e4d2fa665a08af0ec8d4945f797",
+      "bytes": 83159,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-r2-06-reminder-create-german",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112847+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": "English reminder helper/default placeholder and wrapped Threshold label visible",
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/11-head-r2-06-reminder-create-german.png"
+    },
+    {
+      "sha256": "179a998defd3dcfdffe7cb1e4e666923a4b92fb3164cb7cf8730e6d7cf64653a",
+      "bytes": 124842,
+      "testedHead": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+      "applicationSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "backendApplicationManifestSha": "16d315d00065eac1d76902fcafdf11dd7a21ccd2",
+      "variant": "head",
+      "state": "head-learn-work-plans-blocked",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "pixelSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspectionMethod": "Viewed original PNG pixels with view_image. Synthetic isolated fixture only, no customer data/credentials/tokens/secret fields. No redaction or image editing needed. Public eligibility is privacy sign-off, not functional/visual approval.",
+      "signedOffBy": "Codex gpt-6.1-sol (xhigh), partial browser reviewer",
+      "signedOffAtUtc": "2026-10-17T19:49:33.112956+00:00",
+      "reviewOutcome": "blocked, incomplete HOWTO",
+      "knownFinding": "German cover blank; exact media dependency unavailable",
+      "path": "whagons5-client/1237/sweep-1017-16d315d0/partial/12-head-learn-work-plans-blocked.png"
+    }
+  ],
+  "approval": "Browser evidence only; no Coach image pass, owner approval or early queue release. All video derivatives withheld.",
+  "blocker": {
+    "howtoStep": 3,
+    "description": "Blank cover figure, readyState0 and errornull during bound. No playable or loaded figure claim.",
+    "test": "German Learn guides show German body and their exact public figures must load",
+    "error": "Unchanged20s expect.poll(video.error != null OR video.readyState >0).toBe(true) timed out with received false after Work Plans heading/body/source/poster assertions passed.",
+    "nextStep": "Website26 owner supplies/reviews intended German assets through that repository workflow; then repeat actual full current-head HOWTO and image check. Do not deploy or silently substitute English. Keep viable client1237 open."
+  },
+  "notTested": [
+    "KPI Cards and Cleaning guides in actual browser; no all52-asset browser claim. Parent external HTTP proof separately covers52 URLs.",
+    "Ordinary legacy Portuguese fallback and setMyLanguage pt refusal; synthetic legacy fixture prepared but browser/API case cancelled before start.",
+    "Analytics language/report/email controls, local analytics/invitation rendered previews and mail delivery; queued spec cancelled before start. No mail sent.",
+    "Assistant/voice controls, translated execution traces and confirmations; queued spec cancelled before start. No provider message/call made.",
+    "Ordinary-member Global permission error state, session isolation after legacy writes, reminder submit/validation/persistence, complete workspace task rows; no pass claimed.",
+    "Full mobile settings/Learn/error-state walkthrough beyond actual language picker."
+  ],
+  "additionalVisualFindings": [
+    {
+      "finding": "English Enable this reminder rule under German Aktiv; category placeholder Select...; Threshold German label wraps Schwell / e * at1440px. Targeted existing assertions did not cover these strings, so settings test pass is not full localization approval.",
+      "sources": [
+        "src/pages/settings/sub_pages/reminder-rules/ReminderRules.tsx:629",
+        "src/pages/settings/sub_pages/reminder-rules/ReminderRules.tsx:637",
+        "src/pages/settings/sub_pages/reminder-rules/ReminderRules.tsx:672",
+        "src/pages/settings/components/FormFields.tsx:630"
+      ],
+      "nextStep": "Owning future repair localizes raw helper descriptions/default placeholder with provenance and checks German label layout; no repair in this review."
+    }
+  ]
+}
