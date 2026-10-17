@@ -1,0 +1,1383 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1156,
+  "revision": "r4-81bf219e",
+  "head": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+  "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+  "baseRef": "staging",
+  "result": "complete-at-head-with-stated-limits",
+  "supersedes": [
+    "r3-80b253f8",
+    "sweep-1017-81bf219e/partial"
+  ],
+  "environment": "Isolated local stacks only: owner-1156 (runtime :8358, PG17 :55958, MinIO, auth emulator demo-whagons-e2e, synthetic e2e tenant) for Ask Luna; sweep reviewer1156 stack for the other flows. No production login or customer data.",
+  "provider": "Ask Luna used the managed openrouter credential via whagons-dev credentials exec into the private runtime project env; OpenRouter ZDR, openai/gpt-4o-mini routed to Azure; receipts recorded in aiUsageReceipts.",
+  "limits": [
+    "Before frontends (staging a8450647) ran against the PR head backend, not a separate base backend.",
+    "Before captures show entry points only; these views do not exist on staging.",
+    "Pre-fix overflow before images are historical from 08170cc4 (2026-10-16).",
+    "Offline creation/sharing, concurrent Doc editing and external automation delivery not exercised."
+  ],
+  "captures": [
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/01-automation-editor.png",
+      "sha256": "19c396c4500fd21910efbfd3035c44c834e1f8735586b46d7871c89b8a39b611",
+      "bytes": 93937,
+      "role": "after",
+      "state": "After automation editor",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:31:50.971916+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-automations-spac-30b93-ted-duplicated-and-disabled-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/02-automation-task-results.png",
+      "sha256": "ddc0b27c559565ecac2d65f15738712ac9828ce293980f3cd2d90d3605e2bd5d",
+      "bytes": 105219,
+      "role": "after",
+      "state": "After automation task results",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:32:02.780773+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-automations-spac-30b93-ted-duplicated-and-disabled-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/03-automations-list.png",
+      "sha256": "4ae999d05f17a420aa158ccd118cbdfe378cf316be4b30803e7719f2ea176e47",
+      "bytes": 77063,
+      "role": "after",
+      "state": "After automations list",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:31:51.162918+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-automations-spac-30b93-ted-duplicated-and-disabled-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/04-before-automations.png",
+      "sha256": "d8837f814448efb9126d4265c4cc66c7501b050cadd27b7e4af4951bf0ad0db3",
+      "bytes": 57100,
+      "role": "before",
+      "state": "Before entry point",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:31:49.324895+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-automations-spac-30b93-ted-duplicated-and-disabled-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Live staging frontend a8450647 against the PR head backend; base has no + View, so this shows the entry point only."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/05-workspace-before-open.png",
+      "sha256": "5c99b773ecded6b6ad7375024fb5c59475026a85b1b258cf7c8014179adb20ce",
+      "bytes": 58387,
+      "role": "after",
+      "state": "After workspace before open",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:31:40.403783+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-automations-spac-30b93-ted-duplicated-and-disabled-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/06-before-dashboard.png",
+      "sha256": "875c19dfc07f9396849876e70316cf870e10b180de6a1be4e7137fb9f1e0eac4",
+      "bytes": 56264,
+      "role": "before",
+      "state": "Before entry point",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:32:20.966294+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-live-dashboard-a-f3cb7-ts-and-persists-block-edits-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Live staging frontend a8450647 against the PR head backend; base has no + View, so this shows the entry point only."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/07-dashboard-default.png",
+      "sha256": "3ef80ba9506331461305eb2ac435683d7813e4b32ea627eb030049508961abd7",
+      "bytes": 74466,
+      "role": "after",
+      "state": "After dashboard default",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:32:25.132347+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-live-dashboard-a-f3cb7-ts-and-persists-block-edits-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/08-dashboard-edited.png",
+      "sha256": "c1a4c8cc1260c917fe25d80b27a3447047477de2f37faf1c9b6a07ed87db1749",
+      "bytes": 76045,
+      "role": "after",
+      "state": "After dashboard edited",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:32:54.737720+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-live-dashboard-a-f3cb7-ts-and-persists-block-edits-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/09-dashboard-mobile.png",
+      "sha256": "483bbfdd700b5ed3f6daec3246df72837eeb611525513952af10bb3ac719158d",
+      "bytes": 36419,
+      "role": "after",
+      "state": "After dashboard mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:32:54.891722+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-live-dashboard-a-f3cb7-ts-and-persists-block-edits-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/10-dashboard-picker.png",
+      "sha256": "d3c8d48909e92e6ce15475c3f75630a6dbf88c512ae5bb1a40a480b1d169d883",
+      "bytes": 94438,
+      "role": "after",
+      "state": "After dashboard picker",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:32:24.108334+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-live-dashboard-a-f3cb7-ts-and-persists-block-edits-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/11-dashboard-shared-readonly.png",
+      "sha256": "6017d349dd40510880a08ab207dd863e9b0df72f78f5e55990220f8a3c2d3455",
+      "bytes": 71940,
+      "role": "after",
+      "state": "After dashboard shared readonly",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:33:17.819011+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-live-dashboard-k-e5dbc-nly-for-other-space-members-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/12-after-doc-mobile.png",
+      "sha256": "143de86e52eff67a3cb1e1721f09563c0c091a5f5dcf8acc227ed0fffc6f24ec",
+      "bytes": 34739,
+      "role": "after",
+      "state": "After after doc mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:37:13.724990+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-doc-view-c-f5030-n-shares-and-revokes-access-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/13-after-doc.png",
+      "sha256": "5568b614c32c183f7ab190fbd5121df0a62123027171b8a0c5acc00dd6c6b88a",
+      "bytes": 72935,
+      "role": "after",
+      "state": "After after doc",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:37:02.041842+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-doc-view-c-f5030-n-shares-and-revokes-access-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/14-before-docs.png",
+      "sha256": "49e065757b6a403f3e96aacb095530494a6fbfb8bd57acabf342281643e7f508",
+      "bytes": 64492,
+      "role": "before",
+      "state": "Before entry point",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:36:37.150571+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-doc-view-c-f5030-n-shares-and-revokes-access-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Live staging frontend a8450647 against the PR head backend; base has no + View, so this shows the entry point only."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/15-before-forms.png",
+      "sha256": "ed7270b945bc307c997c792b0197c3dc2f197af3281df8b29a5433be503df8e3",
+      "bytes": 46489,
+      "role": "before",
+      "state": "Before entry point",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:33:32.626198+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-form-view--1a925-s-and-revokes-public-access-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Live staging frontend a8450647 against the PR head backend; base has no + View, so this shows the entry point only."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/16-form-after.png",
+      "sha256": "99be6ba89eb798ac2b2236f62357462370fd2f4048983f387631bd1c2b77f2f8",
+      "bytes": 55541,
+      "role": "after",
+      "state": "After form after",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:33:36.210243+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-form-view--1a925-s-and-revokes-public-access-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/17-public-form-after.png",
+      "sha256": "4147359b0e46aa15244949d8fca097099d4cea6e2b57dd56a190058f5e6a6f16",
+      "bytes": 321820,
+      "role": "after",
+      "state": "After public form after",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:33:45.658363+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-form-view--1a925-s-and-revokes-public-access-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/18-form-mobile-after.png",
+      "sha256": "1e26416994ca2c17b0b69b85a648767287441ec966bc1be922459391e736965a",
+      "bytes": 33976,
+      "role": "after",
+      "state": "After form mobile after",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:34:37.970023+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-form-view--3a378-blic-files-and-mobile-forms-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/19-before-views.png",
+      "sha256": "0e3e0efe7b3bd0292f0d6522a7b45e6748baa5c5079cc04dc419f936fdd47da5",
+      "bytes": 62081,
+      "role": "before",
+      "state": "Before entry point",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:35:04.428955+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-views-crea-5b431-ts-names-shares-and-deletes-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Live staging frontend a8450647 against the PR head backend; base has no + View, so this shows the entry point only."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/20-shared-board.png",
+      "sha256": "b2ff12c0f01c085607f9d8bf8e8bc03594fd20386c1bc96440138e2ac5cd4ab6",
+      "bytes": 65583,
+      "role": "after",
+      "state": "After shared board",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:35:22.936610+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-views-crea-5b431-ts-names-shares-and-deletes-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/21-view-picker.png",
+      "sha256": "9328a4ee73f377b96354fce3db3bcab6e5dd6dcff92a52cd73f85e7f7e7758db",
+      "bytes": 99048,
+      "role": "after",
+      "state": "After view picker",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:35:13.683474+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "workspace-space-views-crea-5b431-ts-names-shares-and-deletes-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/22-automation-mobile-stable.png",
+      "sha256": "64236cefc73355fb7b68914e0bfee70933d7b30b9ffd1acfb386c9832ad34703",
+      "bytes": 44021,
+      "role": "after",
+      "state": "After automation mobile stable",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:37:45.510391+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-captures-t-d0092-he-priority-menu-has-closed-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/23-before-overflow.png",
+      "sha256": "c3e9b468e0fdbe33a4a0bfd6878dc05328c47a1f12a1135798e5fef3c26241eb",
+      "bytes": 56975,
+      "role": "before",
+      "state": "Before entry point",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:28:57.464730+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Live staging frontend a8450647 against the PR head backend; base has no + View, so this shows the entry point only."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/24-picker-bottom-1280x600.png",
+      "sha256": "aefb862cb17db3519bf43df2b5c7f34f3495662e62d2e993290a8e8f0aabd8b4",
+      "bytes": 67356,
+      "role": "after",
+      "state": "After picker bottom 1280x600",
+      "viewport": {
+        "width": 1280,
+        "height": 600
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:06.149840+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/25-picker-bottom-1440x900.png",
+      "sha256": "50e30fabf6ba7c84c433fb121d6285eb0538ae4530d395236818795f914c988b",
+      "bytes": 93786,
+      "role": "after",
+      "state": "After picker bottom 1440x900",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:00.364767+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/26-picker-bottom-820x1180.png",
+      "sha256": "b6f53ac2830ab9b896fbb621ecbd447f278db12f3bae11a6d98016ea15adbf2c",
+      "bytes": 72021,
+      "role": "after",
+      "state": "After picker bottom 820x1180",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:10.630150+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/27-picker-bottom-844x390.png",
+      "sha256": "3adcf7b79a1de45f91ff32a8d5b7f84d0e4736622954243be80ef178182c546b",
+      "bytes": 40617,
+      "role": "after",
+      "state": "After picker bottom 844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:17.420981+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/28-picker-bottom-900x560.png",
+      "sha256": "862e5f914ad9537d2564bf6ec16411441a3b8d2fcf820b791dde352e2f14bdf5",
+      "bytes": 54695,
+      "role": "after",
+      "state": "After picker bottom 900x560",
+      "viewport": {
+        "width": 900,
+        "height": 560
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:14.123940+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/29-picker-open-1280x600.png",
+      "sha256": "defcf1d17525eadff4b2597daadbf3f40df137357c2af0d38d9199f36d8bb0da",
+      "bytes": 65335,
+      "role": "after",
+      "state": "After picker open 1280x600",
+      "viewport": {
+        "width": 1280,
+        "height": 600
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:05.005443+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/30-picker-open-1440x900.png",
+      "sha256": "c83e6606a9304ea8c3d7547ea77caa31168010cad510a5a3317adb8ccf5c196d",
+      "bytes": 93858,
+      "role": "after",
+      "state": "After picker open 1440x900",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:28:59.204752+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/31-picker-open-820x1180.png",
+      "sha256": "98a8479a5ba46cb1dc368dc6fe5e13af9eff3195d51626e5f2dd92d097a13d5e",
+      "bytes": 71340,
+      "role": "after",
+      "state": "After picker open 820x1180",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:09.366880+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/32-picker-open-844x390.png",
+      "sha256": "785282ac8bea16ef15853a403ca850d2c0e59819a8f6bacea197cc2b9ceb7580",
+      "bytes": 39406,
+      "role": "after",
+      "state": "After picker open 844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:16.435969+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/33-picker-open-900x560.png",
+      "sha256": "3eaeed50218a82b6bea7c84e50d430e57d91508f8d78ef55cda35933f5025731",
+      "bytes": 57888,
+      "role": "after",
+      "state": "After picker open 900x560",
+      "viewport": {
+        "width": 900,
+        "height": 560
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T16:29:13.076927+00:00",
+      "capturedBy": "sweep reviewer1156",
+      "testFlow": "overflow-review-keeps-the--46594-ablets-and-landscape-phones-ui-parallel",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/luna-01-default.png",
+      "sha256": "643d3b5ee4582ae6760a6805232effb27ee55a43f6487bda1307d6f24d3316a8",
+      "bytes": 73687,
+      "role": "after",
+      "state": "After Dashboard default before Ask Luna",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:09:34.978367+00:00",
+      "capturedBy": "owner-1156 (Claude Opus 5.5)",
+      "testFlow": "owner luna-review.spec.ts",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/luna-02-prompt.png",
+      "sha256": "042032802ba3ca211581867ad0ffbe5bb924af58d03ed03de86c31e0ee7daa3f",
+      "bytes": 75816,
+      "role": "after",
+      "state": "After Ask Luna prompt entered",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:09:35.169370+00:00",
+      "capturedBy": "owner-1156 (Claude Opus 5.5)",
+      "testFlow": "owner luna-review.spec.ts",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/luna-03-generated.png",
+      "sha256": "094bd737d408a988a8f450f863e9098a1b77293fd31cd211147881d0e829a5ed",
+      "bytes": 72353,
+      "role": "after",
+      "state": "After real Ask Luna generation (heading, KPI row, All tasks list)",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:09:39.624430+00:00",
+      "capturedBy": "owner-1156 (Claude Opus 5.5)",
+      "testFlow": "owner luna-review.spec.ts",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/luna-04-task-opened.png",
+      "sha256": "ecf42270aaa56287f06dbf303fd80ce9d62fb5fa6d7c589d462235598551d7ce",
+      "bytes": 142225,
+      "role": "after",
+      "state": "After clicking a generated task-list row (task dialog)",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:09:40.957448+00:00",
+      "capturedBy": "owner-1156 (Claude Opus 5.5)",
+      "testFlow": "owner luna-review.spec.ts",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/luna-05-after-reload.png",
+      "sha256": "8c2e1916e7aab26176a17111d065b9e5a114c3913094542645a8150327c8e8e4",
+      "bytes": 72535,
+      "role": "after",
+      "state": "After reload: generated layout persisted",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:09:43.303480+00:00",
+      "capturedBy": "owner-1156 (Claude Opus 5.5)",
+      "testFlow": "owner luna-review.spec.ts",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/luna-06-mobile.png",
+      "sha256": "bb0788824ae5080e3574d8cb690e0da07832d4721164f07f0121bedbb704eeb0",
+      "bytes": 33864,
+      "role": "after",
+      "state": "After generated dashboard at phone width",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:09:43.740486+00:00",
+      "capturedBy": "owner-1156 (Claude Opus 5.5)",
+      "testFlow": "owner luna-review.spec.ts",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/luna-07-phone-tasks-route.png",
+      "sha256": "7a11d3afab13c909559d2b8ad1ffb128be84e2fc0c93ff9680db6495eb84659c",
+      "bytes": 38698,
+      "role": "after",
+      "state": "Phone Tasks screen (no + View on this route)",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:09:48.293547+00:00",
+      "capturedBy": "owner-1156 (Claude Opus 5.5)",
+      "testFlow": "owner luna-review.spec.ts",
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": null
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-08170cc4-desktop-open.png",
+      "sha256": "32dc58d1123cca7c833585574cf9b2d94b5f6314654d701d32d6fce03b8a5dd1",
+      "bytes": 105993,
+      "role": "before",
+      "state": "Before fix: Add view panel overflow, desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "backendApplicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "base": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "capturedAtUtc": "2026-10-16T22:50:40.898505+00:00",
+      "capturedBy": "owner (2026-10-16 fix session)",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Historical pre-fix head 08170cc4 on a private stack, captured 2026-10-16; not re-captured today."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-08170cc4-phone-landscape-open.png",
+      "sha256": "f276715d1f2ddf9da9feaeb1e6a5d48294a92d6a8aa105d05a04d2d45daf2757",
+      "bytes": 41710,
+      "role": "before",
+      "state": "Before fix: Add view panel overflow, phone landscape",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "applicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "backendApplicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "base": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "capturedAtUtc": "2026-10-16T22:50:45.192643+00:00",
+      "capturedBy": "owner (2026-10-16 fix session)",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Historical pre-fix head 08170cc4 on a private stack, captured 2026-10-16; not re-captured today."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-08170cc4-desktop-bottom.png",
+      "sha256": "dde885b344892a6db8ddc4645e2f81cf95f2187c6c2f36c67f648a0669f03e5d",
+      "bytes": 106371,
+      "role": "before",
+      "state": "Before fix: switches drawn past the panel edge",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "backendApplicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "base": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "capturedAtUtc": "2026-10-16T22:50:41.507226+00:00",
+      "capturedBy": "owner (2026-10-16 fix session)",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Historical pre-fix head 08170cc4 on a private stack, captured 2026-10-16; not re-captured today."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-08170cc4-phone-landscape-bottom.png",
+      "sha256": "a84ac795eca26292fc565a0865eccc7f5c0e35349000edf4d9e5bc5cc0a0ec74",
+      "bytes": 20475,
+      "role": "before",
+      "state": "Before fix: phone landscape, last switch",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "applicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "backendApplicationSha": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "base": "08170cc4d3621d336dcf184bc9fe2531cd085b13",
+      "capturedAtUtc": "2026-10-16T22:50:45.752650+00:00",
+      "capturedBy": "owner (2026-10-16 fix session)",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "Historical pre-fix head 08170cc4 on a private stack, captured 2026-10-16; not re-captured today."
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-luna.mp4",
+      "sha256": "16689b76d2493e34a370d53817978f54234245a3e83cf2aedc15ae0d174d09ab",
+      "bytes": 151261,
+      "role": "after",
+      "state": "Ask Luna real generation, task opens, reload persists",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:41.576641+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "owner luna run 2026-10-17, trimmed 6.0-16.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-luna.gif",
+      "sha256": "eecce663ca4c9b873eb89c1e9c671a8d0a8dc4363894bf86b4e9b0645735ef04",
+      "bytes": 1965261,
+      "role": "after",
+      "state": "Ask Luna real generation, task opens, reload persists",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:16.801549+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "owner luna run 2026-10-17, trimmed 6.0-16.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-views.mp4",
+      "sha256": "b316758049c108bd6066df351afea20b8f24b1825ca7e24a5b6ecc22a7dc5f60",
+      "bytes": 167834,
+      "role": "after",
+      "state": "Views: picker, Board, rename, share, delete",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:42.849000+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 31.0-45.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-views.gif",
+      "sha256": "3b0bcfe5634b7b5ccca291eed296b0d369c9499d2288bdc64c2619ea27fdc57d",
+      "bytes": 2378400,
+      "role": "after",
+      "state": "Views: picker, Board, rename, share, delete",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:18.548573+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 31.0-45.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-addview-fit.mp4",
+      "sha256": "1b3548e04876131b6d7020e255528d2203c764826479db35cd0187061ef5495b",
+      "bytes": 328205,
+      "role": "after",
+      "state": "Add view fit at five sizes (grey padding = smaller viewport inside a fixed 1440x900 frame)",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:44.466114+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 3.5-19.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-addview-fit.gif",
+      "sha256": "0399a7c63ae7c606ef397ae823a430b46e47673c283990231a27bdd6576389f7",
+      "bytes": 3578063,
+      "role": "after",
+      "state": "Add view fit at five sizes (grey padding = smaller viewport inside a fixed 1440x900 frame)",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:05.420396+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 3.5-19.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-automations.mp4",
+      "sha256": "18c11663063e3c1ba920364bcfd59a177b0f029fe067f2c68f5cf81549b52388",
+      "bytes": 308870,
+      "role": "after",
+      "state": "Automations: list, editor, applied priority, disable",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:45.977918+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 14.5-27.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-automations.gif",
+      "sha256": "3ec236c4fc3b28d62db967198c51aa3a04033c35a3ac3d72191c048ae2ffc214",
+      "bytes": 3400962,
+      "role": "after",
+      "state": "Automations: list, editor, applied priority, disable",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:07.232420+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 14.5-27.9 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-docs.mp4",
+      "sha256": "3b666a63757ee12a0c73517e9206065982330631dcfb38a1a82e3c05ee5fd9c2",
+      "bytes": 316594,
+      "role": "after",
+      "state": "Docs: pages, subpage, Workbench, sharing, delete",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:48.468012+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, 28.5-65.5 s played at 1.25x"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-docs.gif",
+      "sha256": "a39c2e1d9938790612df65e9ef918a56e8407d4c04dc1ae005dcc0484824fcb4",
+      "bytes": 4016603,
+      "role": "after",
+      "state": "Docs: pages, subpage, Workbench, sharing, delete",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:12.659493+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, 28.5-65.5 s played at 1.25x"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-forms.mp4",
+      "sha256": "dede5f3ce5d42570ea32587c30fb49571bd4ec50715a14533bdedb20a58b9075",
+      "bytes": 205512,
+      "role": "after",
+      "state": "Forms: create, submit to task, public link on/off",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:50.345193+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 15.5-35.4 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-forms.gif",
+      "sha256": "9f510e7f63abf78a6f8cd195887100294c07cad733347d3e3a3d526e7f7de85b",
+      "bytes": 2623901,
+      "role": "after",
+      "state": "Forms: create, submit to task, public link on/off",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:15.249528+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, trimmed 15.5-35.4 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-dashboard.mp4",
+      "sha256": "f73b0bd5389f06521a33e4a7369f08579e2b5b0b3bac888ebd91282ff305fff6",
+      "bytes": 128109,
+      "role": "after",
+      "state": "Dashboard: create, live count 1 to 2, block edits",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:51.580890+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, 14.0-20.0 s + 39.5-44.9 s (idle wait cut)"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/after-dashboard.gif",
+      "sha256": "ecf51845543af8dd143f9302b6aef622273ce4e984f6b9933b299508ffe952c2",
+      "bytes": 1500673,
+      "role": "after",
+      "state": "Dashboard: create, live count 1 to 2, block edits",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:08.706440+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase recording, 14.0-20.0 s + 39.5-44.9 s (idle wait cut)"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-views.mp4",
+      "sha256": "39868983f219905722145fb2b71746bbf595f9709c733dfcb5946303348c9dc2",
+      "bytes": 99441,
+      "role": "before",
+      "state": "Staging workspace, no + View",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:53.851469+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 6.0-13.0 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-views.gif",
+      "sha256": "e85c3f0b887d27b964c6562e4319dc102ae9d689a98b15a590862ad630aa4ebe",
+      "bytes": 538367,
+      "role": "before",
+      "state": "Staging workspace, no + View",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:22.061441+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 6.0-13.0 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-automations.mp4",
+      "sha256": "db31c7352f4134f253783d57705adc6cc8fa16a2468cafc6148a13e1d265d449",
+      "bytes": 78858,
+      "role": "before",
+      "state": "Staging workspace, no Automations button",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:56.092868+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 5.0-10.0 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-automations.gif",
+      "sha256": "3216d92763dbaea5f3cc78a314f6bd04beea17ff6fcf96c0399ed03f069ab092",
+      "bytes": 339807,
+      "role": "before",
+      "state": "Staging workspace, no Automations button",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:19.231582+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 5.0-10.0 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-docs.mp4",
+      "sha256": "b73d674561e6ce0bec401037b4b0b40a5466578897a6f1be64a14dbce2e04395",
+      "bytes": 120751,
+      "role": "before",
+      "state": "Staging workspace, no Doc view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:11:59.241211+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 4.0-12.2 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-docs.gif",
+      "sha256": "b2a53967e5b9dff5eafae11e174dcda7d350fa25f41d27c8759dd97d902da226",
+      "bytes": 743217,
+      "role": "before",
+      "state": "Staging workspace, no Doc view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:20.793603+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 4.0-12.2 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-forms.mp4",
+      "sha256": "eb03aa6b3452060f413af5011ee421da9bf6e2158054bac945f4ba8e9fb2cf8a",
+      "bytes": 109377,
+      "role": "before",
+      "state": "Staging workspace, no Form view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:01.387288+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 3.7-8.7 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-forms.gif",
+      "sha256": "74df1c5c0a1751cea38b9a338a2a2933d531a5b13a1bf9825c55b6d44839bb0d",
+      "bytes": 580336,
+      "role": "before",
+      "state": "Staging workspace, no Form view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:21.360611+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 3.7-8.7 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-dashboard.mp4",
+      "sha256": "a534d31deda5ad44f2e8492c2631124b96670cd1d6ab7ae4c5ece9a19101b33d",
+      "bytes": 99371,
+      "role": "before",
+      "state": "Staging workspace, no Dashboard view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:03.281314+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 1.4-6.4 s"
+    },
+    {
+      "path": "whagons5-client/1156/r4-81bf219e/before-dashboard.gif",
+      "sha256": "129ea6d6472d94104810c2ab24bb4685a98e755e8f6e015be55e6c7424c8b206",
+      "bytes": 486358,
+      "role": "before",
+      "state": "Staging workspace, no Dashboard view",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "applicationSha": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "backendApplicationSha": "81bf219e10503114dbcde3914ee5ae868f6c838b",
+      "base": "a84506476976b68796bd135f2bc78b073c6a7e3a",
+      "capturedAtUtc": "2026-10-17T17:12:19.884043+00:00",
+      "capturedBy": "owner-1156 trim",
+      "testFlow": null,
+      "visuallyInspected": true,
+      "inspectedBy": "owner-1156 (Claude Opus 5.5)",
+      "note": "reviewer livebase before recording, 1.4-6.4 s"
+    }
+  ]
+}
