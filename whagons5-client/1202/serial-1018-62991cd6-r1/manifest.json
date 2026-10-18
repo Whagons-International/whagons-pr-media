@@ -5,7 +5,7 @@
   "tree": "9cc268744513e744b9f5a04df89ae4f8f68a944a",
   "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
   "at": "2026-10-18T23:55:28.233194+00:00",
-  "environment": "Isolated copy of existing testing tenant; existing admin/requester identities; loopback Firebase Auth Emulator and Gonvex/PostgreSQL. No business data mutations, new app accounts/members/tenants, role or feature-flag changes. IDs/roles/counts before and after match.",
+  "environment": "Isolated copy of existing testing tenant; existing admin/requester identities; loopback Firebase Auth Emulator and Gonvex/PostgreSQL. No schedule, leave or fleet records were changed; notification read state may change through normal UI clicks. No new app accounts/members/tenants, role or feature-flag changes. IDs/roles/counts before and after match.",
   "clientClock": "2026-10-17T12:00:00Z fixed after UI login; server clock unchanged; reproduces Saturday boundary",
   "tenantWeekStart": "monday (existing setting)",
   "model": "gpt-6.1-sol xhigh",
