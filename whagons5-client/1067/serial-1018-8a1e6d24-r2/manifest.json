@@ -1,0 +1,286 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": 1067,
+  "head": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+  "tree": "2a159d2d7db5ffe1e33e0c19961ec62183ec6dd8",
+  "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+  "capturedAtUtc": "2026-10-18T21:46:10Z through 2026-10-18T21:46:56Z",
+  "runtime": "Private copied existing PostgreSQL17/Firebase Auth Emulator/Rust Gonvex testing fixture; Node24.13.1; Chromium; exact head static build",
+  "accountKind": "Existing test@test.com administrator in the existing standard e2e-parallel testing shard",
+  "newIdentityOrTenantCreatedForCapture": false,
+  "powerupSettingsChangedForCapture": false,
+  "desktopViewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "phoneViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "browserResults": {
+    "desktop": "pass18.8s",
+    "independentPhone": "pass15.2s"
+  },
+  "mediaInspection": "All22 PNGs inspected as contact sheet; singular, negative balance, phone and adjustment states also inspected at full size. Edited clips sampled and GIF frame counts checked. No customer data or secrets.",
+  "baselineVideo": "Preserved unchanged exact-base recording from2026-10-17, setup/loading cut, playback slowed2x toread profile/history. After videos play at recorded speed.",
+  "checks": {
+    "renderedUnitTests": "14passed after2expected failures beforefix",
+    "typecheck": "0errors budget0",
+    "canonicalI18n": "sync/check exit0",
+    "previewBuild": "pass"
+  },
+  "files": [
+    {
+      "file": "after-balance-adjusted-three-days-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "3415367eb3d398e7009032d47705954f323cb80522c8fd6db604f612d99c5ef7",
+      "bytes": 133552,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-both-requests-cancelled-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "339001abf135e8f7f98a4e58f8b07a731605e1333e94982d2b9042fc58050816",
+      "bytes": 132029,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-cleanup-complete-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "7c9af269916ed415200ce8e7f77260f0e7660e9a16be8798b842a60137c7238c",
+      "bytes": 77841,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-desktop.gif",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "53f603e4e2f51f420bc06239b91c519e1c9def362f59061624e826dcf0aaf00d",
+      "bytes": 1390930,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-desktop.mp4",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "bfa71788e00520b1ef18d13a063c21bdc9f9b682ea66f64d9af9c8cdc8b1d4dc",
+      "bytes": 557793,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-existing-history-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "c6f8f5954956b657f10cf1156e4146336882451017134f3371989a0e842e03e6",
+      "bytes": 129634,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-first-approved-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "784de98313845e592144e386ea0e85ef128ceb61787c199ee6e5c681bb4ba071",
+      "bytes": 126856,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-five-day-preview-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "c89cc4e952a547751550c622244a2f879c823223f31f838eb25b7d08a76f0e9e",
+      "bytes": 157190,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-holiday-created-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "f4cbf4524536378789d71653fb5c10321d9cf3fbf4d5ded77b4f131d4a80a0a2",
+      "bytes": 62848,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-holiday-validation-error-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "ca0ae6350a9b761fd86c7619bed43ae22ffec93e6be3add89087849fd02fbb10",
+      "bytes": 84248,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-negative-one-phone-normal-path-390x844.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "d42f1e0b191310c759400b0623009b13eaf13712daa0f825ee2498e69b238e33",
+      "bytes": 47081,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-one-day-phone-normal-path-390x844.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "8b3562649a39e66dd4bb1325e662ea28871dc2968c159b2df5f5f2afada8e07b",
+      "bytes": 47125,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-one-day-preview-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "bc7f8262cba2bc3dacdd4680965b72dee5cb0a3669afb927bb5f80a50933995d",
+      "bytes": 155418,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-over-balance-blocked-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "f1da1a5c371c54b61ce04bccc2f525d7a498e36264448e551e557b57ae493087",
+      "bytes": 152582,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-over-balance-blocked-phone-390x844.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "14c0b8f02f3b801d7e985de413106d054d181ec5a64ecfc2f88d84ed32f771b7",
+      "bytes": 47630,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-overlap-blocked-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "10c52be0166ffd3e219a10c0269095646d20d87a2222a6b9581878f5d5a4eaf3",
+      "bytes": 155072,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-phone.gif",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "65980f65e5f4db38ff190640cf98268c342da9c7865d998e71791d12c77b5ffb",
+      "bytes": 1358855,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-phone.mp4",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "d4f538eea6dcb9fe772ba8261d82df33ed84d0d1f750aabb72d38094ae1c74e6",
+      "bytes": 261426,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-policy-created-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "3ecc58ec2a5ec5b01c9acd4a9386d61315d356baac1003d73cdea6f4eb302900",
+      "bytes": 94347,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-policy-dialog-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "f52aa4de2befb6e888686118d1537c265543220961690fa4e98b92efe15491ca",
+      "bytes": 141459,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-policy-mobile-390x844.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "574c966fa1093ce6d2af1fea14b25553802d8e6942757d8ecf35a69f56e2037d",
+      "bytes": 59412,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-request-preview-mobile-details-390x844.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "2e1f1a40b63dce2d9cc5b5f838c2d3c1c24a3020deebc27d0b5f6e73f1355cc8",
+      "bytes": 47309,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-request-preview-mobile-submit-390x844.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "2e1f1a40b63dce2d9cc5b5f838c2d3c1c24a3020deebc27d0b5f6e73f1355cc8",
+      "bytes": 47309,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-request-preview-mobile-top-390x844.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "b10bc798f4c07e0338c25e3c1ad03d06d4fb3f2a52c4781be1165619b12c3e5f",
+      "bytes": 43645,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-second-approved-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "715559154cad397cb9412d5eb08c6bbe7b9d0ec178b884bf39001f30e55dbfa8",
+      "bytes": 124266,
+      "visuallyInspected": true
+    },
+    {
+      "file": "after-second-preview-two-days-left-1440x1000.png",
+      "variant": "after",
+      "applicationHead": "8a1e6d245e057a8f6ec9ad2e34a286af1377bc01",
+      "capturedDate": "2026-10-18",
+      "sha256": "213dd07a01090240fbf1031360e774f3162cc6d089c2502794b76c0f9f789533",
+      "bytes": 149864,
+      "visuallyInspected": true
+    },
+    {
+      "file": "before-baseline.gif",
+      "variant": "before",
+      "applicationHead": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "capturedDate": "2026-10-17",
+      "sha256": "295d2856d17b4e786c33e9ef7628a401d6e0d7b82db459917e7bb8bec08f2500",
+      "bytes": 304711,
+      "visuallyInspected": true
+    },
+    {
+      "file": "before-baseline.mp4",
+      "variant": "before",
+      "applicationHead": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+      "capturedDate": "2026-10-17",
+      "sha256": "f3bc3206cac7ff719b00075e87182090a7f6b7bbe71bb41e853a098eb4b98374",
+      "bytes": 56166,
+      "visuallyInspected": true
+    }
+  ]
+}
