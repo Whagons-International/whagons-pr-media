@@ -1,0 +1,116 @@
+{
+  "pr": "https://github.com/Whagons-International/whagons5-client/pull/1201",
+  "head": "04d3a3bff1901bf5e5a1cdf95457f656a100f7dc",
+  "base": "71b6bfc445f5cef4a99756942477b8a8d40cda7d",
+  "capturedDate": "2026-10-18",
+  "result": "web-browser-pass",
+  "scope": "Real desktop and phone web. No native iPhone app claim. Synthetic task60 Morning safety briefing, 11 pending deliveries; same task and recipients before/after.",
+  "testRuns": [
+    "Repository default unfiltered inbox regression passed at exact head",
+    "Same-fixture recipient acknowledgment, pending-first retention, reopen, reload/LoadMore, Everything/back and desktop history passed at exact head"
+  ],
+  "baseline": "Real base desktop retains history. Base phone preview confirmation does not open; not a disappearance-after-ack reproduction in this pass.",
+  "caps": "Serial 3G/300% CPU/nice10/idle IO/core dumps off; all observed Chromium processes remained in the owning scope.",
+  "runtime": "Private PostgreSQL17/Auth Emulator/Rust-V8 with exact committed backend artifact; prebuilt binary compilation provenance unverified. Services stopped after QA.",
+  "limitations": [
+    "No full E2E",
+    "No customer writes or production login",
+    "AI image approval and review-app release are separate gates"
+  ],
+  "captures": [
+    {
+      "file": "desktop-before.png",
+      "testedHead": "71b6bfc445f5cef4a99756942477b8a8d40cda7d",
+      "platform": "desktop1280x1400",
+      "capturedAt": "2026-10-18T16:43:42.217803+00:00",
+      "sha256": "4d227c478fd14dfeb78fc079763cde2bd9d908d6851a69fac5c1869546e74e05",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Viewed the full actual screenshot before upload; readable synthetic task names and no customer data/credentials",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/desktop-before.png"
+    },
+    {
+      "file": "phone-before.png",
+      "testedHead": "71b6bfc445f5cef4a99756942477b8a8d40cda7d",
+      "platform": "phone-web390x844",
+      "capturedAt": "2026-10-18T16:42:14.279325+00:00",
+      "sha256": "84415b901cdb7c4e408f1ca82bf4b22cb6a48fb3a0dd61a199a5c0b522e20ab3",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Viewed the full actual screenshot before upload; readable synthetic task names and no customer data/credentials",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/phone-before.png"
+    },
+    {
+      "file": "desktop-after.png",
+      "testedHead": "04d3a3bff1901bf5e5a1cdf95457f656a100f7dc",
+      "platform": "desktop1280x1400",
+      "capturedAt": "2026-10-18T16:51:28.382043+00:00",
+      "sha256": "03df32cedff0b84663500465d4cf9dfab939791ef62e24773e666607d17c8684",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Viewed the full actual screenshot before upload; readable synthetic task names and no customer data/credentials",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/desktop-after.png"
+    },
+    {
+      "file": "phone-after.png",
+      "testedHead": "04d3a3bff1901bf5e5a1cdf95457f656a100f7dc",
+      "platform": "phone-web390x844",
+      "capturedAt": "2026-10-18T16:51:00.659940+00:00",
+      "sha256": "9450006f1283543c9368d9adf5a29d8db15ff6b7efd393d785e6077b8a17f3b4",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Viewed the full actual screenshot before upload; readable synthetic task names and no customer data/credentials",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/phone-after.png"
+    },
+    {
+      "file": "phone-before.gif",
+      "testedHead": "71b6bfc445f5cef4a99756942477b8a8d40cda7d",
+      "platform": "phone-web390x844",
+      "capturedAt": "2026-10-18T16:53:37.926941+00:00",
+      "sha256": "a44095302432bb9a6db4237cefaa5c4c009f9a4cc9ed617c08d3f7ff435d74c3",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Inspected 2fps contact sheet covering the focused clip; no credentials/customer data. Actual phone UI only.",
+      "editing": "Setup removed; phone viewport cropped.",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/phone-before.gif"
+    },
+    {
+      "file": "phone-before.mp4",
+      "testedHead": "71b6bfc445f5cef4a99756942477b8a8d40cda7d",
+      "platform": "phone-web390x844",
+      "capturedAt": "2026-10-18T16:53:37.344250+00:00",
+      "sha256": "a22678adb9c2a22310bb33c920cca68c08175adb72e678cc9f97792ab22d81a8",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Inspected 2fps contact sheet covering the focused clip; no credentials/customer data. Actual phone UI only.",
+      "editing": "Setup removed; phone viewport cropped.",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/phone-before.mp4"
+    },
+    {
+      "file": "phone-after.gif",
+      "testedHead": "04d3a3bff1901bf5e5a1cdf95457f656a100f7dc",
+      "platform": "phone-web390x844",
+      "capturedAt": "2026-10-18T16:51:31.190085+00:00",
+      "sha256": "27fd15a76a720cff0cc119c6bdc7088debc550f092734804490cfc05a5daafbf",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Inspected exact reviewer-decoded first frames of GIF and MP4 plus full2fps contact sheet. Phone layout throughout; actual confirmation and retained card. No customer data/credentials.",
+      "editing": "Eight decoded pre-roll frames removed; timestamps normalized; B-frames disabled; final frame paused about2.1seconds for reading.",
+      "encodedAt": "2026-10-18T17:11:38.620013+00:00",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/phone-after.gif"
+    },
+    {
+      "file": "phone-after.mp4",
+      "testedHead": "04d3a3bff1901bf5e5a1cdf95457f656a100f7dc",
+      "platform": "phone-web390x844",
+      "capturedAt": "2026-10-18T16:51:31.190085+00:00",
+      "sha256": "0110646e981e685303377619bac5485240e374be1aab890446a1627f1f7d26ca",
+      "sanitized": true,
+      "visuallyInspected": true,
+      "inspection": "Inspected exact reviewer-decoded first frames of GIF and MP4 plus full2fps contact sheet. Phone layout throughout; actual confirmation and retained card. No customer data/credentials.",
+      "editing": "Eight decoded pre-roll frames removed; timestamps normalized; B-frames disabled; final frame paused about2.1seconds for reading.",
+      "encodedAt": "2026-10-18T17:11:36.812955+00:00",
+      "path": "whagons5-client/1201/04d3a3bff-20261018-r2/phone-after.mp4"
+    }
+  ]
+}
