@@ -1,0 +1,653 @@
+{
+  "pr": 1092,
+  "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+  "tree": "f60b60a1d7f26f7b841d201166dc416a357ea822",
+  "comparisonBase": "1dc3a3e92a302a59b655ac0fd192f3a95ca51c6e",
+  "createdAt": "2026-10-18T23:17:54.466369+00:00",
+  "captureDate": "2026-10-18",
+  "model": "gpt-6.1-sol xhigh",
+  "skill": "fix-whagons-task@2.0.0",
+  "environment": "Isolated local preview, PostgreSQL17, Firebase Auth Emulator, existing testing tenant and existing test@test.com Account/Member. No feature setting changed. Real Jev/OpenRouter calls; credential removed after tests.",
+  "runtimeModuleHash": "605f6e3dadf38d25b1594cf4cd5520798cc8b8abddd9aca2e31436428c9e926d",
+  "nativeRuntimeCommit": "fc5726ad94ec8b035196c91af34b719fb4268942",
+  "nativeCompilationIndependentlyReproduced": false,
+  "browserRuns": [
+    {
+      "suite": "desktop real-provider flow",
+      "seconds": 13.1,
+      "exit": 0
+    },
+    {
+      "suite": "phone real-provider flow",
+      "seconds": 13.7,
+      "exit": 0
+    },
+    {
+      "suite": "desktop provider-absent and geometry",
+      "seconds": 12.6,
+      "exit": 0
+    },
+    {
+      "suite": "phone provider-absent and geometry",
+      "seconds": 12.2,
+      "exit": 0
+    }
+  ],
+  "screenshotsVisuallyInspected": 22,
+  "screenshots": [
+    {
+      "file": "after-desktop-live-ranking.png",
+      "state": "ranking",
+      "suite": "desktop-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T22:43:19.937000+00:00",
+      "sha256": "4cf5eb9520f001fa10cde7a0b0a47e5f26569d4a006414772f6a6319e35f704f"
+    },
+    {
+      "file": "after-desktop-live-ranked.png",
+      "state": "ranked",
+      "suite": "desktop-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T22:43:23.921000+00:00",
+      "sha256": "c575f05168d8a50d5c35c798724f61a2c544589b2a0456c61e667c45848a7a31"
+    },
+    {
+      "file": "after-desktop-live-pipeline-marker.png",
+      "state": "pipeline-marker",
+      "suite": "desktop-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T22:43:24.058000+00:00",
+      "sha256": "3480a6d826902385f357451de7a4da0985714f1c95719d5f6794b58566aca90e"
+    },
+    {
+      "file": "after-desktop-live-draft-email.png",
+      "state": "draft-email",
+      "suite": "desktop-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T22:43:24.345000+00:00",
+      "sha256": "16a182a53fa37715bad3af8359980b5fa84ef50f3fd8a3d59ac1b66906bffe20"
+    },
+    {
+      "file": "after-desktop-live-schedule-prefilled.png",
+      "state": "schedule-prefilled",
+      "suite": "desktop-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T22:43:24.647000+00:00",
+      "sha256": "800dbffda1466be8933b00280d1f4483b78f5abbceaa3eec2526795733e179c6"
+    },
+    {
+      "file": "after-desktop-live-handled.png",
+      "state": "handled",
+      "suite": "desktop-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T22:43:25.008000+00:00",
+      "sha256": "a3f9d2569aafbb4fa16f7de10e2aa1810a28ca9d32802cca85ae81bf6e22526c"
+    },
+    {
+      "file": "after-desktop-live-scheduled-persisted.png",
+      "state": "scheduled-persisted",
+      "suite": "desktop-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T22:43:26.580000+00:00",
+      "sha256": "bf7dc89eb0de82b51f71e70ca8094444fd0aa1135266cacadc950187bd916a81"
+    },
+    {
+      "file": "after-phone-live-ranking.png",
+      "state": "ranking",
+      "suite": "phone-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:44:15.433000+00:00",
+      "sha256": "db8e9a5bb0d63b5b6baf108ebbed3d3467d8a2200e1f0c0581d395e1f5b97aef"
+    },
+    {
+      "file": "after-phone-live-ranked.png",
+      "state": "ranked",
+      "suite": "phone-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:44:17.818000+00:00",
+      "sha256": "74e82efd5d7dcc4a09123b659f1f657df378213aee91e02489635ad21825e423"
+    },
+    {
+      "file": "after-phone-live-pipeline-overview.png",
+      "state": "pipeline-overview",
+      "suite": "phone-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:44:17.899000+00:00",
+      "sha256": "af7762e8652d01787990764b33ddade9f2fc10748ab7725044c521384b4d0617"
+    },
+    {
+      "file": "after-phone-live-draft-email.png",
+      "state": "draft-email",
+      "suite": "phone-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:44:18.118000+00:00",
+      "sha256": "2fa1d6e5a215b2ec6b3f85782c16bfe91685201103ee81d33f4b405bae83175e"
+    },
+    {
+      "file": "after-phone-live-schedule-prefilled.png",
+      "state": "schedule-prefilled",
+      "suite": "phone-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:44:18.273000+00:00",
+      "sha256": "862da71b98eb88f60bdaf88450b551182c1c0c3f4025c1cbebbef1850a7ede77"
+    },
+    {
+      "file": "after-phone-live-handled.png",
+      "state": "handled",
+      "suite": "phone-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:44:18.414000+00:00",
+      "sha256": "9b500e3eaf6fe595fb880e4dd1b7565b980f0a1a68d460a8814fa4192773279c"
+    },
+    {
+      "file": "after-phone-live-scheduled-persisted.png",
+      "state": "scheduled-persisted",
+      "suite": "phone-live",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:44:19.903000+00:00",
+      "sha256": "d0bd45213cf2d3a2139467ba60e767eb758e03dfa7a793262a129e459dd5383e"
+    },
+    {
+      "file": "after-desktop-regression-today-existing-ranking.png",
+      "state": "today-existing-ranking",
+      "suite": "desktop-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T23:03:05.234000+00:00",
+      "sha256": "ce99375f37db3491f27c5500d6a0f56ed73ce2afc2aead1eb25eeee3a97fb1d5"
+    },
+    {
+      "file": "after-desktop-regression-friendly-provider-error.png",
+      "state": "friendly-provider-error",
+      "suite": "desktop-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T23:03:05.453000+00:00",
+      "sha256": "a6a217b7223a812a597f3aff7c9d62eba14b5d27b7af47da35d23857861e8a11"
+    },
+    {
+      "file": "after-desktop-regression-long-activity-persisted.png",
+      "state": "long-activity-persisted",
+      "suite": "desktop-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T23:03:08.564000+00:00",
+      "sha256": "d652399027629a835f8e98579a8db43c957c1eb41bf271cb062e1e9de15f544c"
+    },
+    {
+      "file": "after-desktop-regression-complete-control-reachable.png",
+      "state": "complete-control-reachable",
+      "suite": "desktop-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-10-18T23:03:09.034000+00:00",
+      "sha256": "130f60c24c651c918a93069add1f71557f8671e105cd6c7c722954c191356392"
+    },
+    {
+      "file": "after-phone-regression-today-existing-ranking.png",
+      "state": "today-existing-ranking",
+      "suite": "phone-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:45:39.682000+00:00",
+      "sha256": "76471f3a5989762de3d4109ecf3e19b48935a4303bb6f754b871e4bcaaf1a41c"
+    },
+    {
+      "file": "after-phone-regression-friendly-provider-error.png",
+      "state": "friendly-provider-error",
+      "suite": "phone-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:45:39.818000+00:00",
+      "sha256": "6e510a47413fb88e8e6f3ce0b6d544164bb97633b3e442930a2996a5f3f65f0d"
+    },
+    {
+      "file": "after-phone-regression-long-activity-persisted.png",
+      "state": "long-activity-persisted",
+      "suite": "phone-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:45:42.515000+00:00",
+      "sha256": "a236ab072225e98f87c876441178f9c31da31deadf85ac78dd86125da372abc5"
+    },
+    {
+      "file": "after-phone-regression-complete-control-reachable.png",
+      "state": "complete-control-reachable",
+      "suite": "phone-regression",
+      "head": "3d6af8a00c31ed60e29627ad6e5bc83f0caba689",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-18T22:45:42.647000+00:00",
+      "sha256": "7cf27e212bf4e28283111849ae0d279e389493ba43c148fe3103947c021c85aa"
+    }
+  ],
+  "knownHistoricalBeforeDefects": [
+    {
+      "file": "before-provider-error-80dc640c.png",
+      "source": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0db77d486a5861f61a3aa026adf4b08b400d1e2f/whagons5-client/1092/sweep-1017-80dc640c/15-head-11-provider-error.png",
+      "head": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sha256": "9462ee6da4b76d3671f43ed4a43f473f6353a843484450a18c1517afc0a7f6b1",
+      "capturedDate": "2026-10-17"
+    },
+    {
+      "file": "before-phone-overlap-80dc640c.png",
+      "source": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0db77d486a5861f61a3aa026adf4b08b400d1e2f/whagons5-client/1092/sweep-1017-80dc640c/19-head-16-phone-scheduled-persisted.png",
+      "head": "80dc640c5218f4ebe698e40329e2357125ede097",
+      "sha256": "8de42081b8f1a16a3148c3b710469c3cff850f02389570584541241a7c552f1d",
+      "capturedDate": "2026-10-17"
+    }
+  ],
+  "recordings": [
+    {
+      "mp4": "after-desktop.mp4",
+      "gif": "after-desktop.gif",
+      "sourceRecordingSha256": "833fce2536f904be7f780d54184aa9734218b27f8b3c8dbabcbbe31edc00229f",
+      "sourceFrameIndexes": [
+        216,
+        232,
+        246,
+        291
+      ],
+      "edit": "Four inspected frames selected from the real browser recording, held in order for readability; final state extended. No continuous playback claimed.",
+      "durationSeconds": 10,
+      "gifFrameCount": 60,
+      "inspectedGifFrames": [
+        0,
+        12,
+        24,
+        36,
+        59
+      ],
+      "mp4SampleSeconds": [
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "mp4": "after-phone.mp4",
+      "gif": "after-phone.gif",
+      "sourceRecordingSha256": "06366b4dbb8decde18f67241290c96ab120bd6f6bad3936e3b749f7d0aa0793a",
+      "sourceFrameIndexes": [
+        258,
+        267,
+        272,
+        308
+      ],
+      "edit": "Four inspected frames selected from the real browser recording, held in order for readability; final state extended. No continuous playback claimed.",
+      "durationSeconds": 10,
+      "gifFrameCount": 60,
+      "inspectedGifFrames": [
+        0,
+        12,
+        24,
+        36,
+        59
+      ],
+      "mp4SampleSeconds": [
+        1,
+        3,
+        5,
+        7
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "after-desktop-live-draft-email.png",
+      "sha256": "16a182a53fa37715bad3af8359980b5fa84ef50f3fd8a3d59ac1b66906bffe20",
+      "bytes": 144743,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-live-handled.png",
+      "sha256": "a3f9d2569aafbb4fa16f7de10e2aa1810a28ca9d32802cca85ae81bf6e22526c",
+      "bytes": 135089,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-live-pipeline-marker.png",
+      "sha256": "3480a6d826902385f357451de7a4da0985714f1c95719d5f6794b58566aca90e",
+      "bytes": 113256,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-live-ranked.png",
+      "sha256": "c575f05168d8a50d5c35c798724f61a2c544589b2a0456c61e667c45848a7a31",
+      "bytes": 136413,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-live-ranking.png",
+      "sha256": "4cf5eb9520f001fa10cde7a0b0a47e5f26569d4a006414772f6a6319e35f704f",
+      "bytes": 119987,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-live-schedule-prefilled.png",
+      "sha256": "800dbffda1466be8933b00280d1f4483b78f5abbceaa3eec2526795733e179c6",
+      "bytes": 202266,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-live-scheduled-persisted.png",
+      "sha256": "bf7dc89eb0de82b51f71e70ca8094444fd0aa1135266cacadc950187bd916a81",
+      "bytes": 131851,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-regression-complete-control-reachable.png",
+      "sha256": "130f60c24c651c918a93069add1f71557f8671e105cd6c7c722954c191356392",
+      "bytes": 207846,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-regression-friendly-provider-error.png",
+      "sha256": "a6a217b7223a812a597f3aff7c9d62eba14b5d27b7af47da35d23857861e8a11",
+      "bytes": 141554,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-regression-long-activity-persisted.png",
+      "sha256": "d652399027629a835f8e98579a8db43c957c1eb41bf271cb062e1e9de15f544c",
+      "bytes": 146826,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop-regression-today-existing-ranking.png",
+      "sha256": "ce99375f37db3491f27c5500d6a0f56ed73ce2afc2aead1eb25eeee3a97fb1d5",
+      "bytes": 145907,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-desktop.gif",
+      "sha256": "3eb2bcf4093eb2d07735ab46249bd5ea10e25d5d8db467f1e7b66cd5b211879f",
+      "bytes": 544330,
+      "size": [
+        1008,
+        700
+      ],
+      "frames": 60
+    },
+    {
+      "file": "after-desktop.mp4",
+      "sha256": "e72c74a172232c582f9d32f4853eae60c920d5e5855a6cd64ef6b7cc8a0d65d7",
+      "bytes": 226881
+    },
+    {
+      "file": "after-phone-live-draft-email.png",
+      "sha256": "2fa1d6e5a215b2ec6b3f85782c16bfe91685201103ee81d33f4b405bae83175e",
+      "bytes": 58255,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-live-handled.png",
+      "sha256": "9b500e3eaf6fe595fb880e4dd1b7565b980f0a1a68d460a8814fa4192773279c",
+      "bytes": 50480,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-live-pipeline-overview.png",
+      "sha256": "af7762e8652d01787990764b33ddade9f2fc10748ab7725044c521384b4d0617",
+      "bytes": 52945,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-live-ranked.png",
+      "sha256": "74e82efd5d7dcc4a09123b659f1f657df378213aee91e02489635ad21825e423",
+      "bytes": 65036,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-live-ranking.png",
+      "sha256": "db8e9a5bb0d63b5b6baf108ebbed3d3467d8a2200e1f0c0581d395e1f5b97aef",
+      "bytes": 59527,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-live-schedule-prefilled.png",
+      "sha256": "862da71b98eb88f60bdaf88450b551182c1c0c3f4025c1cbebbef1850a7ede77",
+      "bytes": 32073,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-live-scheduled-persisted.png",
+      "sha256": "d0bd45213cf2d3a2139467ba60e767eb758e03dfa7a793262a129e459dd5383e",
+      "bytes": 61370,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-regression-complete-control-reachable.png",
+      "sha256": "7cf27e212bf4e28283111849ae0d279e389493ba43c148fe3103947c021c85aa",
+      "bytes": 33170,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-regression-friendly-provider-error.png",
+      "sha256": "6e510a47413fb88e8e6f3ce0b6d544164bb97633b3e442930a2996a5f3f65f0d",
+      "bytes": 62845,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-regression-long-activity-persisted.png",
+      "sha256": "a236ab072225e98f87c876441178f9c31da31deadf85ac78dd86125da372abc5",
+      "bytes": 61468,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone-regression-today-existing-ranking.png",
+      "sha256": "76471f3a5989762de3d4109ecf3e19b48935a4303bb6f754b871e4bcaaf1a41c",
+      "bytes": 61546,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "after-phone.gif",
+      "sha256": "c53aab24a3be0ded2be407da69c41cdbf47505a2c8bd4d164122032a683ae03c",
+      "bytes": 333491,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 60
+    },
+    {
+      "file": "after-phone.mp4",
+      "sha256": "20ef717d334a67505f96a59353fef28d990be705bfbfe9bdba62bde8f75aa81a",
+      "bytes": 122222
+    },
+    {
+      "file": "before-phone-overlap-80dc640c.png",
+      "sha256": "8de42081b8f1a16a3148c3b710469c3cff850f02389570584541241a7c552f1d",
+      "bytes": 56470,
+      "size": [
+        390,
+        844
+      ],
+      "frames": 1
+    },
+    {
+      "file": "before-provider-error-80dc640c.png",
+      "sha256": "9462ee6da4b76d3671f43ed4a43f473f6353a843484450a18c1517afc0a7f6b1",
+      "bytes": 119142,
+      "size": [
+        1440,
+        1000
+      ],
+      "frames": 1
+    }
+  ],
+  "limitations": [
+    "Existing admin membership used for browser checks; restricted access is covered by backend unit tests.",
+    "Clips hold selected real recording frames; their samples do not establish interaction behavior. Browser assertions cover the walkthrough.",
+    "Phone pipeline overview image does not show the horizontally offscreen proposal marker; the desktop screenshot does.",
+    "Earlier source/harness attempts are superseded and retained privately; every active after asset uses this head."
+  ]
+}
