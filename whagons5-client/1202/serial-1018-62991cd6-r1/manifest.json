@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "pr": 1202,
+  "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+  "tree": "9cc268744513e744b9f5a04df89ae4f8f68a944a",
+  "comparisonBase": "c9ade3a72043ca0251a9ca8147068bc26a50577a",
+  "at": "2026-10-18T23:55:28.233194+00:00",
+  "environment": "Isolated copy of existing testing tenant; existing admin/requester identities; loopback Firebase Auth Emulator and Gonvex/PostgreSQL. No business data mutations, new app accounts/members/tenants, role or feature-flag changes. IDs/roles/counts before and after match.",
+  "clientClock": "2026-10-17T12:00:00Z fixed after UI login; server clock unchanged; reproduces Saturday boundary",
+  "tenantWeekStart": "monday (existing setting)",
+  "model": "gpt-6.1-sol xhigh",
+  "skill": "fix-whagons-task@2.0.0",
+  "screenshots": [
+    {
+      "name": "fixed-schedule-reopened",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/settings/working-schedules",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:51.857Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-fixed-schedule-reopened.png",
+      "sha256": "2cedeb190a8a0fdd85f504d1fd222c641eacf27519f06603ffc8ee3077d658b0"
+    },
+    {
+      "name": "manager-calendar-week-detail",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:48.878Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-manager-calendar-week-detail.png",
+      "sha256": "764b0fb5561bfbf79579161c05ab757f874db00c44ec49333958f948ad5b6654"
+    },
+    {
+      "name": "manager-calendar-week",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:48.782Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-manager-calendar-week.png",
+      "sha256": "764b0fb5561bfbf79579161c05ab757f874db00c44ec49333958f948ad5b6654"
+    },
+    {
+      "name": "manager-next-week-approved-record",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/time-off?view=team",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:49.419Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-manager-next-week-approved-record.png",
+      "sha256": "85d860e7dd90039ed58a3f02fc9218857c268c1acbbf4d61b4569ffa326010de"
+    },
+    {
+      "name": "open-ended-assignment",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:50.681Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-open-ended-assignment.png",
+      "sha256": "9d79dabbad401718a3af40b0e861f40f3375041bac5caa977559e804525edb4f"
+    },
+    {
+      "name": "people-work-schedule",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:50.456Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-people-work-schedule.png",
+      "sha256": "dc2c0768fed836cfd1a2dfeac0b405df65cb16fd42bccd094010a4e7ca54e195"
+    },
+    {
+      "name": "rotation-reopened",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/settings/working-schedules",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:52.309Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-rotation-reopened.png",
+      "sha256": "2708f5f1d1e2cd5fd07e9d5b4f094e01d5150744f395358be46bd6c3df4c345d"
+    },
+    {
+      "name": "member-approved-oct23-record",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/time-off",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:56.841Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-member-approved-oct23-record.png",
+      "sha256": "5ac69a0cf941bd2eaad1a608659e51a9115992c1bed83c1fcdddb5639896d19a"
+    },
+    {
+      "name": "member-calendar-week-detail",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:58.694Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-member-calendar-week-detail.png",
+      "sha256": "e82551046aaf74d58ec83475e969862fa8fc3814e2b090535b4bd8e05ad042b3"
+    },
+    {
+      "name": "member-calendar-week",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-18T23:50:58.596Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-desktop-member-calendar-week.png",
+      "sha256": "e82551046aaf74d58ec83475e969862fa8fc3814e2b090535b4bd8e05ad042b3"
+    },
+    {
+      "name": "fixed-schedule-reopened",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/settings/working-schedules",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:18.903Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-fixed-schedule-reopened.png",
+      "sha256": "23a3ee633795a9ef99ac1632e34d3c53d3085c1aefef0f42841461a488488f14"
+    },
+    {
+      "name": "manager-calendar-week-detail",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:16.689Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-manager-calendar-week-detail.png",
+      "sha256": "9f58d36f75e178626764f72a58064fce88d3caf03bd553c78c10791e3b3dbd79"
+    },
+    {
+      "name": "manager-calendar-week",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:16.629Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-manager-calendar-week.png",
+      "sha256": "f4b705d090bef9b0e975ffd46f8b42ebd3ac68a09c5ce8709a51fe484841bead"
+    },
+    {
+      "name": "manager-next-week-approved-record",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/time-off?view=team",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:17.187Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-manager-next-week-approved-record.png",
+      "sha256": "b6f7383db08f835eda4414cf82ea46f8493ce8a200642c065fe9f925e4021238"
+    },
+    {
+      "name": "open-ended-assignment",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:18.289Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-open-ended-assignment.png",
+      "sha256": "f43c7afe16168b5fe8ceff44dfdccdd7899810c162a18043c430ef0e614e7c44"
+    },
+    {
+      "name": "people-work-schedule",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:18.125Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-people-work-schedule.png",
+      "sha256": "be82a16a06f66c38de203aaba8ce07803417d6c232f3387fa1b3d1c5d8bd8ae1"
+    },
+    {
+      "name": "rotation-reopened",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/settings/working-schedules",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:19.474Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-rotation-reopened.png",
+      "sha256": "10f2cc36972fb72caa1dd0e321e65315e4035c7872e62f97ea1ac8c886d2d1b9"
+    },
+    {
+      "name": "member-approved-oct23-record",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/time-off",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:26.225Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-member-approved-oct23-record.png",
+      "sha256": "55644431a437f9b143aa9752dbb40307946387fe012d8ea1aa56cde57d69713b"
+    },
+    {
+      "name": "member-calendar-week-detail",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:27.187Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-member-calendar-week-detail.png",
+      "sha256": "b03193297a723360a9a8c3aebd98fc0a49af67cb5c846d6545dc9d5d3a70df9a"
+    },
+    {
+      "name": "member-calendar-week",
+      "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+      "url": "http://9ee91c4a-4435-6efc-913f-a00ff24bb26d.localhost:14683/working-hours",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-18T23:50:27.136Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "file": "after-phone-member-calendar-week.png",
+      "sha256": "b03193297a723360a9a8c3aebd98fc0a49af67cb5c846d6545dc9d5d3a70df9a"
+    }
+  ],
+  "recordingEdits": [
+    {
+      "device": "desktop",
+      "state": "manager-calendar-week",
+      "sourceVideoSha256": "0f5aec097d37878310b821f2e06ac6099a74bb55e11d94aa3345d1b41dada843",
+      "samplingFps": 5,
+      "sampleIndex1Based": 26,
+      "approximateSourceSeconds": 5.1,
+      "heldSeconds": 5,
+      "matchMeanAbsoluteDifference": 0.33356481481481487
+    },
+    {
+      "device": "desktop",
+      "state": "member-calendar-week",
+      "sourceVideoSha256": "cd123f8ef597e1ad6c22d86e1bc637b2a9237ba319f2c39bae4b9ae6e88799ce",
+      "samplingFps": 5,
+      "sampleIndex1Based": 31,
+      "approximateSourceSeconds": 6.1,
+      "heldSeconds": 5,
+      "matchMeanAbsoluteDifference": 0.293287037037037
+    },
+    {
+      "device": "phone",
+      "state": "manager-calendar-week",
+      "sourceVideoSha256": "29c1c72cce84bab2603fa0ffc0169b2ca821a87a330ad288fef2744e02cc074b",
+      "samplingFps": 5,
+      "sampleIndex1Based": 39,
+      "approximateSourceSeconds": 7.7,
+      "heldSeconds": 5,
+      "matchMeanAbsoluteDifference": 0.5225925925925926
+    },
+    {
+      "device": "phone",
+      "state": "member-calendar-week",
+      "sourceVideoSha256": "81a62c79125ed3efe48c45acfbda61075105e955727f494a2aa9c04a5204269f",
+      "samplingFps": 5,
+      "sampleIndex1Based": 37,
+      "approximateSourceSeconds": 7.3,
+      "heldSeconds": 5,
+      "matchMeanAbsoluteDifference": 0.35905092592592586
+    }
+  ],
+  "recordingDescription": "Edited held-state selections of two actual browser recording samples per device, 5s each; total10s; no continuous walkthrough playback claimed.",
+  "inspection": {
+    "all20CurrentPngs": "Individually inspected; byte-identical detail variants match inspected overview",
+    "gifFrames": [
+      0,
+      29,
+      30,
+      59
+    ],
+    "gifFrameCount": 60,
+    "mp4Seconds": 10,
+    "withheld": "Notification/loading images and request recording samples that missed their settled state are private only."
+  },
+  "browser": {
+    "desktop": "2 tests passed15.7s",
+    "phone": "2 tests passed19.5s",
+    "managerEntry": "Everything \u2192 More \u2192 Working Hours; UI links and browser Back to People/Work and Working Schedules",
+    "memberEntry": "Everything \u2192 existing approval notification \u2192 Time Off; Working Hours direct-route diagnostic only. Normal entry blocked.",
+    "coverage": "Both current-week cards exclude next-week Oct23 approval, manager count0, approval retained, no horizontal dashboard overflow, fixed/rotating schedule reopening, zone/anchor and ongoing assignment.",
+    "fullOriginalWalkthrough": "INCOMPLETE; no full current-head clearance claimed. Fleet refusal/recovery, team/position priority, new approval lifecycle, fallback leave and cleared-field write/reload media not refreshed."
+  },
+  "checks": [
+    "12 affected unit tests pass, two rendered regressions red before fix",
+    "Typecheck zero errors",
+    "Canonical i18n sync/check pass",
+    "Architecture check pass",
+    "Final E2E static build pass"
+  ],
+  "backend": {
+    "head": "62991cd6e08be2596c97bbf5fc6bb9af6ee1c04d",
+    "tree": "9cc268744513e744b9f5a04df89ae4f8f68a944a",
+    "worktreeClean": true,
+    "committedModuleHash": "eb83ee998430afdf798945629212cc4673b85c026f0999e057102acdcbc731dd",
+    "runtimeModuleHash": "eb83ee998430afdf798945629212cc4673b85c026f0999e057102acdcbc731dd",
+    "functionsSchemaVisibilityAndModuleMatch": true,
+    "nativeCompilationReproduced": false
+  },
+  "historicalEvidence": [
+    {
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/ecbb54349f7cc3a40bf2b5c568ddba4886a3704e/whagons5-client/1202/sweep-1017-ba6bb601/01-base-01-working-hours.png",
+      "sha256": "766b28b5dedd2befe582af8d19d6ee61779361aa6c37737d060b6a7a37d96249",
+      "httpStatus": 200,
+      "head": "c9ade3a72043ca0251a9ca8147068bc26a50577a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/ecbb54349f7cc3a40bf2b5c568ddba4886a3704e/whagons5-client/1202/sweep-1017-ba6bb601/02-base-04-people-work.png",
+      "sha256": "abb4f0c6bc526e77e8bd1b883eb88a877cca20f1635ad5f49087d83a25b39418",
+      "httpStatus": 200,
+      "head": "c9ade3a72043ca0251a9ca8147068bc26a50577a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/ecbb54349f7cc3a40bf2b5c568ddba4886a3704e/whagons5-client/1202/sweep-1017-ba6bb601/13-head-41-compact-upcoming-leave.png",
+      "sha256": "7c115d161eb3bd8af297371ad606ebd986a4385ef2e57d418abb25bb255cf242",
+      "httpStatus": 200,
+      "head": "ba6bb60165b374d385eba8c5e5741d4274e74c58"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/ecbb54349f7cc3a40bf2b5c568ddba4886a3704e/whagons5-client/1202/sweep-1017-ba6bb601/15-head-43-settled-manager-dashboard.png",
+      "sha256": "40880962af43f5f20852953eb1de419ce69ca8d83007889de1e12ce2bcd7d32e",
+      "httpStatus": 200,
+      "head": "ba6bb60165b374d385eba8c5e5741d4274e74c58"
+    }
+  ],
+  "baselineVideo": "MISSING; original review supplied stills only",
+  "openItems": [
+    "Ordinary-member normal navigation blocked by existing sidebar/header behavior, outside named date defect",
+    "Full original walkthrough/current-head media incomplete",
+    "Native binary compilation provenance and external notification delivery unverified",
+    "Restricted member historical rejection row says Unknown member; unchanged",
+    "Phone stat captions truncated; count assertion verified in DOM"
+  ],
+  "files": [
+    {
+      "file": "after-desktop-fixed-schedule-reopened.png",
+      "sha256": "2cedeb190a8a0fdd85f504d1fd222c641eacf27519f06603ffc8ee3077d658b0",
+      "bytes": 142769
+    },
+    {
+      "file": "after-desktop-manager-calendar-week-detail.png",
+      "sha256": "764b0fb5561bfbf79579161c05ab757f874db00c44ec49333958f948ad5b6654",
+      "bytes": 87550
+    },
+    {
+      "file": "after-desktop-manager-calendar-week.png",
+      "sha256": "764b0fb5561bfbf79579161c05ab757f874db00c44ec49333958f948ad5b6654",
+      "bytes": 87550
+    },
+    {
+      "file": "after-desktop-manager-next-week-approved-record.png",
+      "sha256": "85d860e7dd90039ed58a3f02fc9218857c268c1acbbf4d61b4569ffa326010de",
+      "bytes": 62623
+    },
+    {
+      "file": "after-desktop-member-approved-oct23-record.png",
+      "sha256": "5ac69a0cf941bd2eaad1a608659e51a9115992c1bed83c1fcdddb5639896d19a",
+      "bytes": 82068
+    },
+    {
+      "file": "after-desktop-member-calendar-week-detail.png",
+      "sha256": "e82551046aaf74d58ec83475e969862fa8fc3814e2b090535b4bd8e05ad042b3",
+      "bytes": 53098
+    },
+    {
+      "file": "after-desktop-member-calendar-week.png",
+      "sha256": "e82551046aaf74d58ec83475e969862fa8fc3814e2b090535b4bd8e05ad042b3",
+      "bytes": 53098
+    },
+    {
+      "file": "after-desktop-open-ended-assignment.png",
+      "sha256": "9d79dabbad401718a3af40b0e861f40f3375041bac5caa977559e804525edb4f",
+      "bytes": 99559
+    },
+    {
+      "file": "after-desktop-people-work-schedule.png",
+      "sha256": "dc2c0768fed836cfd1a2dfeac0b405df65cb16fd42bccd094010a4e7ca54e195",
+      "bytes": 112115
+    },
+    {
+      "file": "after-desktop-rotation-reopened.png",
+      "sha256": "2708f5f1d1e2cd5fd07e9d5b4f094e01d5150744f395358be46bd6c3df4c345d",
+      "bytes": 133459
+    },
+    {
+      "file": "after-desktop.gif",
+      "sha256": "4dd98b74aa924c133da9dcb2c345d4beb857d61b047a180f080cc6106f0b0f9f",
+      "bytes": 121951
+    },
+    {
+      "file": "after-desktop.mp4",
+      "sha256": "9bc5d33a753b703d9eadcb831e44587d4b789b4116ac86fb3a786c6d00aeb51b",
+      "bytes": 68792
+    },
+    {
+      "file": "after-phone-fixed-schedule-reopened.png",
+      "sha256": "23a3ee633795a9ef99ac1632e34d3c53d3085c1aefef0f42841461a488488f14",
+      "bytes": 48757
+    },
+    {
+      "file": "after-phone-manager-calendar-week-detail.png",
+      "sha256": "9f58d36f75e178626764f72a58064fce88d3caf03bd553c78c10791e3b3dbd79",
+      "bytes": 51295
+    },
+    {
+      "file": "after-phone-manager-calendar-week.png",
+      "sha256": "f4b705d090bef9b0e975ffd46f8b42ebd3ac68a09c5ce8709a51fe484841bead",
+      "bytes": 51136
+    },
+    {
+      "file": "after-phone-manager-next-week-approved-record.png",
+      "sha256": "b6f7383db08f835eda4414cf82ea46f8493ce8a200642c065fe9f925e4021238",
+      "bytes": 40302
+    },
+    {
+      "file": "after-phone-member-approved-oct23-record.png",
+      "sha256": "55644431a437f9b143aa9752dbb40307946387fe012d8ea1aa56cde57d69713b",
+      "bytes": 49404
+    },
+    {
+      "file": "after-phone-member-calendar-week-detail.png",
+      "sha256": "b03193297a723360a9a8c3aebd98fc0a49af67cb5c846d6545dc9d5d3a70df9a",
+      "bytes": 36091
+    },
+    {
+      "file": "after-phone-member-calendar-week.png",
+      "sha256": "b03193297a723360a9a8c3aebd98fc0a49af67cb5c846d6545dc9d5d3a70df9a",
+      "bytes": 36091
+    },
+    {
+      "file": "after-phone-open-ended-assignment.png",
+      "sha256": "f43c7afe16168b5fe8ceff44dfdccdd7899810c162a18043c430ef0e614e7c44",
+      "bytes": 40495
+    },
+    {
+      "file": "after-phone-people-work-schedule.png",
+      "sha256": "be82a16a06f66c38de203aaba8ce07803417d6c232f3387fa1b3d1c5d8bd8ae1",
+      "bytes": 43387
+    },
+    {
+      "file": "after-phone-rotation-reopened.png",
+      "sha256": "10f2cc36972fb72caa1dd0e321e65315e4035c7872e62f97ea1ac8c886d2d1b9",
+      "bytes": 53238
+    },
+    {
+      "file": "after-phone.gif",
+      "sha256": "716e207891930754a491452f6133399f8df7631183bdbdb115f5d056cb7545f0",
+      "bytes": 139755
+    },
+    {
+      "file": "after-phone.mp4",
+      "sha256": "60366460694be6bd7e73cec75c71b7d55479bcc99fd24f745f7b20da522d0ee2",
+      "bytes": 39145
+    }
+  ]
+}
