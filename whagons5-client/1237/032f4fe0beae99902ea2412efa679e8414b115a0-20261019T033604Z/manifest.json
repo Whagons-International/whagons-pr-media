@@ -1,0 +1,1450 @@
+{
+  "pr": 1237,
+  "applicationHead": "032f4fe0beae99902ea2412efa679e8414b115a0",
+  "applicationTree": "168f57e3d9a7e3f505d29e8b67e0487fb3e638f3",
+  "comparisonBase": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+  "assembledAt": "2026-10-19T03:47:57.670574+00:00",
+  "model": "gpt-6.1-sol xhigh",
+  "workflowContentVersionsSha256": {
+    "babysit-pr": "6d96df11e32a27595ca710ee189f57fa5da102ba03aa17e4e1d9b71e12fa5f3d",
+    "fix-whagons-task": "6a9f461e7384edd44b690a0a57c4aca4b54a2191b33ed70a73b0f60fbccf7d78"
+  },
+  "runtime": "Arch3 Chromium 1228 / Playwright, 1440x1000 desktop and 390x844 phone, one worker; isolated loopback Rust runtime, PostgreSQL and Auth Emulator",
+  "normalEntry": "Everything \u2192 Avatar \u2192 full profile \u2192 Appearance \u2192 Deutsch; Configuration \u2192 Advanced \u2192 Reminder Rules; Sidebar \u2192 Learn \u2192 Work Plans. Ordinary member starts with the existing saved Portuguese preference. No feature flag or role grant changed.",
+  "browserRuns": [
+    {
+      "run": "baseline-desktop",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "stats": {
+        "startTime": "2026-10-19T03:39:41.532Z",
+        "duration": 30089.446000000004,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "resultSha256": "eb1aab3507e12410cb25aab44e36a95d7e2097fd08ccf263be3637d8e1f3b396",
+      "harnessSha256": "c074e096f58fd9178c48153f15cf987df4e8d28ea788be22625818af4abc656f"
+    },
+    {
+      "run": "baseline-phone",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "stats": {
+        "startTime": "2026-10-19T03:40:12.723Z",
+        "duration": 26243.26,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "resultSha256": "39e84b1a770da394dd33af115c441663ae1b98cc919ff55f2dd9ea0731213123",
+      "harnessSha256": "c074e096f58fd9178c48153f15cf987df4e8d28ea788be22625818af4abc656f"
+    },
+    {
+      "run": "desktop-run2",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "stats": {
+        "startTime": "2026-10-19T03:31:50.961Z",
+        "duration": 51448.034999999996,
+        "expected": 3,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "resultSha256": "7b0ed4c027fbba4ed578f93bcd82a43ec44e4bc57f7f73d7a6d63e41c9314a46",
+      "harnessSha256": "c3595ad2424bb8d568b29fd6ae1ab2761911c00ea16f5363e77da42664652eae"
+    },
+    {
+      "run": "phone-run2",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "stats": {
+        "startTime": "2026-10-19T03:35:14.339Z",
+        "duration": 50587.812999999995,
+        "expected": 3,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "resultSha256": "237de1ede8c52ee9b6a2dea3af45792d23cdd7d11e7285264d968161e978a402",
+      "harnessSha256": "c3595ad2424bb8d568b29fd6ae1ab2761911c00ea16f5363e77da42664652eae"
+    },
+    {
+      "run": "legacy-phone-run2",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "stats": {
+        "startTime": "2026-10-19T03:26:20.034Z",
+        "duration": 27170.540999999997,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "resultSha256": "0a4c3f5803b1e1a350304184d15648702d3c27f605c6c9ccfaa99aaf7a6ae7a5",
+      "harnessSha256": "e52a207d10438977194041df5befdc5fc868cc933ac054862ed974b8f402fd4f"
+    }
+  ],
+  "headRuntimeProof": {
+    "at": "2026-10-19T03:21:16.309526+00:00",
+    "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+    "tree": "168f57e3d9a7e3f505d29e8b67e0487fb3e638f3",
+    "functionsSchemaVisibilityAndModuleMatch": true,
+    "committedModuleHash": "5d788b2f8799e1ab3a645acbbf2ab77f08a0e103a5542f03f8933faac8bf1053",
+    "storedRuntimeModuleHash": "5d788b2f8799e1ab3a645acbbf2ab77f08a0e103a5542f03f8933faac8bf1053",
+    "existingIdentitySubjectsMatch": true,
+    "noApplicationActorProvisioning": true,
+    "nativeCompilationReproduced": false,
+    "worktreeClean": true
+  },
+  "baseRuntimeProof": {
+    "at": "2026-10-19T03:38:38.088570+00:00",
+    "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+    "tree": "f46f20848ef1aea48c0744ecde4432bc994ea78e",
+    "functionsSchemaVisibilityAndModuleMatch": true,
+    "committedModuleHash": "b3fa75b473a193625200a2c29fdfe6f39683379f653dd8dd35e86dc5542a162a",
+    "storedRuntimeModuleHash": "b3fa75b473a193625200a2c29fdfe6f39683379f653dd8dd35e86dc5542a162a",
+    "existingIdentitySubjectsMatch": true,
+    "noApplicationActorProvisioning": true,
+    "nativeCompilationReproduced": false,
+    "worktreeClean": true
+  },
+  "automatedChecks": [
+    {
+      "name": "unit",
+      "command": [
+        "pnpm",
+        "exec",
+        "vitest",
+        "run",
+        "--config",
+        "vitest.config.ts",
+        "--environment",
+        "jsdom",
+        "--dir",
+        "src",
+        "--maxWorkers=1",
+        "src/locales/germanTranslationQuality.test.ts"
+      ],
+      "at": "2026-10-19T02:51:52.573677+00:00",
+      "seconds": 5.750828,
+      "exitCode": 0
+    },
+    {
+      "name": "backend-unit",
+      "command": [
+        "pnpm",
+        "exec",
+        "vitest",
+        "run",
+        "--config",
+        "vitest.gonvex.config.ts",
+        "--configLoader",
+        "runner",
+        "--maxWorkers=1",
+        "gonvex/module/advancedVoice.test.ts",
+        "gonvex/module/assistantConfirmations.test.ts",
+        "gonvex/module/assistantTaskWorkflow.test.ts",
+        "gonvex/module/assistantStreaming.test.ts",
+        "gonvex/module/voiceTaskInference.test.ts",
+        "gonvex/module/invitationEmails.test.ts",
+        "gonvex/module/analyticsRendering.test.ts",
+        "gonvex/module/analyticsDelivery.test.ts"
+      ],
+      "at": "2026-10-19T02:51:58.324739+00:00",
+      "seconds": 4.689487,
+      "exitCode": 0
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "pnpm",
+        "typecheck:budget"
+      ],
+      "at": "2026-10-19T02:52:03.014619+00:00",
+      "seconds": 24.406226,
+      "exitCode": 0
+    },
+    {
+      "name": "backend-typecheck",
+      "command": [
+        "pnpm",
+        "gonvex:v2:typecheck"
+      ],
+      "at": "2026-10-19T02:52:27.421978+00:00",
+      "seconds": 214.097034,
+      "exitCode": 0
+    },
+    {
+      "name": "i18n-check",
+      "command": [
+        "pnpm",
+        "i18n:check"
+      ],
+      "at": "2026-10-19T02:56:01.519372+00:00",
+      "seconds": 56.453572,
+      "exitCode": 0
+    },
+    {
+      "name": "architecture",
+      "command": [
+        "pnpm",
+        "arch:check"
+      ],
+      "at": "2026-10-19T02:56:57.973283+00:00",
+      "seconds": 4.685735,
+      "exitCode": 0
+    }
+  ],
+  "initialFrontendRun": {
+    "assertions": 103,
+    "passed": 102,
+    "failed": 1,
+    "failure": "Missing new staging German invitation-links label; fixed without changing the assertion. Unchanged German quality recheck passes all 5 tests."
+  },
+  "builds": [
+    {
+      "repo": "1237",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "seconds": 131.70825,
+      "exitCode": 0
+    },
+    {
+      "repo": "1237-base-run2",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "seconds": 70.31997,
+      "exitCode": 0
+    }
+  ],
+  "identityInvariant": {
+    "at": "2026-10-19T03:43:27.372698+00:00",
+    "accountIdsUnchanged": true,
+    "memberIdsAccountLinksAndRolesUnchanged": true,
+    "accountCountBefore": 4,
+    "accountCountAfter": 4,
+    "memberCountBefore": 3,
+    "memberCountAfter": 3,
+    "existingLegacyLanguageBefore": "pt",
+    "existingLegacyLanguageAfter": "de",
+    "noApplicationActorProvisioning": true,
+    "tenantCountBefore": 2,
+    "tenantCountAfter": 2,
+    "reminderRuleCountAfter": 0
+  },
+  "publicGuideAvailability": {
+    "at": "2026-10-19T03:14:37.228241+00:00",
+    "scope": "Unauthenticated bounded GET of public guide media only; no application/customer-data requests",
+    "results": [
+      {
+        "url": "https://whagons.com/media/blog/de/kpi-cards-cover.jpg",
+        "status": 404
+      },
+      {
+        "url": "https://whagons.com/media/blog/de/kpi-cards-cover.mp4",
+        "status": 404
+      },
+      {
+        "url": "https://whagons.com/media/blog/de/cleaning-cover.jpg",
+        "status": 404
+      },
+      {
+        "url": "https://whagons.com/media/blog/de/cleaning-cover.mp4",
+        "status": 404
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "name": "work-plans-cover-loaded",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "element",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:23.582Z",
+      "language": "de",
+      "route": "/learn/work-plans",
+      "file": "after-desktop-work-plans-cover-loaded.png",
+      "sha256": "388c6d0f5c5a2ebe54a7f848cb3ebdb551d4c07b2d921ba9845d9d7aaacf5149"
+    },
+    {
+      "name": "work-plans-german-guide",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:24.322Z",
+      "language": "de",
+      "route": "/learn/work-plans",
+      "file": "after-desktop-work-plans-german-guide.png",
+      "sha256": "a992fd1fa4adea8b7e381824d4b9836ec6f7dc555e933e87e43c11014da9fcb1"
+    },
+    {
+      "name": "approvals-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:35.636Z",
+      "language": "de",
+      "route": "/settings/approvals",
+      "file": "after-desktop-approvals-german.png",
+      "sha256": "f58eeb344c023819b6984cb173eacc66ab350bbada57792ee50dafd701cde6df"
+    },
+    {
+      "name": "global-three-language-picker",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:33.097Z",
+      "language": "de",
+      "route": "/settings/global",
+      "file": "after-desktop-global-three-language-picker.png",
+      "sha256": "17e37a01a2e0745a7375c4aacaf9cdef9d66e0bfa2760b79e3dc8dba530e66c8"
+    },
+    {
+      "name": "profile-three-language-picker",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:31.391Z",
+      "language": "de",
+      "route": "/profile?tab=appearance",
+      "file": "after-desktop-profile-three-language-picker.png",
+      "sha256": "b8ad28ee1c172b0dd6eb9282242034dc1692025f923d716f88d07e16a983163d"
+    },
+    {
+      "name": "spots-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:41.175Z",
+      "language": "de",
+      "route": "/settings/spots",
+      "file": "after-desktop-spots-german.png",
+      "sha256": "4e78f2208c300abbde257f84e4f97366cd006984261f57f544c7fa31806cc895"
+    },
+    {
+      "name": "teams-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:39.384Z",
+      "language": "de",
+      "route": "/settings/teams",
+      "file": "after-desktop-teams-german.png",
+      "sha256": "92d5a156c6f6a70d5ca55dd8e66f51e6d4394d7b4e96803aec5dda1af029bf4d"
+    },
+    {
+      "name": "users-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:37.702Z",
+      "language": "de",
+      "route": "/settings/users",
+      "file": "after-desktop-users-german.png",
+      "sha256": "163416242b9733297f25394eb6c2c94f3f490069fd7a70d0d306e0cda895a0d9"
+    },
+    {
+      "name": "reminder-name-validation",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:05.924Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-desktop-reminder-name-validation.png",
+      "sha256": "0880a112c0bbf916d91ea5f7cff981e233461da714f17d295925b45e137acca5"
+    },
+    {
+      "name": "reminder-repeat-controls",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:10.495Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-desktop-reminder-repeat-controls.png",
+      "sha256": "589439952f6f1a276099b553d2d35210f3b04d967907ae429d93877463cf0606"
+    },
+    {
+      "name": "reminder-rules-empty-or-existing",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:04.876Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-desktop-reminder-rules-empty-or-existing.png",
+      "sha256": "0fe051a1f34ba99b19557a39e90598a39867162271ff389f1270755c7080827e"
+    },
+    {
+      "name": "reminder-threshold-and-placeholder",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:08.816Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-desktop-reminder-threshold-and-placeholder.png",
+      "sha256": "172dafe7d77a70d6cd3ade763dbd8d89b748239f8ede0f6475b475507c3df79b"
+    },
+    {
+      "name": "reminder-threshold-validation",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:06.881Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-desktop-reminder-threshold-validation.png",
+      "sha256": "7f7048a6e8c72ba40c28e4d1d68592e785da462b6a70e6c078201ba6e631b839"
+    },
+    {
+      "name": "reminder-translated-helpers",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:09.754Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-desktop-reminder-translated-helpers.png",
+      "sha256": "7b544f214aa9507b6c620c9a33b5196f737aa7f1b7a7d28d3f0ae2486d9325bd"
+    },
+    {
+      "name": "reminder-workflow-helper",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:32:11.412Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-desktop-reminder-workflow-helper.png",
+      "sha256": "ad11b1c4451e3d5e88586a62e8a1ffcd9e1af7256b04ab9a519b678c9d0cc058"
+    },
+    {
+      "name": "work-plans-cover-loaded",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "element",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:44.725Z",
+      "language": "de",
+      "route": "/learn/work-plans",
+      "file": "after-phone-work-plans-cover-loaded.png",
+      "sha256": "c62c2842332da48071cf89a337879a3ecb47c6fac4eaca3bc85dc5223dd323d7"
+    },
+    {
+      "name": "work-plans-german-guide",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:45.388Z",
+      "language": "de",
+      "route": "/learn/work-plans",
+      "file": "after-phone-work-plans-german-guide.png",
+      "sha256": "0e9d998d7b22520253652dcc1634414abd3d9b7aa5921cc806bf2cb0c7addc38"
+    },
+    {
+      "name": "approvals-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:58.820Z",
+      "language": "de",
+      "route": "/settings/approvals",
+      "file": "after-phone-approvals-german.png",
+      "sha256": "b1060c376a96902a0d4d76a24ee43360b51c4e509dbc0a6fb69df6ced125825f"
+    },
+    {
+      "name": "global-three-language-picker",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:56.745Z",
+      "language": "de",
+      "route": "/settings/global",
+      "file": "after-phone-global-three-language-picker.png",
+      "sha256": "0b24a08b9c913ed971e2d42c0f6b6586a6738865ef8db30f7c1c5e8b5da830ae"
+    },
+    {
+      "name": "profile-three-language-picker",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:54.770Z",
+      "language": "de",
+      "route": "/profile?tab=appearance",
+      "file": "after-phone-profile-three-language-picker.png",
+      "sha256": "6e2002132ccf99cd115516e9247794358f02cb7f3fda44cdfe19d1c9b3185892"
+    },
+    {
+      "name": "spots-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:36:04.063Z",
+      "language": "de",
+      "route": "/settings/spots",
+      "file": "after-phone-spots-german.png",
+      "sha256": "05e825de024ad562339ce64b646193bc4948139d4a695fc152e08b5d5b5caaf0"
+    },
+    {
+      "name": "teams-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:36:02.416Z",
+      "language": "de",
+      "route": "/settings/teams",
+      "file": "after-phone-teams-german.png",
+      "sha256": "ef52069cf4d1ae6981e8cbbe56a2b5e6c8987d13f1c0d79c7211d7d45c0e52bd"
+    },
+    {
+      "name": "users-german",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:36:00.782Z",
+      "language": "de",
+      "route": "/settings/users",
+      "file": "after-phone-users-german.png",
+      "sha256": "512be52c93bdd5cdbc85a54386a32d3e6f03f570bc9f23c03cb5b506e0ce64d3"
+    },
+    {
+      "name": "reminder-name-validation",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:26.348Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-phone-reminder-name-validation.png",
+      "sha256": "41123dccf65fe48680eb38f79479660abe5747f1b27d35275d7681ceee240536"
+    },
+    {
+      "name": "reminder-repeat-controls",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:30.620Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-phone-reminder-repeat-controls.png",
+      "sha256": "d1aa81957dcbd9d73b634a90fbc7a04a424a1b5951daaa902ca03221fd388b73"
+    },
+    {
+      "name": "reminder-rules-empty-or-existing",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:25.367Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-phone-reminder-rules-empty-or-existing.png",
+      "sha256": "b9dbd182b96e2094d0d850e9f71ee1fccb15386a3833c543e995d70561a536ab"
+    },
+    {
+      "name": "reminder-threshold-and-placeholder",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:29.087Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-phone-reminder-threshold-and-placeholder.png",
+      "sha256": "edd37f6a6328fa80ff3890c44af8ff993f144fb44fd6a945bc61bda2e7bd4001"
+    },
+    {
+      "name": "reminder-threshold-validation",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:27.340Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-phone-reminder-threshold-validation.png",
+      "sha256": "d96dc27c94219b01cacd48e334f6a9c9727c10455eff344bd25fabe26f71592e"
+    },
+    {
+      "name": "reminder-translated-helpers",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:29.955Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-phone-reminder-translated-helpers.png",
+      "sha256": "d1aa81957dcbd9d73b634a90fbc7a04a424a1b5951daaa902ca03221fd388b73"
+    },
+    {
+      "name": "reminder-workflow-helper",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:35:31.410Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "after-phone-reminder-workflow-helper.png",
+      "sha256": "7e92e6bf0945c6a7506c45edef59910fa7bdecfa91de63e5c9204b176e80c71c"
+    },
+    {
+      "name": "ordinary-english-persisted",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:26:33.692Z",
+      "route": "/profile?tab=appearance",
+      "file": "after-member-phone-ordinary-english-persisted.png",
+      "sha256": "9931f8eb17bc926998dacdc5fbab1e8992529e0b28af9f339520e0813938e19e"
+    },
+    {
+      "name": "ordinary-german-work-plans-from-sidebar",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:26:46.389Z",
+      "route": "/learn/work-plans",
+      "file": "after-member-phone-ordinary-german-work-plans-from-sidebar.png",
+      "sha256": "84330d92f6af00726e2cff78d481d4101400867a815674e5f490549320f37ff9"
+    },
+    {
+      "name": "ordinary-global-settings-denied",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:26:38.715Z",
+      "route": "/settings/global",
+      "file": "after-member-phone-ordinary-global-settings-denied.png",
+      "sha256": "71bcdbdb57847efcae87c82ac7443cd262f13e938b1a7c188cb901127d5d02f2"
+    },
+    {
+      "name": "ordinary-legacy-portuguese-fallback",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:26:28.423Z",
+      "route": "/profile?tab=appearance",
+      "file": "after-member-phone-ordinary-legacy-portuguese-fallback.png",
+      "sha256": "d7c2fd948aaa4a30137f713ba46ba802359b68c4cbbea8e297c6c6786b4aa6cc"
+    },
+    {
+      "name": "ordinary-spanish-persisted",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:26:31.672Z",
+      "route": "/profile?tab=appearance",
+      "file": "after-member-phone-ordinary-spanish-persisted.png",
+      "sha256": "e5d7a3294b7859edf31970c82cca1b54a9bedc3431e2465a8bb2894a6cfdc16e"
+    },
+    {
+      "name": "baseline-approvals",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:40:05.038Z",
+      "language": "de",
+      "route": "/settings/approvals",
+      "file": "before-desktop-baseline-approvals.png",
+      "sha256": "915873b2552c65e27c976c7093a8ec3fad60aad26418041b8c554cfe1daa511c"
+    },
+    {
+      "name": "baseline-global-picker",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:39:54.212Z",
+      "language": "de",
+      "route": "/settings/global",
+      "file": "before-desktop-baseline-global-picker.png",
+      "sha256": "2d4784685ffbf4734d3f9ecd414ae7eddb9e53b46c135f5dde6045e341597729"
+    },
+    {
+      "name": "baseline-language-picker",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:39:51.991Z",
+      "language": "de",
+      "route": "/profile?tab=appearance",
+      "file": "before-desktop-baseline-language-picker.png",
+      "sha256": "bb3e55d710d801a9fa99b738ff740022e066596467a54ed0d08fe8e1f0716c76"
+    },
+    {
+      "name": "baseline-reminder-helpers",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:39:58.656Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "before-desktop-baseline-reminder-helpers.png",
+      "sha256": "184a454c0cbf5992fed05335af1747dea5c1b757163dd786ad88e82dfc090ad6"
+    },
+    {
+      "name": "baseline-reminder-threshold",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:39:57.755Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "before-desktop-baseline-reminder-threshold.png",
+      "sha256": "d281886d25a13bc43b9de3402898d6cafde10ece2e57a7d5bf58f2f72cf4d2d7"
+    },
+    {
+      "name": "baseline-spots",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:40:10.489Z",
+      "language": "de",
+      "route": "/settings/spots",
+      "file": "before-desktop-baseline-spots.png",
+      "sha256": "0acaddadea9f09f74a6f86f34572bbc47d72bc1641e2247d608c9d7ab4c8025e"
+    },
+    {
+      "name": "baseline-teams",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:40:08.829Z",
+      "language": "de",
+      "route": "/settings/teams",
+      "file": "before-desktop-baseline-teams.png",
+      "sha256": "e40f0b591c9d36594ec8816324400fb624ed68be880a93ec1e301679c5fc4830"
+    },
+    {
+      "name": "baseline-users",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:40:07.045Z",
+      "language": "de",
+      "route": "/settings/users",
+      "file": "before-desktop-baseline-users.png",
+      "sha256": "09f1606542502826f4a3644a89b74223f462897a4f948c3779b312dd7b142df2"
+    },
+    {
+      "name": "baseline-work-plans",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T03:40:03.208Z",
+      "language": "de",
+      "route": "/learn/work-plans",
+      "file": "before-desktop-baseline-work-plans.png",
+      "sha256": "919b62d4f2582d2cb4f3c2850a795002575c069fda3baf7f6c55a54efb00b7a5"
+    },
+    {
+      "name": "baseline-approvals",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:32.870Z",
+      "language": "de",
+      "route": "/settings/approvals",
+      "file": "before-phone-baseline-approvals.png",
+      "sha256": "39db5bb9ab27c6af4f70f26262cce02505e0fe1500f8fe3c6e158c823e44bc3a"
+    },
+    {
+      "name": "baseline-global-picker",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:23.595Z",
+      "language": "de",
+      "route": "/settings/global",
+      "file": "before-phone-baseline-global-picker.png",
+      "sha256": "2e8a440b636431768bd19aa11638ddb3e594c958938c27a9b90119b0e91ac5a7"
+    },
+    {
+      "name": "baseline-language-picker",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:21.621Z",
+      "language": "de",
+      "route": "/profile?tab=appearance",
+      "file": "before-phone-baseline-language-picker.png",
+      "sha256": "97f1955f149ed5892e9b34751b12afe117a69980ef8a8a1cef07947927a122c3"
+    },
+    {
+      "name": "baseline-reminder-helpers",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:26.559Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "before-phone-baseline-reminder-helpers.png",
+      "sha256": "17c731130041127f1f68329b241b357a1bd02928b91e85d434ffa43baeea8172"
+    },
+    {
+      "name": "baseline-reminder-threshold",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:25.703Z",
+      "language": "de",
+      "route": "/settings/reminder-rules",
+      "file": "before-phone-baseline-reminder-threshold.png",
+      "sha256": "b6f684ee37acba93553439b1f07e20d3505338174872d2ee78c17d1a792ddf35"
+    },
+    {
+      "name": "baseline-spots",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:38.086Z",
+      "language": "de",
+      "route": "/settings/spots",
+      "file": "before-phone-baseline-spots.png",
+      "sha256": "05e825de024ad562339ce64b646193bc4948139d4a695fc152e08b5d5b5caaf0"
+    },
+    {
+      "name": "baseline-teams",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:36.456Z",
+      "language": "de",
+      "route": "/settings/teams",
+      "file": "before-phone-baseline-teams.png",
+      "sha256": "4728aa358d94999e64b024edad5e5dba1937eac94b4227e3d5fb83f6e15c240e"
+    },
+    {
+      "name": "baseline-users",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:34.787Z",
+      "language": "de",
+      "route": "/settings/users",
+      "file": "before-phone-baseline-users.png",
+      "sha256": "db75e86cf8260738a0f00f912aae3f645c351a67e56def683af33f45163f0249"
+    },
+    {
+      "name": "baseline-work-plans",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "capture": "viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T03:40:31.107Z",
+      "language": "de",
+      "route": "/learn/work-plans",
+      "file": "before-phone-baseline-work-plans.png",
+      "sha256": "e11a55ce5b59cca6fac342df192e283316428b29ab82eff82bb143cbcd6da38b"
+    }
+  ],
+  "clips": [
+    {
+      "file": "after-desktop-reminders.mp4",
+      "gif": "after-desktop-reminders.gif",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "sourceVideoSha256": "356619c812148778448ee0f42c02af6f5595f73a68509171c8974378e4349a24",
+      "sourceStartSeconds": 12.3,
+      "durationSeconds": 7.779999999999998,
+      "matchedStateAtSourceSeconds": 15.3,
+      "matchedFrameMeanAbsoluteDifference": 1.4424074074074074,
+      "editing": "Continuous excerpt of the real browser recording; setup omitted; no held/generated frames."
+    },
+    {
+      "file": "after-desktop-work-plans.mp4",
+      "gif": "after-desktop-work-plans.gif",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "sourceVideoSha256": "93e7faf866966804b395b6f760422d1d59d3015e7447f30ad01db41ed440a83a",
+      "sourceStartSeconds": 7.32,
+      "durationSeconds": 6.0,
+      "matchedStateAtSourceSeconds": 13.3,
+      "matchedFrameMeanAbsoluteDifference": 0.7427777777777779,
+      "editing": "Continuous excerpt of the real browser recording; setup omitted; no held/generated frames."
+    },
+    {
+      "file": "after-phone-reminders.mp4",
+      "gif": "after-phone-reminders.gif",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "sourceVideoSha256": "24dba3640d2ba9a69e39220ef9c83d2f3bd5d7f097c919f527fb8902e1066634",
+      "sourceStartSeconds": 11.2,
+      "durationSeconds": 6.0,
+      "matchedStateAtSourceSeconds": 14.5,
+      "matchedFrameMeanAbsoluteDifference": 0.9280092592592593,
+      "editing": "Continuous excerpt of the real browser recording; setup omitted; no held/generated frames."
+    },
+    {
+      "file": "after-phone-work-plans.mp4",
+      "gif": "after-phone-work-plans.gif",
+      "head": "032f4fe0beae99902ea2412efa679e8414b115a0",
+      "sourceVideoSha256": "88184530a60a1ffa14c7e9dd22cf6ea7edad5536fa734b6e8d741307350dca40",
+      "sourceStartSeconds": 8.04,
+      "durationSeconds": 6.0,
+      "matchedStateAtSourceSeconds": 13.7,
+      "matchedFrameMeanAbsoluteDifference": 0.8646296296296296,
+      "editing": "Continuous excerpt of the real browser recording; setup omitted; no held/generated frames."
+    },
+    {
+      "file": "before-desktop-reminders.mp4",
+      "gif": "before-desktop-reminders.gif",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "sourceVideoSha256": "c22507e58dbff9b01f7507d45e3aa1d7199b1a1515e3551d273d1ef665610dbd",
+      "sourceStartSeconds": 12.1,
+      "durationSeconds": 15,
+      "matchedStateAtSourceSeconds": 15.1,
+      "matchedFrameMeanAbsoluteDifference": 1.31625,
+      "editing": "Continuous excerpt of the real browser recording; setup omitted; no held/generated frames."
+    },
+    {
+      "file": "before-phone-reminders.mp4",
+      "gif": "before-phone-reminders.gif",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "sourceVideoSha256": "c98a0d92640e1fef5291edfedd7c2854a2a85f4661a7d01824aca1b2dfbf623f",
+      "sourceStartSeconds": 9.1,
+      "durationSeconds": 15,
+      "matchedStateAtSourceSeconds": 12.1,
+      "matchedFrameMeanAbsoluteDifference": 0.8243287037037037,
+      "editing": "Continuous excerpt of the real browser recording; setup omitted; no held/generated frames."
+    }
+  ],
+  "media": [
+    {
+      "file": "after-desktop-approvals-german.png",
+      "sha256": "f58eeb344c023819b6984cb173eacc66ab350bbada57792ee50dafd701cde6df",
+      "bytes": 163518
+    },
+    {
+      "file": "after-desktop-global-three-language-picker.png",
+      "sha256": "17e37a01a2e0745a7375c4aacaf9cdef9d66e0bfa2760b79e3dc8dba530e66c8",
+      "bytes": 191377
+    },
+    {
+      "file": "after-desktop-profile-three-language-picker.png",
+      "sha256": "b8ad28ee1c172b0dd6eb9282242034dc1692025f923d716f88d07e16a983163d",
+      "bytes": 145545
+    },
+    {
+      "file": "after-desktop-reminder-name-validation.png",
+      "sha256": "0880a112c0bbf916d91ea5f7cff981e233461da714f17d295925b45e137acca5",
+      "bytes": 89577
+    },
+    {
+      "file": "after-desktop-reminder-repeat-controls.png",
+      "sha256": "589439952f6f1a276099b553d2d35210f3b04d967907ae429d93877463cf0606",
+      "bytes": 99014
+    },
+    {
+      "file": "after-desktop-reminder-rules-empty-or-existing.png",
+      "sha256": "0fe051a1f34ba99b19557a39e90598a39867162271ff389f1270755c7080827e",
+      "bytes": 43410
+    },
+    {
+      "file": "after-desktop-reminder-threshold-and-placeholder.png",
+      "sha256": "172dafe7d77a70d6cd3ade763dbd8d89b748239f8ede0f6475b475507c3df79b",
+      "bytes": 88575
+    },
+    {
+      "file": "after-desktop-reminder-threshold-validation.png",
+      "sha256": "7f7048a6e8c72ba40c28e4d1d68592e785da462b6a70e6c078201ba6e631b839",
+      "bytes": 90538
+    },
+    {
+      "file": "after-desktop-reminder-translated-helpers.png",
+      "sha256": "7b544f214aa9507b6c620c9a33b5196f737aa7f1b7a7d28d3f0ae2486d9325bd",
+      "bytes": 87942
+    },
+    {
+      "file": "after-desktop-reminder-workflow-helper.png",
+      "sha256": "ad11b1c4451e3d5e88586a62e8a1ffcd9e1af7256b04ab9a519b678c9d0cc058",
+      "bytes": 99062
+    },
+    {
+      "file": "after-desktop-reminders.gif",
+      "sha256": "7d30829e7f1c6f8ef703b5bf2604a518879dfb5d4f48ee299e4c0c821648e91c",
+      "bytes": 784370
+    },
+    {
+      "file": "after-desktop-reminders.mp4",
+      "sha256": "ce99c683fd3d740c65fb6172173d01de7737a96e1d8d51b939cb38a0d1856b8e",
+      "bytes": 286557
+    },
+    {
+      "file": "after-desktop-spots-german.png",
+      "sha256": "4e78f2208c300abbde257f84e4f97366cd006984261f57f544c7fa31806cc895",
+      "bytes": 56841
+    },
+    {
+      "file": "after-desktop-teams-german.png",
+      "sha256": "92d5a156c6f6a70d5ca55dd8e66f51e6d4394d7b4e96803aec5dda1af029bf4d",
+      "bytes": 49503
+    },
+    {
+      "file": "after-desktop-users-german.png",
+      "sha256": "163416242b9733297f25394eb6c2c94f3f490069fd7a70d0d306e0cda895a0d9",
+      "bytes": 65960
+    },
+    {
+      "file": "after-desktop-work-plans-cover-loaded.png",
+      "sha256": "388c6d0f5c5a2ebe54a7f848cb3ebdb551d4c07b2d921ba9845d9d7aaacf5149",
+      "bytes": 61534
+    },
+    {
+      "file": "after-desktop-work-plans-german-guide.png",
+      "sha256": "a992fd1fa4adea8b7e381824d4b9836ec6f7dc555e933e87e43c11014da9fcb1",
+      "bytes": 214554
+    },
+    {
+      "file": "after-desktop-work-plans.gif",
+      "sha256": "620bd7cb021f2c18a1e2a0e0bf695ece84edcc006dc5c146e39915f4ccf9407b",
+      "bytes": 871669
+    },
+    {
+      "file": "after-desktop-work-plans.mp4",
+      "sha256": "3aefacd0b90b8ae69ddcdf6aefb500e7ce43b2ea7167d61b1fed672c398d3e02",
+      "bytes": 494105
+    },
+    {
+      "file": "after-member-phone-ordinary-english-persisted.png",
+      "sha256": "9931f8eb17bc926998dacdc5fbab1e8992529e0b28af9f339520e0813938e19e",
+      "bytes": 54148
+    },
+    {
+      "file": "after-member-phone-ordinary-german-work-plans-from-sidebar.png",
+      "sha256": "84330d92f6af00726e2cff78d481d4101400867a815674e5f490549320f37ff9",
+      "bytes": 73189
+    },
+    {
+      "file": "after-member-phone-ordinary-global-settings-denied.png",
+      "sha256": "71bcdbdb57847efcae87c82ac7443cd262f13e938b1a7c188cb901127d5d02f2",
+      "bytes": 19259
+    },
+    {
+      "file": "after-member-phone-ordinary-legacy-portuguese-fallback.png",
+      "sha256": "d7c2fd948aaa4a30137f713ba46ba802359b68c4cbbea8e297c6c6786b4aa6cc",
+      "bytes": 54331
+    },
+    {
+      "file": "after-member-phone-ordinary-spanish-persisted.png",
+      "sha256": "e5d7a3294b7859edf31970c82cca1b54a9bedc3431e2465a8bb2894a6cfdc16e",
+      "bytes": 54847
+    },
+    {
+      "file": "after-phone-approvals-german.png",
+      "sha256": "b1060c376a96902a0d4d76a24ee43360b51c4e509dbc0a6fb69df6ced125825f",
+      "bytes": 52885
+    },
+    {
+      "file": "after-phone-global-three-language-picker.png",
+      "sha256": "0b24a08b9c913ed971e2d42c0f6b6586a6738865ef8db30f7c1c5e8b5da830ae",
+      "bytes": 76543
+    },
+    {
+      "file": "after-phone-profile-three-language-picker.png",
+      "sha256": "6e2002132ccf99cd115516e9247794358f02cb7f3fda44cdfe19d1c9b3185892",
+      "bytes": 58612
+    },
+    {
+      "file": "after-phone-reminder-name-validation.png",
+      "sha256": "41123dccf65fe48680eb38f79479660abe5747f1b27d35275d7681ceee240536",
+      "bytes": 45577
+    },
+    {
+      "file": "after-phone-reminder-repeat-controls.png",
+      "sha256": "d1aa81957dcbd9d73b634a90fbc7a04a424a1b5951daaa902ca03221fd388b73",
+      "bytes": 45241
+    },
+    {
+      "file": "after-phone-reminder-rules-empty-or-existing.png",
+      "sha256": "b9dbd182b96e2094d0d850e9f71ee1fccb15386a3833c543e995d70561a536ab",
+      "bytes": 10952
+    },
+    {
+      "file": "after-phone-reminder-threshold-and-placeholder.png",
+      "sha256": "edd37f6a6328fa80ff3890c44af8ff993f144fb44fd6a945bc61bda2e7bd4001",
+      "bytes": 45111
+    },
+    {
+      "file": "after-phone-reminder-threshold-validation.png",
+      "sha256": "d96dc27c94219b01cacd48e334f6a9c9727c10455eff344bd25fabe26f71592e",
+      "bytes": 46679
+    },
+    {
+      "file": "after-phone-reminder-translated-helpers.png",
+      "sha256": "d1aa81957dcbd9d73b634a90fbc7a04a424a1b5951daaa902ca03221fd388b73",
+      "bytes": 45241
+    },
+    {
+      "file": "after-phone-reminder-workflow-helper.png",
+      "sha256": "7e92e6bf0945c6a7506c45edef59910fa7bdecfa91de63e5c9204b176e80c71c",
+      "bytes": 49395
+    },
+    {
+      "file": "after-phone-reminders.gif",
+      "sha256": "20e878d805db9a52179058c63e1b637785d1e28765776ed7315f91b33ab7e987",
+      "bytes": 510565
+    },
+    {
+      "file": "after-phone-reminders.mp4",
+      "sha256": "e7077ffc385e70b00ffcb1a88e462a95dc488ad7a3b9b0a2b27b5e9d01db2934",
+      "bytes": 103475
+    },
+    {
+      "file": "after-phone-spots-german.png",
+      "sha256": "05e825de024ad562339ce64b646193bc4948139d4a695fc152e08b5d5b5caaf0",
+      "bytes": 33204
+    },
+    {
+      "file": "after-phone-teams-german.png",
+      "sha256": "ef52069cf4d1ae6981e8cbbe56a2b5e6c8987d13f1c0d79c7211d7d45c0e52bd",
+      "bytes": 22932
+    },
+    {
+      "file": "after-phone-users-german.png",
+      "sha256": "512be52c93bdd5cdbc85a54386a32d3e6f03f570bc9f23c03cb5b506e0ce64d3",
+      "bytes": 32922
+    },
+    {
+      "file": "after-phone-work-plans-cover-loaded.png",
+      "sha256": "c62c2842332da48071cf89a337879a3ecb47c6fac4eaca3bc85dc5223dd323d7",
+      "bytes": 31796
+    },
+    {
+      "file": "after-phone-work-plans-german-guide.png",
+      "sha256": "0e9d998d7b22520253652dcc1634414abd3d9b7aa5921cc806bf2cb0c7addc38",
+      "bytes": 78216
+    },
+    {
+      "file": "after-phone-work-plans.gif",
+      "sha256": "8818e9a5ac3b9d33213fb8ed0a35ffcf2ae0cd0e8f11d93f0ab3c6404642c105",
+      "bytes": 590530
+    },
+    {
+      "file": "after-phone-work-plans.mp4",
+      "sha256": "d8e32a108ee278b581057da762a55ccd654f9feafca9a5c48c14074042cd08f9",
+      "bytes": 111157
+    },
+    {
+      "file": "before-desktop-baseline-approvals.png",
+      "sha256": "915873b2552c65e27c976c7093a8ec3fad60aad26418041b8c554cfe1daa511c",
+      "bytes": 160331
+    },
+    {
+      "file": "before-desktop-baseline-global-picker.png",
+      "sha256": "2d4784685ffbf4734d3f9ecd414ae7eddb9e53b46c135f5dde6045e341597729",
+      "bytes": 186908
+    },
+    {
+      "file": "before-desktop-baseline-language-picker.png",
+      "sha256": "bb3e55d710d801a9fa99b738ff740022e066596467a54ed0d08fe8e1f0716c76",
+      "bytes": 144863
+    },
+    {
+      "file": "before-desktop-baseline-reminder-helpers.png",
+      "sha256": "184a454c0cbf5992fed05335af1747dea5c1b757163dd786ad88e82dfc090ad6",
+      "bytes": 86802
+    },
+    {
+      "file": "before-desktop-baseline-reminder-threshold.png",
+      "sha256": "d281886d25a13bc43b9de3402898d6cafde10ece2e57a7d5bf58f2f72cf4d2d7",
+      "bytes": 86068
+    },
+    {
+      "file": "before-desktop-baseline-spots.png",
+      "sha256": "0acaddadea9f09f74a6f86f34572bbc47d72bc1641e2247d608c9d7ab4c8025e",
+      "bytes": 56794
+    },
+    {
+      "file": "before-desktop-baseline-teams.png",
+      "sha256": "e40f0b591c9d36594ec8816324400fb624ed68be880a93ec1e301679c5fc4830",
+      "bytes": 47332
+    },
+    {
+      "file": "before-desktop-baseline-users.png",
+      "sha256": "09f1606542502826f4a3644a89b74223f462897a4f948c3779b312dd7b142df2",
+      "bytes": 64320
+    },
+    {
+      "file": "before-desktop-baseline-work-plans.png",
+      "sha256": "919b62d4f2582d2cb4f3c2850a795002575c069fda3baf7f6c55a54efb00b7a5",
+      "bytes": 204793
+    },
+    {
+      "file": "before-desktop-reminders.gif",
+      "sha256": "e14ce985b7bfe6d9c1f7c672a561a4a08fc3532bc5f2a4d88d721637fb9f16b4",
+      "bytes": 1796665
+    },
+    {
+      "file": "before-desktop-reminders.mp4",
+      "sha256": "57400048c692af7616aaf8309692d9aa4c23fdd1f67bade2f89f587d8dc430e5",
+      "bytes": 976711
+    },
+    {
+      "file": "before-phone-baseline-approvals.png",
+      "sha256": "39db5bb9ab27c6af4f70f26262cce02505e0fe1500f8fe3c6e158c823e44bc3a",
+      "bytes": 50882
+    },
+    {
+      "file": "before-phone-baseline-global-picker.png",
+      "sha256": "2e8a440b636431768bd19aa11638ddb3e594c958938c27a9b90119b0e91ac5a7",
+      "bytes": 73616
+    },
+    {
+      "file": "before-phone-baseline-language-picker.png",
+      "sha256": "97f1955f149ed5892e9b34751b12afe117a69980ef8a8a1cef07947927a122c3",
+      "bytes": 57604
+    },
+    {
+      "file": "before-phone-baseline-reminder-helpers.png",
+      "sha256": "17c731130041127f1f68329b241b357a1bd02928b91e85d434ffa43baeea8172",
+      "bytes": 44847
+    },
+    {
+      "file": "before-phone-baseline-reminder-threshold.png",
+      "sha256": "b6f684ee37acba93553439b1f07e20d3505338174872d2ee78c17d1a792ddf35",
+      "bytes": 48515
+    },
+    {
+      "file": "before-phone-baseline-spots.png",
+      "sha256": "05e825de024ad562339ce64b646193bc4948139d4a695fc152e08b5d5b5caaf0",
+      "bytes": 33204
+    },
+    {
+      "file": "before-phone-baseline-teams.png",
+      "sha256": "4728aa358d94999e64b024edad5e5dba1937eac94b4227e3d5fb83f6e15c240e",
+      "bytes": 21922
+    },
+    {
+      "file": "before-phone-baseline-users.png",
+      "sha256": "db75e86cf8260738a0f00f912aae3f645c351a67e56def683af33f45163f0249",
+      "bytes": 31826
+    },
+    {
+      "file": "before-phone-baseline-work-plans.png",
+      "sha256": "e11a55ce5b59cca6fac342df192e283316428b29ab82eff82bb143cbcd6da38b",
+      "bytes": 76809
+    },
+    {
+      "file": "before-phone-reminders.gif",
+      "sha256": "7740e0ad39bf6256942ff86687ae9c47b295807946e001ffab4a99da4280fa80",
+      "bytes": 1858078
+    },
+    {
+      "file": "before-phone-reminders.mp4",
+      "sha256": "e9a6011baa56cf0561733e18a0fa69832ca3f4db94b829ae8bd84e9202e214bf",
+      "bytes": 464925
+    }
+  ],
+  "limitations": [
+    "Full original localization walkthrough is not cleared. Other German guide assets still return404; analytics/invitation rendering, assistant/voice/trace/confirmation and remaining permission/error paths are not verified.",
+    "Broader phone shared-form wrapping and settings action-row clipping remain outside the three named source fixes.",
+    "Cached native runtime compilation was not independently reproduced.",
+    "Current AI review found a blank opening sample in the phone Work Plans excerpt. Its GIF/MP4 are withheld from active PR links. A continuous5second trim was not launched: final gate06:59:55UTC memoryfull avg10=1.20%,avg60=1.03%, IOfull=.45%/1.14%, MemAvailable21643751424bytes, OOM0; fixed07:00UTC cutoff. No replacement video pass or visual approval is claimed. Loaded-cover/playing-state stills and real playback assertions remain available."
+  ],
+  "retainedFailedAttempts": [
+    "Initial source integration TypeScript errors repaired, then frontend/backend typechecks passed.",
+    "Initial German completeness assertion failed; missing staging key supplied; unchanged assertion passes.",
+    "Baseline dependency symlink caused generated bundle mismatch. Independent offline dependencies restored exact artifact equality.",
+    "Two baseline sidebar-pin cleanup failures retained; normal hover/link navigation then passed."
+  ],
+  "mediaFormatVerification": {
+    "at": "2026-10-19T03:50:29.892680+00:00",
+    "decodedPngFiles": 53,
+    "animatedGifs": [
+      {
+        "file": "after-desktop-reminders.gif",
+        "frames": 47,
+        "bytes": 784370
+      },
+      {
+        "file": "after-desktop-work-plans.gif",
+        "frames": 36,
+        "bytes": 871669
+      },
+      {
+        "file": "after-phone-reminders.gif",
+        "frames": 36,
+        "bytes": 510565
+      },
+      {
+        "file": "after-phone-work-plans.gif",
+        "frames": 36,
+        "bytes": 590530
+      },
+      {
+        "file": "before-desktop-reminders.gif",
+        "frames": 90,
+        "bytes": 1796665
+      },
+      {
+        "file": "before-phone-reminders.gif",
+        "frames": 90,
+        "bytes": 1858078
+      }
+    ],
+    "mp4Count": 6
+  },
+  "visualInspection": {
+    "namedFixes": "Desktop and phone screenshots show translated reminder placeholders/helpers, single-line threshold labels and populated intended German Work Plans media.",
+    "residuals": "Shared phone Description/Notify/Custom message wrapping and settings toolbar/title clipping remain visible and are reported, not cleared.",
+    "comparison": "The premature desktop baseline cover frame is withheld. Current comparison frames are captured after actual video readiness and playback."
+  },
+  "capturedAt": "2026-10-19T03:36:04.063Z",
+  "metadataPublication": {
+    "at": "2026-10-19T07:01:01.922085+00:00",
+    "applicationHeadUnchanged": true,
+    "runtimeUnchanged": true,
+    "originalCaptureTimesPreserved": true,
+    "mediaBytesUnchanged": true,
+    "reason": "Conform media folder to full head plus original capturedAt; add review evidence block and explicit blocked phone guide-video evidence. No new render or source push."
+  },
+  "withheldActiveMedia": [
+    "after-phone-work-plans.gif",
+    "after-phone-work-plans.mp4"
+  ]
+}
