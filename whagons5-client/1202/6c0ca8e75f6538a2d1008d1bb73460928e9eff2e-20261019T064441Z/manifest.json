@@ -1,0 +1,1220 @@
+{
+  "headSha": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+  "baseSha": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+  "capturedAt": "2026-10-19T06:44:41.745Z",
+  "runtime": "Real isolated loopback Gonvex/PostgreSQL and standalone Chromium1228; existing archived synthetic tenant/account identities; no application actor provisioning.",
+  "fixedClientClock": "2026-10-17T12:00:00Z",
+  "serverClock": "Real UTC",
+  "tenantWeekStart": "monday",
+  "captures": [
+    {
+      "name": "fixed-schedule-reopened",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:15.695Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/settings/working-schedules",
+      "side": "after",
+      "file": "after-desktop-fixed-schedule-reopened.png",
+      "sha256": "158013946bf55d16792c58a573737fdc791b44e0c1e69793200ed70b83c6404f"
+    },
+    {
+      "name": "manager-calendar-week-detail",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:13.302Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-desktop-manager-calendar-week-detail.png",
+      "sha256": "841fd51e0842001772af35047a03fcddf0232f8021a24517232fc927e385e021"
+    },
+    {
+      "name": "manager-calendar-week",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:13.050Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-desktop-manager-calendar-week.png",
+      "sha256": "841fd51e0842001772af35047a03fcddf0232f8021a24517232fc927e385e021"
+    },
+    {
+      "name": "manager-next-week-approved-record",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:13.695Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off?view=team",
+      "side": "after",
+      "file": "after-desktop-manager-next-week-approved-record.png",
+      "sha256": "3f1de33ac44b607f2a05bd241a556ff57b74f137bf2950db5b5b5c06c625a4df"
+    },
+    {
+      "name": "open-ended-assignment",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:15.036Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-desktop-open-ended-assignment.png",
+      "sha256": "bd1d9b64647aed678a8f5b3d97eb66a3a503e90ef683d65f75d265c1e1ccce03"
+    },
+    {
+      "name": "people-profile-top",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:14.702Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-desktop-people-profile-top.png",
+      "sha256": "64ea153875a5efa9cc90a811caba28d1844bef7b00f25b70478aec4469f0ba31"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:14.830Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "crop": "Working schedule region; top profile context is in the adjacent people-profile-top capture.",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-desktop-people-work-schedule-detail.png",
+      "sha256": "f1b8c26ce7e64dceed7e0919a8c8f25ae8af846db6a4a467dcd2e996a87c2eed"
+    },
+    {
+      "name": "rotation-reopened",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:16.104Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/settings/working-schedules",
+      "side": "after",
+      "file": "after-desktop-rotation-reopened.png",
+      "sha256": "480d403226bd4b085a7c310468e2d5988fdabd7c647fd420f339db61445240e4"
+    },
+    {
+      "name": "member-approved-oct23-record",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:22.020Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-desktop-member-approved-oct23-record.png",
+      "sha256": "c0332f2d52c546f2fbf56a4b672817c34b38cec20375b0ff5f51f066fc146269"
+    },
+    {
+      "name": "member-calendar-week-detail",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:22.650Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-desktop-member-calendar-week-detail.png",
+      "sha256": "32e75990fe081f08d6834647e73ce20bdd15c9c30eafd751c6a3e8ff59ba4f60"
+    },
+    {
+      "name": "member-calendar-week",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:22.559Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-desktop-member-calendar-week.png",
+      "sha256": "32e75990fe081f08d6834647e73ce20bdd15c9c30eafd751c6a3e8ff59ba4f60"
+    },
+    {
+      "name": "member-existing-approval-notification",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:24:21.372Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/workspace/all",
+      "side": "after",
+      "file": "after-desktop-member-existing-approval-notification.png",
+      "sha256": "e51a4c87f0ac0671f2f86701160b57aeb1e070c41480cb2b35e6ad4a1da82be2"
+    },
+    {
+      "name": "fixed-schedule-reopened",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:49.627Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/settings/working-schedules",
+      "side": "after",
+      "file": "after-phone-fixed-schedule-reopened.png",
+      "sha256": "23a3ee633795a9ef99ac1632e34d3c53d3085c1aefef0f42841461a488488f14"
+    },
+    {
+      "name": "manager-calendar-week-detail",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:47.709Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-phone-manager-calendar-week-detail.png",
+      "sha256": "f49921a5e482b4d10982ad559621fec7f21b9049d3d235060b047ffe0bd07e3d"
+    },
+    {
+      "name": "manager-calendar-week",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:47.658Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-phone-manager-calendar-week.png",
+      "sha256": "6439211fd086bb1163d89846c4f842a61b40a2377f63a7229d522c2e2fe27bc3"
+    },
+    {
+      "name": "manager-next-week-approved-record",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:47.889Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off?view=team",
+      "side": "after",
+      "file": "after-phone-manager-next-week-approved-record.png",
+      "sha256": "2fc3e948bb87309793981f9ff81f6033fc05b98a1d807c3daccefd5a71ac3f3b"
+    },
+    {
+      "name": "open-ended-assignment",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:49.060Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-phone-open-ended-assignment.png",
+      "sha256": "f43c7afe16168b5fe8ceff44dfdccdd7899810c162a18043c430ef0e614e7c44"
+    },
+    {
+      "name": "people-profile-top",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:48.794Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-phone-people-profile-top.png",
+      "sha256": "ea5a27e96c3ea3945a7950d4501647f7e336f0aef724865afea33b8e6031a2c9"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:48.901Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "crop": "Working schedule region; top profile context is in the adjacent people-profile-top capture.",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-phone-people-work-schedule-detail.png",
+      "sha256": "d82990f21dca470b08d90dcd8797402eb74699f3879c8d6abc18923ba59b7ca6"
+    },
+    {
+      "name": "rotation-reopened",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:50.191Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/settings/working-schedules",
+      "side": "after",
+      "file": "after-phone-rotation-reopened.png",
+      "sha256": "10f2cc36972fb72caa1dd0e321e65315e4035c7872e62f97ea1ac8c886d2d1b9"
+    },
+    {
+      "name": "member-approved-oct23-record",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:57.962Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-phone-member-approved-oct23-record.png",
+      "sha256": "55644431a437f9b143aa9752dbb40307946387fe012d8ea1aa56cde57d69713b"
+    },
+    {
+      "name": "member-calendar-week-detail",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:58.892Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-phone-member-calendar-week-detail.png",
+      "sha256": "1c347976a5ef1c19aae138ab80e17c49fa1b4b213d56b453f129c86429c2bf93"
+    },
+    {
+      "name": "member-calendar-week",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:58.827Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/working-hours",
+      "side": "after",
+      "file": "after-phone-member-calendar-week.png",
+      "sha256": "1c347976a5ef1c19aae138ab80e17c49fa1b4b213d56b453f129c86429c2bf93"
+    },
+    {
+      "name": "member-existing-approval-notification",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:29:57.016Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/workspace/all",
+      "side": "after",
+      "file": "after-phone-member-existing-approval-notification.png",
+      "sha256": "13f156f8ffad3f8570ee0a9c5ac27a1f6e1f56f15c5beb3e45de9e7814a9f8c1"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:34:48.415Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-extended-pending-leave-persisted.png",
+      "sha256": "dd9b4fe9cc16e0ac9780742ffc4984829202547e3f271b7f852e88db2e48e002"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:34:46.533Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-extended-two-scheduled-days-la.png",
+      "sha256": "3473ac76b284ffe9eb2fd54fc47b7d829699ef4ceca6b0d5966054aa33655f12"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:34:38.140Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-extended-assignment-end-cleared.png",
+      "sha256": "2f21c82850a6824dc6bcd9e0da5a88b0220a6a6ab8f0b72d032008742854ca7f"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:34:36.220Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "after",
+      "file": "after-extended-assignment-end-persisted.png",
+      "sha256": "85ae08e3f1ae7c7a7b86c2b535ed873553747b999711d01f65542be29e79bae0"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:34:31.539Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/settings/working-schedules",
+      "side": "after",
+      "file": "after-extended-overnight-shift-editor.png",
+      "sha256": "330d6e077634d93621f2d6d035a747e1931ac9d242d13af3bd1f84924da5c990"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:34:29.716Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/settings/working-schedules",
+      "side": "after",
+      "file": "after-extended-schedule-validation.png",
+      "sha256": "9f580bcf76ae67c889867b831060de364c0fdf374b77d1be246e6f4f1d61f691"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:34:30.733Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/settings/working-schedules",
+      "side": "after",
+      "file": "after-extended-type-switch-retains-zone.png",
+      "sha256": "0e08ae624f3ba04ca48a3681f20bbe0c35d6731c5cc7516d908b95720d32517a"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:42:12.619Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-validation-limit-submit-refused.png",
+      "sha256": "cd8b6c79d130d550cd0774323b73fa2dc84a55d7a5b4c2367d1da323969672d4"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:42:08.912Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-validation-overlap-submit-refused.png",
+      "sha256": "a98761eb3dc2092d56c70d7429bd0080c11c3aa2e7ee1177a16131ce9cdbf60e"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:42:27.679Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/workspace/e2e_150t7cy_workspaces_QA1202Fleet_QA1202Fleet_Workspace",
+      "side": "after",
+      "file": "after-validation-fleet-in-hours.png",
+      "sha256": "08356473a2fa3f288c9d01c1ab924ec43cfb50a4104218078696516b9b06f9c4"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:42:26.108Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/workspace/e2e_150t7cy_workspaces_QA1202Fleet_QA1202Fleet_Workspace",
+      "side": "after",
+      "file": "after-validation-fleet-outside-hours.png",
+      "sha256": "f48ce10153a49678278fe9bb302c875860128962efacbb5a3145b7100787dddb"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:42:33.880Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/workspace/e2e_150t7cy_workspaces_QA1202Fleet_QA1202Fleet_Workspace?search=QA+run2+in-hours+fleet+booking",
+      "side": "after",
+      "file": "after-validation-fleet-task-created.png",
+      "sha256": "2f2acbcae8498df246d6c471575280889644a527391946a506047d6418aca959"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:42:42.830Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off?view=team",
+      "side": "after",
+      "file": "after-validation-leave-approved.png",
+      "sha256": "6dba9481e3ce806906a5c85c4ce070e9d424063ff98bb54408f97a84161c9843"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:42:41.467Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off?view=team",
+      "side": "after",
+      "file": "after-validation-separate-approver.png",
+      "sha256": "de82ec21a7b760cc9b910a56d64011caba2b7bf8dd4c6a0b316a675059144411"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:46:20.981Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off?view=team",
+      "side": "after",
+      "file": "after-recovery-request-rejected.png",
+      "sha256": "db214bba1b646a1903024ffdc4be3d571960f1041633b653471abc460a001825"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:46:00.774Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/workspace/e2e_150t7cy_workspaces_QA1202Fleet_QA1202Fleet_Workspace?search=QA+run2+in-hours+fleet+booking",
+      "side": "after",
+      "file": "after-recovery-approved-leave-fleet-save-refused.png",
+      "sha256": "0eb6c3a5cda29c34dab68cbe9d184b70b19c1aab411ad7a62b4f797703ce8b58"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:46:04.871Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/workspace/e2e_150t7cy_workspaces_QA1202Fleet_QA1202Fleet_Workspace?search=QA+run2+in-hours+fleet+booking",
+      "side": "after",
+      "file": "after-recovery-fleet-original-time-retained.png",
+      "sha256": "2f2acbcae8498df246d6c471575280889644a527391946a506047d6418aca959"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:46:13.060Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-recovery-request-cancelled.png",
+      "sha256": "04b9ba924927bef138e4e24c20caa2e6b6f041fbc0e13cbec327218e33ace9a1"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T05:46:15.229Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-recovery-separate-rejection-pending.png",
+      "sha256": "7b0589f5f98c45a2d65102e9c9865530683e838cfb4a6976e87e0b18edd1ffda"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:46:29.037Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-recovery-requester-decision-notification.png",
+      "sha256": "1971e2cb6e941c6b5013fa8be54a1a914d413706e3f588864469bd72b45ae4d0"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T05:46:28.932Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "route": "/time-off",
+      "side": "after",
+      "file": "after-recovery-requester-decisions-persisted.png",
+      "sha256": "0702b1b22d4c5a298da8e492debdd934b2aba263618ba8721ce94b32ba148a84"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T06:19:58.438Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "before",
+      "file": "before-desktop-baseline-people-profile-top.png",
+      "sha256": "867c6cfc154dfc595ecc89cd84c8f7714ed3a6ead583c02c96349ce18b611785"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T06:19:56.542Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/settings/working-schedules",
+      "side": "before",
+      "file": "before-desktop-baseline-schedule-editor.png",
+      "sha256": "bef50053bbe5466d0e43fbe66575934b1881c9d003145e48641dd8779fecc967"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T06:19:55.760Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/powerups/working-hours",
+      "side": "before",
+      "file": "before-desktop-baseline-working-hours.png",
+      "sha256": "f1d497aad0001fe861d96142789137ae1858b035a2aa53f61bfd822d5623b2a8"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "at": "2026-10-19T06:19:56.302Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/settings/working-schedules",
+      "side": "before",
+      "file": "before-desktop-baseline-working-schedules.png",
+      "sha256": "a993db355cf6ca053694bdf2048c3eef8e504cf3e090598a3e1f7703cffd3208"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T06:20:10.706Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/people/members/member_2dd1d518cb164877a000616ea31c5112",
+      "side": "before",
+      "file": "before-phone-baseline-people-profile-top.png",
+      "sha256": "1fa3963a2defc25cb77ef7c7bd97ea450532fe4b2ca21d3511a9b8b614c2e295"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T06:20:09.126Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/settings/working-schedules",
+      "side": "before",
+      "file": "before-phone-baseline-schedule-editor.png",
+      "sha256": "cb9c7afc6a746ee26ebb789c5b392feda31dd433a1f67edb89c4cc4cc5f62c7a"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T06:20:08.578Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/powerups/working-hours",
+      "side": "before",
+      "file": "before-phone-baseline-working-hours.png",
+      "sha256": "60f7dfc649af8759a4ebb7dadfcb4cac898f0c9efac3035b366d040e5829f1bb"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-19T06:20:08.972Z",
+      "clientClock": "2026-10-17T12:00:00Z",
+      "tenantWeekStart": "monday",
+      "entry": "Normal sidebar navigation",
+      "route": "/settings/working-schedules",
+      "side": "before",
+      "file": "before-phone-baseline-working-schedules.png",
+      "sha256": "58563e19d20a4536fdae82c10fde8c6f41ac8565655ef066575e2768af875925"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "side": "before",
+      "at": "2026-10-19T06:37:18.913Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "entry": "Normal sidebar More \u2192 Working Hours",
+      "route": "/powerups/working-hours",
+      "file": "before-desktop-working-hours-view.png",
+      "sha256": "737cfe6c7d6ace46273a9d5504ddfff1163f4e6adba678ac13337c7ff2dd110b"
+    },
+    {
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "side": "before",
+      "at": "2026-10-19T06:37:35.614Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "entry": "Normal sidebar More \u2192 Working Hours",
+      "route": "/powerups/working-hours",
+      "file": "before-phone-working-hours-view.png",
+      "sha256": "60f7dfc649af8759a4ebb7dadfcb4cac898f0c9efac3035b366d040e5829f1bb"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "side": "after",
+      "at": "2026-10-19T06:44:23.572Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "entry": "Normal sidebar More \u2192 Working Hours",
+      "route": "/working-hours",
+      "file": "after-desktop-working-hours-view.png",
+      "sha256": "0508ffb8c29e7ef2703d8e462136edd2238e071842110497e6d8ac63be9abf7f"
+    },
+    {
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "side": "after",
+      "at": "2026-10-19T06:44:41.745Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "entry": "Existing cancellation notification \u2192 Time Off \u2192 Working Hours",
+      "route": "/working-hours",
+      "file": "after-phone-working-hours-view.png",
+      "sha256": "280e8cbf85ded264e61bb76c2a193a0e8b9a821002723d7be75f06e53a39e680"
+    }
+  ],
+  "clips": [
+    {
+      "file": "before-desktop-working-hours.mp4",
+      "gif": "before-desktop-working-hours.gif",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "side": "before",
+      "sourceVideoSha256": "b11908abd49b7a1f25f3adbd78280e907083073d4223c3b2d622af1f44536ce2",
+      "sourceStartSeconds": 7.48,
+      "durationSeconds": 5.5,
+      "editing": "Continuous real-time browser recording during screen observation, setup omitted; no held, slowed or generated frames.",
+      "sourceDecoder": "libvpx, one decoder thread."
+    },
+    {
+      "file": "before-phone-working-hours.mp4",
+      "gif": "before-phone-working-hours.gif",
+      "head": "73e607a98526d94c1880aae3f26b89f03e5d90fb",
+      "side": "before",
+      "sourceVideoSha256": "5dc2506b5866a7d9ece3abd827d4b72824c8ab74e5d84a92f52b3a206babe400",
+      "sourceStartSeconds": 9.44,
+      "durationSeconds": 5.5,
+      "editing": "Continuous real-time browser recording during screen observation, setup omitted; no held, slowed or generated frames.",
+      "sourceDecoder": "libvpx, one decoder thread."
+    },
+    {
+      "file": "after-desktop-working-hours.mp4",
+      "gif": "after-desktop-working-hours.gif",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "side": "after",
+      "sourceVideoSha256": "f71f66044dacba64aab7801fb847f28e523a30a8a2aa944737d3540ca59b0c5f",
+      "sourceStartSeconds": 12.2,
+      "durationSeconds": 5.5,
+      "editing": "Continuous real-time browser recording during screen observation, setup omitted; no held, slowed or generated frames.",
+      "sourceDecoder": "libvpx, one decoder thread."
+    },
+    {
+      "file": "after-phone-working-hours.mp4",
+      "gif": "after-phone-working-hours.gif",
+      "head": "6c0ca8e75f6538a2d1008d1bb73460928e9eff2e",
+      "side": "after",
+      "sourceVideoSha256": "d770c2d9970b32ce8f29e066bc689e6e9139a1da575a29d8dbb0ba49519ef045",
+      "sourceStartSeconds": 10.64,
+      "durationSeconds": 5.5,
+      "editing": "Continuous real-time browser recording during screen observation, setup omitted; no held, slowed or generated frames.",
+      "sourceDecoder": "libvpx, one decoder thread."
+    }
+  ],
+  "files": [
+    {
+      "file": "after-desktop-fixed-schedule-reopened.png",
+      "sha256": "158013946bf55d16792c58a573737fdc791b44e0c1e69793200ed70b83c6404f",
+      "bytes": 142785
+    },
+    {
+      "file": "after-desktop-manager-calendar-week-detail.png",
+      "sha256": "841fd51e0842001772af35047a03fcddf0232f8021a24517232fc927e385e021",
+      "bytes": 88743
+    },
+    {
+      "file": "after-desktop-manager-calendar-week.png",
+      "sha256": "841fd51e0842001772af35047a03fcddf0232f8021a24517232fc927e385e021",
+      "bytes": 88743
+    },
+    {
+      "file": "after-desktop-manager-next-week-approved-record.png",
+      "sha256": "3f1de33ac44b607f2a05bd241a556ff57b74f137bf2950db5b5b5c06c625a4df",
+      "bytes": 64280
+    },
+    {
+      "file": "after-desktop-member-approved-oct23-record.png",
+      "sha256": "c0332f2d52c546f2fbf56a4b672817c34b38cec20375b0ff5f51f066fc146269",
+      "bytes": 83961
+    },
+    {
+      "file": "after-desktop-member-calendar-week-detail.png",
+      "sha256": "32e75990fe081f08d6834647e73ce20bdd15c9c30eafd751c6a3e8ff59ba4f60",
+      "bytes": 52874
+    },
+    {
+      "file": "after-desktop-member-calendar-week.png",
+      "sha256": "32e75990fe081f08d6834647e73ce20bdd15c9c30eafd751c6a3e8ff59ba4f60",
+      "bytes": 52874
+    },
+    {
+      "file": "after-desktop-member-existing-approval-notification.png",
+      "sha256": "e51a4c87f0ac0671f2f86701160b57aeb1e070c41480cb2b35e6ad4a1da82be2",
+      "bytes": 96597
+    },
+    {
+      "file": "after-desktop-open-ended-assignment.png",
+      "sha256": "bd1d9b64647aed678a8f5b3d97eb66a3a503e90ef683d65f75d265c1e1ccce03",
+      "bytes": 99563
+    },
+    {
+      "file": "after-desktop-people-profile-top.png",
+      "sha256": "64ea153875a5efa9cc90a811caba28d1844bef7b00f25b70478aec4469f0ba31",
+      "bytes": 110790
+    },
+    {
+      "file": "after-desktop-people-work-schedule-detail.png",
+      "sha256": "f1b8c26ce7e64dceed7e0919a8c8f25ae8af846db6a4a467dcd2e996a87c2eed",
+      "bytes": 29853
+    },
+    {
+      "file": "after-desktop-rotation-reopened.png",
+      "sha256": "480d403226bd4b085a7c310468e2d5988fdabd7c647fd420f339db61445240e4",
+      "bytes": 133473
+    },
+    {
+      "file": "after-desktop-working-hours-view.png",
+      "sha256": "0508ffb8c29e7ef2703d8e462136edd2238e071842110497e6d8ac63be9abf7f",
+      "bytes": 88217
+    },
+    {
+      "file": "after-desktop-working-hours.gif",
+      "sha256": "1a36d5eee218883019e97c2f7c5c5c50df80ac0d4a760f6e226d12c183601558",
+      "bytes": 417966,
+      "frames": 33
+    },
+    {
+      "file": "after-desktop-working-hours.mp4",
+      "sha256": "7f65d4c95bacfe260f5a279739b013183f209db878587d85bc962f3af6581ed1",
+      "bytes": 74208
+    },
+    {
+      "file": "after-extended-assignment-end-cleared.png",
+      "sha256": "2f21c82850a6824dc6bcd9e0da5a88b0220a6a6ab8f0b72d032008742854ca7f",
+      "bytes": 111005
+    },
+    {
+      "file": "after-extended-assignment-end-persisted.png",
+      "sha256": "85ae08e3f1ae7c7a7b86c2b535ed873553747b999711d01f65542be29e79bae0",
+      "bytes": 112131
+    },
+    {
+      "file": "after-extended-overnight-shift-editor.png",
+      "sha256": "330d6e077634d93621f2d6d035a747e1931ac9d242d13af3bd1f84924da5c990",
+      "bytes": 134954
+    },
+    {
+      "file": "after-extended-pending-leave-persisted.png",
+      "sha256": "dd9b4fe9cc16e0ac9780742ffc4984829202547e3f271b7f852e88db2e48e002",
+      "bytes": 93019
+    },
+    {
+      "file": "after-extended-schedule-validation.png",
+      "sha256": "9f580bcf76ae67c889867b831060de364c0fdf374b77d1be246e6f4f1d61f691",
+      "bytes": 150957
+    },
+    {
+      "file": "after-extended-two-scheduled-days-la.png",
+      "sha256": "3473ac76b284ffe9eb2fd54fc47b7d829699ef4ceca6b0d5966054aa33655f12",
+      "bytes": 115713
+    },
+    {
+      "file": "after-extended-type-switch-retains-zone.png",
+      "sha256": "0e08ae624f3ba04ca48a3681f20bbe0c35d6731c5cc7516d908b95720d32517a",
+      "bytes": 133414
+    },
+    {
+      "file": "after-phone-fixed-schedule-reopened.png",
+      "sha256": "23a3ee633795a9ef99ac1632e34d3c53d3085c1aefef0f42841461a488488f14",
+      "bytes": 48757
+    },
+    {
+      "file": "after-phone-manager-calendar-week-detail.png",
+      "sha256": "f49921a5e482b4d10982ad559621fec7f21b9049d3d235060b047ffe0bd07e3d",
+      "bytes": 53653
+    },
+    {
+      "file": "after-phone-manager-calendar-week.png",
+      "sha256": "6439211fd086bb1163d89846c4f842a61b40a2377f63a7229d522c2e2fe27bc3",
+      "bytes": 51272
+    },
+    {
+      "file": "after-phone-manager-next-week-approved-record.png",
+      "sha256": "2fc3e948bb87309793981f9ff81f6033fc05b98a1d807c3daccefd5a71ac3f3b",
+      "bytes": 42073
+    },
+    {
+      "file": "after-phone-member-approved-oct23-record.png",
+      "sha256": "55644431a437f9b143aa9752dbb40307946387fe012d8ea1aa56cde57d69713b",
+      "bytes": 49404
+    },
+    {
+      "file": "after-phone-member-calendar-week-detail.png",
+      "sha256": "1c347976a5ef1c19aae138ab80e17c49fa1b4b213d56b453f129c86429c2bf93",
+      "bytes": 36323
+    },
+    {
+      "file": "after-phone-member-calendar-week.png",
+      "sha256": "1c347976a5ef1c19aae138ab80e17c49fa1b4b213d56b453f129c86429c2bf93",
+      "bytes": 36323
+    },
+    {
+      "file": "after-phone-member-existing-approval-notification.png",
+      "sha256": "13f156f8ffad3f8570ee0a9c5ac27a1f6e1f56f15c5beb3e45de9e7814a9f8c1",
+      "bytes": 57596
+    },
+    {
+      "file": "after-phone-open-ended-assignment.png",
+      "sha256": "f43c7afe16168b5fe8ceff44dfdccdd7899810c162a18043c430ef0e614e7c44",
+      "bytes": 40495
+    },
+    {
+      "file": "after-phone-people-profile-top.png",
+      "sha256": "ea5a27e96c3ea3945a7950d4501647f7e336f0aef724865afea33b8e6031a2c9",
+      "bytes": 49543
+    },
+    {
+      "file": "after-phone-people-work-schedule-detail.png",
+      "sha256": "d82990f21dca470b08d90dcd8797402eb74699f3879c8d6abc18923ba59b7ca6",
+      "bytes": 29462
+    },
+    {
+      "file": "after-phone-rotation-reopened.png",
+      "sha256": "10f2cc36972fb72caa1dd0e321e65315e4035c7872e62f97ea1ac8c886d2d1b9",
+      "bytes": 53238
+    },
+    {
+      "file": "after-phone-working-hours-view.png",
+      "sha256": "280e8cbf85ded264e61bb76c2a193a0e8b9a821002723d7be75f06e53a39e680",
+      "bytes": 51172
+    },
+    {
+      "file": "after-phone-working-hours.gif",
+      "sha256": "0e6753629a575f5a96e9c019782c02b2bad6c6e7a48351a3c2a79f7449704816",
+      "bytes": 286691,
+      "frames": 33
+    },
+    {
+      "file": "after-phone-working-hours.mp4",
+      "sha256": "e9f66783927cda7873f9791470e4610ce014e0c1629c84bd74a9b867df08b7a3",
+      "bytes": 39849
+    },
+    {
+      "file": "after-recovery-approved-leave-fleet-save-refused.png",
+      "sha256": "0eb6c3a5cda29c34dab68cbe9d184b70b19c1aab411ad7a62b4f797703ce8b58",
+      "bytes": 71365
+    },
+    {
+      "file": "after-recovery-fleet-original-time-retained.png",
+      "sha256": "2f2acbcae8498df246d6c471575280889644a527391946a506047d6418aca959",
+      "bytes": 128466
+    },
+    {
+      "file": "after-recovery-request-cancelled.png",
+      "sha256": "04b9ba924927bef138e4e24c20caa2e6b6f041fbc0e13cbec327218e33ace9a1",
+      "bytes": 92320
+    },
+    {
+      "file": "after-recovery-request-rejected.png",
+      "sha256": "db214bba1b646a1903024ffdc4be3d571960f1041633b653471abc460a001825",
+      "bytes": 64752
+    },
+    {
+      "file": "after-recovery-requester-decision-notification.png",
+      "sha256": "1971e2cb6e941c6b5013fa8be54a1a914d413706e3f588864469bd72b45ae4d0",
+      "bytes": 55891
+    },
+    {
+      "file": "after-recovery-requester-decisions-persisted.png",
+      "sha256": "0702b1b22d4c5a298da8e492debdd934b2aba263618ba8721ce94b32ba148a84",
+      "bytes": 43350
+    },
+    {
+      "file": "after-recovery-separate-rejection-pending.png",
+      "sha256": "7b0589f5f98c45a2d65102e9c9865530683e838cfb4a6976e87e0b18edd1ffda",
+      "bytes": 91110
+    },
+    {
+      "file": "after-validation-fleet-in-hours.png",
+      "sha256": "08356473a2fa3f288c9d01c1ab924ec43cfb50a4104218078696516b9b06f9c4",
+      "bytes": 137081
+    },
+    {
+      "file": "after-validation-fleet-outside-hours.png",
+      "sha256": "f48ce10153a49678278fe9bb302c875860128962efacbb5a3145b7100787dddb",
+      "bytes": 134027
+    },
+    {
+      "file": "after-validation-fleet-task-created.png",
+      "sha256": "2f2acbcae8498df246d6c471575280889644a527391946a506047d6418aca959",
+      "bytes": 128466
+    },
+    {
+      "file": "after-validation-leave-approved.png",
+      "sha256": "6dba9481e3ce806906a5c85c4ce070e9d424063ff98bb54408f97a84161c9843",
+      "bytes": 64652
+    },
+    {
+      "file": "after-validation-limit-submit-refused.png",
+      "sha256": "cd8b6c79d130d550cd0774323b73fa2dc84a55d7a5b4c2367d1da323969672d4",
+      "bytes": 125597
+    },
+    {
+      "file": "after-validation-overlap-submit-refused.png",
+      "sha256": "a98761eb3dc2092d56c70d7429bd0080c11c3aa2e7ee1177a16131ce9cdbf60e",
+      "bytes": 125982
+    },
+    {
+      "file": "after-validation-separate-approver.png",
+      "sha256": "de82ec21a7b760cc9b910a56d64011caba2b7bf8dd4c6a0b316a675059144411",
+      "bytes": 68325
+    },
+    {
+      "file": "before-desktop-baseline-people-profile-top.png",
+      "sha256": "867c6cfc154dfc595ecc89cd84c8f7714ed3a6ead583c02c96349ce18b611785",
+      "bytes": 85695
+    },
+    {
+      "file": "before-desktop-baseline-schedule-editor.png",
+      "sha256": "bef50053bbe5466d0e43fbe66575934b1881c9d003145e48641dd8779fecc967",
+      "bytes": 146667
+    },
+    {
+      "file": "before-desktop-baseline-working-hours.png",
+      "sha256": "f1d497aad0001fe861d96142789137ae1858b035a2aa53f61bfd822d5623b2a8",
+      "bytes": 72255
+    },
+    {
+      "file": "before-desktop-baseline-working-schedules.png",
+      "sha256": "a993db355cf6ca053694bdf2048c3eef8e504cf3e090598a3e1f7703cffd3208",
+      "bytes": 76065
+    },
+    {
+      "file": "before-desktop-working-hours-view.png",
+      "sha256": "737cfe6c7d6ace46273a9d5504ddfff1163f4e6adba678ac13337c7ff2dd110b",
+      "bytes": 72307
+    },
+    {
+      "file": "before-desktop-working-hours.gif",
+      "sha256": "01b3e74a82fc568874076c862f535dc560b7e7bad90a9946aff520ada9a0b75b",
+      "bytes": 243054,
+      "frames": 33
+    },
+    {
+      "file": "before-desktop-working-hours.mp4",
+      "sha256": "41195338a9d4f01b131db264ee299b81b8d88688ac62cf38520dcbdf4d59cbcc",
+      "bytes": 54857
+    },
+    {
+      "file": "before-phone-baseline-people-profile-top.png",
+      "sha256": "1fa3963a2defc25cb77ef7c7bd97ea450532fe4b2ca21d3511a9b8b614c2e295",
+      "bytes": 49527
+    },
+    {
+      "file": "before-phone-baseline-schedule-editor.png",
+      "sha256": "cb9c7afc6a746ee26ebb789c5b392feda31dd433a1f67edb89c4cc4cc5f62c7a",
+      "bytes": 64394
+    },
+    {
+      "file": "before-phone-baseline-working-hours.png",
+      "sha256": "60f7dfc649af8759a4ebb7dadfcb4cac898f0c9efac3035b366d040e5829f1bb",
+      "bytes": 43315
+    },
+    {
+      "file": "before-phone-baseline-working-schedules.png",
+      "sha256": "58563e19d20a4536fdae82c10fde8c6f41ac8565655ef066575e2768af875925",
+      "bytes": 34542
+    },
+    {
+      "file": "before-phone-working-hours-view.png",
+      "sha256": "60f7dfc649af8759a4ebb7dadfcb4cac898f0c9efac3035b366d040e5829f1bb",
+      "bytes": 43315
+    },
+    {
+      "file": "before-phone-working-hours.gif",
+      "sha256": "808d3430ee98e5f9e8bad860036c185c87ef0799d6a1f17cec247a4edd0143d8",
+      "bytes": 125899,
+      "frames": 33
+    },
+    {
+      "file": "before-phone-working-hours.mp4",
+      "sha256": "e02d68f6f00cd23cf7c07c0b9381cd5fdca0177e9428c6419fe866c5daa3ece3",
+      "bytes": 27060
+    }
+  ],
+  "openItems": [
+    "An initial current-head mobile More attempt failed offscreen; final phone after entry used an existing Time Off notification and the visible Working Hours link. Baseline phone More passed normally.",
+    "Unknown member attribution remains in restricted-member rejection view, including a new test decision.",
+    "Two initial extended tests assumed disabled Submit and an open refused-save dialog; continuation tests verified actual refusal, no persisted invalid request, no reason leak and retained saved time."
+  ],
+  "recordingNote": "Initial unpublished excerpts included setup/loading and were replaced by four fresh normal-navigation browser view recordings on the same clean heads. The final clips preserve5.5seconds of real-time screen observation without generated or held frames. A batched preview appeared to lose glyphs; individual original-resolution frame inspection is clear, and native VP8/libvpx source-frame probes are byte-identical. No codec corruption is claimed."
+}
