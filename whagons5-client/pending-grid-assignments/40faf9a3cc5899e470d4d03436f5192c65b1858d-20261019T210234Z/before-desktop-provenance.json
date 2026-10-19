@@ -1,0 +1,104 @@
+{
+  "headSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+  "baseSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+  "capturedAt": "2026-10-19T21:01:14.896Z",
+  "completedAt": "2026-10-19T21:02:16.053Z",
+  "runtimeConfig": {
+    "isolatePoolSize": 2,
+    "maxConcurrentCalls": 32
+  },
+  "runtimeSha256": "d803d7f73db1b89e0199de620476a8ac84951d5f189ea06b4253f4015cd9ddaa",
+  "privateProjectId": "e736d537-b578-4a18-9778-4d8cf303d262",
+  "actor": "test@test.com",
+  "tenant": "testing",
+  "identityProvisioning": "Owned loopback CI bootstrap/provision-e2e-tenants plus mintE2EFirebaseIDToken; actor test@test.com",
+  "viewport": {
+    "width": 1886,
+    "height": 1041
+  },
+  "browserVersion": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/153.0.8010.36",
+    "revision": "@507c6ee3e2f3b2ca0e660547e5b9ea4820c67f4c",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "jsVersion": "15.3.76.10"
+  },
+  "browserCgroupProof": [
+    {
+      "type": "browser",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "GPU",
+      "insideScope": true
+    },
+    {
+      "type": "network.mojom.NetworkService",
+      "insideScope": true
+    },
+    {
+      "type": "storage.mojom.StorageService",
+      "insideScope": true
+    },
+    {
+      "type": "audio.mojom.AudioService",
+      "insideScope": true
+    }
+  ],
+  "authRequests": [
+    {
+      "origin": "http://127.0.0.1:9215",
+      "path": "/identitytoolkit.googleapis.com/v1/accounts:signInWithPassword",
+      "status": 204
+    },
+    {
+      "origin": "http://127.0.0.1:9215",
+      "path": "/identitytoolkit.googleapis.com/v1/accounts:signInWithPassword",
+      "status": 200
+    }
+  ],
+  "applicationAssetProof": {
+    "headSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+    "htmlSha256": "05a4e61f332c6cc3a57c6f7e4ccda94859e63adaaccd783a8139e168f2c99f79",
+    "expectedEntries": [
+      "http://testing.localhost:5215/assets/index-_74id5pD.js"
+    ],
+    "browserEntries": [
+      "http://testing.localhost:5215/assets/index-_74id5pD.js"
+    ],
+    "serviceWorker": "http://testing.localhost:5215/firebase-messaging-sw.js"
+  },
+  "steps": [
+    {
+      "id": "assignment",
+      "action": "Sign in and open workspace using the ordinary sidebar; hold actual assignment source; click real canvas; Escape; release source; inspect actual assignee; open real picker and Escape; clear and restore the same assignee through Apply",
+      "observed": "Old unknown source paints an unassigned affordance and permits the empty picker; actual assignee appears after release"
+    }
+  ],
+  "success": true,
+  "errors": []
+}

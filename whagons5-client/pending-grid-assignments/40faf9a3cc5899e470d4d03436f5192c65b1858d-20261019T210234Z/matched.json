@@ -1,0 +1,1327 @@
+{
+  "protocol": "Ten interleaved fresh authenticated profiles per side, cold plus same-profile reload, then first and repeat actual-canvas picker gesture. Alternating AB/BA order. All complete-run outliers retained. P95 uses linear interpolation at (n-1)*.95.",
+  "environment": "Private testing/test@test.com, Chrome headed default HTTP cache,1886x1041 DPR1, runtime isolate pool2/max32, same3G scope/CPU200/Nice10. No DevTools CPU/network throttle, no HTTP route/Fetch interception. Corrected in-page visibility and exact-workspace/corpus/twelve-name checks plus two RAFs.",
+  "limits": "Resource-constrained diagnostic cohort, not clean startup/memory attribution or proof against regression. Both arms have memory.max reclamation and CPU-quota throttling, no OOM kills; full-profile counter envelopes do not isolate pressure to each timed segment. Correctness repair, not a startup speed claim. CPU quota and reported pressure counters bound absolute attribution. Renderer private memory is the largest owned renderer, not whole-tab memory. Ten first and ten repeat picker samples per side, not twenty first gestures. One earlier incomplete baseline pilot stopped at post-endpoint Escape cleanup; preserved separately and not pooled with this revised frozen cohort.",
+  "summary": {
+    "before": {
+      "coldMs": {
+        "n": 10,
+        "p50": 5445.0,
+        "p95": 6785.95,
+        "min": 3991,
+        "max": 6880,
+        "values": [
+          3991,
+          5093,
+          5104,
+          5192,
+          5289,
+          5601,
+          5971,
+          6159,
+          6671,
+          6880
+        ]
+      },
+      "reloadMs": {
+        "n": 10,
+        "p50": 5321.5,
+        "p95": 6775.4,
+        "min": 4185,
+        "max": 6878,
+        "values": [
+          4185,
+          4361,
+          4851,
+          4976,
+          5239,
+          5404,
+          5596,
+          5991,
+          6650,
+          6878
+        ]
+      },
+      "firstVisualMs": {
+        "n": 20,
+        "p50": 38.349999994039536,
+        "p95": 89.28499999046326,
+        "min": 7.600000023841858,
+        "max": 100.40000003576279,
+        "values": [
+          7.600000023841858,
+          7.699999988079071,
+          7.800000011920929,
+          8,
+          8,
+          8.599999964237213,
+          9.199999988079071,
+          13.399999976158142,
+          13.5,
+          14.5,
+          62.19999998807907,
+          65.09999996423721,
+          65.69999998807907,
+          75.69999998807907,
+          78.5,
+          78.5,
+          78.60000002384186,
+          80.80000001192093,
+          88.69999998807907,
+          100.40000003576279
+        ]
+      },
+      "contentReadyMs": {
+        "n": 20,
+        "p50": 47.64999997615814,
+        "p95": 91.24000002443792,
+        "min": 19.100000023841858,
+        "max": 103.40000003576279,
+        "values": [
+          19.100000023841858,
+          21.30000001192093,
+          21.69999998807907,
+          21.80000001192093,
+          22.80000001192093,
+          24.899999976158142,
+          25.900000035762787,
+          29.399999976158142,
+          29.69999998807907,
+          30.599999964237213,
+          64.69999998807907,
+          67.39999997615814,
+          68.69999998807907,
+          77.80000001192093,
+          80.69999998807907,
+          81.40000003576279,
+          83.80000001192093,
+          86.19999998807907,
+          90.60000002384186,
+          103.40000003576279
+        ]
+      },
+      "completeMs": {
+        "n": 20,
+        "p50": 73.0499999821186,
+        "p95": 136.15000002384187,
+        "min": 52.60000002384186,
+        "max": 146.60000002384186,
+        "values": [
+          52.60000002384186,
+          55.200000047683716,
+          55.80000001192093,
+          56,
+          56.30000001192093,
+          58.5,
+          58.90000003576279,
+          62.80000001192093,
+          63.19999998807907,
+          63.89999997615814,
+          82.19999998807907,
+          101.60000002384186,
+          112.19999998807907,
+          116.09999996423721,
+          122.59999996423721,
+          126.30000001192093,
+          126.79999995231628,
+          132.4000000357628,
+          135.60000002384186,
+          146.60000002384186
+        ]
+      },
+      "firstPickerCompleteMs": {
+        "n": 10,
+        "p50": 124.44999998807907,
+        "p95": 141.65000002384184,
+        "min": 82.19999998807907,
+        "max": 146.60000002384186,
+        "values": [
+          82.19999998807907,
+          101.60000002384186,
+          112.19999998807907,
+          116.09999996423721,
+          122.59999996423721,
+          126.30000001192093,
+          126.79999995231628,
+          132.4000000357628,
+          135.60000002384186,
+          146.60000002384186
+        ]
+      },
+      "repeatPickerCompleteMs": {
+        "n": 10,
+        "p50": 57.400000005960464,
+        "p95": 63.58499998152256,
+        "min": 52.60000002384186,
+        "max": 63.89999997615814,
+        "values": [
+          52.60000002384186,
+          55.200000047683716,
+          55.80000001192093,
+          56,
+          56.30000001192093,
+          58.5,
+          58.90000003576279,
+          62.80000001192093,
+          63.19999998807907,
+          63.89999997615814
+        ]
+      },
+      "reloadLargestRendererPrivateMB": {
+        "n": 10,
+        "p50": 195.346432,
+        "p95": 342.008832,
+        "min": 188.84608,
+        "max": 343.732224,
+        "values": [
+          188.84608,
+          192.049152,
+          193.875968,
+          194.19136,
+          195.022848,
+          195.670016,
+          196.268032,
+          197.459968,
+          339.902464,
+          343.732224
+        ]
+      },
+      "memoryEventDelta": {
+        "low": 0,
+        "high": 0,
+        "max": 4897,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0,
+        "sock_throttled": 462
+      },
+      "cpuThrottleDelta": {
+        "nr_throttled": 1362,
+        "throttled_usec": 435948815
+      }
+    },
+    "after": {
+      "coldMs": {
+        "n": 10,
+        "p50": 5264.0,
+        "p95": 6324.599999999999,
+        "min": 4642,
+        "max": 6690,
+        "values": [
+          4642,
+          4761,
+          4906,
+          5012,
+          5122,
+          5406,
+          5497,
+          5786,
+          5878,
+          6690
+        ]
+      },
+      "reloadMs": {
+        "n": 10,
+        "p50": 5581.0,
+        "p95": 6159.1,
+        "min": 3572,
+        "max": 6160,
+        "values": [
+          3572,
+          4556,
+          4740,
+          5283,
+          5541,
+          5621,
+          5884,
+          6131,
+          6158,
+          6160
+        ]
+      },
+      "firstVisualMs": {
+        "n": 20,
+        "p50": 36.0,
+        "p95": 86.22000000178815,
+        "min": 6.700000047683716,
+        "max": 99.90000003576279,
+        "values": [
+          6.700000047683716,
+          7,
+          7.099999964237213,
+          7.600000023841858,
+          7.899999976158142,
+          8,
+          9.800000011920929,
+          10.100000023841858,
+          14.600000023841858,
+          14.699999988079071,
+          57.30000001192093,
+          59.60000002384186,
+          59.80000001192093,
+          62.40000003576279,
+          64.20000004768372,
+          65.5,
+          74.59999996423721,
+          84.19999998807907,
+          85.5,
+          99.90000003576279
+        ]
+      },
+      "contentReadyMs": {
+        "n": 20,
+        "p50": 45.70000001788139,
+        "p95": 88.29000000059605,
+        "min": 17,
+        "max": 103.30000001192093,
+        "values": [
+          17,
+          17.5,
+          18.30000001192093,
+          19.900000035762787,
+          20.19999998807907,
+          20.69999998807907,
+          22.700000047683716,
+          24.19999998807907,
+          30.099999964237213,
+          31.400000035762787,
+          60,
+          61.60000002384186,
+          61.60000002384186,
+          65.30000001192093,
+          67.30000001192093,
+          67.5,
+          76.59999996423721,
+          86.19999998807907,
+          87.5,
+          103.30000001192093
+        ]
+      },
+      "completeMs": {
+        "n": 20,
+        "p50": 81.7999999821186,
+        "p95": 129.73000002205376,
+        "min": 50.5,
+        "max": 179.69999998807907,
+        "values": [
+          50.5,
+          50.60000002384186,
+          52.5,
+          53.19999998807907,
+          53.39999997615814,
+          54.10000002384186,
+          55.90000003576279,
+          57.19999998807907,
+          63.5,
+          64.69999998807907,
+          98.89999997615814,
+          100.60000002384186,
+          105.5,
+          107.39999997615814,
+          107.89999997615814,
+          112.80000001192093,
+          119.30000001192093,
+          125,
+          127.10000002384186,
+          179.69999998807907
+        ]
+      },
+      "firstPickerCompleteMs": {
+        "n": 10,
+        "p50": 110.34999999403954,
+        "p95": 156.03000000417228,
+        "min": 98.89999997615814,
+        "max": 179.69999998807907,
+        "values": [
+          98.89999997615814,
+          100.60000002384186,
+          105.5,
+          107.39999997615814,
+          107.89999997615814,
+          112.80000001192093,
+          119.30000001192093,
+          125,
+          127.10000002384186,
+          179.69999998807907
+        ]
+      },
+      "repeatPickerCompleteMs": {
+        "n": 10,
+        "p50": 53.75,
+        "p95": 64.15999999344349,
+        "min": 50.5,
+        "max": 64.69999998807907,
+        "values": [
+          50.5,
+          50.60000002384186,
+          52.5,
+          53.19999998807907,
+          53.39999997615814,
+          54.10000002384186,
+          55.90000003576279,
+          57.19999998807907,
+          63.5,
+          64.69999998807907
+        ]
+      },
+      "reloadLargestRendererPrivateMB": {
+        "n": 10,
+        "p50": 341.48352,
+        "p95": 354.8954624,
+        "min": 193.081344,
+        "max": 359.702528,
+        "values": [
+          193.081344,
+          193.552384,
+          325.55008,
+          338.251776,
+          339.185664,
+          343.781376,
+          346.165248,
+          347.181056,
+          349.02016,
+          359.702528
+        ]
+      },
+      "memoryEventDelta": {
+        "low": 0,
+        "high": 0,
+        "max": 6085,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0,
+        "sock_throttled": 385
+      },
+      "cpuThrottleDelta": {
+        "nr_throttled": 1292,
+        "throttled_usec": 444063269
+      }
+    }
+  },
+  "runs": {
+    "before": [
+      {
+        "run": 1,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-01",
+        "startupMs": {
+          "cold": 5971,
+          "reload": 5596
+        },
+        "picker": [
+          {
+            "start": 16247.5,
+            "firstVisualMs": 78.5,
+            "contentReadyMs": 80.69999998807907,
+            "completeMs": 126.79999995231628,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17384.099999964237,
+            "firstVisualMs": 7.699999988079071,
+            "contentReadyMs": 22.80000001192093,
+            "completeMs": 56.30000001192093,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 195.670016,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 42
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 145,
+          "throttled_usec": 43108968
+        },
+        "cacheResponses": 321
+      },
+      {
+        "run": 2,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-02",
+        "startupMs": {
+          "cold": 6159,
+          "reload": 6650
+        },
+        "picker": [
+          {
+            "start": 17383.099999964237,
+            "firstVisualMs": 88.69999998807907,
+            "contentReadyMs": 90.60000002384186,
+            "completeMs": 132.4000000357628,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 18618.69999998808,
+            "firstVisualMs": 7.800000011920929,
+            "contentReadyMs": 21.69999998807907,
+            "completeMs": 56,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 197.459968,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 1043,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 152,
+          "throttled_usec": 46899156
+        },
+        "cacheResponses": 326
+      },
+      {
+        "run": 3,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-03",
+        "startupMs": {
+          "cold": 6880,
+          "reload": 6878
+        },
+        "picker": [
+          {
+            "start": 17698.899999976158,
+            "firstVisualMs": 80.80000001192093,
+            "contentReadyMs": 83.80000001192093,
+            "completeMs": 101.60000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 19114.099999964237,
+            "firstVisualMs": 8,
+            "contentReadyMs": 21.30000001192093,
+            "completeMs": 55.200000047683716,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 343.732224,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 650,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 114
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 168,
+          "throttled_usec": 51305571
+        },
+        "cacheResponses": 320
+      },
+      {
+        "run": 4,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-04",
+        "startupMs": {
+          "cold": 5192,
+          "reload": 5239
+        },
+        "picker": [
+          {
+            "start": 15830.800000011921,
+            "firstVisualMs": 65.69999998807907,
+            "contentReadyMs": 68.69999998807907,
+            "completeMs": 112.19999998807907,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 16961,
+            "firstVisualMs": 13.5,
+            "contentReadyMs": 29.69999998807907,
+            "completeMs": 63.19999998807907,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 339.902464,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 124,
+          "throttled_usec": 41986849
+        },
+        "cacheResponses": 314
+      },
+      {
+        "run": 5,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-05",
+        "startupMs": {
+          "cold": 5104,
+          "reload": 4976
+        },
+        "picker": [
+          {
+            "start": 15777.099999964237,
+            "firstVisualMs": 100.40000003576279,
+            "contentReadyMs": 103.40000003576279,
+            "completeMs": 146.60000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 16923.099999964237,
+            "firstVisualMs": 7.600000023841858,
+            "contentReadyMs": 19.100000023841858,
+            "completeMs": 52.60000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 192.049152,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 621,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 122,
+          "throttled_usec": 40600159
+        },
+        "cacheResponses": 314
+      },
+      {
+        "run": 6,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-06",
+        "startupMs": {
+          "cold": 5601,
+          "reload": 4851
+        },
+        "picker": [
+          {
+            "start": 15689,
+            "firstVisualMs": 78.60000002384186,
+            "contentReadyMs": 81.40000003576279,
+            "completeMs": 126.30000001192093,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 16786.400000035763,
+            "firstVisualMs": 14.5,
+            "contentReadyMs": 30.599999964237213,
+            "completeMs": 63.89999997615814,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 193.875968,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 750,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 130
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 133,
+          "throttled_usec": 45076653
+        },
+        "cacheResponses": 325
+      },
+      {
+        "run": 7,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-07",
+        "startupMs": {
+          "cold": 5289,
+          "reload": 4185
+        },
+        "picker": [
+          {
+            "start": 15116.5,
+            "firstVisualMs": 75.69999998807907,
+            "contentReadyMs": 77.80000001192093,
+            "completeMs": 122.59999996423721,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 16212,
+            "firstVisualMs": 13.399999976158142,
+            "contentReadyMs": 29.399999976158142,
+            "completeMs": 62.80000001192093,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 188.84608,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 534,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 176
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 120,
+          "throttled_usec": 41252062
+        },
+        "cacheResponses": 314
+      },
+      {
+        "run": 8,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-08",
+        "startupMs": {
+          "cold": 5093,
+          "reload": 5404
+        },
+        "picker": [
+          {
+            "start": 16315.300000011921,
+            "firstVisualMs": 62.19999998807907,
+            "contentReadyMs": 64.69999998807907,
+            "completeMs": 82.19999998807907,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17307.30000001192,
+            "firstVisualMs": 8.599999964237213,
+            "contentReadyMs": 24.899999976158142,
+            "completeMs": 58.5,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 194.19136,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 127,
+          "throttled_usec": 41609158
+        },
+        "cacheResponses": 324
+      },
+      {
+        "run": 9,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-09",
+        "startupMs": {
+          "cold": 3991,
+          "reload": 4361
+        },
+        "picker": [
+          {
+            "start": 15250.400000035763,
+            "firstVisualMs": 65.09999996423721,
+            "contentReadyMs": 67.39999997615814,
+            "completeMs": 116.09999996423721,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 16304.699999988079,
+            "firstVisualMs": 8,
+            "contentReadyMs": 21.80000001192093,
+            "completeMs": 55.80000001192093,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 196.268032,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 653,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 117,
+          "throttled_usec": 41880195
+        },
+        "cacheResponses": 307
+      },
+      {
+        "run": 10,
+        "head": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+        "label": "assignment-match-20261019T210822Z-before-10",
+        "startupMs": {
+          "cold": 6671,
+          "reload": 5991
+        },
+        "picker": [
+          {
+            "start": 16748.399999976158,
+            "firstVisualMs": 78.5,
+            "contentReadyMs": 86.19999998807907,
+            "completeMs": 135.60000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17849.099999964237,
+            "firstVisualMs": 9.199999988079071,
+            "contentReadyMs": 25.900000035762787,
+            "completeMs": 58.90000003576279,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 195.022848,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 646,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 154,
+          "throttled_usec": 42230044
+        },
+        "cacheResponses": 322
+      }
+    ],
+    "after": [
+      {
+        "run": 1,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-01",
+        "startupMs": {
+          "cold": 6690,
+          "reload": 5621
+        },
+        "picker": [
+          {
+            "start": 16216.799999952316,
+            "firstVisualMs": 85.5,
+            "contentReadyMs": 87.5,
+            "completeMs": 127.10000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17366.69999998808,
+            "firstVisualMs": 9.800000011920929,
+            "contentReadyMs": 17,
+            "completeMs": 50.5,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 325.55008,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 139,
+          "throttled_usec": 49966849
+        },
+        "cacheResponses": 320
+      },
+      {
+        "run": 2,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-02",
+        "startupMs": {
+          "cold": 5497,
+          "reload": 6131
+        },
+        "picker": [
+          {
+            "start": 16752.599999964237,
+            "firstVisualMs": 64.20000004768372,
+            "contentReadyMs": 67.30000001192093,
+            "completeMs": 119.30000001192093,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17862.19999998808,
+            "firstVisualMs": 7.600000023841858,
+            "contentReadyMs": 20.69999998807907,
+            "completeMs": 54.10000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 349.02016,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 1060,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 188
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 142,
+          "throttled_usec": 47339972
+        },
+        "cacheResponses": 305
+      },
+      {
+        "run": 3,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-03",
+        "startupMs": {
+          "cold": 5122,
+          "reload": 5541
+        },
+        "picker": [
+          {
+            "start": 16410.80000001192,
+            "firstVisualMs": 99.90000003576279,
+            "contentReadyMs": 103.30000001192093,
+            "completeMs": 179.69999998807907,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17568.80000001192,
+            "firstVisualMs": 8,
+            "contentReadyMs": 19.900000035762787,
+            "completeMs": 53.19999998807907,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 339.185664,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 126,
+          "throttled_usec": 41963619
+        },
+        "cacheResponses": 310
+      },
+      {
+        "run": 4,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-04",
+        "startupMs": {
+          "cold": 5786,
+          "reload": 6160
+        },
+        "picker": [
+          {
+            "start": 16982.899999976158,
+            "firstVisualMs": 62.40000003576279,
+            "contentReadyMs": 65.30000001192093,
+            "completeMs": 105.5,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 18071.600000023842,
+            "firstVisualMs": 14.699999988079071,
+            "contentReadyMs": 30.099999964237213,
+            "completeMs": 63.5,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 338.251776,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 140,
+          "throttled_usec": 46895432
+        },
+        "cacheResponses": 325
+      },
+      {
+        "run": 5,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-05",
+        "startupMs": {
+          "cold": 5012,
+          "reload": 3572
+        },
+        "picker": [
+          {
+            "start": 14799.100000023842,
+            "firstVisualMs": 74.59999996423721,
+            "contentReadyMs": 76.59999996423721,
+            "completeMs": 112.80000001192093,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 15831.199999988079,
+            "firstVisualMs": 7,
+            "contentReadyMs": 17.5,
+            "completeMs": 50.60000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 193.081344,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 1289,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 40
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 115,
+          "throttled_usec": 40731778
+        },
+        "cacheResponses": 302
+      },
+      {
+        "run": 6,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-06",
+        "startupMs": {
+          "cold": 4642,
+          "reload": 5283
+        },
+        "picker": [
+          {
+            "start": 16083.399999976158,
+            "firstVisualMs": 57.30000001192093,
+            "contentReadyMs": 60,
+            "completeMs": 100.60000002384186,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17079.80000001192,
+            "firstVisualMs": 7.099999964237213,
+            "contentReadyMs": 20.19999998807907,
+            "completeMs": 53.39999997615814,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 346.165248,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 355,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 122,
+          "throttled_usec": 45330535
+        },
+        "cacheResponses": 310
+      },
+      {
+        "run": 7,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-07",
+        "startupMs": {
+          "cold": 5406,
+          "reload": 4740
+        },
+        "picker": [
+          {
+            "start": 15516.800000011921,
+            "firstVisualMs": 59.60000002384186,
+            "contentReadyMs": 61.60000002384186,
+            "completeMs": 107.89999997615814,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 16534.19999998808,
+            "firstVisualMs": 6.700000047683716,
+            "contentReadyMs": 18.30000001192093,
+            "completeMs": 52.5,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 347.181056,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 287,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 137
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 125,
+          "throttled_usec": 43894460
+        },
+        "cacheResponses": 314
+      },
+      {
+        "run": 8,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-08",
+        "startupMs": {
+          "cold": 4761,
+          "reload": 4556
+        },
+        "picker": [
+          {
+            "start": 15078.600000023842,
+            "firstVisualMs": 84.19999998807907,
+            "contentReadyMs": 86.19999998807907,
+            "completeMs": 125,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 16120.199999988079,
+            "firstVisualMs": 10.100000023841858,
+            "contentReadyMs": 22.700000047683716,
+            "completeMs": 55.90000003576279,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 343.781376,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 1702,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 20
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 107,
+          "throttled_usec": 36216908
+        },
+        "cacheResponses": 310
+      },
+      {
+        "run": 9,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-09",
+        "startupMs": {
+          "cold": 4906,
+          "reload": 5884
+        },
+        "picker": [
+          {
+            "start": 16674.80000001192,
+            "firstVisualMs": 59.80000001192093,
+            "contentReadyMs": 61.60000002384186,
+            "completeMs": 98.89999997615814,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 17689.900000035763,
+            "firstVisualMs": 7.899999976158142,
+            "contentReadyMs": 24.19999998807907,
+            "completeMs": 57.19999998807907,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 193.552384,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 325,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 124,
+          "throttled_usec": 44167286
+        },
+        "cacheResponses": 314
+      },
+      {
+        "run": 10,
+        "head": "40faf9a3cc5899e470d4d03436f5192c65b1858d",
+        "label": "assignment-match-20261019T210822Z-after-10",
+        "startupMs": {
+          "cold": 5878,
+          "reload": 6158
+        },
+        "picker": [
+          {
+            "start": 18305.600000023842,
+            "firstVisualMs": 65.5,
+            "contentReadyMs": 67.5,
+            "completeMs": 107.39999997615814,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 0
+          },
+          {
+            "start": 19538.30000001192,
+            "firstVisualMs": 14.600000023841858,
+            "contentReadyMs": 31.400000035762787,
+            "completeMs": 64.69999998807907,
+            "done": true,
+            "hiddenFrame": false,
+            "unfocusedFrame": false,
+            "index": 1
+          }
+        ],
+        "reloadLargestRendererPrivateMB": 359.702528,
+        "memoryEventDelta": {
+          "low": 0,
+          "high": 0,
+          "max": 1067,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "cpuThrottleDelta": {
+          "nr_throttled": 152,
+          "throttled_usec": 47556430
+        },
+        "cacheResponses": 326
+      }
+    ]
+  }
+}
