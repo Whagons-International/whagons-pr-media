@@ -1,0 +1,693 @@
+{
+  "protocol": {
+    "cohort": "search5",
+    "privateStack": {
+      "app": 5215,
+      "runtime": 8215,
+      "postgres": 56015,
+      "auth": 9215
+    },
+    "browser": "default headed Chrome, fresh owned profiles",
+    "viewport": {
+      "width": 1886,
+      "height": 1041,
+      "dpr": 1
+    },
+    "fixture": {
+      "tenantTasks": 24,
+      "workspaceTasks": 12
+    },
+    "order": "before/after on odd pairs, after/before on even pairs",
+    "startup": "authenticated unprimed visit and warm reload, usable authorized grid + two animation frames; ten-second settled checkpoints",
+    "search": "fill header with task 12; confirm one rendered grid row + two animation frames; URL coalesces separately",
+    "qualification": "10 interleaved runs per side, 20 search samples per side; every run must restore search through Settings and Back",
+    "compression": "repository Brotli quality 11 recipe",
+    "instrumentation": "same passive React/grid observer and owned renderer sampling; tracing and CPU profiler disabled"
+  },
+  "arms": {
+    "before": {
+      "runs": [
+        {
+          "label": "search5-before-1",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2467,
+          "reloadMs": 1253,
+          "searchMs": [
+            264,
+            262
+          ],
+          "coldLargestRendererPrivateMB": 249.176064,
+          "reloadLargestRendererPrivateMB": 425.398272,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.76,
+          "endFullPsi": 0.26,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-2",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2064,
+          "reloadMs": 1100,
+          "searchMs": [
+            266,
+            257
+          ],
+          "coldLargestRendererPrivateMB": 250.781696,
+          "reloadLargestRendererPrivateMB": 343.617536,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-3",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2196,
+          "reloadMs": 1200,
+          "searchMs": [
+            262,
+            272
+          ],
+          "coldLargestRendererPrivateMB": 249.389056,
+          "reloadLargestRendererPrivateMB": 341.07392,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-4",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 1940,
+          "reloadMs": 1700,
+          "searchMs": [
+            259,
+            259
+          ],
+          "coldLargestRendererPrivateMB": 252.817408,
+          "reloadLargestRendererPrivateMB": 361.099264,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-5",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2284,
+          "reloadMs": 1255,
+          "searchMs": [
+            302,
+            269
+          ],
+          "coldLargestRendererPrivateMB": 246.362112,
+          "reloadLargestRendererPrivateMB": 384.004096,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0.73,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-6",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2061,
+          "reloadMs": 1362,
+          "searchMs": [
+            244,
+            257
+          ],
+          "coldLargestRendererPrivateMB": 241.045504,
+          "reloadLargestRendererPrivateMB": 337.158144,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-7",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2014,
+          "reloadMs": 1336,
+          "searchMs": [
+            256,
+            262
+          ],
+          "coldLargestRendererPrivateMB": 251.84256,
+          "reloadLargestRendererPrivateMB": 351.879168,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0.02,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-8",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2033,
+          "reloadMs": 2006,
+          "searchMs": [
+            318,
+            259
+          ],
+          "coldLargestRendererPrivateMB": 253.026304,
+          "reloadLargestRendererPrivateMB": 324.73088,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.03,
+          "endFullPsi": 0.34,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-9",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2830,
+          "reloadMs": 1949,
+          "searchMs": [
+            252,
+            263
+          ],
+          "coldLargestRendererPrivateMB": 251.830272,
+          "reloadLargestRendererPrivateMB": 352.505856,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.28,
+          "endFullPsi": 0.01,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-before-10",
+          "commit": "73e607a98",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 1809,
+          "reloadMs": 1844,
+          "searchMs": [
+            262,
+            277
+          ],
+          "coldLargestRendererPrivateMB": 245.202944,
+          "reloadLargestRendererPrivateMB": 330.89536,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.02,
+          "endFullPsi": 1.41,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        }
+      ],
+      "cold": {
+        "n": 10,
+        "p50": 2062.5,
+        "p95": 2666.6499999999996,
+        "min": 1809,
+        "max": 2830
+      },
+      "reload": {
+        "n": 10,
+        "p50": 1349,
+        "p95": 1980.35,
+        "min": 1100,
+        "max": 2006
+      },
+      "search": {
+        "n": 20,
+        "p50": 262,
+        "p95": 302.8,
+        "min": 244,
+        "max": 318
+      },
+      "coldLargestRendererPrivateMB": {
+        "n": 10,
+        "p50": 250.085376,
+        "p95": 252.9323008,
+        "min": 241.045504,
+        "max": 253.026304
+      },
+      "reloadLargestRendererPrivateMB": {
+        "n": 10,
+        "p50": 347.74835199999995,
+        "p95": 406.77089279999996,
+        "min": 324.73088,
+        "max": 425.398272
+      }
+    },
+    "after": {
+      "runs": [
+        {
+          "label": "search5-after-1",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2035,
+          "reloadMs": 1346,
+          "searchMs": [
+            79,
+            175
+          ],
+          "coldLargestRendererPrivateMB": 253.341696,
+          "reloadLargestRendererPrivateMB": 342.13888,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.21,
+          "endFullPsi": 5.28,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-2",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 1858,
+          "reloadMs": 1121,
+          "searchMs": [
+            53,
+            46
+          ],
+          "coldLargestRendererPrivateMB": 243.593216,
+          "reloadLargestRendererPrivateMB": 337.825792,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.08,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-3",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2063,
+          "reloadMs": 1281,
+          "searchMs": [
+            54,
+            61
+          ],
+          "coldLargestRendererPrivateMB": 249.663488,
+          "reloadLargestRendererPrivateMB": 339.320832,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-4",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2235,
+          "reloadMs": 1441,
+          "searchMs": [
+            62,
+            74
+          ],
+          "coldLargestRendererPrivateMB": 248.09472,
+          "reloadLargestRendererPrivateMB": 334.893056,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-5",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2706,
+          "reloadMs": 1740,
+          "searchMs": [
+            76,
+            76
+          ],
+          "coldLargestRendererPrivateMB": 241.381376,
+          "reloadLargestRendererPrivateMB": 341.430272,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.73,
+          "endFullPsi": 0.04,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-6",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 2171,
+          "reloadMs": 1191,
+          "searchMs": [
+            49,
+            46
+          ],
+          "coldLargestRendererPrivateMB": 254.140416,
+          "reloadLargestRendererPrivateMB": 357.707776,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.03,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-7",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 1800,
+          "reloadMs": 1365,
+          "searchMs": [
+            55,
+            45
+          ],
+          "coldLargestRendererPrivateMB": 241.205248,
+          "reloadLargestRendererPrivateMB": 344.875008,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.02,
+          "endFullPsi": 0,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-8",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 1881,
+          "reloadMs": 1571,
+          "searchMs": [
+            54,
+            45
+          ],
+          "coldLargestRendererPrivateMB": 246.484992,
+          "reloadLargestRendererPrivateMB": 370.208768,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0,
+          "endFullPsi": 0.03,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-9",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 1977,
+          "reloadMs": 1322,
+          "searchMs": [
+            61,
+            44
+          ],
+          "coldLargestRendererPrivateMB": 253.083648,
+          "reloadLargestRendererPrivateMB": 323.62496,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.01,
+          "endFullPsi": 0.46,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        },
+        {
+          "label": "search5-after-10",
+          "commit": "ab3d8bc04",
+          "browser": "Chrome/153.0.8010.36",
+          "viewport": {
+            "width": 1886,
+            "height": 1041
+          },
+          "coldMs": 1914,
+          "reloadMs": 1607,
+          "searchMs": [
+            63,
+            64
+          ],
+          "coldLargestRendererPrivateMB": 252.55936,
+          "reloadLargestRendererPrivateMB": 342.011904,
+          "searchNavigationRestored": true,
+          "errors": [],
+          "startFullPsi": 0.37,
+          "endFullPsi": 0.02,
+          "harnessHashes": {
+            "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+            "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+            "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+            "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+            "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+            "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+          }
+        }
+      ],
+      "cold": {
+        "n": 10,
+        "p50": 2006,
+        "p95": 2494.0499999999993,
+        "min": 1800,
+        "max": 2706
+      },
+      "reload": {
+        "n": 10,
+        "p50": 1355.5,
+        "p95": 1680.1499999999999,
+        "min": 1121,
+        "max": 1740
+      },
+      "search": {
+        "n": 20,
+        "p50": 58,
+        "p95": 83.80000000000007,
+        "min": 44,
+        "max": 175
+      },
+      "coldLargestRendererPrivateMB": {
+        "n": 10,
+        "p50": 248.87910399999998,
+        "p95": 253.780992,
+        "min": 241.205248,
+        "max": 254.140416
+      },
+      "reloadLargestRendererPrivateMB": {
+        "n": 10,
+        "p50": 341.721088,
+        "p95": 364.58332160000003,
+        "min": 323.62496,
+        "max": 370.208768
+      }
+    }
+  },
+  "sourceFiles": {
+    "measure.mjs": "b8a1305e579429b901cdc5eb61dd9a07547be509d24ba6f06dc59d4eb8f6d47d",
+    "search-match.mjs": "ab0542b2e78d724921183985ca1c4e9010e50e6fc501ccfb1f29beb549a21514",
+    "search-media.mjs": "4374914711d06845e7573c7dc70589831acf27e018faf6c63f48a6126183bd60",
+    "serve-private-app.mjs": "ee7f78941837970174e0df63aee87108b2e9a219f5fd70d15fbae57ae4fa138b"
+  }
+}
