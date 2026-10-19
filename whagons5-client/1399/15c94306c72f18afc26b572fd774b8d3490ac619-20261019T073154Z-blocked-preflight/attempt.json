@@ -1,0 +1,322 @@
+{
+  "head": "15c94306c72f18afc26b572fd774b8d3490ac619",
+  "runtime": "existing gonvex-unified-dev (Go/main)",
+  "secure": true,
+  "observed": "Restoring your secure session\u2026\n\nStaging build \u00b7 5.1.60 (15c9430)",
+  "sockets": [
+    {
+      "host": "127.0.0.1",
+      "path": "/",
+      "sent": 0,
+      "received": 1,
+      "frameKeys": [
+        [
+          "type"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 2,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ],
+        [
+          "type",
+          "id",
+          "error"
+        ]
+      ]
+    },
+    {
+      "host": "gonvex-unified-dev.whagons.com",
+      "path": "/ws",
+      "sent": 1,
+      "received": 1,
+      "frameKeys": [
+        [
+          "type",
+          "project",
+          "tenant",
+          "capabilities"
+        ]
+      ]
+    }
+  ],
+  "result": "incomplete pre-signin startup",
+  "capturedAt": "2026-10-19T07:31:54.939755+00:00",
+  "baseSha": "e2c4e898e4c59f24d3118bd44360b5eebf7c17cf",
+  "coverage": "BLOCKED before sign-in; no completed walkthrough or PASS receipt"
+}
