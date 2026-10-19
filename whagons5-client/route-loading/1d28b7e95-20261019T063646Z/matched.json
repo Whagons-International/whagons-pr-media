@@ -1,0 +1,170 @@
+{
+  "protocol": {
+    "startup": "Normal cold/reload before route fault injection, 10s settle each",
+    "route": "Two fresh module graphs per run, same3.5s chunk hold, explicit worker/cache bypass only after startup, default headed Chrome1886x1041",
+    "source": {
+      "before": "5321585e3780822805f6b1bf28e63b06a3fedf48",
+      "after": "1d28b7e9575eecfcb94c88d5ebf82e9e78c045bc"
+    },
+    "scriptHashes": {
+      "route-measure.mjs": "f5b085a3eb95411f03b233d0f4e57d2c4391b107f49199220fbb6fc6f81cbb26",
+      "route-match.mjs": "89494c9ac0c51c3d80885b5732719cc9852188924e7315e367dab09830e83ac8",
+      "route-media.mjs": "334ff5f0b77a2db36260c8504d07e22e4c04348d9b126bf5f5f888e042200c72",
+      "init.js": "d58ded8db99efbb6ac7ad1336717fa79af7e8934c4cce584ec86e6fc28146b60",
+      "extras.mjs": "6183fafdf68ba7a301b89edb5a392019a0d3249ebd19239461df2f8a767c1908",
+      "status.mjs": "287307b072f8c1640b781851097d0e14fe12b80d7cf378d94b4a0e901e1c3db3",
+      "editor.mjs": "831615b5e0051209bc39469db3461a54401084114cf55a17fb74c800ac955f7a",
+      "idle-balanced.mjs": "07f2baf4dcfd2c00ddaf869d7abea76ee54a115682d5bba6900d24d64771aee0"
+    }
+  },
+  "arms": {
+    "before": {
+      "runs": [
+        "routes1-before-1",
+        "routes1-before-2",
+        "routes1-before-3",
+        "routes1-before-4",
+        "routes1-before-5",
+        "routes1-before-6",
+        "routes1-before-7",
+        "routes1-before-8",
+        "routes1-before-9",
+        "routes1-before-10"
+      ],
+      "browserVersions": [
+        "Chrome/153.0.8010.36"
+      ],
+      "firstFeedbackMs": {
+        "count": 20,
+        "p50": 3623.550000011921,
+        "p95": 3699.7450000107287,
+        "min": 3570.100000023842,
+        "max": 3727.199999988079
+      },
+      "longestBlankMs": {
+        "count": 20,
+        "p50": 3600.9000000059605,
+        "p95": 3669.259999999404,
+        "min": 3555.5,
+        "max": 3712.199999988079
+      },
+      "totalBlankMs": {
+        "count": 20,
+        "p50": 3600.9000000059605,
+        "p95": 3669.259999999404,
+        "min": 3555.5,
+        "max": 3712.199999988079
+      },
+      "faultCompletionMs": {
+        "count": 20,
+        "p50": 3691.7999999821186,
+        "p95": 3803.240000000596,
+        "min": 3645.300000011921,
+        "max": 3845.800000011921
+      },
+      "coldMs": {
+        "count": 10,
+        "p50": 2312.5,
+        "p95": 4184.099999999999,
+        "min": 1983,
+        "max": 4392
+      },
+      "reloadMs": {
+        "count": 10,
+        "p50": 1687.5,
+        "p95": 2292.749999999999,
+        "min": 1134,
+        "max": 2583
+      },
+      "coldRendererPrivateMB": {
+        "count": 10,
+        "p50": 243.45395200000002,
+        "p95": 259.8776832,
+        "min": 228.737024,
+        "max": 264.400896
+      },
+      "reloadRendererPrivateMB": {
+        "count": 10,
+        "p50": 335.865856,
+        "p95": 371.2489472,
+        "min": 313.327616,
+        "max": 388.960256
+      },
+      "errors": []
+    },
+    "after": {
+      "runs": [
+        "routes1-after-1",
+        "routes1-after-2",
+        "routes1-after-3",
+        "routes1-after-4",
+        "routes1-after-5",
+        "routes1-after-6",
+        "routes1-after-7",
+        "routes1-after-8",
+        "routes1-after-9",
+        "routes1-after-10"
+      ],
+      "browserVersions": [
+        "Chrome/153.0.8010.36"
+      ],
+      "firstFeedbackMs": {
+        "count": 20,
+        "p50": 16.200000017881393,
+        "p95": 25.76999999880791,
+        "min": 13.5,
+        "max": 30.899999976158142
+      },
+      "longestBlankMs": {
+        "count": 20,
+        "p50": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0
+      },
+      "totalBlankMs": {
+        "count": 20,
+        "p50": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0
+      },
+      "faultCompletionMs": {
+        "count": 20,
+        "p50": 3631.7999999821186,
+        "p95": 3724.7999999761582,
+        "min": 3609,
+        "max": 3741.899999976158
+      },
+      "coldMs": {
+        "count": 10,
+        "p50": 2446.5,
+        "p95": 2719.05,
+        "min": 2136,
+        "max": 2733
+      },
+      "reloadMs": {
+        "count": 10,
+        "p50": 1216,
+        "p95": 1646.5499999999997,
+        "min": 1051,
+        "max": 1746
+      },
+      "coldRendererPrivateMB": {
+        "count": 10,
+        "p50": 253.29664,
+        "p95": 257.0436608,
+        "min": 237.993984,
+        "max": 258.326528
+      },
+      "reloadRendererPrivateMB": {
+        "count": 10,
+        "p50": 350.726144,
+        "p95": 366.2106624,
+        "min": 338.837504,
+        "max": 371.699712
+      },
+      "errors": []
+    }
+  }
+}
