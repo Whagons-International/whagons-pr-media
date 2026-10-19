@@ -1,0 +1,112 @@
+{
+  "headSha": "de5fca03b7ada3aac42493d9dfa7b3f6f163e6ef",
+  "baseSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+  "capturedAt": "2026-10-19T21:58:36.665Z",
+  "captureRange": "Base21:47-21:48Z; candidate21:58-22:07Z,2026-10-19",
+  "origin": "http://testign.localhost:18801",
+  "runtime": "https://gonvex-stg.whagons.com",
+  "project": "01f19dd6-122c-61f8-86fa-36f692a428d4",
+  "tenant": "testign",
+  "account": "test@test.com",
+  "platform": "T3 private Chromium, desktop1280x800 and phone390x844 CSS pixels, desktop UA, not native iPhone",
+  "fullWalkthroughPassed": false,
+  "browserTested": false,
+  "coreRetentionPassed": true,
+  "workflowStatusCase": "Not exercised: own template-filtered draft disappeared after Save; list0/Activate unavailable after reload, cause unconfirmed.",
+  "fixtures": "12 owned self-only task records22-33 created through normal UI, all12 archived; four own named catalog fixtures retained. No new identities/tenant/claims/membership/team/permission changes.",
+  "beforeTarget": {
+    "number": 33,
+    "id": "6507578f-8af8-4f85-b70b-5b56473f5cc3"
+  },
+  "candidatePhoneTarget": {
+    "number": 31,
+    "id": "964f84c6-4192-473c-8b82-75d5034c4303"
+  },
+  "candidateDesktopTarget": 30,
+  "comparison": "Matching separate one-time self-only deliveries from same template/audience; not same exact taskID. Human title Morning safety briefing.",
+  "observed": "Base task33 leaves initial10 after acknowledgment and returns after Load More. Candidate31 retained in19 loaded rows with17pending before2acknowledged, badge18to17; reopened1/1/no second action, reload+Load More and Everything round trip preserved receipt. Desktop30 remains1/1 with badge17to16. Everything UI verified without separate capture.",
+  "separateObservation": "Task32 self-assignment EditTask save returned receipt to pending; audience not intentionally changed, cause unconfirmed. Excluded from clean31 proof.",
+  "artifactStatus": "Fresh raw recordings retained privately. Gated GIF/MP4 conversion waiting behind resource admission; screenshots only in this publication.",
+  "files": [
+    {
+      "name": "desktop-before.png",
+      "sha256": "03387e3a4ad2e2e06bf12bb38d49ec357d4feaaff999f55e0cf9baccc641d825",
+      "bytes": 103172,
+      "pixels": [
+        1280,
+        800
+      ],
+      "applicationSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9"
+    },
+    {
+      "name": "phone-before-list.png",
+      "sha256": "ee4d53752e04fb8a9fe3e064c84a482f6ce3fe33ef92a6f6d67a5d3d179b761f",
+      "bytes": 129730,
+      "pixels": [
+        780,
+        1688
+      ],
+      "applicationSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9"
+    },
+    {
+      "name": "phone-before-vanished.png",
+      "sha256": "f8be1999402ebdbcc2f32c6956a83d57d73d669695eef19658698c9d23d02499",
+      "bytes": 131453,
+      "pixels": [
+        780,
+        1688
+      ],
+      "applicationSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9"
+    },
+    {
+      "name": "phone-after-retained.png",
+      "sha256": "cfae06c48f2bb3bca25b93048483b243af6d2d1b21230def89f8261db32b9e44",
+      "bytes": 132007,
+      "pixels": [
+        780,
+        1688
+      ],
+      "applicationSha": "de5fca03b7ada3aac42493d9dfa7b3f6f163e6ef"
+    },
+    {
+      "name": "phone-after-receipt.png",
+      "sha256": "3b0429d1a5b3628afe223a9aa2b85f02052bfc2088eaeb99f901e343ae5a4da6",
+      "bytes": 106643,
+      "pixels": [
+        780,
+        1688
+      ],
+      "applicationSha": "de5fca03b7ada3aac42493d9dfa7b3f6f163e6ef"
+    },
+    {
+      "name": "phone-after-reload.png",
+      "sha256": "0517ae0128aeb78f2ff0c8ed3dc4dd0b0b434014ea58ca39e65022185711cdf1",
+      "bytes": 128357,
+      "pixels": [
+        780,
+        1688
+      ],
+      "applicationSha": "de5fca03b7ada3aac42493d9dfa7b3f6f163e6ef"
+    },
+    {
+      "name": "desktop-after.png",
+      "sha256": "643fec61e705a1046da12fc6cdf4f4e96ea5f4e849621e99783de657cf133f6d",
+      "bytes": 107833,
+      "pixels": [
+        1280,
+        800
+      ],
+      "applicationSha": "de5fca03b7ada3aac42493d9dfa7b3f6f163e6ef"
+    },
+    {
+      "name": "workflow-save-list-blocker.png",
+      "sha256": "fa1fc4cba4bf760f4525b74481b713792ab6103c8b355c2fa9672ed267125f87",
+      "bytes": 46280,
+      "pixels": [
+        1280,
+        800
+      ],
+      "applicationSha": "de5fca03b7ada3aac42493d9dfa7b3f6f163e6ef"
+    }
+  ]
+}
