@@ -1,0 +1,58 @@
+{
+  "headSha": "de5fca03b7ada3aac42493d9dfa7b3f6f163e6ef",
+  "baseSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+  "capturedAt": "2026-10-19T20:58:06.703Z",
+  "preview": "http://testign.localhost:18801",
+  "runtime": "https://gonvex-stg.whagons.com",
+  "project": "01f19dd6-122c-61f8-86fa-36f692a428d4",
+  "tenant": "testign",
+  "account": "test@test.com",
+  "platforms": [
+    "desktop web 1280x800 CSS pixels",
+    "phone web 390x844 CSS pixels, desktop Chromium user agent, not native iPhone"
+  ],
+  "evidenceKind": "Partial diagnostic only; not completed before/after feature QA",
+  "browserTested": false,
+  "observed": [
+    "Existing test@test.com visible in profile; existing testign selected in organization picker",
+    "To acknowledge lists seven existing pending test requests at desktop and phone widths; no row opened or acknowledged",
+    "Normal Create Task offers only apk-hosted-1019 Template; selected draft has no audience/acknowledgment controls",
+    "Manual method displays You do not have permission to create tasks in this task type",
+    "Draft dismissed without saving"
+  ],
+  "notExercised": [
+    "New self-only comunicado through UI",
+    "Acknowledgment status-change workflow",
+    "Pending-first acknowledged history retention across ten-card window",
+    "Phone Acknowledge confirmation",
+    "Badge decrement, reopen/reload/Everything round trip after acknowledgment",
+    "Fresh comparison-base before media",
+    "Native app flow"
+  ],
+  "taskRecordsCreated": 0,
+  "existingTaskRecordsMutated": 0,
+  "usersCreated": 0,
+  "tenantsCreated": 0,
+  "permissionsChanged": false,
+  "otherJobFixturesChanged": false,
+  "media": [
+    {
+      "name": "phone-inbox-diagnostic.png",
+      "sha256": "46cd4fd147708f983f67da8a185094cc9dba7d5c0bc179f82ef0120e85d0a95a",
+      "bytes": 129627,
+      "capturedAt": "2026-10-19T20:58:06.870982+00:00"
+    },
+    {
+      "name": "desktop-inbox-diagnostic.png",
+      "sha256": "c2333bc591310e4061b870af6ed04b373b5d9aadc3fc3f841c77f6d42add6800",
+      "bytes": 129929,
+      "capturedAt": "2026-10-19T20:58:11.508046+00:00"
+    },
+    {
+      "name": "task-type-permission-blocker.png",
+      "sha256": "cef1eed22f62f3d7a9e4e260ace7c57565e60749d223ccd5e567812c2b8c5aa2",
+      "bytes": 148179,
+      "capturedAt": "2026-10-19T20:58:33.450349+00:00"
+    }
+  ]
+}
