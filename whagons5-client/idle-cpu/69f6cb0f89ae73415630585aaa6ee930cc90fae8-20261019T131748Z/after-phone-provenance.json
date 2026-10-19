@@ -1,0 +1,89 @@
+{
+  "headSha": "69f6cb0f89ae73415630585aaa6ee930cc90fae8",
+  "baseSha": "e2c4e898e4c59f24d3118bd44360b5eebf7c17cf",
+  "capturedAt": "2026-10-19T13:17:48.613Z",
+  "completedAt": "2026-10-19T13:18:19.372Z",
+  "runtimeSha256": "d803d7f73db1b89e0199de620476a8ac84951d5f189ea06b4253f4015cd9ddaa",
+  "privateProjectId": "e736d537-b578-4a18-9778-4d8cf303d262",
+  "actor": "test@test.com",
+  "tenant": "testing",
+  "identityProvisioning": "Owned loopback CI bootstrap/provision-e2e-tenants plus mintE2EFirebaseIDToken; actor test@test.com",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "browserVersion": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/153.0.8010.36",
+    "revision": "@507c6ee3e2f3b2ca0e660547e5b9ea4820c67f4c",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "jsVersion": "15.3.76.10"
+  },
+  "browserCgroupProof": [
+    {
+      "type": "browser",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "renderer",
+      "insideScope": true
+    },
+    {
+      "type": "GPU",
+      "insideScope": true
+    },
+    {
+      "type": "network.mojom.NetworkService",
+      "insideScope": true
+    },
+    {
+      "type": "storage.mojom.StorageService",
+      "insideScope": true
+    }
+  ],
+  "authRequests": [
+    {
+      "origin": "http://127.0.0.1:9215",
+      "path": "/identitytoolkit.googleapis.com/v1/accounts:signInWithPassword",
+      "status": 204
+    },
+    {
+      "origin": "http://127.0.0.1:9215",
+      "path": "/identitytoolkit.googleapis.com/v1/accounts:signInWithPassword",
+      "status": 200
+    }
+  ],
+  "steps": [
+    {
+      "id": "phone",
+      "action": "Phone-width task list, workspace switch/return and reduced motion",
+      "observed": "Actual mobile task lists remain visible; desktop canvas/connection heart not applicable to collapsed sidebar"
+    }
+  ],
+  "success": true,
+  "errors": []
+}
