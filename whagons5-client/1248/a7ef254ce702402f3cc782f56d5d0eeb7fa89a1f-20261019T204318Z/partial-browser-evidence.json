@@ -1,0 +1,570 @@
+{
+  "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+  "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+  "capturedAt": "2026-10-19T20:43:18.164549+00:00",
+  "captureStart": "2026-10-19T20:21:31.906035+00:00",
+  "browserTested": false,
+  "fullWalkthrough": false,
+  "status": "partial; existing records contain only protected owner and self",
+  "runtime": "https://gonvex-stg.whagons.com",
+  "runtimeProject": "01f19dd6-122c-61f8-86fa-36f692a428d4",
+  "preview": "http://testign.localhost:5428",
+  "tenant": "testign",
+  "actor": "test@test.com",
+  "platform": "Linux Chromium153.0.8010.36, desktop1600x900@1 and phone390x844@2 emulation; Vite development server at each actual source SHA",
+  "scope": "Read-only UI, native existing-user session restore, actual Users guards, existing saved audience read/reopen, English loading/recovery. No activation/deactivation, inactive filtering/recovery, audience writes, other languages or comunicado publication pass claimed.",
+  "clips": [
+    {
+      "side": "after",
+      "layout": "desktop",
+      "recording": "after-desktop-reload.mp4",
+      "preview": "after-desktop-reload.gif",
+      "sourceOffsetSeconds": 366.403682,
+      "durationSeconds": 12.84,
+      "sourceStartedAt": "2026-10-19 13:18:03.652318815 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 10369,
+      "performanceBenchmark": false
+    },
+    {
+      "side": "after",
+      "layout": "phone",
+      "recording": "after-phone-reload.mp4",
+      "preview": "after-phone-reload.gif",
+      "sourceOffsetSeconds": 226.566425,
+      "durationSeconds": 10.6,
+      "sourceStartedAt": "2026-10-19 13:30:10.350575664 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 8105,
+      "performanceBenchmark": false
+    },
+    {
+      "side": "before",
+      "layout": "desktop",
+      "recording": "before-desktop-reload.mp4",
+      "preview": "before-desktop-reload.gif",
+      "sourceOffsetSeconds": 140.607733,
+      "durationSeconds": 8.08,
+      "sourceStartedAt": "2026-10-19 13:38:04.120267379 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 7118,
+      "performanceBenchmark": false,
+      "tailTrimReason": "End at the recovered Users frame, before the next Settings navigation."
+    },
+    {
+      "side": "before",
+      "layout": "phone",
+      "recording": "before-phone-reload.mp4",
+      "preview": "before-phone-reload.gif",
+      "sourceOffsetSeconds": 38.075693,
+      "durationSeconds": 8.04,
+      "sourceStartedAt": "2026-10-19 13:40:42.819307794 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 5525,
+      "performanceBenchmark": false
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "after-desktop-users.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:21:31.906035+00:00",
+      "sha256": "6242b10f2de1dad03825a50d5a417dcc3fe31b8fac1ed49a2071a7692c3b2ad3"
+    },
+    {
+      "name": "after-desktop-loading-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:24:12.782140+00:00",
+      "sha256": "903c38b6e20b11cce36b42d513e76df5f785c5c007662550afd872c56f9645e1"
+    },
+    {
+      "name": "after-desktop-recovered-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:24:21.424253+00:00",
+      "sha256": "f6a2732e177c38756c56e4162cbc41305b93cd5794a7cdf84bd3b1ae926e9f03"
+    },
+    {
+      "name": "after-desktop-saved-audience.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:25:12.435921+00:00",
+      "sha256": "51ad51c073dbc0adadc608c94e8ee33828dbec6721f4a55c1f2a2532a54ca846"
+    },
+    {
+      "name": "after-desktop-recipient-options.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:25:34.606211+00:00",
+      "sha256": "95afe683b25a36f54d48a59673cb6fe5ebd982f8ff88a54ae3caeefffa8df127"
+    },
+    {
+      "name": "after-phone-users-names.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:33:57.446227+00:00",
+      "sha256": "f4fa8349a3f14bde4a4983c27a2504618cc1b44aef304019f78e3ef0b64a8aef"
+    },
+    {
+      "name": "after-phone-users-access.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:33:57.847234+00:00",
+      "sha256": "6c8f1e314ac10dad49b7099c49d694f345a32a69316f49578570b0c3c288df82"
+    },
+    {
+      "name": "after-phone-loading-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-19T20:33:59.663262+00:00",
+      "sha256": "f863930adf1826f90337a4788b8f864d22d077bca990f1bda63885fdb0901bf5"
+    },
+    {
+      "name": "after-phone-recovered-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:34:06.021823+00:00",
+      "sha256": "f4fa8349a3f14bde4a4983c27a2504618cc1b44aef304019f78e3ef0b64a8aef"
+    },
+    {
+      "name": "after-phone-audience-selection.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:36:11.916292+00:00",
+      "sha256": "5fe7395176c559928a8b710a32c8aea2e193324a476ebb081f6b18232c720a42"
+    },
+    {
+      "name": "after-phone-audience-preview.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:36:12.129296+00:00",
+      "sha256": "0f9544c4043ba59909c9eae15e30ca524f2c52a7a08d7e236e93b5f8ab15181a"
+    },
+    {
+      "name": "before-desktop-users.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:40:25.719059+00:00",
+      "sha256": "038e5ae714df7f538f5ebcfddbcbf2909e68a18c1f3b36a0e3fed84c5ddcf199"
+    },
+    {
+      "name": "before-desktop-loading-en.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:40:27.398083+00:00",
+      "sha256": "d5f5d55335e2e575753ae00b4106cc6db9064e4f5e532251059a596e7e5f168c"
+    },
+    {
+      "name": "before-desktop-recovered-en.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:40:32.845163+00:00",
+      "sha256": "aa6ac477442af0f2d59f904607c77de4ba32e4e677daf897f471b99f7eaf1566"
+    },
+    {
+      "name": "before-desktop-saved-audience-settled.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T20:43:18.164549+00:00",
+      "sha256": "85510215a65430324fc9be1ac0b3f72cf24cbe9358dab535e35647294a54b283"
+    },
+    {
+      "name": "before-phone-users-names.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:41:21.757873+00:00",
+      "sha256": "f4fa8349a3f14bde4a4983c27a2504618cc1b44aef304019f78e3ef0b64a8aef"
+    },
+    {
+      "name": "before-phone-users-access.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:41:21.887867+00:00",
+      "sha256": "6c8f1e314ac10dad49b7099c49d694f345a32a69316f49578570b0c3c288df82"
+    },
+    {
+      "name": "before-phone-loading-en.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-19T20:41:23.476898+00:00",
+      "sha256": "cc0c09b38d8b421a451154f6be8343bae025a71f767f38c4fa2a7ab54993652d"
+    },
+    {
+      "name": "before-phone-recovered-en.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:41:27.418955+00:00",
+      "sha256": "f4fa8349a3f14bde4a4983c27a2504618cc1b44aef304019f78e3ef0b64a8aef"
+    },
+    {
+      "name": "before-phone-audience-selection.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:41:29.847990+00:00",
+      "sha256": "5fe7395176c559928a8b710a32c8aea2e193324a476ebb081f6b18232c720a42"
+    },
+    {
+      "name": "before-phone-audience-preview.png",
+      "kind": "screenshot",
+      "side": "before",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T20:41:29.964992+00:00",
+      "sha256": "55ad59149ae4b6688073253d71bb563f83b6a98946f67c155e905ece1c19a554"
+    },
+    {
+      "name": "after-desktop-reload.mp4",
+      "kind": "recording",
+      "side": "after",
+      "bytes": 108177,
+      "sha256": "9ad0b121c4a09d8ab0c45496d7d636e39df5a91e1600d6960ad52e34d1aa9f29"
+    },
+    {
+      "name": "after-desktop-reload.gif",
+      "kind": "preview",
+      "side": "after",
+      "bytes": 399317,
+      "sha256": "8e7d4ea1f55e73c9d0febc4d84277a8bcb2e664c357246473f12d8c7b8aa5d68"
+    },
+    {
+      "name": "after-phone-reload.mp4",
+      "kind": "recording",
+      "side": "after",
+      "bytes": 54870,
+      "sha256": "97c3a1c8afb599c603d0fb417320a15493a12ca8e1735babcd2538383bff2c20"
+    },
+    {
+      "name": "after-phone-reload.gif",
+      "kind": "preview",
+      "side": "after",
+      "bytes": 335819,
+      "sha256": "ecd7d49721237b1bc4a88f0cbcc4feb38dd300a264ed677ea59727e614c50eac"
+    },
+    {
+      "name": "before-desktop-reload.mp4",
+      "kind": "recording",
+      "side": "before",
+      "bytes": 100622,
+      "sha256": "35ead6009cf5cf74d9a07a7b5eab186cd41476aadff75e7a27cee5b4ca990c02"
+    },
+    {
+      "name": "before-desktop-reload.gif",
+      "kind": "preview",
+      "side": "before",
+      "bytes": 486181,
+      "sha256": "4e0de1cd7220fea9061c10cb93bcb13dd83cd8f455e205ae8db81a561e89f005"
+    },
+    {
+      "name": "before-phone-reload.mp4",
+      "kind": "recording",
+      "side": "before",
+      "bytes": 85863,
+      "sha256": "ff80b810decba93ecabcf665baa1777450944f2066c40fb6624c2b0b09146b53"
+    },
+    {
+      "name": "before-phone-reload.gif",
+      "kind": "preview",
+      "side": "before",
+      "bytes": 456009,
+      "sha256": "3ca176adcca795724639f308c80e37d137a224813ff285fedc933e19697c64eb"
+    }
+  ],
+  "steps": [
+    {
+      "id": "after-desktop-users",
+      "action": "Workspace \u2192 Settings \u2192 Basics \u2192 Users",
+      "observed": {
+        "visibleMembers": 2,
+        "switches": [
+          {
+            "label": "Transfer tenant ownership before disabling this user.",
+            "disabled": true,
+            "checked": "true"
+          },
+          {
+            "label": "You cannot disable your own account.",
+            "disabled": true,
+            "checked": "true"
+          }
+        ],
+        "eligibleToggleTarget": false
+      },
+      "at": "2026-10-19T20:22:58.413Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "after-desktop-users.png"
+      ]
+    },
+    {
+      "id": "after-desktop-warm-en",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "en",
+        "status": {
+          "text": "Loading Whagons\u2026",
+          "lang": "en",
+          "label": "Loading Whagons"
+        },
+        "observedMs": 10369,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T20:24:21.425Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "after-desktop-loading-en.png",
+        "after-desktop-recovered-en.png"
+      ]
+    },
+    {
+      "id": "after-desktop-saved-audience",
+      "action": "Open the existing saved Users audience without changing it",
+      "observed": {
+        "preview": "1 recipient \u00b7 1 acknowledgment required",
+        "audienceWritePerformed": false
+      },
+      "at": "2026-10-19T20:25:34.319Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "after-desktop-saved-audience.png"
+      ]
+    },
+    {
+      "id": "after-desktop-recipient-options",
+      "action": "Inspect existing recipient choices without changing the stored selection",
+      "observed": {
+        "choices": [
+          "Gabriel Malek",
+          "apk-hosted-1019 User"
+        ],
+        "inactiveFixturePresent": false,
+        "selectionChanged": false
+      },
+      "at": "2026-10-19T20:25:59.884Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "after-desktop-recipient-options.png"
+      ]
+    },
+    {
+      "id": "after-desktop-audience-reopened",
+      "action": "Dismiss without saving, reload the real app, and reopen the existing saved audience",
+      "observed": {
+        "preview": "1 recipient \u00b7 1 acknowledgment required",
+        "storedSelectionReadableAfterReload": true,
+        "audienceWritePerformed": false,
+        "pageErrorCount": 0
+      },
+      "at": "2026-10-19T20:26:58.557Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [],
+      "captureNote": "Stored-value read/reopen asserted. Enter-transition screenshot rejected and not published."
+    },
+    {
+      "id": "after-phone-users",
+      "action": "Workspace \u2192 mobile sidebar \u2192 Settings \u2192 close sidebar \u2192 Basics \u2192 Users; horizontal table scroll",
+      "observed": {
+        "visibleMembers": 2,
+        "switches": [
+          {
+            "label": "Transfer tenant ownership before disabling this user.",
+            "disabled": true,
+            "checked": "true"
+          },
+          {
+            "label": "You cannot disable your own account.",
+            "disabled": true,
+            "checked": "true"
+          }
+        ],
+        "eligibleToggleTarget": false
+      },
+      "at": "2026-10-19T20:33:57.909Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "after-phone-users-names.png",
+        "after-phone-users-access.png"
+      ]
+    },
+    {
+      "id": "after-phone-warm-en",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "en",
+        "status": {
+          "text": "Loading Whagons\u2026",
+          "lang": "en",
+          "label": "Loading Whagons"
+        },
+        "observedMs": 8105,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T20:34:06.022Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "after-phone-loading-en.png",
+        "after-phone-recovered-en.png"
+      ]
+    },
+    {
+      "id": "after-phone-saved-audience",
+      "action": "Open the existing saved audience via mobile sidebar and scroll its real dialog",
+      "observed": {
+        "preview": "1 recipient \u00b7 1 acknowledgment required",
+        "audienceWritePerformed": false
+      },
+      "at": "2026-10-19T20:36:12.133Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "after-phone-audience-selection.png",
+        "after-phone-audience-preview.png"
+      ]
+    },
+    {
+      "id": "before-desktop-warm-en",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "en",
+        "status": {
+          "warmLoadingStatusCount": 0
+        },
+        "observedMs": 7118,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T20:40:32.846Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "before-desktop-loading-en.png",
+        "before-desktop-recovered-en.png"
+      ]
+    },
+    {
+      "id": "before-phone-warm-en",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "en",
+        "status": {
+          "warmLoadingStatusCount": 0
+        },
+        "observedMs": 5525,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T20:41:27.420Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "before-phone-loading-en.png",
+        "before-phone-recovered-en.png"
+      ]
+    },
+    {
+      "id": "before-phone-saved-audience",
+      "action": "Open the same stored audience on comparison base at phone width",
+      "observed": {
+        "preview": "1 recipients \u00b7 1 acknowledgments required",
+        "audienceWritePerformed": false
+      },
+      "at": "2026-10-19T20:41:29.969Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "before-phone-audience-selection.png",
+        "before-phone-audience-preview.png"
+      ]
+    },
+    {
+      "id": "before-desktop-audience-settled",
+      "action": "Recapture the unchanged comparison-base audience after its real enter transition settles",
+      "observed": {
+        "preview": "1 recipients \u00b7 1 acknowledgments required",
+        "audienceWritePerformed": false,
+        "replacesFadedCapture": true
+      },
+      "at": "2026-10-19T20:43:18.169Z",
+      "headSha": "a7ef254ce702402f3cc782f56d5d0eeb7fa89a1f",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "media": [
+        "before-desktop-saved-audience-settled.png"
+      ]
+    }
+  ],
+  "inspection": {
+    "inspectedAt": "2026-10-19T20:51:59.759730+00:00",
+    "method": "Viewed real source PNGs and sampled contact sheets from every original-speed recording clip. Loading/recovered states are present; faded desktop baseline recaptured settled; next-navigation tail removed from baseline clip.",
+    "fullBrowserPass": false,
+    "rejectedFrames": [
+      {
+        "name": "after-desktop-audience-reopened.png",
+        "reason": "Dialog entering; not selected as evidence."
+      }
+    ]
+  },
+  "remaining": [
+    "No existing eligible non-owner/non-self member: both available members are protected. No activation/deactivation or inactive/removed/recovery browser test.",
+    "No audience write/persistence or comunicado publication was exercised.",
+    "Only actual English app language captured; other selected-language browser cases remain untested.",
+    "Required Check backend 5000ms timeouts remain Coach-owned; all five product-fit flags remain OPEN."
+  ]
+}
