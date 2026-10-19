@@ -1,0 +1,66 @@
+{
+  "appHead": "e287a2bf77ab68846f4b92c8aa0650a1ba2b357a",
+  "baseHead": "e2c4e898e4c59f24d3118bd44360b5eebf7c17cf",
+  "runtime": "5f25a68929596f496a82c1b57db64560db2171f4",
+  "sdk": "0.5.2-staging.29 pinned patched IndexedDB client",
+  "fixture": "Synthetic 24-task tenant; 12 tasks in tested workspace",
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "dpr": 1
+  },
+  "files": {
+    "before-offline.png": {
+      "sha256": "9c9916d6e6460723721b6a1078d491940a71a6cf906c1bdccd16d1efa8744209",
+      "capturedAt": "2026-10-19T13:26:32.667789+00:00"
+    },
+    "after-offline.png": {
+      "sha256": "487eb1997a08f72c3fc5d4b9b27d82aa103673d1f540b2a5ed885cc51f0d4e17",
+      "capturedAt": "2026-10-19T13:50:01.732665+00:00"
+    },
+    "after-celebration-offline.png": {
+      "sha256": "a267bcea1bb7ae015048edeb8943e7aee32e584d943898868136353358e1486d",
+      "capturedAt": "2026-10-19T13:56:36.524467+00:00"
+    },
+    "after-assistant-offline.png": {
+      "sha256": "aa8518327b04ffcee3f98e3642de155fc60a265014501ea51b81822c9fea5004",
+      "capturedAt": "2026-10-19T13:57:50.582385+00:00"
+    },
+    "after-offline-edit.png": {
+      "sha256": "65b3252c0183c0b1a83ae209a15fceaa650848ce4a799098d448e87bb8238978",
+      "capturedAt": "2026-10-19T13:51:13.028517+00:00"
+    },
+    "after-authoritative-edit.png": {
+      "sha256": "54856b9e2d492e74f661b492cef7bf96244f08ce46341d6df951b7894b61bf0c",
+      "capturedAt": "2026-10-19T13:54:48.752139+00:00"
+    },
+    "after-reconnected.png": {
+      "sha256": "8b4cb2ccde112655e404903fa1b5731834a176557b40b1629417083725bf965f",
+      "capturedAt": "2026-10-19T13:54:51.051715+00:00"
+    },
+    "before.gif": {
+      "sha256": "f6cf6bd801e85fffaa9e87e3c99602fe900c90950150a6a0021f6d8454006179",
+      "capturedAt": "2026-10-19T13:58:03.162542+00:00"
+    },
+    "before.mp4": {
+      "sha256": "c7007937b9f86fc69d12a064c164df6019799b0e893d67bd00d9d526dd244329",
+      "capturedAt": "2026-10-19T13:58:01.937760+00:00"
+    },
+    "after.gif": {
+      "sha256": "9aa85992d56b47645a0aa48ad70400aeecf71d7dac707a6727ee009c9bb84c57",
+      "capturedAt": "2026-10-19T13:58:05.691573+00:00"
+    },
+    "after.mp4": {
+      "sha256": "78555e0b85c4af74bcc599308098dbcd091a1d19c31e48146e40d528a8584998",
+      "capturedAt": "2026-10-19T13:58:04.203027+00:00"
+    },
+    "summary.json": {
+      "sha256": "16073be865f397b5033d4a8e2d51317bf3eeced7ef8756ff26603d9e87ae4c77",
+      "capturedAt": "2026-10-19T13:58:34.701005+00:00"
+    },
+    "exactly-once.json": {
+      "sha256": "0172b91ed8aaba58842e1ec80403251021e248d9fe345d17b8bb7b27b13608f2",
+      "capturedAt": "2026-10-19T13:55:32.500777+00:00"
+    }
+  }
+}

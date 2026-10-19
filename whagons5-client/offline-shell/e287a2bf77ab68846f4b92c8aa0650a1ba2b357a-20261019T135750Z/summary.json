@@ -1,0 +1,83 @@
+[
+  {
+    "label": "optional-shell-before-push-video-1",
+    "source": "e2c4e898e4c59f24d3118bd44360b5eebf7c17cf",
+    "feature": "push",
+    "offlineNames": 0,
+    "offline": true,
+    "offlineVerified": false,
+    "recovered": true,
+    "pageErrors": 0,
+    "reloadMarkers": 0,
+    "targetCachedOnline": 0,
+    "replayAndRestorePassed": null,
+    "predictionSurvivedReload": null,
+    "offlineAck": null
+  },
+  {
+    "label": "optional-shell-after-push-4",
+    "source": "e287a2bf77ab68846f4b92c8aa0650a1ba2b357a",
+    "feature": "push",
+    "offlineNames": 12,
+    "offline": true,
+    "offlineVerified": true,
+    "recovered": true,
+    "pageErrors": 0,
+    "reloadMarkers": 0,
+    "targetCachedOnline": 0,
+    "replayAndRestorePassed": null,
+    "predictionSurvivedReload": null,
+    "offlineAck": null
+  },
+  {
+    "label": "optional-shell-after-celebration-3",
+    "source": "e287a2bf77ab68846f4b92c8aa0650a1ba2b357a",
+    "feature": "celebration",
+    "offlineNames": 12,
+    "offline": true,
+    "offlineVerified": true,
+    "recovered": true,
+    "pageErrors": 0,
+    "reloadMarkers": 0,
+    "targetCachedOnline": 0,
+    "replayAndRestorePassed": null,
+    "predictionSurvivedReload": null,
+    "offlineAck": null
+  },
+  {
+    "label": "optional-shell-after-assistant-3",
+    "source": "e287a2bf77ab68846f4b92c8aa0650a1ba2b357a",
+    "feature": "assistant",
+    "offlineNames": 12,
+    "offline": true,
+    "offlineVerified": true,
+    "recovered": true,
+    "pageErrors": 0,
+    "reloadMarkers": 0,
+    "targetCachedOnline": 0,
+    "replayAndRestorePassed": null,
+    "predictionSurvivedReload": null,
+    "offlineAck": null
+  },
+  {
+    "label": "optional-shell-offline-edit-replay-1",
+    "source": "e287a2bf77ab68846f4b92c8aa0650a1ba2b357a",
+    "feature": "push",
+    "offlineNames": 12,
+    "offline": true,
+    "offlineVerified": true,
+    "recovered": true,
+    "pageErrors": 0,
+    "reloadMarkers": 0,
+    "targetCachedOnline": 0,
+    "replayAndRestorePassed": true,
+    "predictionSurvivedReload": false,
+    "offlineAck": {
+      "at": 1792418086477,
+      "id": "223206a1-cb19-47de-b094-dff5b7703136",
+      "originCommandId": "223206a1-cb19-47de-b094-dff5b7703136",
+      "type": "reducer.result",
+      "committedRevision": 2257
+    }
+  }
+]
