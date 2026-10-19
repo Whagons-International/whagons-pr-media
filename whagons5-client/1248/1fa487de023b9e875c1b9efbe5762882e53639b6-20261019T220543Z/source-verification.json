@@ -1,0 +1,205 @@
+{
+  "result": "passed",
+  "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+  "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+  "phaseCount": 23,
+  "frontendTests": 109,
+  "backendTests": 59,
+  "affectedTests": 168,
+  "fullStrictTypechecks": [
+    "tsconfig.app.json",
+    "tsconfig.node.json",
+    "tsconfig.gonvex-v2.json"
+  ],
+  "newRuntimeCyclicEdges": 0,
+  "unit": "pr1248-loading-i18n-1019.service",
+  "memoryMaxGiB": 4,
+  "generationTiming": "Canonical regeneration ran on the scoped working tree before commit; committed contents then passed strict checks and canonical drift checks. Per-phase identities/dirty state retained.",
+  "completedAt": "2026-10-19T21:58:29.498929+00:00",
+  "phases": [
+    {
+      "phase": "affected-lint",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:49:37.454884+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "architecture",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:51:35.395544+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "backend-affected",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:49:34.655015+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "backend-typecheck",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:47:57.111300+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "baseline",
+      "exitCode": 0,
+      "headSha": "45025ea3d09cb17f319b6247092abcf9ef898f4b",
+      "dirty": true,
+      "completedAt": "2026-10-19T21:46:41.952739+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "codegen",
+      "exitCode": 0,
+      "headSha": "45025ea3d09cb17f319b6247092abcf9ef898f4b",
+      "dirty": true,
+      "completedAt": "2026-10-19T21:46:01.429038+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "compatibility",
+      "exitCode": 0,
+      "headSha": "45025ea3d09cb17f319b6247092abcf9ef898f4b",
+      "dirty": true,
+      "completedAt": "2026-10-19T21:44:41.857114+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "frontend-affected",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:49:31.114667+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "frontend-typecheck-app",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:47:21.740434+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "frontend-typecheck-node",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:47:53.658376+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "generated-drift",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:57:35.979702+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "gonvex-types",
+      "exitCode": 0,
+      "headSha": "45025ea3d09cb17f319b6247092abcf9ef898f4b",
+      "dirty": true,
+      "completedAt": "2026-10-19T21:45:00.063488+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "i18n",
+      "exitCode": 0,
+      "headSha": "45025ea3d09cb17f319b6247092abcf9ef898f4b",
+      "dirty": true,
+      "completedAt": "2026-10-19T21:46:37.557415+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "i18n-check",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:55:56.794554+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "icon-drift",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:52:54.094156+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "icons",
+      "exitCode": 0,
+      "headSha": "45025ea3d09cb17f319b6247092abcf9ef898f4b",
+      "dirty": true,
+      "completedAt": "2026-10-19T21:43:38.648415+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "inventory-byte-check",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:52:52.400860+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "inventory-chain-regression",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:52:53.095167+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "inventory-preservation",
+      "exitCode": 0,
+      "headSha": "45025ea3d09cb17f319b6247092abcf9ef898f4b",
+      "dirty": true,
+      "completedAt": "2026-10-19T21:44:43.380667+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "pr-format",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:52:16.590059+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "react-compiler",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:55:13.521957+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "runtime-cycles",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:53:42.843125+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    },
+    {
+      "phase": "whitespace",
+      "exitCode": 0,
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "dirty": false,
+      "completedAt": "2026-10-19T21:51:29.987163+00:00",
+      "unit": "pr1248-loading-i18n-1019.service"
+    }
+  ]
+}

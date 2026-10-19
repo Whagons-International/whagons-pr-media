@@ -1,0 +1,515 @@
+{
+  "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+  "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+  "capturedAt": "2026-10-19T22:05:43.376389+00:00",
+  "captureStart": "2026-10-19T21:59:21.878997+00:00",
+  "browserTested": false,
+  "fullWalkthrough": false,
+  "status": "partial; existing records contain only protected owner and self",
+  "runtime": "https://gonvex-stg.whagons.com",
+  "runtimeProject": "01f19dd6-122c-61f8-86fa-36f692a428d4",
+  "preview": "http://testign.localhost:5428",
+  "tenant": "testign",
+  "actor": "test@test.com",
+  "platform": "Linux Chromium153.0.8010.36, desktop1600x900@1 and phone390x844@2 emulation; Vite development server at each actual source SHA",
+  "scope": "Native existing-user session restore, actual Users guards, saved audience read/reload/reopen, English and Spanish loading/recovery. Own preferred language changed through existing Profile picker and restored to English, verified by reload/fresh context. No activation/deactivation, inactive filtering/recovery, audience writes or comunicado publication pass. Portuguese/German browser cases not exercised.",
+  "clips": [
+    {
+      "side": "after",
+      "layout": "desktop",
+      "language": "en",
+      "recording": "after-desktop-reload.mp4",
+      "preview": "after-desktop-reload.gif",
+      "sourceOffsetSeconds": 28.563367,
+      "durationSeconds": 9.68,
+      "sourceStartedAt": "2026-10-19 14:58:56.326633515 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 9363,
+      "performanceBenchmark": false,
+      "boundaryReview": "Quarter-second source frames inspected; sampled continuous loading through actual Users-grid recovery, setup/next navigation trimmed; original speed"
+    },
+    {
+      "side": "after",
+      "layout": "phone",
+      "language": "en",
+      "recording": "after-phone-reload.mp4",
+      "preview": "after-phone-reload.gif",
+      "sourceOffsetSeconds": 12.591612000000001,
+      "durationSeconds": 8.72,
+      "sourceStartedAt": "2026-10-19 14:59:47.954388251 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 7145,
+      "performanceBenchmark": false,
+      "boundaryReview": "Quarter-second source frames inspected; sampled continuous loading through actual Users-grid recovery, setup/next navigation trimmed; original speed"
+    },
+    {
+      "side": "after",
+      "layout": "desktop",
+      "language": "es",
+      "recording": "after-desktop-es-reload.mp4",
+      "preview": "after-desktop-es-reload.gif",
+      "sourceOffsetSeconds": 37.299991999999996,
+      "durationSeconds": 12.48,
+      "sourceStartedAt": "2026-10-19 15:04:16.357008489 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 13002,
+      "performanceBenchmark": false,
+      "boundaryReview": "Quarter-second source frames inspected; sampled continuous loading through actual Users-grid recovery, setup/next navigation trimmed; original speed"
+    },
+    {
+      "side": "after",
+      "layout": "phone",
+      "language": "es",
+      "recording": "after-phone-es-reload.mp4",
+      "preview": "after-phone-es-reload.gif",
+      "sourceOffsetSeconds": 15.851913,
+      "durationSeconds": 5.68,
+      "sourceStartedAt": "2026-10-19 15:05:21.924087240 -0700",
+      "controlledScriptHoldMinimumMs": 1500,
+      "reloadObservedMs": 6601,
+      "performanceBenchmark": false,
+      "boundaryReview": "Quarter-second source frames inspected; sampled continuous loading through actual Users-grid recovery, setup/next navigation trimmed; original speed"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "after-desktop-users.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T21:59:21.878997+00:00",
+      "sha256": "f49da7572c0a17557508fcb5bd304375bf756724f8c745b18f1cc5b467d2a034"
+    },
+    {
+      "name": "after-desktop-loading-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T21:59:23.661022+00:00",
+      "sha256": "75b96280318cc9295183a9244177fa161520893d52ed6cc85916f8c32de5c616"
+    },
+    {
+      "name": "after-desktop-recovered-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T21:59:31.252130+00:00",
+      "sha256": "6b2f4b318db7aae4d0e2704a601241e0c9faddae9b9a21529532a13106dce3b2"
+    },
+    {
+      "name": "after-desktop-saved-audience.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T21:59:34.250173+00:00",
+      "sha256": "a517c51209f19469ea87fac94429e9b2198095ef9f50e2af5fc95e1791a63a74"
+    },
+    {
+      "name": "after-phone-users-names.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T22:00:01.407558+00:00",
+      "sha256": "f4fa8349a3f14bde4a4983c27a2504618cc1b44aef304019f78e3ef0b64a8aef"
+    },
+    {
+      "name": "after-phone-users-access.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T22:00:01.538560+00:00",
+      "sha256": "6c8f1e314ac10dad49b7099c49d694f345a32a69316f49578570b0c3c288df82"
+    },
+    {
+      "name": "after-phone-loading-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-19T22:00:03.187584+00:00",
+      "sha256": "ce5b85ec1bf3b4be62d3de8e7225b87b71da6a5cfa6b825553bd544b208f560f"
+    },
+    {
+      "name": "after-phone-recovered-en.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T22:00:08.690662+00:00",
+      "sha256": "f4fa8349a3f14bde4a4983c27a2504618cc1b44aef304019f78e3ef0b64a8aef"
+    },
+    {
+      "name": "after-phone-saved-audience.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T22:00:11.549702+00:00",
+      "sha256": "0f9544c4043ba59909c9eae15e30ca524f2c52a7a08d7e236e93b5f8ab15181a"
+    },
+    {
+      "name": "after-desktop-audience-reopened.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T21:59:39.563248+00:00",
+      "sha256": "0169b4d5dabfd220a1a9faa4e8a860355c2d7f06f5bd81be0cfea9f1e8e69491"
+    },
+    {
+      "name": "after-phone-audience-reopened.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T22:00:14.783748+00:00",
+      "sha256": "0f9544c4043ba59909c9eae15e30ca524f2c52a7a08d7e236e93b5f8ab15181a"
+    },
+    {
+      "name": "after-desktop-loading-es.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T22:04:54.675704+00:00",
+      "sha256": "ab4c9ddb38062e44f79452d3bde790c9a3b394b67f32da5fc383d391241e7c27"
+    },
+    {
+      "name": "after-desktop-recovered-es.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 1600,
+      "height": 900,
+      "capturedAt": "2026-10-19T22:05:05.656858+00:00",
+      "sha256": "a8c8d3855855d29045927c71f7c4199fdeecd44245241a07afaac8ed2d028b2f"
+    },
+    {
+      "name": "after-phone-loading-es.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-19T22:05:38.474320+00:00",
+      "sha256": "0c34b16127cc37b45b7071e0fed72183e43d4866c2f60d74c02320cc5250b81f"
+    },
+    {
+      "name": "after-phone-recovered-es.png",
+      "kind": "screenshot",
+      "side": "after",
+      "width": 780,
+      "height": 1688,
+      "capturedAt": "2026-10-19T22:05:43.376389+00:00",
+      "sha256": "5c9fc4b856466e43e752df9101aa2254868581a79a6c7949063f7532d8f2e016"
+    },
+    {
+      "name": "after-desktop-reload.mp4",
+      "kind": "recording",
+      "side": "after",
+      "bytes": 99035,
+      "sha256": "70150b2a09798af5814c88bc8bfdecc7456c5a9c6cf16f1a395ab52d16b54441"
+    },
+    {
+      "name": "after-desktop-reload.gif",
+      "kind": "preview",
+      "side": "after",
+      "bytes": 409814,
+      "sha256": "4a4ad763ab62727a31dd3863a2d1cb9a002c3d00bcdad1bf0ee9c3d64c69c81c"
+    },
+    {
+      "name": "after-phone-reload.mp4",
+      "kind": "recording",
+      "side": "after",
+      "bytes": 52130,
+      "sha256": "8b123d9ad092dcbbbcc4eee0e3656306b4361882e52ab4db3cf56e5cb7efe9a4"
+    },
+    {
+      "name": "after-phone-reload.gif",
+      "kind": "preview",
+      "side": "after",
+      "bytes": 358529,
+      "sha256": "9b4ed932223d0f372393a88d25ec3105c3b3f29173d03687f5911010599e6e8c"
+    },
+    {
+      "name": "after-desktop-es-reload.mp4",
+      "kind": "recording",
+      "side": "after",
+      "bytes": 79404,
+      "sha256": "d551d64e29efdfc35c7b5e13920d32881cdac584985161f5225b65bed4aba861"
+    },
+    {
+      "name": "after-desktop-es-reload.gif",
+      "kind": "preview",
+      "side": "after",
+      "bytes": 363310,
+      "sha256": "10d1a3f95efc43deb6c93417f48df88ed87a7547cf18e72b7d0c86d01ed685ea"
+    },
+    {
+      "name": "after-phone-es-reload.mp4",
+      "kind": "recording",
+      "side": "after",
+      "bytes": 29930,
+      "sha256": "9c2a128b5c1eb2b32a60d8c7b346ede898dc3041babec5113ee2dc0b50090ccc"
+    },
+    {
+      "name": "after-phone-es-reload.gif",
+      "kind": "preview",
+      "side": "after",
+      "bytes": 176128,
+      "sha256": "17148075aad750c1e7516829221b2fa4f80b2e1a3108cf2078abf2c661a4a10e"
+    }
+  ],
+  "steps": [
+    {
+      "id": "after-desktop-users",
+      "action": "Workspace \u2192 Settings \u2192 Basics \u2192 Users",
+      "observed": {
+        "switches": [
+          {
+            "label": "Transfer tenant ownership before disabling this user.",
+            "disabled": true,
+            "checked": "true"
+          },
+          {
+            "label": "You cannot disable your own account.",
+            "disabled": true,
+            "checked": "true"
+          }
+        ],
+        "eligibleToggleTarget": false
+      },
+      "at": "2026-10-19T21:59:21.880Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-desktop-users.png"
+      ]
+    },
+    {
+      "id": "after-desktop-warm-en",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "en",
+        "status": {
+          "text": "Loading Whagons\u2026",
+          "lang": "en",
+          "label": "Loading Whagons"
+        },
+        "observedMs": 9363,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T21:59:31.253Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-desktop-loading-en.png",
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-desktop-recovered-en.png"
+      ]
+    },
+    {
+      "id": "after-desktop-audience",
+      "action": "Settings \u2192 Basics \u2192 Audiences \u2192 Edit existing APK hosted 1019 saved audience",
+      "observed": {
+        "preview": "1 recipient \u00b7 1 acknowledgment required",
+        "readOnly": true,
+        "savedOrPublished": false
+      },
+      "at": "2026-10-19T21:59:34.251Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-desktop-saved-audience.png"
+      ]
+    },
+    {
+      "id": "after-desktop-audience-reopened",
+      "action": "Close without saving, reload the real Audiences screen and reopen the same saved audience",
+      "observed": {
+        "preview": "1 recipient \u00b7 1 acknowledgment required",
+        "readReloadReopen": true,
+        "savedOrPublished": false
+      },
+      "at": "2026-10-19T21:59:39.564Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-desktop-audience-reopened.png"
+      ]
+    },
+    {
+      "id": "after-phone-users",
+      "action": "Workspace \u2192 Settings \u2192 Basics \u2192 Users",
+      "observed": {
+        "switches": [
+          {
+            "label": "Transfer tenant ownership before disabling this user.",
+            "disabled": true,
+            "checked": "true"
+          },
+          {
+            "label": "You cannot disable your own account.",
+            "disabled": true,
+            "checked": "true"
+          }
+        ],
+        "eligibleToggleTarget": false
+      },
+      "at": "2026-10-19T22:00:01.539Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-phone-users-names.png"
+      ]
+    },
+    {
+      "id": "after-phone-warm-en",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "en",
+        "status": {
+          "text": "Loading Whagons\u2026",
+          "lang": "en",
+          "label": "Loading Whagons"
+        },
+        "observedMs": 7145,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T22:00:08.691Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-phone-loading-en.png",
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-phone-recovered-en.png"
+      ]
+    },
+    {
+      "id": "after-phone-audience",
+      "action": "Settings \u2192 Basics \u2192 Audiences \u2192 Edit existing APK hosted 1019 saved audience",
+      "observed": {
+        "preview": "1 recipient \u00b7 1 acknowledgment required",
+        "readOnly": true,
+        "savedOrPublished": false
+      },
+      "at": "2026-10-19T22:00:11.551Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-phone-saved-audience.png"
+      ]
+    },
+    {
+      "id": "after-phone-audience-reopened",
+      "action": "Close without saving, reload the real Audiences screen and reopen the same saved audience",
+      "observed": {
+        "preview": "1 recipient \u00b7 1 acknowledgment required",
+        "readReloadReopen": true,
+        "savedOrPublished": false
+      },
+      "at": "2026-10-19T22:00:14.785Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-phone-audience-reopened.png"
+      ]
+    },
+    {
+      "id": "after-desktop-warm-es",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "es",
+        "status": {
+          "text": "Cargando Whagons\u2026",
+          "lang": "es",
+          "label": "Cargando Whagons"
+        },
+        "observedMs": 13002,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T22:05:05.659Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-desktop-loading-es.png",
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-desktop-recovered-es.png"
+      ]
+    },
+    {
+      "id": "after-desktop-spanish-preference",
+      "action": "Normal Profile \u2192 Appearance picker: English \u2192 Espa\u00f1ol; browser Back to Users; actual warm reload; restore English",
+      "observed": {
+        "onlyOwnLanguagePreferenceChanged": true,
+        "original": "en",
+        "tested": "es",
+        "restored": "en",
+        "restoreReloadVerified": true,
+        "permissionsChanged": false
+      },
+      "at": "2026-10-19T22:05:13.261Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": []
+    },
+    {
+      "id": "after-phone-warm-es",
+      "action": "Real Users reload; hold same-origin application scripts, observe shell, then release and require real grid recovery",
+      "observed": {
+        "language": "es",
+        "status": {
+          "text": "Cargando Whagons\u2026",
+          "lang": "es",
+          "label": "Cargando Whagons"
+        },
+        "observedMs": 6601,
+        "controlledScriptHold": true,
+        "holdMinimumMs": 1500,
+        "notPerformanceBenchmark": true
+      },
+      "at": "2026-10-19T22:05:43.377Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": [
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-phone-loading-es.png",
+        "/mnt/data/work/pr-drain-1018/owner-1248/loading-i18n-1019/browser/after-phone-recovered-es.png"
+      ]
+    },
+    {
+      "id": "after-phone-spanish-preference",
+      "action": "Normal Profile \u2192 Appearance picker: English \u2192 Espa\u00f1ol; browser Back to Users; actual warm reload; restore English",
+      "observed": {
+        "onlyOwnLanguagePreferenceChanged": true,
+        "original": "en",
+        "tested": "es",
+        "restored": "en",
+        "restoreReloadVerified": true,
+        "permissionsChanged": false
+      },
+      "at": "2026-10-19T22:05:46.410Z",
+      "headSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "applicationSha": "1fa487de023b9e875c1b9efbe5762882e53639b6",
+      "media": []
+    }
+  ]
+}
