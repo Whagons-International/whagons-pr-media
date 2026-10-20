@@ -1,0 +1,76 @@
+{
+  "head": "885faa3c5facf2593d947391e0cb3355ba8d05e9",
+  "base": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+  "browserResult": "PASS",
+  "inspectedAt": "2026-10-20T19:45:23.841612+00:00",
+  "environment": "Existing testign/test@test.com; hosted staging baseline; exact committed local candidate with native staging backend",
+  "viewports": {
+    "desktop": "1440x1000",
+    "phone": "390x844"
+  },
+  "checks": [
+    "UI hide survives reload",
+    "Map absent on desktop and phone after reload",
+    "Map re-enabled on desktop and phone after reload",
+    "second existing space unchanged at both widths",
+    "original Map preference restored"
+  ],
+  "captures": [
+    {
+      "sha256": "fed05a6cfcf420d897ead6f654551a1e79e79dd0158053a4fb397adf6df91290",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/885faa3c5facf2593d947391e0cb3355ba8d05e9/before-hide-undone-desktop.png"
+    },
+    {
+      "sha256": "62c0e1bb5862039fa4f2bb8cf57a37701a841fcd8a3f5de0a7dc2576f522d374",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/885faa3c5facf2593d947391e0cb3355ba8d05e9/before-hide-undone-phone.png"
+    },
+    {
+      "sha256": "5d72a86262580f79c2ddb64606cbf7aa2896d515fa5411680430f08602215dd0",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/885faa3c5facf2593d947391e0cb3355ba8d05e9/candidate-after-map-settings-desktop.png"
+    },
+    {
+      "sha256": "d1e0029cbcedf32341b682681a319dec27efd8ee42b8a3d75c4e184209d0ba23",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/885faa3c5facf2593d947391e0cb3355ba8d05e9/candidate-after-map-desktop.png"
+    },
+    {
+      "sha256": "e865f1a095462a3c53415ece5606808ee488d800455f1e7ee7f19bec34f671e7",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/885faa3c5facf2593d947391e0cb3355ba8d05e9/candidate-after-map-phone.png"
+    },
+    {
+      "sha256": "cc375805a61895e3215a1d1a45b8cc758157ed840f57c8c504a51d629c4bc1fb",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/885faa3c5facf2593d947391e0cb3355ba8d05e9/candidate-reenabled-map-desktop.png"
+    },
+    {
+      "sha256": "62c0e1bb5862039fa4f2bb8cf57a37701a841fcd8a3f5de0a7dc2576f522d374",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/885faa3c5facf2593d947391e0cb3355ba8d05e9/candidate-reenabled-map-phone.png"
+    }
+  ]
+}
