@@ -1,0 +1,36 @@
+{
+  "head": "1c412cd25f390b07a7ef807c8adc52df4724d86b",
+  "base": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+  "environment": "testign on staging, test@test.com, existing QA task #42",
+  "fixture": "- [ ] a\n- [x] b",
+  "desktopExpected": "\u2610 a \u2611 b",
+  "phone": "Existing mobile list does not render descriptions; task visible and raw markers absent.",
+  "exactHead": "1c412cd25",
+  "limitations": [
+    "After uses locally built exact-head assets with staging backend.",
+    "Hosted staging has not been verified with the fix.",
+    "Implementer evidence only; no AI visual review or merge-policy approval."
+  ],
+  "captures": [
+    {
+      "name": "before-desktop.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/1c412cd25f390b07a7ef807c8adc52df4724d86b/before-desktop.png",
+      "sha256": "9a6f4ae0b0c033a14b74d9c2d9356955d949bdbc38b2a33d19baf3c672828d8b"
+    },
+    {
+      "name": "before-phone.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/1c412cd25f390b07a7ef807c8adc52df4724d86b/before-phone.png",
+      "sha256": "7e26dfe5c7b9e9c290c5feb8ec9659f1d86b63c97dccdc5bab13f8f682878b7b"
+    },
+    {
+      "name": "after-desktop.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/1c412cd25f390b07a7ef807c8adc52df4724d86b/after-desktop.png",
+      "sha256": "07da216c985575031c5a367df73038f26b098464a51229cff374c55859b4e3dc"
+    },
+    {
+      "name": "after-phone.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/1c412cd25f390b07a7ef807c8adc52df4724d86b/after-phone.png",
+      "sha256": "45bddce7d58ac5753b5ef98f7a13ff9d13aa245513cf73df8c307ada057d6fa6"
+    }
+  ]
+}
