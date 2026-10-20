@@ -1,0 +1,28 @@
+{
+  "capturedAt": "2026-10-20T02:49:11.658279+00:00",
+  "headSha": "b9d7c61d84a17c287c4358d105fdad48247d050f",
+  "baseSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+  "taskId": "241e31e0-37f4-4805-90da-23378f3ce547",
+  "taskNumber": 34,
+  "taskTitle": "QA comunicado 1201",
+  "tenant": "testign",
+  "account": "test@test.com",
+  "runtime": "https://gonvex-stg.whagons.com",
+  "project": "01f19dd6-122c-61f8-86fa-36f692a428d4",
+  "preview": "http://testign.localhost:18801",
+  "platform": "T3 incognito Chromium; phone web 390x844 CSS pixels; desktop UA; not native app or iPhone",
+  "file": "phone-after-receipt.png",
+  "sha256": "d21ecf2f12477f01aeeb15c8535124330f19306c932474b9d8946c2c10d82c91",
+  "bytes": 105751,
+  "pixels": [
+    780,
+    1688
+  ],
+  "observed": "Actual phone Acknowledge opened Confirm receipt; self-only recipient confirmed; receipt 1/1 with Created, Updated, Template, Team English labels; no second action. Task retained below seven pending in8 loaded rows.",
+  "scope": "Only requested phone receipt recaptured under coach-1201-l10n-1019-1525. No ten-card, automatic workflow status change, desktop or native full walkthrough on this head.",
+  "browserTestedFull": false,
+  "croppedOrEdited": false,
+  "ownerVisualInspection": "PASS for requested four labels: all English, receipt1/1 readable, human QA comunicado1201 title, no overlap or unintended clipping. This is owner inspection, not AI approval.",
+  "phoneAckFlow": "Acknowledge -> Confirm receipt -> Close retains task34 after seven pending cards in eight total rows; sidebar pending badge8->7. No page-size boundary recreated.",
+  "imageEdited": false
+}
