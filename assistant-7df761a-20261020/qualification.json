@@ -1,0 +1,50 @@
+[
+  {
+    "side": "before",
+    "platform": "desktop",
+    "headSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+    "capturedAt": "2026-10-20T12:12:26.288Z",
+    "success": true,
+    "noResend": true,
+    "sendAudit": true,
+    "userMessageCount": 1,
+    "catalogBytes": 711113,
+    "skillCount": 42
+  },
+  {
+    "side": "before",
+    "platform": "phone",
+    "headSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+    "capturedAt": "2026-10-20T12:12:52.963Z",
+    "success": true,
+    "noResend": true,
+    "sendAudit": true,
+    "userMessageCount": 1,
+    "catalogBytes": 711113,
+    "skillCount": 42
+  },
+  {
+    "side": "after",
+    "platform": "desktop",
+    "headSha": "7df761a0a04e1d4539405bd371c26503e61e5267",
+    "capturedAt": "2026-10-20T12:13:19.076Z",
+    "success": true,
+    "noResend": true,
+    "sendAudit": true,
+    "userMessageCount": 1,
+    "catalogBytes": 711113,
+    "skillCount": 42
+  },
+  {
+    "side": "after",
+    "platform": "phone",
+    "headSha": "7df761a0a04e1d4539405bd371c26503e61e5267",
+    "capturedAt": "2026-10-20T12:13:45.657Z",
+    "success": true,
+    "noResend": true,
+    "sendAudit": true,
+    "userMessageCount": 1,
+    "catalogBytes": 711113,
+    "skillCount": 42
+  }
+]
