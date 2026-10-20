@@ -1,0 +1,104 @@
+{
+  "headSha": "a01040f415d4a07c44979417fd7abb81fdd1d4a6",
+  "baseSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+  "incrementalBeforeSha": "3e0ca4471a683909a22f63597bb75830f9a24b70",
+  "capturedAt": "2026-10-20T03:04:13.453Z",
+  "runtime": "Isolated native Rust/V8 runtime http://127.0.0.1:62710; Chromium desktop 1280x720; exact candidate frontend at /workspace/all on port 62714. Registered module hash and backend/shared source bytes matched current HEAD. No hosted/customer creation. Incremental preview baseline 3e0ca447; original reporting preflight baseline f235c5daa retained separately.",
+  "isolated": true,
+  "productionCustomerWrites": false,
+  "browserTested": false,
+  "phoneOutcome": "Not recaptured on this head. Blocked on separate shared-picker fix #1447, then fresh phone QA in a new slot. Historical base/candidate tap interception is not current-head phone evidence.",
+  "allDesktopCasesPassed": true,
+  "cases": [
+    {
+      "file": "tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 113,
+      "title": "saves through its evaluation task class without a membership workspace and survives reload",
+      "status": "expected",
+      "results": [
+        "passed"
+      ],
+      "error": ""
+    },
+    {
+      "file": "tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 181,
+      "title": "excludes a canonical private evaluation template under a permitted reporting category",
+      "status": "expected",
+      "results": [
+        "passed"
+      ],
+      "error": ""
+    },
+    {
+      "file": "tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 194,
+      "title": "excludes an unauthorized destination and rejects a forged create as the reporting user",
+      "status": "expected",
+      "results": [
+        "passed"
+      ],
+      "error": ""
+    }
+  ],
+  "beforeCases": [
+    {
+      "file": "tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 113,
+      "title": "saves through its evaluation task class without a membership workspace and survives reload",
+      "status": "unexpected",
+      "results": [
+        "failed"
+      ]
+    },
+    {
+      "file": "tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 181,
+      "title": "excludes a canonical private evaluation template under a permitted reporting category",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "file": "tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 194,
+      "title": "excludes an unauthorized destination and rejects a forged create as the reporting user",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    }
+  ],
+  "sourceChecksPassed": true,
+  "targetedFrontendTestsPassed": 21,
+  "runtimeCycleAdditions": 0,
+  "destinationLabel": "Reported to another workspace",
+  "savedTask": {
+    "id": 10,
+    "_id": "4c148d33-b57f-414f-90a5-f5b46dc0cd7e",
+    "workspaceId": "e2e_qh83ss_workspaces_zq7xE2E-tasks-05-report-only-evaluation-create-spec-saves-through-its-evaluation-task-class-without--w0-r0-1792464697581-evaluation_Evaluation_destination_zq7",
+    "createdBy": "member_d7433ae0fe8e4a0db10284aaa9db9b6c",
+    "reportedByUserId": "member_d7433ae0fe8e4a0db10284aaa9db9b6c"
+  },
+  "createVideoEditProvenance": {
+    "head": "a01040f415d4a07c44979417fd7abb81fdd1d4a6",
+    "reviewed": true,
+    "start": 55.3,
+    "end": 56.8,
+    "appendPreviewStart": 38.893,
+    "appendPreviewEnd": 43.893,
+    "notes": "Private full E2E contact sheet reviewed. Excerpt shows actual passing E2E submit, then separately reopened preview of the SAME E2E-created task. Join is explicit, not a continuous-create claim. Avoids setup/loading and unrelated daily-login toast around62s. Full E2E remains private.",
+    "sourceDimensions": {
+      "e2eVideo": "800x450, recorded from1280x720 viewport",
+      "previewVideo": "1280x720",
+      "editedClip": "960x540 normalized output, full frame retained"
+    }
+  },
+  "labelVerifiedBeforeAndAfterReload": true,
+  "longNamesConstrainedBeforeAndAfterReload": true,
+  "accessibleFullNamesRetained": true,
+  "hostedParityGap": "needs non-admin testign identity",
+  "extraStandaloneCreateRecorder": "FAILED on shared picker sheet interception, retained privately and blocked on #1447. Passing creation proof is the3-case E2E; preview-only recording reopens its saved task without recreating it.",
+  "previewRecordingKind": "preview of task created by passing current-head E2E"
+}
