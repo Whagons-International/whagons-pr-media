@@ -1,0 +1,1323 @@
+{
+  "headSha": "bfdac2989a58b26f8b88cfd7181421cf7611cc9c",
+  "baseSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+  "targetBaseSha": "bfdac2989a58b26f8b88cfd7181421cf7611cc9c",
+  "capturedAt": "2026-10-20T10:40:30.831Z",
+  "beforeCapturedAt": "2026-10-20T10:36:34.040Z",
+  "runtime": "Owner-private CI loopback stack; test@test.com; Chrome desktop1886x1041 / phone390x844; admitted6G/7G; no shared data",
+  "steps": [
+    {
+      "id": "grid",
+      "action": "Workspace -> Tasks",
+      "expected": "Grid and Create Task visible",
+      "observed": "Both visible on the existing testing workspace",
+      "capturedAt": "2026-10-20T10:40:30.831Z"
+    },
+    {
+      "id": "escape-preview",
+      "action": "Click a task",
+      "expected": "Readable preview and Edit button",
+      "observed": "Preview visible",
+      "capturedAt": "2026-10-20T10:40:36.243Z"
+    },
+    {
+      "id": "escape-edit",
+      "action": "Preview -> Edit",
+      "expected": "Opaque readable Edit dialog",
+      "observed": "Dialog finite animations finished",
+      "capturedAt": "2026-10-20T10:40:41.149Z"
+    },
+    {
+      "id": "escape-returned",
+      "action": "escape editor close, before dismissing any preview",
+      "expected": "Workspace grid and Create Task remain visible after the editor closes",
+      "observed": "Underlying workspace and route verified before any extra dismiss click",
+      "capturedAt": "2026-10-20T10:40:44.677Z"
+    },
+    {
+      "id": "escape-closed",
+      "action": "Escape draft",
+      "expected": "Dialog closes, grid/Create Task/route remain",
+      "observed": "Grid and Create Task visible on /workspace/all",
+      "capturedAt": "2026-10-20T10:40:46.793Z"
+    },
+    {
+      "id": "cancel-preview",
+      "action": "Click a task",
+      "expected": "Readable preview and Edit button",
+      "observed": "Preview visible",
+      "capturedAt": "2026-10-20T10:40:54.687Z"
+    },
+    {
+      "id": "cancel-edit",
+      "action": "Preview -> Edit",
+      "expected": "Opaque readable Edit dialog",
+      "observed": "Dialog finite animations finished",
+      "capturedAt": "2026-10-20T10:40:58.639Z"
+    },
+    {
+      "id": "cancel-returned",
+      "action": "cancel editor close, before dismissing any preview",
+      "expected": "Workspace grid and Create Task remain visible after the editor closes",
+      "observed": "Underlying workspace and route verified before any extra dismiss click",
+      "capturedAt": "2026-10-20T10:41:02.841Z"
+    },
+    {
+      "id": "cancel-closed",
+      "action": "Cancel draft",
+      "expected": "Dialog closes, grid/Create Task/route remain",
+      "observed": "Grid and Create Task visible on /workspace/all",
+      "capturedAt": "2026-10-20T10:41:04.959Z"
+    },
+    {
+      "id": "save-preview",
+      "action": "Click a task",
+      "expected": "Readable preview and Edit button",
+      "observed": "Preview visible",
+      "capturedAt": "2026-10-20T10:41:12.505Z"
+    },
+    {
+      "id": "save-edit",
+      "action": "Preview -> Edit",
+      "expected": "Opaque readable Edit dialog",
+      "observed": "Dialog finite animations finished",
+      "capturedAt": "2026-10-20T10:41:16.677Z"
+    },
+    {
+      "id": "save-returned",
+      "action": "save editor close, before dismissing any preview",
+      "expected": "Workspace grid and Create Task remain visible after the editor closes",
+      "observed": "Underlying workspace and route verified before any extra dismiss click",
+      "capturedAt": "2026-10-20T10:41:21.220Z"
+    },
+    {
+      "id": "save-closed",
+      "action": "Save task",
+      "expected": "Dialog closes, grid/Create Task/route remain",
+      "observed": "Grid and Create Task visible on /workspace/all",
+      "capturedAt": "2026-10-20T10:41:23.406Z"
+    },
+    {
+      "id": "reload",
+      "action": "Save -> Reload -> Preview -> Edit",
+      "expected": "Saved task name survives reload",
+      "observed": "Saved name verified",
+      "capturedAt": "2026-10-20T10:41:30.944Z"
+    },
+    {
+      "id": "description",
+      "action": "Edit -> Description",
+      "expected": "Description editor reachable",
+      "observed": "Real editor visible",
+      "capturedAt": "2026-10-20T10:41:32.792Z"
+    },
+    {
+      "id": "description-edit",
+      "action": "Type plain description -> blur",
+      "expected": "Description draft retains typed content",
+      "observed": "Real contenteditable input and blur performed",
+      "capturedAt": "2026-10-20T10:41:33.367Z"
+    },
+    {
+      "id": "description-reload",
+      "action": "Save description -> reload -> reopen",
+      "expected": "Saved description persists",
+      "observed": "Typed description verified after real reload",
+      "capturedAt": "2026-10-20T10:41:37.955Z"
+    },
+    {
+      "id": "description-restored",
+      "action": "Restore description -> Save -> reopen",
+      "expected": "Original description text restored",
+      "observed": "Original plain text verified through the real editor",
+      "capturedAt": "2026-10-20T10:41:39.920Z"
+    },
+    {
+      "id": "assistant",
+      "action": "Workspace -> assistant",
+      "expected": "Assistant opens",
+      "observed": "Assistant panel visible; no prompt or external action submitted",
+      "capturedAt": "2026-10-20T10:41:41.035Z"
+    },
+    {
+      "id": "assistant-keyboard",
+      "action": "Close assistant -> Ctrl+K",
+      "expected": "Assistant reopens by keyboard",
+      "observed": "Real assistant panel reopened",
+      "capturedAt": "2026-10-20T10:41:41.210Z"
+    },
+    {
+      "id": "settings",
+      "action": "Sidebar -> Settings",
+      "expected": "Settings content loads",
+      "observed": "Settings visible; no settings changed",
+      "capturedAt": "2026-10-20T10:41:42.068Z"
+    },
+    {
+      "id": "calendar",
+      "action": "Workspace -> Calendar",
+      "expected": "Calendar content loads",
+      "observed": "Calendar tab selected",
+      "capturedAt": "2026-10-20T10:41:44.238Z"
+    },
+    {
+      "id": "kanban",
+      "action": "Workspace -> Kanban",
+      "expected": "Board content loads",
+      "observed": "Kanban tab selected",
+      "capturedAt": "2026-10-20T10:41:44.868Z"
+    },
+    {
+      "id": "locale-de-profile",
+      "action": "Avatar -> Profile -> Appearance -> Deutsch",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Bevorzugte Sprache; html language de",
+      "capturedAt": "2026-10-20T10:41:47.720Z"
+    },
+    {
+      "id": "locale-de-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in de",
+      "capturedAt": "2026-10-20T10:41:50.349Z"
+    },
+    {
+      "id": "locale-es-profile",
+      "action": "Avatar -> Profile -> Appearance -> Espa\u00f1ol",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Idioma preferido; html language es",
+      "capturedAt": "2026-10-20T10:41:52.296Z"
+    },
+    {
+      "id": "locale-es-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in es",
+      "capturedAt": "2026-10-20T10:41:54.644Z"
+    },
+    {
+      "id": "locale-pt-profile",
+      "action": "Avatar -> Profile -> Appearance -> Portugu\u00eas",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Idioma preferido; html language pt",
+      "capturedAt": "2026-10-20T10:41:56.431Z"
+    },
+    {
+      "id": "locale-pt-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in pt",
+      "capturedAt": "2026-10-20T10:41:58.819Z"
+    },
+    {
+      "id": "locale-en-profile",
+      "action": "Avatar -> Profile -> Appearance -> English",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Preferred language; html language en",
+      "capturedAt": "2026-10-20T10:42:00.550Z"
+    },
+    {
+      "id": "locale-en-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in en",
+      "capturedAt": "2026-10-20T10:42:02.770Z"
+    },
+    {
+      "id": "locale-motion-profile",
+      "action": "Avatar -> Profile -> Appearance",
+      "expected": "English language picker visible",
+      "observed": "Normal profile navigation settled",
+      "capturedAt": "2026-10-20T10:42:13.155Z"
+    },
+    {
+      "id": "locale-motion-german",
+      "action": "Select Deutsch",
+      "expected": "Exact German profile text",
+      "observed": "Bevorzugte Sprache visible after language change",
+      "capturedAt": "2026-10-20T10:42:17.873Z"
+    },
+    {
+      "id": "locale-motion-workspace",
+      "action": "German profile -> workspace",
+      "expected": "German workspace grid visible",
+      "observed": "Grid and Create Task visible with html lang de",
+      "capturedAt": "2026-10-20T10:42:24.123Z"
+    },
+    {
+      "id": "locale-motion-return-profile",
+      "action": "German workspace -> Profile -> Appearance",
+      "expected": "German profile settled",
+      "observed": "Profile ready before the25-second sample",
+      "capturedAt": "2026-10-20T10:42:28.191Z"
+    },
+    {
+      "id": "locale-motion-english",
+      "action": "Choose English in Profile",
+      "expected": "English profile settled",
+      "observed": "Preferred language visible before the30-second sample",
+      "capturedAt": "2026-10-20T10:42:32.959Z"
+    },
+    {
+      "id": "locale-restored",
+      "action": "Restore English through Profile -> workspace",
+      "expected": "English restored, settled grid visible",
+      "observed": "Original personal language restored through UI",
+      "capturedAt": "2026-10-20T10:42:39.310Z"
+    },
+    {
+      "id": "phone-workspace",
+      "action": "Open same workspace at 390 x 844",
+      "expected": "Workspace and assistant entry reachable",
+      "observed": "Visible launchers: 2",
+      "capturedAt": "2026-10-20T10:42:57.665Z"
+    },
+    {
+      "id": "phone-assistant",
+      "action": "Phone workspace -> workspace launcher",
+      "expected": "Assistant opens from visible entry",
+      "observed": "Assistant panel visible",
+      "capturedAt": "2026-10-20T10:42:57.852Z"
+    },
+    {
+      "id": "phone-edit",
+      "action": "Phone task list -> task -> Edit",
+      "expected": "Readable mobile task editor",
+      "observed": "Real Edit dialog visible at390x844",
+      "capturedAt": "2026-10-20T10:42:59.794Z"
+    },
+    {
+      "id": "phone-description",
+      "action": "Phone Edit -> Description",
+      "expected": "Description editor and toolbar reachable",
+      "observed": "Real mobile rich-text editor visible; no description changes made",
+      "capturedAt": "2026-10-20T10:43:00.167Z"
+    },
+    {
+      "id": "phone-name-reachable",
+      "action": "Phone Description -> scroll to Name -> click",
+      "expected": "Name remains clickable after opening the description toolbar",
+      "observed": "Normal pointer click focused Name; no forced click or programmatic focus",
+      "capturedAt": "2026-10-20T10:43:00.737Z"
+    },
+    {
+      "id": "phone-cancel",
+      "action": "Phone Edit -> Escape -> reopen -> Cancel -> reopen",
+      "expected": "Escape retains draft; Cancel discards it",
+      "observed": "Both close paths verified in real phone UI",
+      "capturedAt": "2026-10-20T10:43:02.482Z"
+    },
+    {
+      "id": "phone-reload",
+      "action": "Phone Save -> reload -> same task -> Edit",
+      "expected": "Saved name persists",
+      "observed": "Saved name verified through the normal phone task list",
+      "capturedAt": "2026-10-20T10:43:08.456Z"
+    },
+    {
+      "id": "phone-settled",
+      "action": "Restore original phone task name -> close",
+      "expected": "Original task list visible again",
+      "observed": "Original name restored; normal phone tabs: Tasks, Reported to",
+      "capturedAt": "2026-10-20T10:43:09.082Z"
+    }
+  ],
+  "beforeSteps": [
+    {
+      "id": "grid",
+      "action": "Workspace -> Tasks",
+      "expected": "Grid and Create Task visible",
+      "observed": "Both visible on the existing testing workspace",
+      "capturedAt": "2026-10-20T10:36:34.040Z"
+    },
+    {
+      "id": "escape-preview",
+      "action": "Click a task",
+      "expected": "Readable preview and Edit button",
+      "observed": "Preview visible",
+      "capturedAt": "2026-10-20T10:36:39.519Z"
+    },
+    {
+      "id": "escape-edit",
+      "action": "Preview -> Edit",
+      "expected": "Opaque readable Edit dialog",
+      "observed": "Dialog finite animations finished",
+      "capturedAt": "2026-10-20T10:36:43.780Z"
+    },
+    {
+      "id": "escape-returned",
+      "action": "escape editor close, before dismissing any preview",
+      "expected": "Workspace grid and Create Task remain visible after the editor closes",
+      "observed": "Underlying workspace and route verified before any extra dismiss click",
+      "capturedAt": "2026-10-20T10:36:47.821Z"
+    },
+    {
+      "id": "escape-closed",
+      "action": "Escape draft",
+      "expected": "Dialog closes, grid/Create Task/route remain",
+      "observed": "Grid and Create Task visible on /workspace/all",
+      "capturedAt": "2026-10-20T10:36:49.954Z"
+    },
+    {
+      "id": "cancel-preview",
+      "action": "Click a task",
+      "expected": "Readable preview and Edit button",
+      "observed": "Preview visible",
+      "capturedAt": "2026-10-20T10:36:57.634Z"
+    },
+    {
+      "id": "cancel-edit",
+      "action": "Preview -> Edit",
+      "expected": "Opaque readable Edit dialog",
+      "observed": "Dialog finite animations finished",
+      "capturedAt": "2026-10-20T10:37:01.888Z"
+    },
+    {
+      "id": "cancel-returned",
+      "action": "cancel editor close, before dismissing any preview",
+      "expected": "Workspace grid and Create Task remain visible after the editor closes",
+      "observed": "Underlying workspace and route verified before any extra dismiss click",
+      "capturedAt": "2026-10-20T10:37:06.117Z"
+    },
+    {
+      "id": "cancel-closed",
+      "action": "Cancel draft",
+      "expected": "Dialog closes, grid/Create Task/route remain",
+      "observed": "Grid and Create Task visible on /workspace/all",
+      "capturedAt": "2026-10-20T10:37:08.253Z"
+    },
+    {
+      "id": "save-preview",
+      "action": "Click a task",
+      "expected": "Readable preview and Edit button",
+      "observed": "Preview visible",
+      "capturedAt": "2026-10-20T10:37:15.738Z"
+    },
+    {
+      "id": "save-edit",
+      "action": "Preview -> Edit",
+      "expected": "Opaque readable Edit dialog",
+      "observed": "Dialog finite animations finished",
+      "capturedAt": "2026-10-20T10:37:20.310Z"
+    },
+    {
+      "id": "save-returned",
+      "action": "save editor close, before dismissing any preview",
+      "expected": "Workspace grid and Create Task remain visible after the editor closes",
+      "observed": "Underlying workspace and route verified before any extra dismiss click",
+      "capturedAt": "2026-10-20T10:37:24.239Z"
+    },
+    {
+      "id": "save-closed",
+      "action": "Save task",
+      "expected": "Dialog closes, grid/Create Task/route remain",
+      "observed": "Grid and Create Task visible on /workspace/all",
+      "capturedAt": "2026-10-20T10:37:26.351Z"
+    },
+    {
+      "id": "reload",
+      "action": "Save -> Reload -> Preview -> Edit",
+      "expected": "Saved task name survives reload",
+      "observed": "Saved name verified",
+      "capturedAt": "2026-10-20T10:37:34.292Z"
+    },
+    {
+      "id": "description",
+      "action": "Edit -> Description",
+      "expected": "Description editor reachable",
+      "observed": "Real editor visible",
+      "capturedAt": "2026-10-20T10:37:36.280Z"
+    },
+    {
+      "id": "description-edit",
+      "action": "Type plain description -> blur",
+      "expected": "Description draft retains typed content",
+      "observed": "Real contenteditable input and blur performed",
+      "capturedAt": "2026-10-20T10:37:36.751Z"
+    },
+    {
+      "id": "description-reload",
+      "action": "Save description -> reload -> reopen",
+      "expected": "Saved description persists",
+      "observed": "Typed description verified after real reload",
+      "capturedAt": "2026-10-20T10:37:40.269Z"
+    },
+    {
+      "id": "description-restored",
+      "action": "Restore description -> Save -> reopen",
+      "expected": "Original description text restored",
+      "observed": "Original plain text verified through the real editor",
+      "capturedAt": "2026-10-20T10:37:42.436Z"
+    },
+    {
+      "id": "assistant",
+      "action": "Workspace -> assistant",
+      "expected": "Assistant opens",
+      "observed": "Assistant panel visible; no prompt or external action submitted",
+      "capturedAt": "2026-10-20T10:37:43.539Z"
+    },
+    {
+      "id": "assistant-keyboard",
+      "action": "Close assistant -> Ctrl+K",
+      "expected": "Assistant reopens by keyboard",
+      "observed": "Real assistant panel reopened",
+      "capturedAt": "2026-10-20T10:37:43.718Z"
+    },
+    {
+      "id": "settings",
+      "action": "Sidebar -> Settings",
+      "expected": "Settings content loads",
+      "observed": "Settings visible; no settings changed",
+      "capturedAt": "2026-10-20T10:37:44.520Z"
+    },
+    {
+      "id": "calendar",
+      "action": "Workspace -> Calendar",
+      "expected": "Calendar content loads",
+      "observed": "Calendar tab selected",
+      "capturedAt": "2026-10-20T10:37:47.017Z"
+    },
+    {
+      "id": "kanban",
+      "action": "Workspace -> Kanban",
+      "expected": "Board content loads",
+      "observed": "Kanban tab selected",
+      "capturedAt": "2026-10-20T10:37:47.677Z"
+    },
+    {
+      "id": "locale-de-profile",
+      "action": "Avatar -> Profile -> Appearance -> Deutsch",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Bevorzugte Sprache; html language de",
+      "capturedAt": "2026-10-20T10:37:50.219Z"
+    },
+    {
+      "id": "locale-de-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in de",
+      "capturedAt": "2026-10-20T10:37:52.396Z"
+    },
+    {
+      "id": "locale-es-profile",
+      "action": "Avatar -> Profile -> Appearance -> Espa\u00f1ol",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Idioma preferido; html language es",
+      "capturedAt": "2026-10-20T10:37:54.205Z"
+    },
+    {
+      "id": "locale-es-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in es",
+      "capturedAt": "2026-10-20T10:37:56.350Z"
+    },
+    {
+      "id": "locale-pt-profile",
+      "action": "Avatar -> Profile -> Appearance -> Portugu\u00eas",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Idioma preferido; html language pt",
+      "capturedAt": "2026-10-20T10:37:57.990Z"
+    },
+    {
+      "id": "locale-pt-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in pt",
+      "capturedAt": "2026-10-20T10:38:00.239Z"
+    },
+    {
+      "id": "locale-en-profile",
+      "action": "Avatar -> Profile -> Appearance -> English",
+      "expected": "Exact translated preferred-language label",
+      "observed": "Visible Preferred language; html language en",
+      "capturedAt": "2026-10-20T10:38:01.976Z"
+    },
+    {
+      "id": "locale-en-workspace",
+      "action": "Profile -> same workspace",
+      "expected": "Grid and Create Task visible in selected language",
+      "observed": "Real workspace settled in en",
+      "capturedAt": "2026-10-20T10:38:04.180Z"
+    },
+    {
+      "id": "locale-motion-profile",
+      "action": "Avatar -> Profile -> Appearance",
+      "expected": "English language picker visible",
+      "observed": "Normal profile navigation settled",
+      "capturedAt": "2026-10-20T10:38:14.410Z"
+    },
+    {
+      "id": "locale-motion-german",
+      "action": "Select Deutsch",
+      "expected": "Exact German profile text",
+      "observed": "Bevorzugte Sprache visible after language change",
+      "capturedAt": "2026-10-20T10:38:19.104Z"
+    },
+    {
+      "id": "locale-motion-workspace",
+      "action": "German profile -> workspace",
+      "expected": "German workspace grid visible",
+      "observed": "Grid and Create Task visible with html lang de",
+      "capturedAt": "2026-10-20T10:38:25.441Z"
+    },
+    {
+      "id": "locale-motion-return-profile",
+      "action": "German workspace -> Profile -> Appearance",
+      "expected": "German profile settled",
+      "observed": "Profile ready before the25-second sample",
+      "capturedAt": "2026-10-20T10:38:29.296Z"
+    },
+    {
+      "id": "locale-motion-english",
+      "action": "Choose English in Profile",
+      "expected": "English profile settled",
+      "observed": "Preferred language visible before the30-second sample",
+      "capturedAt": "2026-10-20T10:38:34.172Z"
+    },
+    {
+      "id": "locale-restored",
+      "action": "Restore English through Profile -> workspace",
+      "expected": "English restored, settled grid visible",
+      "observed": "Original personal language restored through UI",
+      "capturedAt": "2026-10-20T10:38:40.557Z"
+    },
+    {
+      "id": "phone-workspace",
+      "action": "Open same workspace at 390 x 844",
+      "expected": "Workspace and assistant entry reachable",
+      "observed": "Visible launchers: 2",
+      "capturedAt": "2026-10-20T10:38:59.066Z"
+    },
+    {
+      "id": "phone-assistant",
+      "action": "Phone workspace -> workspace launcher",
+      "expected": "Assistant opens from visible entry",
+      "observed": "Assistant panel visible",
+      "capturedAt": "2026-10-20T10:38:59.241Z"
+    },
+    {
+      "id": "phone-edit",
+      "action": "Phone task list -> task -> Edit",
+      "expected": "Readable mobile task editor",
+      "observed": "Real Edit dialog visible at390x844",
+      "capturedAt": "2026-10-20T10:39:01.510Z"
+    },
+    {
+      "id": "phone-description",
+      "action": "Phone Edit -> Description",
+      "expected": "Description editor and toolbar reachable",
+      "observed": "Real mobile rich-text editor visible; no description changes made",
+      "capturedAt": "2026-10-20T10:39:01.789Z"
+    },
+    {
+      "id": "phone-name-reachable",
+      "action": "Phone Description -> scroll to Name -> click",
+      "expected": "Name remains clickable after opening the description toolbar",
+      "observed": "Normal pointer click focused Name; no forced click or programmatic focus",
+      "capturedAt": "2026-10-20T10:39:02.320Z"
+    },
+    {
+      "id": "phone-cancel",
+      "action": "Phone Edit -> Escape -> reopen -> Cancel -> reopen",
+      "expected": "Escape retains draft; Cancel discards it",
+      "observed": "Both close paths verified in real phone UI",
+      "capturedAt": "2026-10-20T10:39:04.102Z"
+    },
+    {
+      "id": "phone-reload",
+      "action": "Phone Save -> reload -> same task -> Edit",
+      "expected": "Saved name persists",
+      "observed": "Saved name verified through the normal phone task list",
+      "capturedAt": "2026-10-20T10:39:10.219Z"
+    },
+    {
+      "id": "phone-settled",
+      "action": "Restore original phone task name -> close",
+      "expected": "Original task list visible again",
+      "observed": "Original name restored; normal phone tabs: Tasks, Reported to",
+      "capturedAt": "2026-10-20T10:39:10.676Z"
+    }
+  ],
+  "media": [
+    {
+      "name": "after-00.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-00.png",
+      "sha256": "cd50e9d419d0e4ad4a992663f144c2b63518d74fb89db50450c82bf2673b6649",
+      "bytes": 87735,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-00.png",
+      "originalName": "after-assistant-keyboard.png"
+    },
+    {
+      "name": "after-01.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-01.png",
+      "sha256": "cd50e9d419d0e4ad4a992663f144c2b63518d74fb89db50450c82bf2673b6649",
+      "bytes": 87735,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-01.png",
+      "originalName": "after-assistant.png"
+    },
+    {
+      "name": "after-02.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-02.png",
+      "sha256": "a5042e4735977b4e3964bc3e56f13cfc10c29505cad551ad3c0e4bbd589e4230",
+      "bytes": 74283,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-02.png",
+      "originalName": "after-calendar.png"
+    },
+    {
+      "name": "after-03.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-03.png",
+      "sha256": "e4cdc2b71ed7ac90aaab62462e74328b1774d9ba4e211ef7bbffa2e8b375d8ec",
+      "bytes": 72105,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-03.png",
+      "originalName": "after-cancel-closed.png"
+    },
+    {
+      "name": "after-04.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-04.png",
+      "sha256": "336ea5d755224908bd5b0c932708464c2a207b1ed6145491d36d3f62c9171105",
+      "bytes": 153131,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-04.png",
+      "originalName": "after-cancel-edit.png"
+    },
+    {
+      "name": "after-05.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-05.png",
+      "sha256": "105884e2da2726fe3eca3d3c3aac03d1a9f7e27dade423a8481029c70c8788b6",
+      "bytes": 135699,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-05.png",
+      "originalName": "after-cancel-preview.png"
+    },
+    {
+      "name": "after-06.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-06.png",
+      "sha256": "4a45cd560a6f01bd455844a7b08d7ab30399465337dbc2808930b150ede1669a",
+      "bytes": 72088,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-06.png",
+      "originalName": "after-cancel-returned.png"
+    },
+    {
+      "name": "after-07.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-07.png",
+      "sha256": "132a45c0e1c0feb481fb16d72f408ef61bd9c459336f66a9de200833dd6fa941",
+      "bytes": 156471,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-07.png",
+      "originalName": "after-description-edit.png"
+    },
+    {
+      "name": "after-08.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-08.png",
+      "sha256": "b8fd3e606a9aaeb7d83bfcb01ea7df3d7e90e82359088e9bf9c703f08dd4b58b",
+      "bytes": 157946,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-08.png",
+      "originalName": "after-description-reload.png"
+    },
+    {
+      "name": "after-09.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-09.png",
+      "sha256": "fb3a4c4078b2e265120a149fe1ee98946602db97de2a14e7950f16473fac3f30",
+      "bytes": 154658,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-09.png",
+      "originalName": "after-description-restored.png"
+    },
+    {
+      "name": "after-10.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-10.png",
+      "sha256": "fdfd07de9bb42389499955a8a14996e1ed8d916391e0e35749416fd4bf25af61",
+      "bytes": 154666,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-10.png",
+      "originalName": "after-description.png"
+    },
+    {
+      "name": "after-11.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-11.png",
+      "sha256": "72e0c63a74a4c2a4fe4fbcff8fb1fb867d81b95b65f213393e3bdba4bcbf591c",
+      "bytes": 72124,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-11.png",
+      "originalName": "after-escape-closed.png"
+    },
+    {
+      "name": "after-12.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-12.png",
+      "sha256": "ebc2d54e24f64e73f9fe3616d2100961b46da867e1f22446bcedd2d98749cdc6",
+      "bytes": 153767,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-12.png",
+      "originalName": "after-escape-edit.png"
+    },
+    {
+      "name": "after-13.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-13.png",
+      "sha256": "105884e2da2726fe3eca3d3c3aac03d1a9f7e27dade423a8481029c70c8788b6",
+      "bytes": 135699,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-13.png",
+      "originalName": "after-escape-preview.png"
+    },
+    {
+      "name": "after-14.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-14.png",
+      "sha256": "140556afc1b79899b4a17706a42447df02fa888a11acf39eb17e5d4c58df9b07",
+      "bytes": 72021,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-14.png",
+      "originalName": "after-escape-returned.png"
+    },
+    {
+      "name": "after-15.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-15.png",
+      "sha256": "0c204ab0dd799dbc1120a768201ac0ae79d291269734d3e4ae9cef8fabf210f0",
+      "bytes": 95852,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-15.png",
+      "originalName": "after-grid.png"
+    },
+    {
+      "name": "after-16.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-16.png",
+      "sha256": "bdd1f86b9f54150a1c0690790e4c25abc0fd33016796acd407b69f8ec9e4a419",
+      "bytes": 99389,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-16.png",
+      "originalName": "after-kanban.png"
+    },
+    {
+      "name": "after-17.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-17.png",
+      "sha256": "da791212f436e1736ab24ba07be0ddef5bf2eafe4aaa75d78865695db1642fd7",
+      "bytes": 162230,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-17.png",
+      "originalName": "after-locale-de-profile.png"
+    },
+    {
+      "name": "after-18.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-18.png",
+      "sha256": "e95c598ea63438f1384209d3a16fdefa5fd1eed484a51bef98e2bf8f1b4736dc",
+      "bytes": 105866,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-18.png",
+      "originalName": "after-locale-de-workspace.png"
+    },
+    {
+      "name": "after-19.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-19.png",
+      "sha256": "dbcc32e8a8bb19cf97d4e1e7e5a7f47a616c5f27b7e517b23d8c273bb6b8ea24",
+      "bytes": 159483,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-19.png",
+      "originalName": "after-locale-en-profile.png"
+    },
+    {
+      "name": "after-20.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-20.png",
+      "sha256": "4dfc774df390ed19b393cb15cd03141a8b63c1e6b4e0cfc27792798760287434",
+      "bytes": 95954,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-20.png",
+      "originalName": "after-locale-en-workspace.png"
+    },
+    {
+      "name": "after-21.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-21.png",
+      "sha256": "fc37351c1518afdbd1452943b295d0b0cc95276d779b6a5f36b21fcd8dab03a8",
+      "bytes": 156410,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-21.png",
+      "originalName": "after-locale-es-profile.png"
+    },
+    {
+      "name": "after-22.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-22.png",
+      "sha256": "6ed7d70c0b0acf25d955800b9d27d4b7d322a3cba1a17b1af19f7fc76a4f2bed",
+      "bytes": 102077,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-22.png",
+      "originalName": "after-locale-es-workspace.png"
+    },
+    {
+      "name": "after-23.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-23.png",
+      "sha256": "3d7a0736c9e5854e1c50e763e2b2533a17f719b3e4edcd8c4e76eb621d7c3d09",
+      "bytes": 159523,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-23.png",
+      "originalName": "after-locale-motion-english.png"
+    },
+    {
+      "name": "after-24.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-24.png",
+      "sha256": "098ce7d4e73bb8d81da3c5eb7df044a27740ed0c5ea2c86e07b7c4f18e657401",
+      "bytes": 162236,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-24.png",
+      "originalName": "after-locale-motion-german.png"
+    },
+    {
+      "name": "after-25.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-25.png",
+      "sha256": "17784471af88507b66f159e2149b691949d0ef47b13afa073fedea43357b8213",
+      "bytes": 159500,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-25.png",
+      "originalName": "after-locale-motion-profile.png"
+    },
+    {
+      "name": "after-26.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-26.png",
+      "sha256": "263fd7894ff59383c227467ecc37a61d382a0401f3ea13418267af84011004b9",
+      "bytes": 162314,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-26.png",
+      "originalName": "after-locale-motion-return-profile.png"
+    },
+    {
+      "name": "after-27.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-27.png",
+      "sha256": "2fe9a9deb617064c6529a3e906214c67ae395f76110951e323a761b9652f7d03",
+      "bytes": 111785,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-27.png",
+      "originalName": "after-locale-motion-workspace.png"
+    },
+    {
+      "name": "after-28.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-28.png",
+      "sha256": "9e0f731ff24d02d1b689ccf0a0fe070c0ca1100876ef8e5c51f30159426145c0",
+      "bytes": 155531,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-28.png",
+      "originalName": "after-locale-pt-profile.png"
+    },
+    {
+      "name": "after-29.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-29.png",
+      "sha256": "4fd0902d93083fe7f50ca2dae236cc985b5d47d4df99e59674939fe6d1561e9b",
+      "bytes": 105680,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-29.png",
+      "originalName": "after-locale-pt-workspace.png"
+    },
+    {
+      "name": "after-30.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-30.png",
+      "sha256": "a768c9a34e35f7533608d455e26225abbe7fd436f538fedec5be651a381359d9",
+      "bytes": 98036,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-30.png",
+      "originalName": "after-locale-restored.png"
+    },
+    {
+      "name": "after-31.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-31.png",
+      "sha256": "f8842994e86b2eb74a22b2b4505c8eb3c681d75eb06c2d0103257a45d3ad65bc",
+      "bytes": 112836,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-31.png",
+      "originalName": "after-phone-assistant.png"
+    },
+    {
+      "name": "after-32.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-32.png",
+      "sha256": "54a2160df4e0658a1130db51b2ad43bc65f6319cf8c31b68f5b8662730eb02c7",
+      "bytes": 134158,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-32.png",
+      "originalName": "after-phone-cancel.png"
+    },
+    {
+      "name": "after-33.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-33.png",
+      "sha256": "37255c9d94b473ed8276db3ae44396d37ec2880813b90572ca850255c9d69aa2",
+      "bytes": 133377,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-33.png",
+      "originalName": "after-phone-description.png"
+    },
+    {
+      "name": "after-34.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-34.png",
+      "sha256": "54a2160df4e0658a1130db51b2ad43bc65f6319cf8c31b68f5b8662730eb02c7",
+      "bytes": 134158,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-34.png",
+      "originalName": "after-phone-edit.png"
+    },
+    {
+      "name": "after-35.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-35.png",
+      "sha256": "7a58938984cd0e2260215ed97e548de12f658678a9a3984e75f4405446d0be48",
+      "bytes": 135066,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-35.png",
+      "originalName": "after-phone-name-reachable.png"
+    },
+    {
+      "name": "after-36.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-36.png",
+      "sha256": "65cc23ede196e972834c72e0f113c5e898c97f5ff3202c112dbebf46cd6bc0ba",
+      "bytes": 137200,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-36.png",
+      "originalName": "after-phone-reload.png"
+    },
+    {
+      "name": "after-37.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-37.png",
+      "sha256": "d49b9a272774d2f5ccd7871bb8104fb68f29bcd5572373e984ff7f782edd6e60",
+      "bytes": 159965,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-37.png",
+      "originalName": "after-phone-settled.png"
+    },
+    {
+      "name": "after-38.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-38.png",
+      "sha256": "d0966a6b5c0bb4faa99424d6393be86897ede6702e8a464d9b700fbae97f0465",
+      "bytes": 156536,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-38.png",
+      "originalName": "after-phone-workspace.png"
+    },
+    {
+      "name": "after-39.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-39.png",
+      "sha256": "3f7ca7679cee368e1c43bdef466a39938edd00b11e9fbae993c3deac8bc6da8c",
+      "bytes": 154883,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-39.png",
+      "originalName": "after-reload.png"
+    },
+    {
+      "name": "after-40.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-40.png",
+      "sha256": "c5a49f5b87664e116a24b0e5b3a724b9e64f279401691a72e1dd4d512072b36f",
+      "bytes": 73095,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-40.png",
+      "originalName": "after-save-closed.png"
+    },
+    {
+      "name": "after-41.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-41.png",
+      "sha256": "72f0ce5553723af7480c7aa2432c9bf90dd84eb0e65df6158a813045f2fd86a7",
+      "bytes": 153971,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-41.png",
+      "originalName": "after-save-edit.png"
+    },
+    {
+      "name": "after-42.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-42.png",
+      "sha256": "105884e2da2726fe3eca3d3c3aac03d1a9f7e27dade423a8481029c70c8788b6",
+      "bytes": 135699,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-42.png",
+      "originalName": "after-save-preview.png"
+    },
+    {
+      "name": "after-43.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-43.png",
+      "sha256": "8f3bb54fbfb4a503f436acfe3192b3021fcb2007fb8c715d475e49d89e042671",
+      "bytes": 73055,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-43.png",
+      "originalName": "after-save-returned.png"
+    },
+    {
+      "name": "after-44.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-44.png",
+      "sha256": "0fc608b5e69d4d59ce3c3f25ee7ef645123cc464191288854ff32c22f267abc0",
+      "bytes": 97900,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-44.png",
+      "originalName": "after-settings.png"
+    },
+    {
+      "name": "after-45.gif",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-45.gif",
+      "sha256": "18639eaac5057a6ca7670875836d65e9d3a9bbdd50d692d08cf7f4008a9ddc48",
+      "bytes": 357530,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-45.gif",
+      "originalName": "after.gif"
+    },
+    {
+      "name": "after-46.mp4",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-46.mp4",
+      "sha256": "5a041ae4c1e499e704278cb3299c26829924ecf7f65bd617f087f696e15ef999",
+      "bytes": 122878,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/after-46.mp4",
+      "originalName": "after.mp4"
+    },
+    {
+      "name": "before-47.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-47.png",
+      "sha256": "69082ef133fe632a1e546cb6235fb3adc6f831c664c31313f8ffc1ffb338e286",
+      "bytes": 87808,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-47.png",
+      "originalName": "before-assistant.png"
+    },
+    {
+      "name": "before-48.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-48.png",
+      "sha256": "72142e52828ac4d96773084bcbf6792e4bf41f2411294e47a1e536bcfee12d8f",
+      "bytes": 74401,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-48.png",
+      "originalName": "before-calendar.png"
+    },
+    {
+      "name": "before-49.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-49.png",
+      "sha256": "5a62fb1a2babad32ce17c40fddca3d592021f7eff3d7a854eea2de173bd43452",
+      "bytes": 72114,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-49.png",
+      "originalName": "before-cancel-returned.png"
+    },
+    {
+      "name": "before-50.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-50.png",
+      "sha256": "cf29b730aa061370d029a1afa6b01ef753bacbc322dfc1d7d61027171bc4c9e8",
+      "bytes": 153207,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-50.png",
+      "originalName": "before-description-reload.png"
+    },
+    {
+      "name": "before-51.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-51.png",
+      "sha256": "6b90e23d4fdb8e9dabf601cab19ed2a2169da31923826b800945b7cba1a037d0",
+      "bytes": 149861,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-51.png",
+      "originalName": "before-description.png"
+    },
+    {
+      "name": "before-52.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-52.png",
+      "sha256": "3bbf9791b9b51e1c3e6aa092d49efbc0c41b3462ac7a96d01dbb71e62714442f",
+      "bytes": 72101,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-52.png",
+      "originalName": "before-escape-returned.png"
+    },
+    {
+      "name": "before-53.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-53.png",
+      "sha256": "3966ee10fe748203f40be2620009202a0bf12ed415d8e08e629d60839fda1150",
+      "bytes": 99884,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-53.png",
+      "originalName": "before-grid.png"
+    },
+    {
+      "name": "before-54.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-54.png",
+      "sha256": "71e844ed65afde9561a2aaae718c8e1f580678a166f1d7e98bec6944d0d7295a",
+      "bytes": 99568,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-54.png",
+      "originalName": "before-kanban.png"
+    },
+    {
+      "name": "before-55.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-55.png",
+      "sha256": "b38145c500c749b6e99881aa2c27a0f38fe4bef64e74fe8e56f4ebb597918aba",
+      "bytes": 162341,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-55.png",
+      "originalName": "before-locale-de-profile.png"
+    },
+    {
+      "name": "before-56.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-56.png",
+      "sha256": "7111d5f4c820b2644cd36114d2ff6e28188ecf77a4b16f2405d04f81830dd66c",
+      "bytes": 118202,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-56.png",
+      "originalName": "before-locale-de-workspace.png"
+    },
+    {
+      "name": "before-57.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-57.png",
+      "sha256": "3787a1520287851ca346b807900ebab734225bce4ad44819037f47707bfb66b4",
+      "bytes": 159520,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-57.png",
+      "originalName": "before-locale-en-profile.png"
+    },
+    {
+      "name": "before-58.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-58.png",
+      "sha256": "f2b107652cf18ac783413e80d30168128394afd7cf472263d965f6393330fea8",
+      "bytes": 97502,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-58.png",
+      "originalName": "before-locale-en-workspace.png"
+    },
+    {
+      "name": "before-59.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-59.png",
+      "sha256": "28dfd3abe446077334c9235efce0d4d9bf8ac3e0ee1bbb7ef05592136a32e52d",
+      "bytes": 160511,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-59.png",
+      "originalName": "before-locale-es-profile.png"
+    },
+    {
+      "name": "before-60.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-60.png",
+      "sha256": "d332288c2d0dc9af253d00a9847819e4a22342a8a85f3924da9d5a918943bdb2",
+      "bytes": 97431,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-60.png",
+      "originalName": "before-locale-es-workspace.png"
+    },
+    {
+      "name": "before-61.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-61.png",
+      "sha256": "00e6be867c77f9d2a91cc36bfadbe2a6adaa35e0815b4aef128178a2cca199d3",
+      "bytes": 159550,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-61.png",
+      "originalName": "before-locale-motion-english.png"
+    },
+    {
+      "name": "before-62.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-62.png",
+      "sha256": "1f7730e73055fff78afd7b85c49724024f5bae077c552d37b880be8d7c742fe6",
+      "bytes": 162291,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-62.png",
+      "originalName": "before-locale-motion-german.png"
+    },
+    {
+      "name": "before-63.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-63.png",
+      "sha256": "627ce6877763da44d6a867c1caabcc324229688ddd06ba38bf901521aa968a8c",
+      "bytes": 159560,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-63.png",
+      "originalName": "before-locale-motion-profile.png"
+    },
+    {
+      "name": "before-64.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-64.png",
+      "sha256": "43b2fbc6f75612afd31bb77dc531a8d6cfcd14538172beadc06927ed1f34beaa",
+      "bytes": 162334,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-64.png",
+      "originalName": "before-locale-motion-return-profile.png"
+    },
+    {
+      "name": "before-65.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-65.png",
+      "sha256": "c54a709c99e9c466926919ef393ac5480abf1b2b423ad2e6b641ac821bd0f94a",
+      "bytes": 100522,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-65.png",
+      "originalName": "before-locale-motion-workspace.png"
+    },
+    {
+      "name": "before-66.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-66.png",
+      "sha256": "b60a2ed10706b8d79b91b8e4fdfa99025cc3d47ef2d5d1b0e7489b72b9803c32",
+      "bytes": 155610,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-66.png",
+      "originalName": "before-locale-pt-profile.png"
+    },
+    {
+      "name": "before-67.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-67.png",
+      "sha256": "d51d3b9b1b3b291851c3cad542b013540cf6e8a7446330add682c909dae18976",
+      "bytes": 102468,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-67.png",
+      "originalName": "before-locale-pt-workspace.png"
+    },
+    {
+      "name": "before-68.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-68.png",
+      "sha256": "3cb685ecdc32de8e1d570bcffb74db2092ff57266e6c203699e60c9a3c354e73",
+      "bytes": 99728,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-68.png",
+      "originalName": "before-locale-restored.png"
+    },
+    {
+      "name": "before-69.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-69.png",
+      "sha256": "f8842994e86b2eb74a22b2b4505c8eb3c681d75eb06c2d0103257a45d3ad65bc",
+      "bytes": 112836,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-69.png",
+      "originalName": "before-phone-assistant.png"
+    },
+    {
+      "name": "before-70.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-70.png",
+      "sha256": "d0f4bef8c00ce1804a542d95dd1da5a2c80d45afdd1ea826514273eac9cd099a",
+      "bytes": 126742,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-70.png",
+      "originalName": "before-phone-description.png"
+    },
+    {
+      "name": "before-71.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-71.png",
+      "sha256": "d0f4bef8c00ce1804a542d95dd1da5a2c80d45afdd1ea826514273eac9cd099a",
+      "bytes": 126742,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-71.png",
+      "originalName": "before-phone-edit.png"
+    },
+    {
+      "name": "before-72.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-72.png",
+      "sha256": "a01cbab4eb8c10fdd9c380507ec4ad20a2a3aeaf87c1713aa7daea3c70092fc8",
+      "bytes": 127896,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-72.png",
+      "originalName": "before-phone-name-reachable.png"
+    },
+    {
+      "name": "before-73.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-73.png",
+      "sha256": "7e82c0a9f2891ac8e94627afaf1fb831f84c4362b38f1cf32c8956e7b94a33c3",
+      "bytes": 129713,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-73.png",
+      "originalName": "before-phone-reload.png"
+    },
+    {
+      "name": "before-74.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-74.png",
+      "sha256": "d49b9a272774d2f5ccd7871bb8104fb68f29bcd5572373e984ff7f782edd6e60",
+      "bytes": 159965,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-74.png",
+      "originalName": "before-phone-settled.png"
+    },
+    {
+      "name": "before-75.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-75.png",
+      "sha256": "d0966a6b5c0bb4faa99424d6393be86897ede6702e8a464d9b700fbae97f0465",
+      "bytes": 156536,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-75.png",
+      "originalName": "before-phone-workspace.png"
+    },
+    {
+      "name": "before-76.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-76.png",
+      "sha256": "c6529e4367b46d5d8ed54cb8db7928402b6bcce166be38548f324f049ef8f7ad",
+      "bytes": 152310,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-76.png",
+      "originalName": "before-reload.png"
+    },
+    {
+      "name": "before-77.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-77.png",
+      "sha256": "f5ea12b0f770c63b4bb86aaef66c751a8a8398afd12201630d21704d65ac68fc",
+      "bytes": 73107,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-77.png",
+      "originalName": "before-save-closed.png"
+    },
+    {
+      "name": "before-78.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-78.png",
+      "sha256": "561c9884178eea5c0f8291ef7e254cd7737a5bdb534a382004dafa531d6461eb",
+      "bytes": 151409,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-78.png",
+      "originalName": "before-save-edit.png"
+    },
+    {
+      "name": "before-79.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-79.png",
+      "sha256": "a4eecc634cf9414b400f38bacf154cf7396c7f2e40fc747e9938304c35234060",
+      "bytes": 135671,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-79.png",
+      "originalName": "before-save-preview.png"
+    },
+    {
+      "name": "before-80.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-80.png",
+      "sha256": "24b8b2a785780dfa623b0852ea727f206c59a3956aeae393556db6ca568beb51",
+      "bytes": 73079,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-80.png",
+      "originalName": "before-save-returned.png"
+    },
+    {
+      "name": "before-81.png",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-81.png",
+      "sha256": "f8b2e117be6ff1e45a333f4431367582b3b435b77940e8b9e243837318f5fb5d",
+      "bytes": 97993,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-81.png",
+      "originalName": "before-settings.png"
+    },
+    {
+      "name": "before-82.gif",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-82.gif",
+      "sha256": "5eb74d6d9e9d39459e22436ca840c8399555212e3a0790aa8724254624f0929a",
+      "bytes": 443856,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-82.gif",
+      "originalName": "before.gif"
+    },
+    {
+      "name": "before-83.mp4",
+      "path": "whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-83.mp4",
+      "sha256": "92dad36611e5493de9fb7f06c76f9024ae02965c8f56fdb8d5899b645f7a18bb",
+      "bytes": 156963,
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/56d872407da4f8e6c9bc1382a818dbb9eebe87bc/whagons5-client/1408/bfdac2989a58b26f8b88cfd7181421cf7611cc9c-20261020104030Z/before-83.mp4",
+      "originalName": "before.mp4"
+    }
+  ],
+  "qaNotes": "## Final browser evidence and comparison limits (2026-10-20)\n\nComplete real-app walkthroughs passed on staging 06f7035, layer1 bfdac29 (r69), layer2 3bb607f (r80), and layer3 8287dc0 (r89). Capture paths/timestamps remain original. Priority Escape was pre-existing on staging and fixed separately in #1453, integrated into this stack. Spot search -> Escape remains pre-existing on staging and is tracked in #1454: the walkthrough records that failed Escape behavior, then closes with a normal pointer click and verifies popup closure/focus. No claim that Spot Escape passed.\n\nLayer2 fixes the genuinely missing first-use phone assistant entry. Its regression E2E fails on the old layer2 build specifically because the mobile launcher is absent, then passes on the current layer2 head. Exactly one header entry is visible per viewport; the desktop tour anchor remains present after runtime loading. The desktop-only optional tour target is absent on phone.\n\nCold pointer-open comparisons on parent/layer3 both recorded focus outside the list (BODY), with 71 versus 16 mounted rows. The cold pointer check therefore verifies pointer selection/closure rather than assuming keyboard autofocus; keyboard-open End/Enter remains asserted separately. A later pointer reopen after keyboard Escape did return focus on the parent and failed on layer3. Layer3 now hands focus to the arriving collection after overlay restoration; the complete r89 walkthrough passes that later assertion. Its long priority viewport mounted 15 of 71 logical options (72 native form options including the empty form option), height288, without mounting the full row collection. The r85 control was only a parent comparison, not a complete four-head capture or render. Its earlier wrapper PASS text was incorrect.\n\nThe r90 six-arm toolbar comparison is NOT six passing tests. All six specs failed. Phone-first staging/parent/candidate runs fail in the shared openTaskById helper, which expects the desktop-only workspace-tab-grid marker. Desktop-resize runs lose or fail to reach the sheet/description surface; parent reproduces the missing-editor assertion. The r89 failure screenshot shows the whole sheet closed, not a visible loading editor. These failures do not isolate a candidate lazy-editor regression and remain an unresolved regression-spec/harness limitation. No timeout or assertion was weakened. Separately, each full walkthrough opens the actual phone description editor and verifies Name remains clickable; desktop description text save/reload/restoration passed. This is functional evidence, not a passing claim for 04-description-phone-toolbar.spec.ts. No product fix is attributed to the comparison.\n\nCI scope: the current staging contents API returns404 for tests/e2e/tasks/04-description-phone-toolbar.spec.ts; this performance-stack-authored spec is not present there. The staging-e2e.yml workflow is opt-in via run-e2e/manual dispatch, not automatic on each staging PR. Its ui-parallel project would collect this task spec if present. Recent staging branch workflow runs failed overall, but no failure of this absent spec can be attributed to them. Thus the six failures are proven only for our private-stack comparison harness against baseline/parent/candidate apps, not a demonstrated staging CI regression.\n",
+  "priorityViewport": null,
+  "capturePaths": {
+    "before": "/mnt/data/work/wh-memory-diet/runs/route-a-private-r69-attempt1-0",
+    "after": "/mnt/data/work/wh-memory-diet/runs/route-a-private-r69-attempt1-1"
+  },
+  "publishedAt": "2026-10-20T16:48:28.375276+00:00"
+}
