@@ -1,0 +1,8 @@
+{
+  "applicationHead": "9483141253ca5ea413adfe3f06586c5a2006cae6",
+  "ready": true,
+  "path": "/auth/signin",
+  "elapsedMs": 1893,
+  "readinessBudgetMs": 60000,
+  "loginPerformed": false
+}
