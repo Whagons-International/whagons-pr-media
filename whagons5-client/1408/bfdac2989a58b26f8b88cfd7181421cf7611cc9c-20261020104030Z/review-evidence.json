@@ -1,7 +1,7 @@
 {
   "headSha": "bfdac2989a58b26f8b88cfd7181421cf7611cc9c",
   "baseSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
-  "targetBaseSha": "bfdac2989a58b26f8b88cfd7181421cf7611cc9c",
+  "targetBaseSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
   "capturedAt": "2026-10-20T10:40:30.831Z",
   "beforeCapturedAt": "2026-10-20T10:36:34.040Z",
   "runtime": "Owner-private CI loopback stack; test@test.com; Chrome desktop1886x1041 / phone390x844; admitted6G/7G; no shared data",
@@ -1319,5 +1319,7 @@
     "before": "/mnt/data/work/wh-memory-diet/runs/route-a-private-r69-attempt1-0",
     "after": "/mnt/data/work/wh-memory-diet/runs/route-a-private-r69-attempt1-1"
   },
-  "publishedAt": "2026-10-20T16:48:28.375276+00:00"
+  "publishedAt": "2026-10-20T16:48:28.375276+00:00",
+  "targetBaseRef": "staging",
+  "attributionCorrection": "Target base is staging; baseSha is the actual visual predecessor comparison. No captures relabeled."
 }
