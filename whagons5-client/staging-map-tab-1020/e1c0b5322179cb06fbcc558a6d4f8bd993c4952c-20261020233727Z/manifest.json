@@ -1,0 +1,208 @@
+{
+  "head": "e1c0b5322179cb06fbcc558a6d4f8bd993c4952c",
+  "base": "97922ca24688297d27f1b433a09bc68ee679e638",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-20T23:37:27.838805+00:00",
+  "inspectedAt": "2026-10-20T23:49:14.357558+00:00",
+  "environment": "Existing testign/test@test.com; exact committed candidate testign.localhost:5187 with native staging backend",
+  "viewports": {
+    "desktop": "1440x1000",
+    "phone": "390x844"
+  },
+  "checks": [
+    "candidate-before-map-desktop verified after reload",
+    "candidate-before-map-phone verified after reload",
+    "desktop hide checkbox persisted after document reload",
+    "candidate-after-map-desktop verified after reload",
+    "candidate-after-map-phone verified after reload",
+    "candidate-other-space-desktop verified after reload",
+    "second existing space unchanged",
+    "candidate-reenabled-map-desktop verified after reload",
+    "candidate-reenabled-map-phone verified after reload",
+    "candidate-other-space-phone verified after reload",
+    "second existing space phone navigation unchanged"
+  ],
+  "restoredOriginalMapPreference": true,
+  "browserErrors": [],
+  "failedRequests": [],
+  "videoEditing": {
+    "source": "/home/gabriel/.config/coach/staging-map-tab-1020/evidence-v12/raw-video/page@48a0a756b8d9787755daba5262a28341.webm",
+    "cuts": [
+      {
+        "start": 90.0,
+        "end": 92.5,
+        "phoneCrop": false,
+        "caption": "Hide Map using the Display checkbox"
+      },
+      {
+        "start": 99.0,
+        "end": 101.5,
+        "phoneCrop": false,
+        "caption": "After reload - Map remains unchecked"
+      },
+      {
+        "start": 111.4,
+        "end": 113.9,
+        "phoneCrop": false,
+        "caption": "Desktop after reload - Map is absent"
+      },
+      {
+        "start": 121.05,
+        "end": 121.65,
+        "phoneCrop": true,
+        "caption": "Phone after reload - Map is absent"
+      },
+      {
+        "start": 126.0,
+        "end": 128.5,
+        "phoneCrop": false,
+        "caption": "Second space - Map preference stays enabled"
+      },
+      {
+        "start": 139.0,
+        "end": 141.0,
+        "phoneCrop": false,
+        "caption": "Second space - desktop Map stays visible"
+      },
+      {
+        "start": 151.2,
+        "end": 153.2,
+        "phoneCrop": false,
+        "caption": "Re-enable Map using the same checkbox"
+      },
+      {
+        "start": 159.0,
+        "end": 161.5,
+        "phoneCrop": false,
+        "caption": "After reload - Map remains enabled"
+      },
+      {
+        "start": 172.0,
+        "end": 174.2,
+        "phoneCrop": false,
+        "caption": "Desktop after reload - Map returns"
+      },
+      {
+        "start": 181.1,
+        "end": 181.6,
+        "phoneCrop": true,
+        "caption": "Phone after reload - Map returns"
+      },
+      {
+        "start": 193.9,
+        "end": 194.5,
+        "phoneCrop": true,
+        "caption": "Second space - phone Map stays visible"
+      }
+    ],
+    "segmentDurationSeconds": 2.5,
+    "disclosure": "Captioned edits; reload/loading omitted; short phone shots slowed for readability"
+  },
+  "walkthroughDurationSeconds": 27.583333,
+  "inspectionSource": "Seven PNG inspections retained from screenshot-inspection-v18.json, unchanged SHA256; MP4 representative/contact/all-seconds/full-size phone frames inspected after v20 finalization. GIF generated from the same captioned MP4.",
+  "captures": [
+    {
+      "capturedAt": "2026-10-20T23:09:46.503378+00:00",
+      "sha256": "cca80893a7807e020e6b436c79ca05234186362c7d6a9241c04896d8b02ae5fe",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Settled existing QA space UI; correct Map state; no credentials, session data, customer data or private logs visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-after-map-settings-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-20T23:09:57.160233+00:00",
+      "sha256": "86d119554e503b0cd2a7c54bac58e8d502cf13f62e40d8cc5c8cb02d0ceb84a2",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Settled existing QA space UI; correct Map state; no credentials, session data, customer data or private logs visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-after-map-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-20T23:10:04.007890+00:00",
+      "sha256": "42172613ff84793f2ad28d5d90aaca02f50ad8532180dbd6e72a50783e90269c",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Settled existing QA space UI; correct Map state; no credentials, session data, customer data or private logs visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-after-map-phone.png"
+    },
+    {
+      "capturedAt": "2026-10-20T23:10:13.577297+00:00",
+      "sha256": "6e1839b87ad86bb3e373f4da8af684048baa1e4746315c76fedded94436b8f84",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Settled existing QA space UI; correct Map state; no credentials, session data, customer data or private logs visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-isolation-settings-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-20T23:10:56.531826+00:00",
+      "sha256": "6d0d3fb9daece54210658a6d15ebdac67a1c6faa52140a52f33508b70affdaf2",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Settled existing QA space UI; correct Map state; no credentials, session data, customer data or private logs visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-reenabled-map-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-20T23:11:03.443169+00:00",
+      "sha256": "ac30b5db6741f48e0d9703581eee11ef24bf5fdb416bc6930e56dd747b5833cf",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Settled existing QA space UI; correct Map state; no credentials, session data, customer data or private logs visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-reenabled-map-phone.png"
+    },
+    {
+      "capturedAt": "2026-10-20T23:11:16.780272+00:00",
+      "sha256": "e11126913c539460ccaa83b470dc0223e77d30e36ac6c12f53513142364a9d06",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Settled existing QA space UI; correct Map state; no credentials, session data, customer data or private logs visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-other-space-phone.png"
+    },
+    {
+      "capturedAt": "2026-10-20T23:37:26.628591+00:00",
+      "sha256": "8a81b382823ba5f03726d2ce28ae0e770ef53c91ec29a54bf289506e72d70f49",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Personally inspected contact sheet, every-second sheet and all three full-size phone frames from the captioned recording. Eleven settled UI excerpts show hiding, retained unchecked state, desktop/phone absence, second-space isolation, re-enable and restored desktop/phone Map. Source times and omitted loading intervals disclosed; short phone shots slowed. Only existing QA data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-after-walkthrough.mp4"
+    },
+    {
+      "capturedAt": "2026-10-20T23:37:26.629686+00:00",
+      "sha256": "d33328334e583af305a01b1bda0ee967b8a91768c32448b74c954ec1749261ae",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Personally inspected contact sheet, every-second sheet and all three full-size phone frames from the captioned recording. Eleven settled UI excerpts show hiding, retained unchecked state, desktop/phone absence, second-space isolation, re-enable and restored desktop/phone Map. Source times and omitted loading intervals disclosed; short phone shots slowed. Only existing QA data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020233727Z/candidate-after-walkthrough.gif"
+    }
+  ],
+  "beforeBaseline": [
+    {
+      "sha256": "17e238f88d4f82c78e127435024ae98beaf8f519f49139866f8e6c409ad930bb",
+      "capturedAt": "2026-10-20T21:57:42.725251+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Hosted baseline checkbox rechecked after hide and reload, 5/5 active. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-desktop.png",
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/2463867c17a56458f20fdcc4699bc7e8a7808e17/whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-desktop.png"
+    },
+    {
+      "sha256": "ac30b5db6741f48e0d9703581eee11ef24bf5fdb416bc6930e56dd747b5833cf",
+      "capturedAt": "2026-10-20T21:57:51.581858+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Hosted baseline phone still shows Map after desktop hide and reload. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-phone.png",
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/2463867c17a56458f20fdcc4699bc7e8a7808e17/whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-phone.png"
+    }
+  ]
+}
