@@ -1,0 +1,89 @@
+{
+  "head": "e1c0b5322179cb06fbcc558a6d4f8bd993c4952c",
+  "base": "97922ca24688297d27f1b433a09bc68ee679e638",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-20T21:59:43.871600+00:00",
+  "inspectedAt": "2026-10-20T22:01:23.012986+00:00",
+  "environment": "Existing testign/test@test.com; hosted staging 97922ca baseline; exact committed local candidate with native staging backend",
+  "viewports": {
+    "desktop": "1440x1000",
+    "phone": "390x844"
+  },
+  "checks": [
+    "candidate-before-map-desktop verified after reload",
+    "candidate-before-map-phone verified after reload",
+    "desktop hide checkbox persisted after document reload",
+    "candidate-after-map-desktop verified after reload",
+    "candidate-after-map-phone verified after reload",
+    "second existing space unchanged",
+    "candidate-reenabled-map-desktop verified after reload",
+    "candidate-reenabled-map-phone verified after reload",
+    "candidate-other-space-phone verified after reload",
+    "second existing space phone navigation unchanged"
+  ],
+  "captures": [
+    {
+      "sha256": "17e238f88d4f82c78e127435024ae98beaf8f519f49139866f8e6c409ad930bb",
+      "capturedAt": "2026-10-20T21:57:42.725251+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Hosted baseline checkbox rechecked after hide and reload, 5/5 active. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-desktop.png"
+    },
+    {
+      "sha256": "ac30b5db6741f48e0d9703581eee11ef24bf5fdb416bc6930e56dd747b5833cf",
+      "capturedAt": "2026-10-20T21:57:51.581858+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Hosted baseline phone still shows Map after desktop hide and reload. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-phone.png"
+    },
+    {
+      "sha256": "2b8fde235cad7a61a359b13c5ba20798dc0cd8e6de3452687839a57212db3444",
+      "capturedAt": "2026-10-20T21:58:57.278033+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Candidate checkbox remains unchecked after reload, 4/5 active. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/candidate-after-map-settings-desktop.png"
+    },
+    {
+      "sha256": "09c2d4cdfe55dfea468f4bc506c27914f8ded6bc4873d76842410965865d8c5a",
+      "capturedAt": "2026-10-20T21:59:06.158911+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Candidate desktop navigation excludes Map after reload. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/candidate-after-map-desktop.png"
+    },
+    {
+      "sha256": "42172613ff84793f2ad28d5d90aaca02f50ad8532180dbd6e72a50783e90269c",
+      "capturedAt": "2026-10-20T21:59:15.463871+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Candidate phone navigation excludes Map after reload. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/candidate-after-map-phone.png"
+    },
+    {
+      "sha256": "b1c37ef80de149d9a98ee2f07b021dadccd22d39df9c96906614b4cdb1d83444",
+      "capturedAt": "2026-10-20T21:59:35.048193+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Candidate desktop shows Map checked and navigation icon restored after reload. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/candidate-reenabled-map-desktop.png"
+    },
+    {
+      "sha256": "b555a5600c2e0fe39073a41e7b9a3cad910279a666f675e43a9508e33d8549e5",
+      "capturedAt": "2026-10-20T21:59:43.871600+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Candidate phone shows Map restored after reload. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/candidate-reenabled-map-phone.png"
+    }
+  ]
+}
