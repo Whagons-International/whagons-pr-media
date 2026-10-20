@@ -1,0 +1,42 @@
+{
+  "headSha": "3e0ca4471a683909a22f63597bb75830f9a24b70",
+  "baseSha": "f235c5daad0de50f886b5ffbecd2c84ac8f7ccf9",
+  "capturedAt": "2026-10-20T00:02:39.054Z",
+  "runtime": "Isolated native Rust/V8 testing runtime http://127.0.0.1:62710; exact HEAD archive; Chromium desktop1280x720 and phone390x844. Baseline frontend f235c5daa, test-only fixture overlay. No hosted/customer creation.",
+  "isolated": true,
+  "productionCustomerWrites": false,
+  "browserTested": false,
+  "phoneOutcome": "BLOCKED before template selection on base and candidate: task-dialog-sheet intercepts normal touch; no phone create pass",
+  "allHeadCasesPassed": true,
+  "cases": [
+    {
+      "file": "tests/e2e/tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 87,
+      "title": "saves through its evaluation task class without a membership workspace and survives reload",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "file": "tests/e2e/tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 143,
+      "title": "excludes a canonical private evaluation template under a permitted reporting category",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "file": "tests/e2e/tasks/05-report-only-evaluation-create.spec.ts",
+      "line": 156,
+      "title": "excludes an unauthorized destination and rejects a forged create as the reporting user",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    }
+  ],
+  "sourceChecksPassed": true,
+  "phonePass": false
+}
