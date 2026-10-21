@@ -1,0 +1,189 @@
+{
+  "headSha": "4d75f5a306f77537a73788e4ee099d14bcbc47e4",
+  "baseSha": "8fa4b9048daafa1d567a12cae8a5e8b4a17507a9",
+  "capturedAt": "2026-10-21T17:42:56.997Z",
+  "runtime": "Isolated native Rust/V8 at127.0.0.1:62710; Chromium desktop1280x720 at tenant localhost:62714/workspace/all. Freshly compiled registered module and645 backend/shared source files match candidate; current-staging baseline uses its own frontend against the identical backend plus gated disposable fixture setup. No hosted/customer creation.",
+  "createEditProvenance": "Edited walkthrough: 1.5s hold of the actual before-submit screenshot for readability, then the actual create/close segment from the passing current-head E2E, then a separate normal reopening of that SAME committed task for the saved preview. Setup/loading trimmed; no product frame fabricated and no continuous-recording claim. Reload uses its actual saved-before-reload still for1.5s and then the continuous actual close/reload/grid-reopen sequence, including loading.",
+  "isolated": true,
+  "productionCustomerWrites": false,
+  "browserTested": false,
+  "phoneGap": "Phone coverage remains as documented under separate picker work #1447. No current-head phone create pass.",
+  "hostedParityGap": "needs non-admin testign identity",
+  "sourceChecks": {
+    "at": "2026-10-21T17:20:29.793245+00:00",
+    "oldRemote": "01dc5799e703b349fb7f3392bafadd9bc1f6d2b4",
+    "verifiedRemoteHead": "4d75f5a306f77537a73788e4ee099d14bcbc47e4",
+    "head": "4d75f5a306f77537a73788e4ee099d14bcbc47e4",
+    "sourceChecksPassed": true,
+    "pushCount": 1,
+    "base": "8fa4b9048daafa1d567a12cae8a5e8b4a17507a9",
+    "ciState": "Await T3 notification, not polled",
+    "browserEvidence": "Refresh pending after CI; previous-head media not certified for new head"
+  },
+  "before": {
+    "at": "2026-10-21T17:39:34.904855+00:00",
+    "phase": "before",
+    "head": "8fa4b9048daafa1d567a12cae8a5e8b4a17507a9",
+    "exitCode": 1,
+    "suiteErrors": [],
+    "cases": [
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 113,
+        "title": "saves through its evaluation task class without a membership workspace and survives reload",
+        "status": "unexpected",
+        "results": [
+          "failed"
+        ],
+        "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('task-dialog-submit')\nExpected: enabled\nReceived: disabled\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('task-dialog-submit')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to <button disabled data-rac=\"\" type=\"button\" data-slot=\"button\" data-size=\"default\" data-disabled=\"true\" data-variant=\"default\" data-testid=\"task-dialog-submit\" data-react-aria-pressable=\"true\" id=\"react-aria4046746338-_r_55_\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding text-sm whitespace-nowrap outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px dis\u2026>Create Task</button>\u001b[22m\n\u001b[2m       - unexpected value \"disabled\"\u001b[22m\n"
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 181,
+        "title": "excludes a canonical private evaluation template under a permitted reporting category",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 194,
+        "title": "excludes an unauthorized destination and rejects a forged create as the reporting user",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      }
+    ],
+    "isolatedNativeRuntime": true,
+    "customerCreation": false,
+    "validated": true,
+    "failureReviewRequired": true
+  },
+  "after": {
+    "at": "2026-10-21T17:42:14.606489+00:00",
+    "phase": "after",
+    "head": "4d75f5a306f77537a73788e4ee099d14bcbc47e4",
+    "exitCode": 0,
+    "suiteErrors": [],
+    "cases": [
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 113,
+        "title": "saves through its evaluation task class without a membership workspace and survives reload",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 181,
+        "title": "excludes a canonical private evaluation template under a permitted reporting category",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 194,
+        "title": "excludes an unauthorized destination and rejects a forged create as the reporting user",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      }
+    ],
+    "isolatedNativeRuntime": true,
+    "customerCreation": false,
+    "validated": true,
+    "failureReviewRequired": false
+  },
+  "nativeRuntime": {
+    "at": "2026-10-21T17:35:40.776321+00:00",
+    "head": "4d75f5a306f77537a73788e4ee099d14bcbc47e4",
+    "runtimeModuleHash": "846a1b7516d50814f95e4d92d8a021a3f6da608b42cee8f52c6fae3bb5912b34",
+    "registeredManifestMatched": true,
+    "sourceFilesCompared": 645,
+    "freshCandidateSync": true,
+    "sourceArchive": "/mnt/data/work/pr1188-rebase-1017/build/fit-flags-1021/conflict-refresh-r3/runtime-bundle-source",
+    "runtime": "http://127.0.0.1:62710",
+    "project": "b71cc9cc-d904-4fb1-add9-381cc9d0c38b",
+    "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/heavy.slice/heavy-workloads.slice/pr1188-fit-1021.service"
+  },
+  "preview": {
+    "walkthroughKind": "preview of task created by passing current-head E2E",
+    "createPerformedHere": false,
+    "extraCreateRecorderAttempted": false,
+    "head": "4d75f5a306f77537a73788e4ee099d14bcbc47e4",
+    "phase": "after",
+    "runtime": "http://127.0.0.1:62710",
+    "preview": "http://632b1bb9-21ca-60ee-867f-92c74f268cd4.localhost:62714",
+    "platform": "Chromium desktop web1280x720, existing isolated reporting actor",
+    "pass": true,
+    "capturedAt": "2026-10-21T17:42:17.284Z",
+    "destinationLabel": "Reported to another workspace",
+    "labelVerifiedBeforeAndAfterReload": true,
+    "longNamesConstrainedBeforeAndAfterReload": true,
+    "accessibleFullNamesRetained": true,
+    "savedTask": {
+      "id": 12,
+      "_id": "2e16c8f5-e5df-4947-a687-841eb6a510b1",
+      "workspaceId": "e2e_1jjcgt2_workspaces_zq7xE2E-tasks-05-report-only-evaluation-create-spec-saves-through-its-evaluation-task-class-without--w0-r0-1792604416491-evaluation_Evaluation_destination_zq",
+      "createdBy": "member_a9d5d5da86514726a8aedbfee37e3f8b",
+      "reportedByUserId": "member_a9d5d5da86514726a8aedbfee37e3f8b"
+    },
+    "finalUrl": "http://632b1bb9-21ca-60ee-867f-92c74f268cd4.localhost:62714/workspace/all?search=zq7xE2E+Evaluaci%C3%B3n+Chofer+15ok27j",
+    "completedAt": "2026-10-21T17:42:56.997Z",
+    "timeline": [
+      {
+        "step": "login",
+        "seconds": 0
+      },
+      {
+        "step": "open Everything",
+        "seconds": 6.801
+      },
+      {
+        "step": "open E2E-created task",
+        "seconds": 7.809
+      },
+      {
+        "step": "capture saved destination before reload",
+        "seconds": 18.083
+      },
+      {
+        "step": "reload saved task",
+        "seconds": 21.222
+      },
+      {
+        "step": "open saved task from desktop grid",
+        "seconds": 29.123
+      },
+      {
+        "step": "capture saved destination after reload",
+        "seconds": 36.584
+      }
+    ],
+    "video": "/mnt/data/work/pr1188-rebase-1017/build/fit-flags-1021/conflict-refresh-r3/desktop-walkthrough-results/page@9f5faf121f324128949c3f300db1d4e5.webm"
+  },
+  "automatedAIVisualReviewRequested": false,
+  "ci": {
+    "at": "2026-10-21T17:31:42.427583+00:00",
+    "head": "4d75f5a306f77537a73788e4ee099d14bcbc47e4",
+    "base": "8fa4b9048daafa1d567a12cae8a5e8b4a17507a9",
+    "check": "SUCCESS",
+    "checkUrl": "https://github.com/Whagons-International/whagons5-client/actions/runs/39642942118/job/119375326469",
+    "backendModules": "SUCCESS",
+    "backendUrl": "https://github.com/Whagons-International/whagons5-client/actions/runs/39642942118/job/119374387996",
+    "mergeable": "MERGEABLE",
+    "rerunClearedTimeout": true
+  }
+}
