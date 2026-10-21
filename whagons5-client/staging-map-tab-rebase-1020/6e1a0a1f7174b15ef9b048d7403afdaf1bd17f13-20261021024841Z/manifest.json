@@ -1,0 +1,173 @@
+{
+  "head": "6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13",
+  "base": "d0e9ca508cd9295a2ed01bad51afeab9f8a7f0c7",
+  "capturedAt": "2026-10-21T02:48:41.001913+00:00",
+  "inspectedAt": "2026-10-21T03:00:53.589655+00:00",
+  "browserResult": "PASS",
+  "restoredOriginalMapPreference": true,
+  "browserErrors": [],
+  "failedRequests": [],
+  "videoInspected": true,
+  "videoEditing": {
+    "source": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/raw-video/page@cb12f7399bfe2253df1c7097f021128b.webm",
+    "cuts": [
+      {
+        "start": 69.85051574707032,
+        "end": 70.35051574707032,
+        "phoneCrop": false,
+        "caption": "After reload - Map stays unchecked",
+        "screenshot": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/candidate-after-map-settings-desktop.png"
+      },
+      {
+        "start": 77.29258456230164,
+        "end": 77.79258456230164,
+        "phoneCrop": false,
+        "caption": "Desktop after reload - Map is absent",
+        "screenshot": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/candidate-after-map-desktop.png"
+      },
+      {
+        "start": 83.7,
+        "end": 83.85,
+        "phoneCrop": true,
+        "caption": "Phone after reload - Map is absent",
+        "screenshot": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/candidate-after-map-phone.png"
+      },
+      {
+        "start": 89.6386555671692,
+        "end": 90.1386555671692,
+        "phoneCrop": false,
+        "caption": "Second space - original Map choice stays unchanged",
+        "screenshot": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/candidate-isolation-settings-desktop.png"
+      },
+      {
+        "start": 121.45,
+        "end": 121.6,
+        "phoneCrop": false,
+        "caption": "Desktop after reload - Map returns",
+        "screenshot": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/candidate-reenabled-map-desktop.png"
+      },
+      {
+        "start": 127.94,
+        "end": 128.09,
+        "phoneCrop": true,
+        "caption": "Phone after reload - Map returns",
+        "screenshot": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/candidate-reenabled-map-phone.png"
+      },
+      {
+        "start": 138.62,
+        "end": 138.77,
+        "phoneCrop": true,
+        "caption": "Second space - phone choice stays unchanged",
+        "screenshot": "/home/gabriel/.config/coach/staging-map-tab-rebase-1020/evidence-v12/candidate-other-space-phone.png"
+      }
+    ],
+    "segmentDurationSeconds": 3.5,
+    "disclosure": "Seven captioned settled-state excerpts from the passing recording; source times shown; loading/setup omitted; excerpts slowed for readability"
+  },
+  "notes": "Seven PNG certifications carried from screenshot-inspection.json; r3 walkthrough personally accepted per video-inspection-r3.json. All nine local hashes match the render receipt; remote re-verification required before publication.",
+  "captures": [
+    {
+      "capturedAt": "2026-10-21T02:48:41.001913+00:00",
+      "sha256": "eefcd12928c9ce8a1f158cfa0d7ec594ff2b0a351b2b6139c7674672c82d0e45",
+      "videoElapsedSeconds": 70.45051574707031,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-after-map-settings-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-21T02:48:48.443965+00:00",
+      "sha256": "b939601a057275a07232600cbebe0c1c4875f205a6cd9bcfe5d4247efb6e6f6c",
+      "videoElapsedSeconds": 77.89258456230164,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-after-map-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-21T02:48:54.697418+00:00",
+      "sha256": "42172613ff84793f2ad28d5d90aaca02f50ad8532180dbd6e72a50783e90269c",
+      "videoElapsedSeconds": 84.14597988128662,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-after-map-phone.png"
+    },
+    {
+      "capturedAt": "2026-10-21T02:49:00.790036+00:00",
+      "sha256": "a2918bba7924d0082fea337ef4834e01a20aba3b6a106372f53f98818c8bbe6e",
+      "videoElapsedSeconds": 90.23865556716919,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-isolation-settings-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-21T02:49:32.575275+00:00",
+      "sha256": "e3a5a4733f7deabf11d6d217a01c4ab1d1ed7d025c0e0b2dee691c38ec4afb7c",
+      "videoElapsedSeconds": 122.02388262748718,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-reenabled-map-desktop.png"
+    },
+    {
+      "capturedAt": "2026-10-21T02:49:38.798143+00:00",
+      "sha256": "ac30b5db6741f48e0d9703581eee11ef24bf5fdb416bc6930e56dd747b5833cf",
+      "videoElapsedSeconds": 128.2467179298401,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-reenabled-map-phone.png"
+    },
+    {
+      "capturedAt": "2026-10-21T02:49:49.609695+00:00",
+      "sha256": "b89f7d876de900c1a638ed7fded556a34d40a556409ee4e4c0ba1843428d1872",
+      "videoElapsedSeconds": 139.0583140850067,
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-other-space-phone.png"
+    },
+    {
+      "capturedAt": "2026-10-21T02:49:49.609695+00:00",
+      "renderedAt": "2026-10-21T02:59:29.194198+00:00",
+      "sha256": "0f546ad7095a4faa7273b452d3559d51a8a553f7a4dd185b41f5ca023289d75a",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-after-walkthrough.mp4"
+    },
+    {
+      "capturedAt": "2026-10-21T02:49:49.609695+00:00",
+      "renderedAt": "2026-10-21T02:59:29.194595+00:00",
+      "sha256": "ebb21e7e28b8b11dbdbb84d3cd1867518a0f7733c501bc981a7a89e8521edd59",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-map-tab-rebase-1020/6e1a0a1f7174b15ef9b048d7403afdaf1bd17f13-20261021024841Z/candidate-after-walkthrough.gif"
+    }
+  ],
+  "beforeBaseline": [
+    {
+      "sha256": "17e238f88d4f82c78e127435024ae98beaf8f519f49139866f8e6c409ad930bb",
+      "capturedAt": "2026-10-20T21:57:42.725251+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Hosted baseline checkbox rechecked after hide and reload, 5/5 active. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-desktop.png",
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/2463867c17a56458f20fdcc4699bc7e8a7808e17/whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-desktop.png"
+    },
+    {
+      "sha256": "ac30b5db6741f48e0d9703581eee11ef24bf5fdb416bc6930e56dd747b5833cf",
+      "capturedAt": "2026-10-20T21:57:51.581858+00:00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "inspection": "Hosted baseline phone still shows Map after desktop hide and reload. Only existing QA test space UI; no session, tokens, private logs or customer data visible.",
+      "path": "whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-phone.png",
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/2463867c17a56458f20fdcc4699bc7e8a7808e17/whagons5-client/staging-map-tab-1020/e1c0b5322179cb06fbcc558a6d4f8bd993c4952c-20261020T215943Z/before-hide-undone-phone.png"
+    }
+  ]
+}
