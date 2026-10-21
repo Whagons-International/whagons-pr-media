@@ -1,0 +1,116 @@
+{
+  "head": "19ddba928f0a48ff31fa87194230433d6b857a8a",
+  "baseSha": "b6071bb28f0b0886357b07b17d87237ba3d38dbd",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-21T01:10:39Z",
+  "captures": [
+    {
+      "sha256": "5626e127e4462d0d0588d97571386d071d383ec5bd6cb0ee0326a64e3600440e",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-before-sidebar.png"
+    },
+    {
+      "sha256": "1940ff8b7619c6e1b3e309ab8b3f6a69496ab3fc44336ad17fffc705e9b138dd",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-before-forbidden.png"
+    },
+    {
+      "sha256": "9b0ce58331c14f6c01d70d8b5429b61b1794bee501c198d2aff3058ab98c9b30",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-sidebar.png"
+    },
+    {
+      "sha256": "d7318407b3f84e5d2b87380a1ea1b7ab007c3e4f741fa547b3c4d5a9d45326ce",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-cold-reload.png"
+    },
+    {
+      "sha256": "0ad4baddaf4d5d1d0eec86d8fbd7e82871bb571133837627cc0a9777d68407b4",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-forbidden.png"
+    },
+    {
+      "sha256": "c4e0b9b7f94c6fc7f8bd8336d36103527f01d53e75d83522933a2b807a88c05b",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-precedence.png"
+    },
+    {
+      "sha256": "3627ea945ded473b559199ff051c28492c13e386a232f377ab052180742407eb",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-orphan.png"
+    },
+    {
+      "sha256": "1ae4e0e629a094dac95182a3ebff8cbf0ab45e9ccbaa6d247c741717a59e2cf6",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-nonexistent.png"
+    },
+    {
+      "sha256": "58acf359816080c251e155ba5421a64796309bccc6d847195dceb19ecebfeb6f",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-before-walkthrough.gif"
+    },
+    {
+      "sha256": "06d3fd07de2800ebe2bf297b6ebd72c31ad22f08b432dea3d16a9267e8182e21",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-before-walkthrough.mp4"
+    },
+    {
+      "sha256": "7862e5dafb3f7cdca833cf6a68a648f6dd423a542c766215eb67c92616d81f88",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-walkthrough.gif"
+    },
+    {
+      "sha256": "e455a7a4d442409f33771708d9b1ef65618a553898e7cbd8e416aa6b5ed05ae2",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; GIF and MP4 inspected at 0, 2, 5, 8 seconds from each file. Synthetic testign fixture data only. Cold reload screenshot retains loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/19ddba928f0a48ff31fa87194230433d6b857a8a-20261021T011039Z/local-after-walkthrough.mp4"
+    }
+  ]
+}
