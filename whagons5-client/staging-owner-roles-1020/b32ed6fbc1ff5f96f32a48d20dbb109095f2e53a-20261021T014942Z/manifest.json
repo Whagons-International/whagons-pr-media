@@ -1,0 +1,35 @@
+{
+  "head": "b32ed6fbc1ff5f96f32a48d20dbb109095f2e53a",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-21T01:49:42.628200+00:00",
+  "base": "97922ca24688297d27f1b433a09bc68ee679e638",
+  "integrationBase": "b6071bb28f0b0886357b07b17d87237ba3d38dbd",
+  "baselineReused": true,
+  "inspection": "Human-readable screenshot inspection by Codex; private synthetic fixtures only; no credentials or customer data.",
+  "captures": [
+    {
+      "sha256": "994c9aeadae2b559d2f9a58d4cb953288fc41008aac33834e9c9e826323b9b64",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "testedRevision": "97922ca24688297d27f1b433a09bc68ee679e638",
+      "path": "whagons5-client/staging-owner-roles-1020/b32ed6fbc1ff5f96f32a48d20dbb109095f2e53a-20261021T014942Z/before-desktop.png"
+    },
+    {
+      "sha256": "f0736d49ecb0ea4367777ac91f889998bf15d79b9c338a7e5585363dba1f709f",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "testedRevision": "b32ed6fbc1ff5f96f32a48d20dbb109095f2e53a",
+      "path": "whagons5-client/staging-owner-roles-1020/b32ed6fbc1ff5f96f32a48d20dbb109095f2e53a-20261021T014942Z/after-desktop.png"
+    },
+    {
+      "sha256": "e4bd443b0f8df7c9a934a9e5408debb6781a95ca1a5c7236ca698535e07367db",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "testedRevision": "b32ed6fbc1ff5f96f32a48d20dbb109095f2e53a",
+      "path": "whagons5-client/staging-owner-roles-1020/b32ed6fbc1ff5f96f32a48d20dbb109095f2e53a-20261021T014942Z/after-admin-negative.png"
+    }
+  ]
+}
