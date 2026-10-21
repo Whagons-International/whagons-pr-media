@@ -1,0 +1,116 @@
+{
+  "head": "fea44344075f82e4efbd57431dcd6ed4caeae9c8",
+  "baseSha": "97922ca24688297d27f1b433a09bc68ee679e638",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-21T00:33:40.147816Z",
+  "captures": [
+    {
+      "sha256": "f5fb0eef6653ac6861c5d1de583095076afce18ba994c5c8742d6b52f1136425",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-before-sidebar.png"
+    },
+    {
+      "sha256": "e37c61dbef17979808005149a2ee92f80b9dcf1b64c6516a65a149a2c92991e4",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-before-forbidden.png"
+    },
+    {
+      "sha256": "caea0114080160f1ae0ee152777d9e97bc359b78a1534696f92171a47781d468",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-sidebar.png"
+    },
+    {
+      "sha256": "e9d91a1a155e71f9e1ac250e1648f40d50fbae66f3ed19580d19a1b786da10e2",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-cold-reload.png"
+    },
+    {
+      "sha256": "d92cb82afe899eec2735b9e47ff6c908c3eb34e0767d88c975f6a069e75199d0",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-forbidden.png"
+    },
+    {
+      "sha256": "1dd53c340e653da301be18cf8764d74dd39d86d35f704422b6e4e1b9c7037c00",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-precedence.png"
+    },
+    {
+      "sha256": "67d03c782cc95f83908af5757a8aa5413f71f44ac0f785bc25d6c2b56830ec04",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-orphan.png"
+    },
+    {
+      "sha256": "d9b8ac7538fdaa968f82571483abf28b3351f94f728e3340375b8bcf76b35184",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-nonexistent.png"
+    },
+    {
+      "sha256": "e6253a6ee0e14f565fcffa2cd57c8d1da980edd7d79bd9be6b5c9753b473cfb7",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-before-walkthrough.gif"
+    },
+    {
+      "sha256": "361a4d90a350b38df2e9a0a2e2631a2f697d8b121e07a336796f18e877595858",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-before-walkthrough.mp4"
+    },
+    {
+      "sha256": "d8a048b426b72c003c69d5aa7ce856d3b38b46135f2bc1792874e167bc83bd73",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-walkthrough.gif"
+    },
+    {
+      "sha256": "68aa156e3dc5e2bb9f8be8db5e3cf82b23437630edb582a91b121e3f92b552fe",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; video and GIF inspected using real 0, 2, 5, 8 second frame samples. Synthetic testign fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/fea44344075f82e4efbd57431dcd6ed4caeae9c8-20261021T003340Z/local-after-walkthrough.mp4"
+    }
+  ]
+}
