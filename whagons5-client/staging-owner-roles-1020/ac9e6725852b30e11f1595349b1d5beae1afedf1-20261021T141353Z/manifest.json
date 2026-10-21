@@ -1,0 +1,97 @@
+{
+  "head": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+  "baseSha": "97922ca24688297d27f1b433a09bc68ee679e638",
+  "capturedAt": "2026-10-21T14:13:53.546653+00:00",
+  "browserResult": "PASS",
+  "inspection": "Codex inspected all nine fresh screenshots, frames around all nine scenarios, samples across the final 45.166-second MP4, actual GIF frames and retained baseline using view_image. Synthetic testign fixtures only. Several post-save screenshots show Users list; role results are established by authoritative runtime assertions, with persisted owner editor and non-owner lock shown directly. No credentials or customer data. No external AI visual-review workflow invoked.",
+  "captures": [
+    {
+      "sha256": "97ffa2c0ad3f9024a978cf72c37adefe54acdefa52187cc38250ac3203bc2b3d",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-01.png"
+    },
+    {
+      "sha256": "1d2175fad2ea7e56bef01712a3852df143203c0a713832b66948ae9906f43eb2",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-02.png"
+    },
+    {
+      "sha256": "d8094c736ec19b134ab5d1a70bfb38bc387d488c19cc1443fd8fe97da633f5d2",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-03.png"
+    },
+    {
+      "sha256": "779aa9ec41470b4c05dd51ca4f21fd517ab3394610bf2b454e4d305c08d0627b",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-04.png"
+    },
+    {
+      "sha256": "8920a57ce8cf7897b3cc8691a952e785b19cda22afc2772bf4ce251d08947868",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-05.png"
+    },
+    {
+      "sha256": "1e76c7219ba33b0570983817f8ce993f2f08071434e16c604221f9f7c524067d",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-06.png"
+    },
+    {
+      "sha256": "0cea7ec1d3c2f6f09c6713390624a74df2729e55e1e7627a11616e15f183f5b3",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-07.png"
+    },
+    {
+      "sha256": "77d4681792b28295cdebd67d066ef342aaee755941e366b52f2d1928b6d07249",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-08.png"
+    },
+    {
+      "sha256": "ac6bd7c433f5807ba88cea2013bf83fdb7812a21e45ab96337e64e491b8346da",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-step-09.png"
+    },
+    {
+      "sha256": "e1245dcdcbc26242f9c61561d314f2291740c492c5fc9db4b3250b405a06faa8",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-preview.gif"
+    },
+    {
+      "sha256": "0f0015dbd94fa86d440bbd6146c01a7c611edd80b0d48bf923fef1440a279f7f",
+      "testedRevision": "ac9e6725852b30e11f1595349b1d5beae1afedf1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/ac9e6725852b30e11f1595349b1d5beae1afedf1-20261021T141353Z/after-walkthrough.mp4"
+    }
+  ]
+}
