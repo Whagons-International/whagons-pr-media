@@ -1,0 +1,182 @@
+{
+  "headSha": "cecb373f7fcc642c02ea1ae34ffd8e9f26f2065e",
+  "baseSha": "7d7a5ce9436172b15a0a5bb9dba0251da32d680d",
+  "capturedAt": "2026-10-21T15:01:50.220Z",
+  "runtime": "Isolated native Rust/V8 at127.0.0.1:62710; Chromium desktop1280x720 at tenant localhost:62714/workspace/all. Freshly compiled registered module and645 backend/shared source files match candidate; current-staging baseline uses its own frontend against the identical backend plus gated disposable fixture setup. No hosted/customer creation.",
+  "createEditProvenance": "Edited walkthrough: 1.5s hold of the actual before-submit screenshot for readability, then the actual create/close segment from the passing current-head E2E, then a separate normal reopening of that SAME committed task for the saved preview. Setup/loading trimmed; no product frame fabricated and no continuous-recording claim. Reload clip also holds its actual saved-before-reload screenshot for1.5s, then shows the real continuous reload/grid-reopen sequence including loading.",
+  "isolated": true,
+  "productionCustomerWrites": false,
+  "browserTested": false,
+  "phoneGap": "Separate picker PR #1447 remains open. No current-head phone create pass.",
+  "hostedParityGap": "needs non-admin testign identity",
+  "sourceChecks": {
+    "at": "2026-10-21T15:02:35.498923+00:00",
+    "oldRemote": "8cfa7edc7baa043656e988d6544e77dbde564d05",
+    "head": "cecb373f7fcc642c02ea1ae34ffd8e9f26f2065e",
+    "verifiedRemoteHead": "cecb373f7fcc642c02ea1ae34ffd8e9f26f2065e",
+    "sameBranch": "port/report-task-workspace-resolution",
+    "sourceChecksPassed": true,
+    "frontendTests": 62,
+    "backendTests": 13,
+    "runtimeCycleAdditions": 0,
+    "browserTested": false,
+    "isolatedDesktopCasesPassed": 3,
+    "phoneBlocker": "separately owned #1447 still open"
+  },
+  "before": {
+    "at": "2026-10-21T14:57:51.909293+00:00",
+    "phase": "before",
+    "head": "7d7a5ce9436172b15a0a5bb9dba0251da32d680d",
+    "exitCode": 1,
+    "suiteErrors": [],
+    "cases": [
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 113,
+        "title": "saves through its evaluation task class without a membership workspace and survives reload",
+        "status": "unexpected",
+        "results": [
+          "failed"
+        ],
+        "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('task-dialog-submit')\nExpected: enabled\nReceived: disabled\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('task-dialog-submit')\u001b[22m\n\u001b[2m    44 \u00d7 locator resolved to <button disabled data-rac=\"\" type=\"button\" data-slot=\"button\" data-size=\"default\" data-disabled=\"true\" data-variant=\"default\" data-testid=\"task-dialog-submit\" data-react-aria-pressable=\"true\" id=\"react-aria7996158037-_r_4j_\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding text-sm whitespace-nowrap outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px dis\u2026>Create Task</button>\u001b[22m\n\u001b[2m       - unexpected value \"disabled\"\u001b[22m\n"
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 181,
+        "title": "excludes a canonical private evaluation template under a permitted reporting category",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 194,
+        "title": "excludes an unauthorized destination and rejects a forged create as the reporting user",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      }
+    ],
+    "isolatedNativeRuntime": true,
+    "customerCreation": false,
+    "validated": true,
+    "failureReviewRequired": true
+  },
+  "after": {
+    "at": "2026-10-21T15:01:06.994515+00:00",
+    "phase": "after",
+    "head": "cecb373f7fcc642c02ea1ae34ffd8e9f26f2065e",
+    "exitCode": 0,
+    "suiteErrors": [],
+    "cases": [
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 113,
+        "title": "saves through its evaluation task class without a membership workspace and survives reload",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 181,
+        "title": "excludes a canonical private evaluation template under a permitted reporting category",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      },
+      {
+        "file": "tasks/05-report-only-evaluation-create.spec.ts",
+        "line": 194,
+        "title": "excludes an unauthorized destination and rejects a forged create as the reporting user",
+        "status": "expected",
+        "results": [
+          "passed"
+        ],
+        "error": ""
+      }
+    ],
+    "isolatedNativeRuntime": true,
+    "customerCreation": false,
+    "validated": true,
+    "failureReviewRequired": false
+  },
+  "nativeRuntime": {
+    "at": "2026-10-21T14:54:31.740165+00:00",
+    "head": "cecb373f7fcc642c02ea1ae34ffd8e9f26f2065e",
+    "runtimeModuleHash": "0c014331eb4cf053e9e22b57fa3f0396ee7cca70d1e5465e6c95cebfced41cdf",
+    "registeredManifestMatched": true,
+    "sourceFilesCompared": 645,
+    "freshCandidateSync": true,
+    "sourceArchive": "/mnt/data/work/pr1188-rebase-1017/build/merge-refresh-1021/runtime-bundle-source",
+    "runtime": "http://127.0.0.1:62710",
+    "project": "b71cc9cc-d904-4fb1-add9-381cc9d0c38b",
+    "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/heavy.slice/heavy-workloads.slice/pr1188-merge-refresh-1021.service"
+  },
+  "preview": {
+    "walkthroughKind": "preview of task created by passing current-head E2E",
+    "createPerformedHere": false,
+    "head": "cecb373f7fcc642c02ea1ae34ffd8e9f26f2065e",
+    "phase": "after",
+    "runtime": "http://127.0.0.1:62710",
+    "preview": "http://632b1bb9-21ca-60ee-867f-92c74f268cd4.localhost:62714",
+    "platform": "Chromium desktop web1280x720, existing isolated reporting actor",
+    "pass": true,
+    "capturedAt": "2026-10-21T15:01:09.269Z",
+    "destinationLabel": "Reported to another workspace",
+    "labelVerifiedBeforeAndAfterReload": true,
+    "longNamesConstrainedBeforeAndAfterReload": true,
+    "accessibleFullNamesRetained": true,
+    "savedTask": {
+      "id": 11,
+      "_id": "72f18ee7-2efa-4fbd-a529-9162201d50d5",
+      "workspaceId": "e2e_pojxy4_workspaces_zq7xE2E-tasks-05-report-only-evaluation-create-spec-saves-through-its-evaluation-task-class-without--w0-r0-1792594733872-evaluation_Evaluation_destination_zq7",
+      "createdBy": "member_9935a98abaa84786b6a9636d010bc70e",
+      "reportedByUserId": "member_9935a98abaa84786b6a9636d010bc70e"
+    },
+    "finalUrl": "http://632b1bb9-21ca-60ee-867f-92c74f268cd4.localhost:62714/workspace/all?search=zq7xE2E+Evaluaci%C3%B3n+Chofer+7dgj9a",
+    "completedAt": "2026-10-21T15:01:50.220Z",
+    "timeline": [
+      {
+        "step": "login",
+        "seconds": 0
+      },
+      {
+        "step": "open Everything",
+        "seconds": 7.807
+      },
+      {
+        "step": "open E2E-created task",
+        "seconds": 8.594
+      },
+      {
+        "step": "capture saved destination before reload",
+        "seconds": 20.2
+      },
+      {
+        "step": "reload saved task",
+        "seconds": 23.345
+      },
+      {
+        "step": "open saved task from desktop grid",
+        "seconds": 30.641
+      },
+      {
+        "step": "capture saved destination after reload",
+        "seconds": 37.835
+      }
+    ],
+    "video": "/mnt/data/work/pr1188-rebase-1017/build/merge-refresh-1021/desktop-walkthrough-results/page@20fcdcc63f300a07a92a985ef0486860.webm",
+    "extraCreateRecorder": "Not attempted on this head; prior separately recorded sheet interception belongs to #1447. This recording reopens the task from the passing current-head E2E.",
+    "receiptCorrection": "Removed inherited historical extra-create-blocked flag; no video, task, observed assertions or timestamps changed."
+  },
+  "automatedAIVisualReviewRequested": false
+}
