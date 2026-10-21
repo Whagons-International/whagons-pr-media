@@ -1,0 +1,29 @@
+{
+  "head": "a43041c6c3bfd96db310bcfbb3860b80d64830bd",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-21T01:22:28.409029+00:00",
+  "base": "97922ca24688297d27f1b433a09bc68ee679e638",
+  "captures": [
+    {
+      "sha256": "994c9aeadae2b559d2f9a58d4cb953288fc41008aac33834e9c9e826323b9b64",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/a43041c6c3bfd96db310bcfbb3860b80d64830bd-20261021T012228Z/before-desktop.png"
+    },
+    {
+      "sha256": "36be781fbba96296796c5df7d824af439ab1f3ab1bd1c116a055a247b08b8e88",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/a43041c6c3bfd96db310bcfbb3860b80d64830bd-20261021T012228Z/after-desktop.png"
+    },
+    {
+      "sha256": "0c826ddc04ef21787fd236855aef6dfaef5f80fbf74d9de717f86593a78244b1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/a43041c6c3bfd96db310bcfbb3860b80d64830bd-20261021T012228Z/after-admin-negative.png"
+    }
+  ]
+}
