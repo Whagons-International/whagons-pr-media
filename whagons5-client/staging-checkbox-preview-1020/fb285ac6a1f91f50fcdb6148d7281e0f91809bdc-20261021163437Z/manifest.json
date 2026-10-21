@@ -1,0 +1,50 @@
+{
+  "head": "fb285ac6a1f91f50fcdb6148d7281e0f91809bdc",
+  "base": "6808a0805db51537c0f49cd55424e9de8cfed60a",
+  "environment": "testign on staging, test@test.com, existing QA task #42",
+  "fixture": "- [ ] a\n- [x] b",
+  "desktopExpected": "\u2610 a \u2611 b",
+  "phone": "Existing mobile list does not render descriptions; task visible and raw markers absent.",
+  "exactHead": "fb285ac6a",
+  "readOnly": true,
+  "beforeCapturedAt": "2026-10-21T16:31:25.580587+00:00",
+  "afterCapturedAt": "2026-10-21T16:34:37.009669+00:00",
+  "recording": "Native Playwright browser recording; GIF derived from the original WebM.",
+  "limitations": [
+    "After uses locally built exact-head assets with staging backend.",
+    "Hosted staging has not been verified with the fix.",
+    "Implementer evidence only; no AI visual review or merge-policy approval."
+  ],
+  "captures": [
+    {
+      "name": "before-desktop.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/fb285ac6a1f91f50fcdb6148d7281e0f91809bdc-20261021163437Z/before-desktop.png",
+      "sha256": "18cb82c4754e4b7e83f38e7184256c7ea4db21362ea0efe86c0c398f61e6b365"
+    },
+    {
+      "name": "before-phone.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/fb285ac6a1f91f50fcdb6148d7281e0f91809bdc-20261021163437Z/before-phone.png",
+      "sha256": "61498037393fb955aa56192218a9ccc30893c7aaee07129866281c8c143cbeaf"
+    },
+    {
+      "name": "after-desktop.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/fb285ac6a1f91f50fcdb6148d7281e0f91809bdc-20261021163437Z/after-desktop.png",
+      "sha256": "3556e6d1ae7f580a44e5aa1adea511f1e061fae5bd34e8495e180201305db2f1"
+    },
+    {
+      "name": "after-phone.png",
+      "path": "whagons5-client/staging-checkbox-preview-1020/fb285ac6a1f91f50fcdb6148d7281e0f91809bdc-20261021163437Z/after-phone.png",
+      "sha256": "61498037393fb955aa56192218a9ccc30893c7aaee07129866281c8c143cbeaf"
+    },
+    {
+      "name": "after-preview.gif",
+      "path": "whagons5-client/staging-checkbox-preview-1020/fb285ac6a1f91f50fcdb6148d7281e0f91809bdc-20261021163437Z/after-preview.gif",
+      "sha256": "77261f5b6d754bed9c5299e0ae65d952cb2966d71869b12e1c27589b981fd63e"
+    },
+    {
+      "name": "after-walkthrough.webm",
+      "path": "whagons5-client/staging-checkbox-preview-1020/fb285ac6a1f91f50fcdb6148d7281e0f91809bdc-20261021163437Z/after-walkthrough.webm",
+      "sha256": "91d3fa823d69cd0a90cfa8df6e0e3f4892aea8e5a38c67ad2e9845e62fb12c50"
+    }
+  ]
+}
