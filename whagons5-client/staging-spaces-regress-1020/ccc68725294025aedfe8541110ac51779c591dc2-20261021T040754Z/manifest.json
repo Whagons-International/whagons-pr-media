@@ -1,0 +1,116 @@
+{
+  "head": "ccc68725294025aedfe8541110ac51779c591dc2",
+  "baseSha": "7ee2af107fdf037931858d2af7dbd7b74ee96731",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-21T04:07:54.934567+00:00",
+  "captures": [
+    {
+      "sha256": "f6233f1b33e28026f49dd561caad7bc35468ed73872e76c14b93c25b1247ce53",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Only the explicit space is visible; both category spaces are missing. Baseline footer inherits candidate stamp; source/module hashes establish the baseline. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-before-sidebar.png"
+    },
+    {
+      "sha256": "8f73483e8e7963c49615265e34e2cf775946f2d178e61a67f17a5fcba754ffb7",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Space unavailable remains on screen. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-before-forbidden.png"
+    },
+    {
+      "sha256": "ae882aba1f6555bf6975189d85d05536e592ea0b65ed0edefdd82f2e2881a640",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Both category spaces are visible; reverse space opened through its sidebar link. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-sidebar.png"
+    },
+    {
+      "sha256": "00c897d36e31ef084da67694fd1cfcf397f55ed6734984076520fade6eaa0556",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Reverse space heading and selected sidebar remain correct during empty-storage reload; screenshot includes loading placeholders. Route assertions show no Everything visit. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-cold-reload.png"
+    },
+    {
+      "sha256": "d8ab0ad0a381f5e4bca4fcbe956c2c454aa18f8fbc2ed256f88f4de914e7b820",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Everything heading and selection after forbidden URL. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-forbidden.png"
+    },
+    {
+      "sha256": "a0c93200c00f54661305f5e3d6f3340cb0f8aa2cb25e1c69e0037b4fd52f2ccd",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Everything heading and selection after explicit-team precedence rejects access. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-precedence.png"
+    },
+    {
+      "sha256": "20516c877f8dbe36d55903f6b5a88ca9b6bae8a414b4da2c95ee67fbd554d189",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Everything heading and selection after ungranted orphan URL. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-orphan.png"
+    },
+    {
+      "sha256": "bd7a61c15d9b9975736dd0d84a0b4815cca13ff6e67ad8638683e2f99cb99d21",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Everything heading and selection after nonexistent URL. Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-nonexistent.png"
+    },
+    {
+      "sha256": "464c1cbe024ee1f53da4e46ac00ed6afe043c3e8de187dbd473b3c3e3ed5b797",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual GIF decoded and visually inspected at 0, 2, 5 and 8 seconds: Everything, sidebar navigation into accessible space, forbidden URL transition, then Space unavailable (baseline). Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-before-walkthrough.gif"
+    },
+    {
+      "sha256": "e480857b2ce783494dc35e7d31125142d6ad727bb3c5b6f4db98a343b7aff442",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual MP4 decoded and visually inspected at 0, 2, 5 and 8 seconds: Everything, sidebar navigation into accessible space, forbidden URL transition, then Space unavailable (baseline). Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-before-walkthrough.mp4"
+    },
+    {
+      "sha256": "39d96a7312580595eaa544b004878bd3f9b454eee93013f85928ae0ba609fe82",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual GIF decoded and visually inspected at 0, 2, 5 and 8 seconds: Everything, sidebar navigation into accessible space, forbidden URL transition, then Everything (candidate). Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-walkthrough.gif"
+    },
+    {
+      "sha256": "ec6d5c5a6c158b6fda8bd81e1e5a64a092ced3d677cf22e1e5af562495e96c12",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual MP4 decoded and visually inspected at 0, 2, 5 and 8 seconds: Everything, sidebar navigation into accessible space, forbidden URL transition, then Everything (candidate). Isolated testign synthetic fixtures only.",
+      "path": "whagons5-client/staging-spaces-regress-1020/ccc68725294025aedfe8541110ac51779c591dc2-20261021T040754Z/local-after-walkthrough.mp4"
+    }
+  ]
+}
