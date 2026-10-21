@@ -1,0 +1,147 @@
+{
+  "headSha": "850bfd490300ee709607eb846bd3d7e103e4480e",
+  "baseSha": "7d7a5ce9436172b15a0a5bb9dba0251da32d680d",
+  "capturedAt": "2026-10-21T17:45:23.080Z",
+  "captureWindow": "2026-10-21T17:43Z to17:45Z",
+  "runtime": "Actual local candidate http://testign.localhost:18801 against https://gonvex-stg.whagons.com project01f19dd6-122c-61f8-86fa-36f692a428d4",
+  "tenant": "testign",
+  "account": "test@test.com",
+  "platform": "Incognito T3 Chromium; phone390x844 and desktop1280x800 CSS; desktop UA",
+  "before": "Pending state on this candidate, not a new comparison-base execution",
+  "observed": {
+    "head": "850bfd490300ee709607eb846bd3d7e103e4480e",
+    "base": "7d7a5ce9436172b15a0a5bb9dba0251da32d680d",
+    "identityUiConfirmed": "test@test.com",
+    "selectedTenantUi": "testign",
+    "tasks": [
+      {
+        "number": 48,
+        "id": "063a9e10-5cc3-4ab4-a8b2-11f24e1d5bc0",
+        "title": "QA comunicado 1201",
+        "selfOnlyAudienceConfirmed": true,
+        "createdThroughUi": true,
+        "archived": true,
+        "acknowledged": true,
+        "receipt": "1/1",
+        "phoneReloadPersistence": true,
+        "pendingBadge": "8->7",
+        "loadedRows": 8,
+        "pendingBeforeAcknowledged": 7,
+        "desktopReloadPersistence": true
+      }
+    ],
+    "catalogModified": false,
+    "permissionsModified": false,
+    "otherFixturesModified": false,
+    "newUserOrTenant": false,
+    "existingOriginalPendingNumbers": [
+      20,
+      19,
+      16,
+      11,
+      9,
+      7,
+      6
+    ],
+    "createdAt": "2026-10-21T17:43:34.192414+00:00",
+    "note": "One normal CreateTask submit completed; later navigation was interrupted by tour. No second task created. Skipped welcome tour through actual UI; settings not changed.",
+    "desktopObserved": "After full navigation reload at1280x800, scrolled real grid97px:48 remains last row Acknowledged1/1 after sevenpending, sidebarbadge7. No desktop secondack action attempted.",
+    "uiCompletedAt": "2026-10-21T17:45:23.212752+00:00",
+    "cleanup": "Normal ownspace single48 selected ->Archive selected tasks ->Bulk archive complete1/1, ownspaceempty. Actual phone reload shows original7 requests20/19/16/11/9/7/6 only.",
+    "productLogoutConfirmed": true,
+    "cleanupAt": "2026-10-21T17:48:30.413834+00:00"
+  },
+  "originalRecording": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 780,
+        "height": 1688,
+        "nb_read_frames": "108"
+      }
+    ],
+    "format": {
+      "duration": "9.987500"
+    }
+  },
+  "gif": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 390,
+        "height": 844,
+        "nb_read_frames": "80"
+      }
+    ],
+    "format": {
+      "duration": "10.010000"
+    }
+  },
+  "files": [
+    {
+      "name": "phone-before.png",
+      "bytes": 132051,
+      "sha256": "a69a638bf04ad0403625841e2757179ce276f863d0433ec3dfa3805e29f3e2b2",
+      "applicationHead": "850bfd490300ee709607eb846bd3d7e103e4480e",
+      "fileTime": "2026-10-21T17:43:20.990129+00:00",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "name": "phone-after-receipt.png",
+      "bytes": 101141,
+      "sha256": "1b98362ea168a80177e8cc2c2d7503fbc8756d7ea594bcca91628c707c12960d",
+      "applicationHead": "850bfd490300ee709607eb846bd3d7e103e4480e",
+      "fileTime": "2026-10-21T17:43:55.971667+00:00",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "name": "phone-after-reload.png",
+      "bytes": 128960,
+      "sha256": "475d9f8216b52329cc7abd1475aae77c81cf5e9d0f3582bf308a57125178929a",
+      "applicationHead": "850bfd490300ee709607eb846bd3d7e103e4480e",
+      "fileTime": "2026-10-21T17:44:21.809243+00:00",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "name": "desktop-after-reload.png",
+      "bytes": 128597,
+      "sha256": "79aaaf52f8a7f49bbf758e5b081e49004746a36c2229a7a3fd3c5592a08bb1a2",
+      "applicationHead": "850bfd490300ee709607eb846bd3d7e103e4480e",
+      "fileTime": "2026-10-21T17:45:23.080002+00:00",
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "name": "phone-after.gif",
+      "bytes": 444826,
+      "sha256": "74eec204226ecd720b470db21d442f4c1a219ed03f71885767313eef46d6c8fd",
+      "applicationHead": "850bfd490300ee709607eb846bd3d7e103e4480e",
+      "fileTime": "2026-10-21T17:54:19.352113+00:00"
+    },
+    {
+      "name": "phone-after.mp4",
+      "bytes": 436682,
+      "sha256": "ee3cbea8777d1e0b0d55d0c0321d028316834847a5abd8021d19bc269f0074b3",
+      "applicationHead": "850bfd490300ee709607eb846bd3d7e103e4480e",
+      "fileTime": "2026-10-21T17:43:56.823680+00:00"
+    }
+  ],
+  "generatedAt": "2026-10-21T17:54:19.473248+00:00",
+  "limitations": [
+    "No fresh automatic workflow-status change",
+    "No fresh page-size boundary or native/iPhone walkthrough"
+  ]
+}
