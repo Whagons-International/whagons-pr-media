@@ -1,0 +1,542 @@
+{
+  "evidence": {
+    "headSha": "d4f5d12578a017812e8b4eca14ee902fde44c46a",
+    "baseSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+    "capturedAt": "2026-10-21T01:31:52.353Z",
+    "runtime": "Private loopback testing.localhost:5576, Rust18576, PostgreSQL57576, Auth Emulator19576; existing testing/test@test.com; Chrome desktop1886x1041 and phone390x844; coach-resources kernel-v1 admission",
+    "repro": "Normal workspace -> Agent first open -> type unsent draft -> close/reopen -> history -> close -> settled workspace, on desktop and phone. Draft loss reproduced on both heads and disclosed as pre-existing; no prompt submitted",
+    "steps": [
+      {
+        "id": "desktop-workspace",
+        "action": "Normal workspace before assistant intent",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-assistant-open",
+        "action": "Workspace -> Agent -> first open",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-assistant-draft",
+        "action": "Type a draft without submitting",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-assistant-reopen",
+        "action": "Close -> reopen -> pre-existing draft loss (not a preservation pass)",
+        "expected": "Retain an unsent draft when reopening",
+        "observed": "FAIL identically on staging and candidate: verified typed text is lost on reopen; pre-existing, separate fix in progress"
+      },
+      {
+        "id": "desktop-assistant-history",
+        "action": "Agent footer -> Chat history",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-settled-workspace",
+        "action": "Close history -> workspace remains available",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-workspace",
+        "action": "Normal workspace before assistant intent",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-assistant-open",
+        "action": "Workspace -> Agent -> first open",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-assistant-draft",
+        "action": "Type a draft without submitting",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-assistant-reopen",
+        "action": "Close -> reopen -> pre-existing draft loss (not a preservation pass)",
+        "expected": "Retain an unsent draft when reopening",
+        "observed": "FAIL identically on staging and candidate: verified typed text is lost on reopen; pre-existing, separate fix in progress"
+      },
+      {
+        "id": "phone-assistant-history",
+        "action": "Agent footer -> Chat history",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-settled-workspace",
+        "action": "Close history -> workspace remains available",
+        "expected": "Assistant controls remain reachable and workspace settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop-workspace.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop-workspace.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop-assistant-open.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-assistant-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop-assistant-open.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-assistant-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop-assistant-draft.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-assistant-draft"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop-assistant-draft.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-assistant-draft"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop-assistant-reopen.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-assistant-reopen"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop-assistant-reopen.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-assistant-reopen"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop-assistant-history.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-assistant-history"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop-assistant-history.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-assistant-history"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop-settled-workspace.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop-settled-workspace.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-phone-workspace.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-phone-workspace.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-phone-assistant-open.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-assistant-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-phone-assistant-open.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-assistant-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-phone-assistant-draft.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-assistant-draft"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-phone-assistant-draft.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-assistant-draft"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-phone-assistant-reopen.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-assistant-reopen"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-phone-assistant-reopen.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-assistant-reopen"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-phone-assistant-history.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-assistant-history"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-phone-assistant-history.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-assistant-history"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-phone-settled-workspace.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-phone-settled-workspace.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop.gif",
+        "side": "before",
+        "kind": "preview",
+        "step": "desktop-assistant-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/before-desktop.mp4",
+        "side": "before",
+        "kind": "recording",
+        "step": "desktop-assistant-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop.gif",
+        "side": "after",
+        "kind": "preview",
+        "step": "desktop-assistant-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/0c58b5a12aa5976da1332a690b1a17529a5a41ea/whagons5-client/1455/d4f5d12578a017812e8b4eca14ee902fde44c46a-20261021T013152Z/after-desktop.mp4",
+        "side": "after",
+        "kind": "recording",
+        "step": "desktop-assistant-open"
+      }
+    ]
+  },
+  "captures": {
+    "before-desktop": {
+      "headSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+      "side": "before",
+      "platform": "desktop",
+      "steps": [
+        {
+          "id": "workspace",
+          "action": "Normal workspace before assistant intent",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:29:38.245Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-open",
+          "action": "Workspace -> Agent -> first open",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:29:44.738Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-draft",
+          "action": "Type a draft without submitting",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:29:48.078Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-reopen",
+          "action": "Close -> reopen -> pre-existing draft loss (not a preservation pass)",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:29:51.720Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-history",
+          "action": "Agent footer -> Chat history",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:29:55.535Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Close history -> workspace remains available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:29:59.208Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 1886,
+        "height": 1041
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/assistant-review-r96/before-desktop/profile-Mt1YVS",
+      "servedVersion": "06f7035",
+      "capturedAt": "2026-10-21T01:29:38.245Z",
+      "draftTypedVerified": true,
+      "draftReopen": {
+        "expected": "Baseline loses local unsent input on close",
+        "observed": "",
+        "retained": false
+      },
+      "passed": true
+    },
+    "before-phone": {
+      "headSha": "06f7035b527d7a5e1fd31b8908f59b704d7c3592",
+      "side": "before",
+      "platform": "phone",
+      "steps": [
+        {
+          "id": "workspace",
+          "action": "Normal workspace before assistant intent",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:30:26.857Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-open",
+          "action": "Workspace -> Agent -> first open",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:30:33.007Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-draft",
+          "action": "Type a draft without submitting",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:30:36.251Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-reopen",
+          "action": "Close -> reopen -> pre-existing draft loss (not a preservation pass)",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:30:40.208Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-history",
+          "action": "Agent footer -> Chat history",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:30:44.319Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Close history -> workspace remains available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:30:47.535Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/assistant-review-r96/before-phone/profile-sSK6Ea",
+      "servedVersion": "06f7035",
+      "capturedAt": "2026-10-21T01:30:26.857Z",
+      "draftTypedVerified": true,
+      "draftReopen": {
+        "expected": "Baseline loses local unsent input on close",
+        "observed": "",
+        "retained": false
+      },
+      "passed": true
+    },
+    "after-desktop": {
+      "headSha": "d4f5d12578a017812e8b4eca14ee902fde44c46a",
+      "side": "after",
+      "platform": "desktop",
+      "steps": [
+        {
+          "id": "workspace",
+          "action": "Normal workspace before assistant intent",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:31:52.353Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-open",
+          "action": "Workspace -> Agent -> first open",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:31:58.708Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-draft",
+          "action": "Type a draft without submitting",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:02.148Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-reopen",
+          "action": "Close -> reopen -> pre-existing draft loss (not a preservation pass)",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:06.154Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-history",
+          "action": "Agent footer -> Chat history",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:09.858Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Close history -> workspace remains available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:13.742Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 1886,
+        "height": 1041
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/assistant-review-r96/after-desktop/profile-67FvfA",
+      "servedVersion": "d4f5d12",
+      "capturedAt": "2026-10-21T01:31:52.353Z",
+      "draftTypedVerified": true,
+      "draftReopen": {
+        "expected": "Same pre-existing draft loss as staging, tracked separately",
+        "observed": "",
+        "retained": false,
+        "preExistingFailure": true
+      },
+      "passed": true
+    },
+    "after-phone": {
+      "headSha": "d4f5d12578a017812e8b4eca14ee902fde44c46a",
+      "side": "after",
+      "platform": "phone",
+      "steps": [
+        {
+          "id": "workspace",
+          "action": "Normal workspace before assistant intent",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:40.239Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-open",
+          "action": "Workspace -> Agent -> first open",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:46.716Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-draft",
+          "action": "Type a draft without submitting",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:49.501Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-reopen",
+          "action": "Close -> reopen -> pre-existing draft loss (not a preservation pass)",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:52.354Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "assistant-history",
+          "action": "Agent footer -> Chat history",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:55.202Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Close history -> workspace remains available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T01:32:58.153Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/assistant-review-r96/after-phone/profile-vnXPZd",
+      "servedVersion": "d4f5d12",
+      "capturedAt": "2026-10-21T01:32:40.239Z",
+      "draftTypedVerified": true,
+      "draftReopen": {
+        "expected": "Same pre-existing draft loss as staging, tracked separately",
+        "observed": "",
+        "retained": false,
+        "preExistingFailure": true
+      },
+      "passed": true
+    }
+  },
+  "inspection": "24 settled stills manually inspected. Desktop movie samplers manually approved; phone movies omitted due to history transition at a sampler mark. Draft retention fails identically on both heads."
+}
