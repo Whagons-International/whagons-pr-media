@@ -1,0 +1,116 @@
+{
+  "head": "08c77b800f70cfd1c40b54470c6b4183969a2dd7",
+  "baseSha": "b6071bb28f0b0886357b07b17d87237ba3d38dbd",
+  "browserResult": "PASS",
+  "capturedAt": "2026-10-21T01:47:33.641123+00:00",
+  "captures": [
+    {
+      "sha256": "10ec041d6df81dd5735dff018363b682ee45a503d14b26edb32f4f74cb9e6029",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-before-sidebar.png"
+    },
+    {
+      "sha256": "556429eabae519bda149def890e131cf1ba44465420a606a8d6ce8e3f268f006",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-before-forbidden.png"
+    },
+    {
+      "sha256": "491b311d14eaf72c2972f8891ea312f841e601db51ffd296d0e34e14c48cc4a8",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-sidebar.png"
+    },
+    {
+      "sha256": "0daac70622b897308bfdcac969fa3350b51345d9d2293eebbfafdec4c967ce84",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-cold-reload.png"
+    },
+    {
+      "sha256": "d4478a17b86875930b8ebfece2c8d3e3e3e5f3aad940abd9b3cf714357f4689f",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-forbidden.png"
+    },
+    {
+      "sha256": "8023bbb36a2882ecae05d67ccf0acfb27827229fd4a7d38e88c8144c8fd34211",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-precedence.png"
+    },
+    {
+      "sha256": "9093eb9ff2b3676133372760df7009340f7e9b7fe105d248c61b4423feba9691",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-orphan.png"
+    },
+    {
+      "sha256": "e819774d2996b75fbfaec71f4410de124db71ebbaed887daa6f18ce144b19621",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-nonexistent.png"
+    },
+    {
+      "sha256": "baa6e3e011b8f97d5c4020c983b2da1214122b14efeb2347d4e798da1fe30edc",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-before-walkthrough.gif"
+    },
+    {
+      "sha256": "2325e59d45f5a48d554388be902756bf15e12304196545290a30d1f45e39c602",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "before",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-before-walkthrough.mp4"
+    },
+    {
+      "sha256": "a533946bcee745d06980206465d3a76e0eb5979de04cdbc5ffee87f645500ccb",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-walkthrough.gif"
+    },
+    {
+      "sha256": "f22dbb9ce56edf0ef8885b4808c9b5ad9d7226f5bcbde0793b5e07ba0cebacb1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "side": "after",
+      "inspection": "Actual screenshot viewed; actual GIF and MP4 files decoded and visually inspected at 0, 2, 5, 8 seconds. Synthetic testign fixtures only. Cold reload screenshot shows the correct workspace heading and loading skeleton; route-visit assertions prove no redirect.",
+      "path": "whagons5-client/staging-spaces-regress-1020/08c77b800f70cfd1c40b54470c6b4183969a2dd7-20261021T014733Z/local-after-walkthrough.mp4"
+    }
+  ]
+}
