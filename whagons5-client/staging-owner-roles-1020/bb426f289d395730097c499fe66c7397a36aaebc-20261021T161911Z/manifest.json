@@ -1,0 +1,313 @@
+{
+  "head": "bb426f289d395730097c499fe66c7397a36aaebc",
+  "baseSha": "97922ca24688297d27f1b433a09bc68ee679e638",
+  "capturedAtByDevice": {
+    "desktop": "2026-10-21T16:10:02.960822+00:00",
+    "phone": "2026-10-21T16:19:11.756998+00:00"
+  },
+  "capturedAt": "2026-10-21T16:19:11.756998+00:00",
+  "inspectedAt": "2026-10-21T16:22:47.979247+00:00",
+  "inspectionComplete": {
+    "desktop": true,
+    "phone": true,
+    "before": true
+  },
+  "observations": [
+    "Desktop nine stills inspected in the prior turn; their hashes verified against inspection-partial-v54.json. All nine phone stills inspected this turn.",
+    "Owner chip shows a lock; admin and TI have removal controls. Clear leaves owner alone. Other-member roles remain editable; transfer card explains ownership moves.",
+    "Both non-owner stills show the disabled role field and self-edit explanation. Runtime assertions establish denied writes and transfer role preservation.",
+    "All nine per-step raw recording samples inspected on each device. Phone raw sample eight catches a modal transition; the corresponding still and later sample show the lock.",
+    "Final GIF frames 1/24/32/56 decoded directly and inspected for both devices. Final MP4 samples at desktop 12/24/37/52 seconds and phone 10/20/31/43 seconds decoded directly and inspected.",
+    "Recordings contain loading, navigation, save and modal transitions. Sample times are approximate; no claim that arbitrary MP4 samples are exact scenario stills.",
+    "Retained before image was viewed again and shows the disabled owner field. Baseline and capture hash are unchanged.",
+    "Observed content uses only synthetic fixtures and test emails. No credentials or customer data observed."
+  ],
+  "inspectionSamples": [
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v52-desktop/video-1.jpg",
+      "device": "desktop",
+      "sha256": "673f4373be7e4f7dbeaf76bbb8491226999561e182a780412c782ef963d351a9",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v52-desktop/video-2.jpg",
+      "device": "desktop",
+      "sha256": "632243a744f41472da9019cfe96f75cd157016bde69da4c9839705ea8f4372dd",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v52-desktop/video-3.jpg",
+      "device": "desktop",
+      "sha256": "8a9c6dc32c207f8d3a823056949e7e5f2b8146797a498d9666e0e07952b97c55",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v52-desktop/preview-1.jpg",
+      "device": "desktop",
+      "sha256": "98cfe4291594439c1634a6cf583c4dc3aec6bcd097a2c89ff7717846bd80a1d4",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v52-desktop/preview-2.jpg",
+      "device": "desktop",
+      "sha256": "afb4776ff4214809c69ed49a889f6fd9820b414e8f7d513873c4cb156c71e9e8",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v52-desktop/actual-gif-samples.jpg",
+      "device": "desktop",
+      "sha256": "3b68f851ea2cf72954b5b165f4a3515cedabf2f3760f2d3d4723c476e59e1633",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v52-desktop/actual-mp4-samples.jpg",
+      "device": "desktop",
+      "sha256": "12a49de7b1ed83973dac5140e26f5a0ec5bce4e2a63a76431abbb32f26e834d3",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/stills-1.jpg",
+      "device": "phone",
+      "sha256": "42b8f6c50da77703c1771f5ddd9def7c106c4556722f65708d3649ad961decfa",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/stills-2.jpg",
+      "device": "phone",
+      "sha256": "ee077851184501dd5438675cf661331d02991ece8a11ddc7285e9733da641aca",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/stills-3.jpg",
+      "device": "phone",
+      "sha256": "3477dfeae6c44eec4640dfbbae03e8d2770a4c4ccc691eb615166b65d1884044",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/video-1.jpg",
+      "device": "phone",
+      "sha256": "6bd99c77ef306a8f28f920d930391976692c2286e98952fe12e55fdd9d93da46",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/video-2.jpg",
+      "device": "phone",
+      "sha256": "91c2ebb0456c84df27998bbc48a6ea75f6fd48fd89c70017188e2822cbdc9607",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/video-3.jpg",
+      "device": "phone",
+      "sha256": "f7f037a2bd7b41eff2e11b7ebd843bdbe48a3b9d79f21f4ca3a12bf901b5cb0b",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/preview-1.jpg",
+      "device": "phone",
+      "sha256": "8fdbcbc7258776e99dccfca048892fb2fc91f1f0075ff648b29e2ca272b68045",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/preview-2.jpg",
+      "device": "phone",
+      "sha256": "623a5ec187d8673fe1c9f3244399d737c68d161b034ce1a356c6b8184e7bd82a",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/actual-gif-samples.jpg",
+      "device": "phone",
+      "sha256": "afd834e85b6d753e9c37ee5f643408a1181f696e38988f61b38d1b78699cb511",
+      "visuallyInspected": true
+    },
+    {
+      "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/inspection-v54-phone/actual-mp4-samples.jpg",
+      "device": "phone",
+      "sha256": "5458d4c6c1ece198ff452a830d0939ff2bfb223ae651fa355e9ceb548eea86fa",
+      "visuallyInspected": true
+    }
+  ],
+  "beforeInspection": {
+    "path": "/mnt/data/coach-jobs/staging-owner-roles-1020/before-desktop.png",
+    "sha256": "994c9aeadae2b559d2f9a58d4cb953288fc41008aac33834e9c9e826323b9b64",
+    "testedRevision": "97922ca24688297d27f1b433a09bc68ee679e638",
+    "visuallyInspected": true
+  },
+  "captures": [
+    {
+      "device": "desktop",
+      "sha256": "0430e2a824df18ac032ea07ef618478df7ef17d56eeba05a8d00fe0c2b549bd4",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-01.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "4f35b10a1f65c725acf71d120e76b017c8559fce6b7be6fa1d15fad3b8a294e7",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-02.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "463043a95317e74d44a262104941464992871d4aae5df56e2661292b783a0ffb",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-03.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "198ee0d2b7d97de932c9b60a438c3f743ba5f611599de7579821eda156a0b612",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-04.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "2c873f64ded255c9398f0424aa26b575fe5bc0a2107ef9a669759f9279576855",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-05.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "0ab1cba7d1e72a9b9c971333894f39bdbcb6d4eb511a0cf57f220010edf7f77f",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-06.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "8f6e0e1198a7e0ab76dfba07539249ab0c872476949693b7800110f50ea7e425",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-07.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "7f632daaa848438074fbfe2a2ac08a2740d894082d047e78a7046938d5933380",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-08.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "a9a0c7ecda5651bdc5a9f6b92f4b26f29ac51e8bad13de7c2d03a02d4d0af863",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-step-09.png"
+    },
+    {
+      "device": "desktop",
+      "sha256": "bf153dd4676a10d7b6d7d253ca145d156d49acc17969472e50eca74d24a2542c",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-preview.gif"
+    },
+    {
+      "device": "desktop",
+      "sha256": "a8a7832e6dae2a40d810dbf90f12cb000c23915c9f4ffbe2b68e38e78edbd218",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/desktop/after-walkthrough.mp4"
+    },
+    {
+      "device": "phone",
+      "sha256": "d1a6cab4ad478a804d728b39f0b983e512326a93883123b54835f46c5a2150e4",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-01.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "50148cd0410a7ad189fd3efd472d03b69e4079e39be92097c28a0f1a0a10064e",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-02.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "7e39895e724cef9307b4cf186f81200c083ae4252cebd2b9a3efc38b7b2b0048",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-03.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "d99012bb47a68f1543cffaf274859dc90497082e32ff3610509d5c0660d4a6a1",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-04.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "68a82880f3d6c25e1f1a3412ade80297ac34cf0750c4c2c578e45cfa4ac0722a",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-05.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "421d3c8a54a7b5fea87d2a0537f179d365282e8cbb791914461853c59b2b098d",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-06.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "f6ffbbeeccd6b4c89d64009620e07f533084363e5daf24aa1db4d463011e7709",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-07.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "3e636b3c6481967891422fb60ae580632d890ba0e8a76fe113e3e481227045ea",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-08.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "7debf8056174dad011f97e17210fd7bb3a9d35e884474e7098652fe2a75a1bdf",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-step-09.png"
+    },
+    {
+      "device": "phone",
+      "sha256": "4558b378251337ec52257f13c38f54a973e37038034e7f13b926f879f27a5cb9",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-preview.gif"
+    },
+    {
+      "device": "phone",
+      "sha256": "7b6d67e6451bf449516bfad02cbc555325b2e33963d65c3079b07d2e82637e8e",
+      "visuallyInspected": true,
+      "sanitized": true,
+      "publicEligible": true,
+      "path": "whagons5-client/staging-owner-roles-1020/bb426f289d395730097c499fe66c7397a36aaebc-20261021T161911Z/phone/after-walkthrough.mp4"
+    }
+  ]
+}
