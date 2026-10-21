@@ -1,0 +1,520 @@
+{
+  "evidence": {
+    "headSha": "7f164ea473ba836aba1d011b846ecec815dc9dc4",
+    "baseSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+    "capturedAt": "2026-10-21T00:25:34.572Z",
+    "runtime": "Private loopback testing.localhost:5576, Rust18576, PostgreSQL57576, Auth Emulator19576; existing testing/test@test.com; Chrome desktop1886x1041 and phone390x844; coach-resources kernel-v1 admission",
+    "repro": "Normal Everything workspace -> sidebar review workspace -> reload -> real task preview -> Edit -> Cancel -> Everything; same journey on both arms; no task edits saved",
+    "steps": [
+      {
+        "id": "desktop-workspace-open",
+        "action": "Sign in -> normal Everything workspace",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-workspace-switch",
+        "action": "Sidebar -> existing review workspace",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-workspace-reload",
+        "action": "Reload selected workspace -> real tasks visible",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-task-preview",
+        "action": "Open a real task from the loaded list",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-task-edit",
+        "action": "Preview -> Edit; existing task content available",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "desktop-settled-workspace",
+        "action": "Cancel -> return to Everything workspace",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-workspace-open",
+        "action": "Sign in -> normal Everything workspace",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-workspace-switch",
+        "action": "Sidebar -> existing review workspace",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-workspace-reload",
+        "action": "Reload selected workspace -> real tasks visible",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-task-preview",
+        "action": "Open a real task from the loaded list",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-task-edit",
+        "action": "Preview -> Edit; existing task content available",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      },
+      {
+        "id": "phone-settled-workspace",
+        "action": "Cancel -> return to Everything workspace",
+        "expected": "Real workspace/task content remains reachable and settles",
+        "observed": "PASS on before and exact-head after, readiness rechecked after 2.5-second settle"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop-workspace-open.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-workspace-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop-workspace-open.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-workspace-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop-workspace-switch.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-workspace-switch"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop-workspace-switch.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-workspace-switch"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop-workspace-reload.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-workspace-reload"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop-workspace-reload.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-workspace-reload"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop-task-preview.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-task-preview"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop-task-preview.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-task-preview"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop-task-edit.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-task-edit"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop-task-edit.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-task-edit"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop-settled-workspace.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "desktop-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop-settled-workspace.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "desktop-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-phone-workspace-open.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-workspace-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-phone-workspace-open.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-workspace-open"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-phone-workspace-switch.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-workspace-switch"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-phone-workspace-switch.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-workspace-switch"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-phone-workspace-reload.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-workspace-reload"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-phone-workspace-reload.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-workspace-reload"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-phone-task-preview.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-task-preview"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-phone-task-preview.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-task-preview"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-phone-task-edit.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-task-edit"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-phone-task-edit.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-task-edit"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-phone-settled-workspace.png",
+        "side": "before",
+        "kind": "screenshot",
+        "step": "phone-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-phone-settled-workspace.png",
+        "side": "after",
+        "kind": "screenshot",
+        "step": "phone-settled-workspace"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop.gif",
+        "side": "before",
+        "kind": "preview",
+        "step": "desktop-workspace-switch"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/before-desktop.mp4",
+        "side": "before",
+        "kind": "recording",
+        "step": "desktop-workspace-switch"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop.gif",
+        "side": "after",
+        "kind": "preview",
+        "step": "desktop-workspace-switch"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/eb7976245539637cee165e10fa1ae006b3c9b3a9/whagons5-client/1452/7f164ea473ba836aba1d011b846ecec815dc9dc4-20261021T002534Z/after-desktop.mp4",
+        "side": "after",
+        "kind": "recording",
+        "step": "desktop-workspace-switch"
+      }
+    ]
+  },
+  "captures": {
+    "before-desktop": {
+      "headSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "side": "before",
+      "platform": "desktop",
+      "steps": [
+        {
+          "id": "workspace-open",
+          "action": "Sign in -> normal Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:07.371Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "workspace-switch",
+          "action": "Sidebar -> existing review workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:14.156Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "workspace-reload",
+          "action": "Reload selected workspace -> real tasks visible",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:19.510Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-preview",
+          "action": "Open a real task from the loaded list",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:29.810Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-edit",
+          "action": "Preview -> Edit; existing task content available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:33.830Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Cancel -> return to Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:37.529Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 1886,
+        "height": 1041
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/task-first-review-r95/before-desktop/profile-AODzRO",
+      "servedVersion": "9f74bf0",
+      "capturedAt": "2026-10-21T00:21:07.371Z",
+      "realTaskName": "Check workspace supplies",
+      "passed": true
+    },
+    "before-phone": {
+      "headSha": "9f74bf0240845934547da4c195b742b9aa6f416e",
+      "side": "before",
+      "platform": "phone",
+      "steps": [
+        {
+          "id": "workspace-open",
+          "action": "Sign in -> normal Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:51.928Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "workspace-switch",
+          "action": "Sidebar -> existing review workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:21:59.390Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "workspace-reload",
+          "action": "Reload selected workspace -> real tasks visible",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:22:07.586Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-preview",
+          "action": "Open a real task from the loaded list",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:22:15.056Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-edit",
+          "action": "Preview -> Edit; existing task content available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:22:18.794Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Cancel -> return to Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:22:23.120Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/task-first-review-r95/before-phone/profile-uvlyia",
+      "servedVersion": "9f74bf0",
+      "capturedAt": "2026-10-21T00:21:51.928Z",
+      "realTaskName": "Check workspace supplies",
+      "passed": true
+    },
+    "after-desktop": {
+      "headSha": "7f164ea473ba836aba1d011b846ecec815dc9dc4",
+      "side": "after",
+      "platform": "desktop",
+      "steps": [
+        {
+          "id": "workspace-open",
+          "action": "Sign in -> normal Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:25:34.572Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "workspace-switch",
+          "action": "Sidebar -> existing review workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:25:42.337Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "workspace-reload",
+          "action": "Reload selected workspace -> real tasks visible",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:25:48.804Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-preview",
+          "action": "Open a real task from the loaded list",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:25:58.252Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-edit",
+          "action": "Preview -> Edit; existing task content available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:26:05.133Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Cancel -> return to Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:26:09.270Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 1886,
+        "height": 1041
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/task-first-review-r95/after-desktop/profile-F2y5SZ",
+      "servedVersion": "7f164ea",
+      "capturedAt": "2026-10-21T00:25:34.572Z",
+      "realTaskName": "Check workspace supplies",
+      "passed": true
+    },
+    "after-phone": {
+      "headSha": "7f164ea473ba836aba1d011b846ecec815dc9dc4",
+      "side": "after",
+      "platform": "phone",
+      "steps": [
+        {
+          "id": "workspace-open",
+          "action": "Sign in -> normal Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:27:54.379Z",
+          "path": "/workspace/all"
+        },
+        {
+          "id": "workspace-switch",
+          "action": "Sidebar -> existing review workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:28:02.238Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "workspace-reload",
+          "action": "Reload selected workspace -> real tasks visible",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:28:10.141Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-preview",
+          "action": "Open a real task from the loaded list",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:28:18.898Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "task-edit",
+          "action": "Preview -> Edit; existing task content available",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:28:24.259Z",
+          "path": "/workspace/e2e_1y56488_workspaces_zq7xE2E_Memory_Diet_Review_zq7xE2E_Memory_Diet_Review_Workspace"
+        },
+        {
+          "id": "settled-workspace",
+          "action": "Cancel -> return to Everything workspace",
+          "expected": "Correct route and settled real task workspace",
+          "observed": "Workspace and task surface visible after2.5s readiness recheck",
+          "capturedAt": "2026-10-21T00:28:28.553Z",
+          "path": "/workspace/all"
+        }
+      ],
+      "errors": [],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": "Own private testing.localhost:5576 / Rust18576 / PG57576 / Auth19576; testing/test@test.com; Chrome;6G working7G hard",
+      "chromeProfile": "/mnt/data/work/wh-memory-diet/task-first-review-r95/after-phone/profile-nbUG8c",
+      "servedVersion": "7f164ea",
+      "capturedAt": "2026-10-21T00:27:54.379Z",
+      "realTaskName": "Check workspace supplies",
+      "passed": true
+    }
+  },
+  "inspection": "24 settled stills and four 5-second sampler boards manually inspected. Phone movies omitted due to mid-reload blank sample; phone stills pass."
+}
