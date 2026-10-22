@@ -1,0 +1,46 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": "confidential-files",
+  "head": "f5999b35e46231df636a3e3614dd431b3e773d8b",
+  "base": "8fa4b9048daafa1d567a12cae8a5e8b4a17507a9",
+  "recordedAt": "20261022T135040Z",
+  "environment": "Local Rust Gonvex runtime + Vite (e2e mode), isolated disposable testing tenant, Firebase auth emulator accounts seeded by the E2E helper; Chromium 1440x1000 and 390x844. Before = staging base frontend against the same runtime.",
+  "data": "Synthetic test data only; no customer data.",
+  "files": [
+    {
+      "file": "before-finance-profile.png",
+      "bytes": 85297,
+      "sha256": "62e9e410df741cdad5f936f019d551a790548d72d73011fed175d437e6f4b27a"
+    },
+    {
+      "file": "after-1-choose-space.png",
+      "bytes": 93690,
+      "sha256": "55fca8e1fb76d4c1620a1440430202b72c63980ba90b600487c5543134f0e1c8"
+    },
+    {
+      "file": "after-2-finance-member.png",
+      "bytes": 119308,
+      "sha256": "bcbd619bdbf8607475a999523eaadfa7e2bce54220bc38e41b630f57a3c46f75"
+    },
+    {
+      "file": "after-3-record-viewer.png",
+      "bytes": 98595,
+      "sha256": "ede447fc415b0cd5632591c83fa936f1ca7e51872c51a9963d2d2d84aae33266"
+    },
+    {
+      "file": "phone-directory-tab-not-offered.png",
+      "bytes": 21969,
+      "sha256": "c8ed343d34d9edd08ad0f62e568678d2ed2c9a141fbb16b3d6f19ff5fe8bdba6"
+    },
+    {
+      "file": "after-walkthrough.mp4",
+      "bytes": 309678,
+      "sha256": "097da559191b2a866be1b287e60705aab55aeff214bbbef38e219211c34bed46"
+    },
+    {
+      "file": "after-walkthrough.gif",
+      "bytes": 1184061,
+      "sha256": "d3b0cc208a3cdc5bfd10d91d16412e836c59ff9cbae98bebbc8317351391b024"
+    }
+  ]
+}

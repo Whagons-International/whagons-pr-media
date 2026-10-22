@@ -1,0 +1,26 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": "1070",
+  "head": "91ed1b1343af0a3599a0a966b20646471084cb24",
+  "base": "37c29e3c93fd1e6ff80462b1a8fb8644006d6401",
+  "recordedAt": "20261022T112512Z",
+  "environment": "Local Rust Gonvex runtime + Vite (e2e mode) serving the exact PR head; isolated disposable testing tenant, test@test.com administrator; Chromium 1280x800 with caption overlay.",
+  "data": "Synthetic test data only; no customer data.",
+  "files": [
+    {
+      "file": "after-feed.png",
+      "bytes": 321226,
+      "sha256": "b3461987160f773b2231642268ce33ed92c1eaee367297850232e082186aef55"
+    },
+    {
+      "file": "after-hr-center.png",
+      "bytes": 297279,
+      "sha256": "659f570b39da065d697cc577dfa06cfcd0ca776f9a1de2aa72af617e8aa76511"
+    },
+    {
+      "file": "after-walkthrough.mp4",
+      "bytes": 2159646,
+      "sha256": "02791d3a0506a11bd12adcde517d2619ec9c5c67320e89fdc27a883cfb4ed9f9"
+    }
+  ]
+}
