@@ -1,0 +1,19 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pullRequest": 1508,
+  "head": "68df7be7083344a5da4bd4c9913f82ba49920ff5",
+  "base": "b005b5e956 (t3/confidential-files-backend)",
+  "environment": "local Rust Gonvex runtime + Vite e2e mode, isolated disposable testing tenant, Firebase Auth emulator accounts, Chromium 1440x1000 and 1024x900",
+  "data": "Synthetic test data only",
+  "files": {
+    "after-1-start.png": "a7d975d1fb5cdc7499ac669b23e7af03a23610ef8819403b4167ba6c546fcc59",
+    "after-2-drop.png": "33a44dfe23a551957c02b2a21c3d64b6e8306e046868b0d6b35d09d88d46a38e",
+    "after-3-finance-files.png": "318604db3810ab05731af286c076d07dbd28a416cf78d04f73fbdc98228bae6f",
+    "after-4-delete-confirm.png": "b7ff5b15ab4af15b689eae02bed250964f1762603b9317a306e0f64e1ea4469a",
+    "after-5-tablet.png": "d8aa465c97904221deb1e91901e2f155832ae0e91482eb1f533e1e63f2b72544",
+    "after-6-record-viewer.png": "0db0d3e318b83a1a5000baa4b3e1dcbdf925593974cb9c602878ec994c78bd05",
+    "after-walkthrough.gif": "9e6c4e04e90797b14cbe382efec36a246403fce7c10958fc437d19d5ac6e5f5e",
+    "after-walkthrough.mp4": "8c805ae306985a2555f281d499793894603ad0044c4e09ee93a612ad31624661",
+    "before-finance-record.png": "3f127a8bd20487fe4dd0798b6e348603332f25735e4987e830980c5c1a5b0a51"
+  }
+}
