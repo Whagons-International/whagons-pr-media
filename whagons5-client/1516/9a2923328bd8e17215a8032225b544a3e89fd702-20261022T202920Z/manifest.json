@@ -1,0 +1,166 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": "1516",
+  "head": "9a2923328bd8e17215a8032225b544a3e89fd702",
+  "base": "bb1e5a144b6e2ee753412d391a50e6f277a35529",
+  "recordedAt": "20261022T202920Z",
+  "environment": "Local Rust Gonvex runtime (this head's backend synced) + Vite e2e mode serving the exact PR head; each run on its own fresh disposable shard tenant; Firebase-emulator e2e admin; Chromium 1440x900 and 390x844, plus 1280x800 after-only. before-* files were recorded on staging 4d8110fb106e39572b5460f97db531c1d1478c91; src/pages/talent, the Talent test and src/components/ui are byte-identical between 4d8110fb106e39572b5460f97db531c1d1478c91 and base bb1e5a144b6e2ee753412d391a50e6f277a35529.",
+  "data": "Synthetic test data only; no customer data.",
+  "files": [
+    {
+      "file": "after-01-jobs-empty.png",
+      "bytes": 53025,
+      "sha256": "d35018841386ebe61cd9f12d725295e1e605254ded7bb38bf6f7dd11b21a9f23"
+    },
+    {
+      "file": "after-02-new-job-dialog.png",
+      "bytes": 90989,
+      "sha256": "418127c93af9811247ada576178bbf06dc75fdf8fae4578aa6d9d3d41ada03c1"
+    },
+    {
+      "file": "after-03-board-empty.png",
+      "bytes": 63987,
+      "sha256": "2290c3b1422072fc60ae17e40fd6bab13e653a8a01d5f691203398bb42a8cb37"
+    },
+    {
+      "file": "after-04-add-candidate-dialog.png",
+      "bytes": 91515,
+      "sha256": "00c5f957a65fc6690fe786ce0ef0e1b653eee278e8b4a157ea6ca5eeb0cef5cc"
+    },
+    {
+      "file": "after-05-drawer-new.png",
+      "bytes": 115184,
+      "sha256": "e10e4e82b203bdb5ceb3e052389fc989ce6b025b170b292644dfab2405c5760b"
+    },
+    {
+      "file": "after-06-drawer-reject.png",
+      "bytes": 138842,
+      "sha256": "f3b7fd6259348514f9d4c02a1336924d62c3571adc11b4dfdc64e96a6458f163"
+    },
+    {
+      "file": "after-07-board-filled.png",
+      "bytes": 106723,
+      "sha256": "0a9d3cfa42a07cb9f11a199ddb6e9f635aaf47e8966fd18462b6a9bb9f72cc70"
+    },
+    {
+      "file": "after-08-drawer-notes.png",
+      "bytes": 139682,
+      "sha256": "ccef0eb4ef5d3922012815975dcebf59c2f3374aab441cd6216a849aa938c97a"
+    },
+    {
+      "file": "after-09-jobs-list.png",
+      "bytes": 55354,
+      "sha256": "9fa94fb46e656179ace9b199e18e768788080d2e04b90216c9caeabe843ad10e"
+    },
+    {
+      "file": "after-10-candidates-list.png",
+      "bytes": 99248,
+      "sha256": "4e1725e0eed57289928fd2e82b3f6744a58524b910091e8519da7f0a20fb9027"
+    },
+    {
+      "file": "after-11-mobile-jobs.png",
+      "bytes": 33471,
+      "sha256": "e13369507fc440da2d2ca59928b1cacd6536e0508867954c59c4776c930ee549"
+    },
+    {
+      "file": "after-12-mobile-board.png",
+      "bytes": 42237,
+      "sha256": "7a36d774957ed7a51a13ff7166bb883d3d9a3242f98b41feae76aa34969d1b8c"
+    },
+    {
+      "file": "after-13-mobile-drawer.png",
+      "bytes": 48802,
+      "sha256": "67dd7e2f96c16e897916e3daede84e3944c31895d2fba3016dee6868ae8b36ed"
+    },
+    {
+      "file": "after-14-mobile-add-candidate.png",
+      "bytes": 33013,
+      "sha256": "4584c756513f7124a4aacadde9696c62367cc2e7c7416c70a705af5a41780312"
+    },
+    {
+      "file": "after-15-board-1280.png",
+      "bytes": 86465,
+      "sha256": "99805bdb15115206da7ed079a04cb5350980786f8e7f68939635b2b2df4397ed"
+    },
+    {
+      "file": "after-16-edit-job-status.png",
+      "bytes": 117655,
+      "sha256": "deb704649b8b20f26c4a004744dfba7815604e38b080bf33bde018fcc4e26aad"
+    },
+    {
+      "file": "after-walkthrough.mp4",
+      "bytes": 2283346,
+      "sha256": "ea3f6f9bbe1251423ed38e4fdc6694efe0a30d6fedd4606e6050d685e9edd88f"
+    },
+    {
+      "file": "before-01-jobs-empty.png",
+      "bytes": 50708,
+      "sha256": "26c073be842e80363108410adbf0bb5ce91a669f2f9133fb1f43f850d8ea1d94"
+    },
+    {
+      "file": "before-02-new-job-dialog.png",
+      "bytes": 91525,
+      "sha256": "ad2ff40ccb1c7fb834d50957111bcdc77ba65903a156b03f3120f2930be4a464"
+    },
+    {
+      "file": "before-03-board-empty.png",
+      "bytes": 62596,
+      "sha256": "97590c581e3225c42bb8d4c56fb16c28707ba01cdc7a5ae661d4fcdc7ee70a80"
+    },
+    {
+      "file": "before-04-add-candidate-dialog.png",
+      "bytes": 99837,
+      "sha256": "167604ba029b75ee947088f1e7f9d694993fd439e18b05471750963b4079aaaf"
+    },
+    {
+      "file": "before-05-drawer-new.png",
+      "bytes": 110727,
+      "sha256": "dda5179a97422aa96cb011c934e0c03cf7df58f78aac3ef2389503c8d8f1697d"
+    },
+    {
+      "file": "before-06-drawer-reject.png",
+      "bytes": 130522,
+      "sha256": "d5cb78b05b9e66f6512b0d4a69ec8c2acfd56b762e5fe87313b39915552ca58d"
+    },
+    {
+      "file": "before-07-board-filled.png",
+      "bytes": 95342,
+      "sha256": "e3d778670709a4a62303fc82e6d2cb21b8f29709284f52e8ae815a3465412a1c"
+    },
+    {
+      "file": "before-08-drawer-notes.png",
+      "bytes": 133076,
+      "sha256": "5ecd9ae9bfe6738cca31bd67e2471f533bef6ee538c9e28f5283b55f8583135b"
+    },
+    {
+      "file": "before-09-jobs-list.png",
+      "bytes": 54894,
+      "sha256": "0c4b2b4bbd0ef44db5fb6db40b823f647f224ea94baf2fb65ffec16e0c094f0d"
+    },
+    {
+      "file": "before-10-candidates-list.png",
+      "bytes": 99052,
+      "sha256": "c21e23c1cda769614a9c6fec77be40571fcb96f20f859b5b50124118a167eaf1"
+    },
+    {
+      "file": "before-11-mobile-jobs.png",
+      "bytes": 35141,
+      "sha256": "cba1c1f18ce9d341bde277942c58031afbda1e6177c3bc3d3a472db1c29bdeb6"
+    },
+    {
+      "file": "before-12-mobile-board.png",
+      "bytes": 43272,
+      "sha256": "967b63dcce7d56c44bd4ab51c473b50d0f80e3a953f6dfc6f71c39e29f1e7629"
+    },
+    {
+      "file": "before-13-mobile-drawer.png",
+      "bytes": 45917,
+      "sha256": "3e8c08951824b68f910bbe4cb2f512355e6fea2fb31f613921b361041bcaa31c"
+    },
+    {
+      "file": "before-14-mobile-add-candidate.png",
+      "bytes": 35288,
+      "sha256": "47db939a978bbdb270c8499ad362ae6d0d9034924ae8b57acd7b5f4e2c16539c"
+    }
+  ]
+}
