@@ -1,0 +1,97 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": "1070",
+  "head": "f88abe3fe3f8a074f647722639dfac08760cf9a7",
+  "base": "4058cf57d8b169546a6443de5346a1754bfacf1a",
+  "parentHead": "4371380826833b693c12196ca47ac16166e579a8",
+  "environment": "Local Rust Gonvex runtime + Vite (e2e mode) serving the exact PR head with its backend synced; isolated disposable e2e-parallel tenant, test@test.com administrator; Chromium 1440x900 and 390x844 via Playwright. Before images: same data with Feed.tsx, PeopleCenter.tsx and PeoplePage.tsx of the merged parent before this polish.",
+  "recordedAt": "20261023T060828Z",
+  "data": "Synthetic test data only; no customer data.",
+  "files": [
+    {
+      "file": "after-audience.png",
+      "bytes": 147335,
+      "sha256": "1c61cae3f7e6c2bbedf3e6cb06b66ff1da4693a14c2f9ce61ec8583dfc74564d"
+    },
+    {
+      "file": "after-home.png",
+      "bytes": 150448,
+      "sha256": "13438bc6938efae747811e4f8e38385d52fcc73cf74c92ada138a9d7c7578ec9"
+    },
+    {
+      "file": "after-hr-center-full.png",
+      "bytes": 137902,
+      "sha256": "c5f4de315cac8efab4b6d6baf75e071c1d8802193d4fd57209c9006e32051954"
+    },
+    {
+      "file": "after-hr-center.png",
+      "bytes": 137948,
+      "sha256": "27d4e33f54a48ccfb7e76eb613bb1b67689d6e3c813faa8a94afcb9b85fc10d0"
+    },
+    {
+      "file": "after-mobile-hr-center.png",
+      "bytes": 61035,
+      "sha256": "f0e844aa72a1c92cb52172662cc68f971852730e3e2f366d79459ecbd90e25cb"
+    },
+    {
+      "file": "after-mobile-poll.png",
+      "bytes": 69238,
+      "sha256": "8fe47547e0a9fe0d70e42aa259417f028899c80d3d7abf49ca422b64fa416e60"
+    },
+    {
+      "file": "after-poll.png",
+      "bytes": 144668,
+      "sha256": "3f14c0b097c2af722ef743549ad021d0435447bfad4ecbae1c0f186652fccd0d"
+    },
+    {
+      "file": "after-shoutout-picker.png",
+      "bytes": 149172,
+      "sha256": "834fb3d041ef3552314d3cd571f67a7202eb8b91dff5864c567308e7fe6badc6"
+    },
+    {
+      "file": "after-shoutout.png",
+      "bytes": 149840,
+      "sha256": "2d29e0496c4cec2c4ff47afb17591e135cc4d0b0fa04b7b9ee77a87aebe649aa"
+    },
+    {
+      "file": "after-walkthrough.mp4",
+      "bytes": 673322,
+      "sha256": "acd3a65a2447d53533b5d74e8e9000d43bc099a8cfbf219df4f66ad2f7e62349"
+    },
+    {
+      "file": "before-home.png",
+      "bytes": 141882,
+      "sha256": "3f005dbab12a9cb42960a9adc1942524d9455e667c580aad2dd3f06dbf9279ee"
+    },
+    {
+      "file": "before-hr-center-full.png",
+      "bytes": 129726,
+      "sha256": "8a29c1db4569928fbd441a74a7720e506b3d1a1691f7f179d10a16e193267b65"
+    },
+    {
+      "file": "before-hr-center.png",
+      "bytes": 129628,
+      "sha256": "d5cd5afa03f2bafabb136fd19e4e56459b36db3b2b18c0bfe1a6990ef7143261"
+    },
+    {
+      "file": "before-mobile-hr-center.png",
+      "bytes": 62024,
+      "sha256": "bbaa6b91d5ff7ad4d852c69041784b5ad1bf6426e211c0633f3a379ffb91ca48"
+    },
+    {
+      "file": "before-mobile-poll.png",
+      "bytes": 68554,
+      "sha256": "5faeb785875941f5665ec69088028a536a22bd08793c5adf15b4136bcf4d7831"
+    },
+    {
+      "file": "before-poll.png",
+      "bytes": 144375,
+      "sha256": "5d3b9f6c55557c594f67589cfa1ada9dbcd6655288f2eda956809842a6c7671a"
+    },
+    {
+      "file": "before-shoutout.png",
+      "bytes": 139806,
+      "sha256": "3b450d6d709f4c855bd90f287ea4477d377cceacb12f356fcc1e87746fdb072f"
+    }
+  ]
+}
