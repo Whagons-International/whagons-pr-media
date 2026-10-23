@@ -1,0 +1,107 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": "1067",
+  "head": "a587b2f0657482dfbb44eb86d0744562f2e61379",
+  "base": "bb1e5a144b6e2ee753412d391a50e6f277a35529",
+  "beforeHead": "21b516b7b30117ac33aa6604b1c733f676b50193",
+  "recordedAt": "20261023T052246Z",
+  "environment": "Local Rust Gonvex runtime + Vite (e2e mode) serving the exact PR head; isolated disposable e2e-parallel tenant, test@test.com administrator; Chromium 1440x900 (plus 1024x560 and 390x844) via Playwright. Before images: the same data with the People files of the PR base 21b516b7b3.",
+  "data": "Synthetic test data only; no customer data.",
+  "files": [
+    {
+      "file": "after-approvals.png",
+      "bytes": 89313,
+      "sha256": "8f95c7db8b102a6c1ea53d0e0218997565a843630dce93e105b2504045924e78"
+    },
+    {
+      "file": "after-balance-dialog-short.png",
+      "bytes": 81687,
+      "sha256": "052ef585406fe94ae9e2da6f3132b9749caf63ce7f0b165aa18b35d156d119f5"
+    },
+    {
+      "file": "after-balance-dialog.png",
+      "bytes": 160762,
+      "sha256": "16fbbec450d92697d0fdadebbf78fec762325d9f217c4d4d0767cbc3812d0098"
+    },
+    {
+      "file": "after-balances.png",
+      "bytes": 111938,
+      "sha256": "c61c00a55182fde4134d757e63d2eaf2d95ff5b0e110d5942506d97b1340644f"
+    },
+    {
+      "file": "after-calendar.png",
+      "bytes": 95053,
+      "sha256": "fb96a0620ed6181f48cad295a0390bce1610bb4cc45380dc33f756cbf9ce5bae"
+    },
+    {
+      "file": "after-holidays-empty.png",
+      "bytes": 70300,
+      "sha256": "e4e1f8354d7013a8ed8b4d023ea403782b1f91a3a29a48083dcee3d5808262cc"
+    },
+    {
+      "file": "after-mobile-request.png",
+      "bytes": 45300,
+      "sha256": "326b5454e58aca6c47434f76c749e524096e9b54429673e19ad0c0868449db71"
+    },
+    {
+      "file": "after-policy-dialog.png",
+      "bytes": 146950,
+      "sha256": "c80cb40c5d344b8f26d6eb538f05168beb632be7155edf14b42057ae1b2f684f"
+    },
+    {
+      "file": "after-request-filled.png",
+      "bytes": 143496,
+      "sha256": "e80e865b8ed7fd8af6a79d962c2c1ebecf98f53265a5d6b3c86fbdfe3d363333"
+    },
+    {
+      "file": "after-request-too-long.png",
+      "bytes": 139046,
+      "sha256": "8868c33daa02e5a0055711dd80a0a9e4e4192612452e6ac7bd87fc549edd1927"
+    },
+    {
+      "file": "after-walkthrough.mp4",
+      "bytes": 1691527,
+      "sha256": "0aca84f611f92a63a7e675f30c9f0e02fa7546be0751616d7411db4afcf5bcf4"
+    },
+    {
+      "file": "before-approvals.png",
+      "bytes": 88575,
+      "sha256": "871ed68dbd1b57bcdaedbdb20a55ff3010ffb4b57e4bcbc4d21d2145acdaad9d"
+    },
+    {
+      "file": "before-balance-dialog-short.png",
+      "bytes": 85302,
+      "sha256": "d7fcdb0854fda47ad8dd4c48fbc0bd8e35c3a00edefbdc4c30f22b88d1e2abb2"
+    },
+    {
+      "file": "before-balance-dialog.png",
+      "bytes": 183440,
+      "sha256": "0684e98d2f17ea7b8b23ef9c2eaf09a9822719bf1294df877f82d4f60071838c"
+    },
+    {
+      "file": "before-balances.png",
+      "bytes": 118416,
+      "sha256": "cfb4d2798707147fbef04ee7207069bee2196e19c23b9792e21e9d094607a6b3"
+    },
+    {
+      "file": "before-calendar.png",
+      "bytes": 95024,
+      "sha256": "fb66b8e345d88639fa42584c50e6f7eac079273c72a38f4bdd53f34e3e7d38f3"
+    },
+    {
+      "file": "before-mobile-request.png",
+      "bytes": 47930,
+      "sha256": "c5913ba6145c051f81afc1dd04009cc9c8706a3844c11b2f889519d02fdcbba7"
+    },
+    {
+      "file": "before-policy-dialog.png",
+      "bytes": 145801,
+      "sha256": "bcb69d9e0bd516a7dda0cc76d467f54d668463d9623d1b4521cb2136ead2642b"
+    },
+    {
+      "file": "before-request-filled.png",
+      "bytes": 149900,
+      "sha256": "6f0ac22af170f59bcc8c97e81dcd6f047286cd7adc8039a1f716bff9747ea7cf"
+    }
+  ]
+}
