@@ -1,0 +1,40 @@
+{
+  "repo": "Whagons-International/whagons5-client",
+  "pr": 1508,
+  "head": "5a7e3e277d1138c24e0472cd4935d736991956f0",
+  "base": "origin/staging (merged at e7c62bf070)",
+  "environment": "Local Rust Gonvex runtime + Vite e2e mode (footer stamp 5a7e3e2), fresh disposable e2e-parallel tenant, Firebase auth emulator, Chromium 1440x1000 light and dark, 1024x900",
+  "data": "Synthetic test data only",
+  "files": [
+    {
+      "name": "after-1-start.png",
+      "sha256": "542955cc3e014143b2d04cabbdbfedd448020c044d6620efb78965ff40455ebe",
+      "bytes": 131676
+    },
+    {
+      "name": "after-2-files.png",
+      "sha256": "90f652fa724cb8f05ae47617648bb1336ebbe2782ecfb0da26c8f1fbf8a7a81d",
+      "bytes": 127855
+    },
+    {
+      "name": "after-3-preview.png",
+      "sha256": "24601336a56c11cf9b3a2c15a3ad2b736e78cc5bfb5716cd0870797b3ad0d182",
+      "bytes": 80349
+    },
+    {
+      "name": "after-4-dark.png",
+      "sha256": "23fb48e19c1f6cbe2c00fda05f3e7c09fd15b586c578676057fd6a8cc51c4c6b",
+      "bytes": 147351
+    },
+    {
+      "name": "after-5-tablet.png",
+      "sha256": "86a803c27cedba6d11c9f83c7166da7323c1126b4fa1bb6d8916efe0623bdcdd",
+      "bytes": 137752
+    },
+    {
+      "name": "after-walkthrough.mp4",
+      "sha256": "7cff0fd99bb83d1684fc46425667dd8925090b0bc02d7e9cf8f84d934f3153f4",
+      "bytes": 811308
+    }
+  ]
+}
