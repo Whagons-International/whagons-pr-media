@@ -1,0 +1,97 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": "1070",
+  "head": "5c86cc5464cd9231a474b12731de374f04ed34dc",
+  "base": "f346c4c88e4318f7600d3c776ea184fd4ccc4154",
+  "beforeHead": "f88abe3fe3f8a074f647722639dfac08760cf9a7",
+  "environment": "local Rust Gonvex runtime + Vite e2e, Chromium",
+  "recordedAt": "20261026T061321Z",
+  "data": "Synthetic test data only; no customer data.",
+  "files": [
+    {
+      "file": "after-audience-chosen.png",
+      "bytes": 146413,
+      "sha256": "eadeb286ebbcacfbc92d5f55d6f8521ff04ed9f6437b83220d25ad1c7e0d44e4"
+    },
+    {
+      "file": "after-audience.png",
+      "bytes": 149540,
+      "sha256": "ba73cd4379faaeeb1b7384e6202b75be6ebf7ea9a566f37d52140b9a403d568e"
+    },
+    {
+      "file": "after-delete-comment.png",
+      "bytes": 224662,
+      "sha256": "63ba7f871c362d13bde18dd24eda7bbd143845692df650ece8b61fc7f3fb30cc"
+    },
+    {
+      "file": "after-delete-post.png",
+      "bytes": 214798,
+      "sha256": "883c2f76232f9241bf9dddba0ad8644c1a05050ab71a62259e3b3d95f3847de0"
+    },
+    {
+      "file": "after-home-dark.png",
+      "bytes": 355515,
+      "sha256": "4a5f6d646bfb7fc04336317179d4d2824876fbad29e3ab08df3260b53e374487"
+    },
+    {
+      "file": "after-home.png",
+      "bytes": 347970,
+      "sha256": "cac75425a9df337ccc24d471dd7237549b0295dd0bbc8709b66f80097e37e584"
+    },
+    {
+      "file": "after-hr-center.png",
+      "bytes": 181377,
+      "sha256": "4285eeae223c190b34c00d32b2a39baf356a1a81d08c4047f488889e0eaa9707"
+    },
+    {
+      "file": "after-mobile-audience.png",
+      "bytes": 69386,
+      "sha256": "2f7136cbd8bf6ad5cdd0f3e82002831f40c6555a82261119ab0ea9659761a622"
+    },
+    {
+      "file": "after-mobile-comment.png",
+      "bytes": 72619,
+      "sha256": "54f9f056703ece9ff67906f31240d6ce52c8a7d75f322a14339262aa4bd6df97"
+    },
+    {
+      "file": "after-walkthrough.mp4",
+      "bytes": 954672,
+      "sha256": "c02ad3595b02b5b891df8621bb4500c65dc855f13867d464e4028847efdd95c8"
+    },
+    {
+      "file": "after-whos-out.png",
+      "bytes": 21718,
+      "sha256": "807b7890339aa20a2dbaa5375500a22eeb03deabb636bdeccb6a10a9a0eebd99"
+    },
+    {
+      "file": "before-audience.png",
+      "bytes": 149085,
+      "sha256": "4b802d2ece5d55797fc51ebe41c77bbfe765d831b0f3ff6951e4f3c1f7a0e5fd"
+    },
+    {
+      "file": "before-home-dark.png",
+      "bytes": 352494,
+      "sha256": "c9346f32008cd556af4089211706868799f24d4f36614d594912ed65f66b4134"
+    },
+    {
+      "file": "before-home.png",
+      "bytes": 346363,
+      "sha256": "a1a9339d44a10e01b7f95895799dd159172b6c748329d793419b3092544cc618"
+    },
+    {
+      "file": "before-hr-center.png",
+      "bytes": 190152,
+      "sha256": "c1239bc41f5ac1b8cb6440c64e987f07a27be1b2cba16c30c51c139cbc1988eb"
+    },
+    {
+      "file": "before-mobile-audience.png",
+      "bytes": 57761,
+      "sha256": "4dfb87abbf7341fb494a66ea8ce8f57fcbeab0b91c704ce3a62db1869def2a09"
+    },
+    {
+      "file": "before-whos-out.png",
+      "bytes": 34150,
+      "sha256": "a652f38c77ea1a2ca2a20701b3d7d65e2619d8af37c3db53c655efd7beab9def"
+    }
+  ]
+}
