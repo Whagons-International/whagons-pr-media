@@ -1,0 +1,142 @@
+{
+  "repository": "Whagons-International/whagons5-client",
+  "pr": "1067",
+  "head": "3d8a07753e39e3d9e150f3527a173997fed2668f",
+  "base": "2e6eb605df7944bf7693e673f8f98bcaf20ce8cc",
+  "beforeHead": "4371380826 merged with staging; before-policies-empty.png: f346c4c88e (the previous head, captured as the E2E failure screenshot on a fresh tenant)",
+  "environment": "local Rust Gonvex runtime + Vite e2e, Chromium",
+  "recordedAt": "20261026T062622Z",
+  "data": "Synthetic test data only; no customer data.",
+  "files": [
+    {
+      "file": "after-approvals-dark.png",
+      "bytes": 100441,
+      "sha256": "8a25bf98b00c2a6aa82c7460f86e1ca0624c90fd9e5b9c9b235e55ec791c3207"
+    },
+    {
+      "file": "after-approvals.png",
+      "bytes": 97478,
+      "sha256": "023be7305edfcf541bbd2725c4c4fdb1128816c2d5493ee4b80770d936d950f3"
+    },
+    {
+      "file": "after-balances.png",
+      "bytes": 133917,
+      "sha256": "4b35a3c6b3cfdd85cbe0b90c41f04494991925c871980b3ff26d53013abe008c"
+    },
+    {
+      "file": "after-calendar-dark.png",
+      "bytes": 108506,
+      "sha256": "f8f1a7084ad7b4bcb2298982a37d53be6a78add6048d365e67dca56a7722a8f4"
+    },
+    {
+      "file": "after-calendar.png",
+      "bytes": 106126,
+      "sha256": "d49948ee42759f22e97538de0fedc79f5c199cbd46468737189ea3a3f2e2a72f"
+    },
+    {
+      "file": "after-confirm-policy.png",
+      "bytes": 213038,
+      "sha256": "6644a3ef9b65868b5d03f4ff2eaa40d7882d67c0439276467156cb8a4bf9f4c2"
+    },
+    {
+      "file": "after-decision.png",
+      "bytes": 124300,
+      "sha256": "d80d91bbb9eb370c6de8681c71455d57182a93e99deb074112f7ac63d4610a1e"
+    },
+    {
+      "file": "after-holidays.png",
+      "bytes": 85317,
+      "sha256": "ed41e99aa06ee27970fb5c219b27626e77ae26ce2e6adebe1b77d8b307f99d13"
+    },
+    {
+      "file": "after-mobile-approvals.png",
+      "bytes": 69383,
+      "sha256": "e9bc8f9b25d272b0f1a370bdc65c522e43f892e764ba7f87def8c1c1843413ba"
+    },
+    {
+      "file": "after-mobile-calendar.png",
+      "bytes": 62041,
+      "sha256": "5127d05be224aa2a7b9d92861aa8d6b6a720b3953bb0a7583107a87d03d6b474"
+    },
+    {
+      "file": "after-mobile-decision.png",
+      "bytes": 58517,
+      "sha256": "2aa95bf454b2137d686a4b2dda7f383ddd5f41462a5b2bb2fbaa7988c9caf8d4"
+    },
+    {
+      "file": "after-policies-empty.png",
+      "bytes": 99449,
+      "sha256": "dceb54d6a59df3bae313b1f39f75a1751d2a32243e68455fd8417ad47f1cda2b"
+    },
+    {
+      "file": "after-policies.png",
+      "bytes": 125917,
+      "sha256": "d8b60772a4d0bb45aeb05240d962afb2c581ae93e10ad7d66508afbf07dc8988"
+    },
+    {
+      "file": "after-request.png",
+      "bytes": 145192,
+      "sha256": "cceba18b2db852653bf43ce7bf0e3c80998199a345b269c4d67139037082299c"
+    },
+    {
+      "file": "after-walkthrough.mp4",
+      "bytes": 936773,
+      "sha256": "32e8664c40748d0ab24121097d27f9b43c61363e55ed533799ea2469e6dae373"
+    },
+    {
+      "file": "before-approvals-dark.png",
+      "bytes": 92579,
+      "sha256": "e69ac867ef46864c70a8b60fca8eedca7fbc7d800cf645cf9aad4610d328a402"
+    },
+    {
+      "file": "before-approvals.png",
+      "bytes": 91404,
+      "sha256": "e44191c469a985adaa72bdb335ee6fda1875d56ca651aa7290af8568d2adbb9c"
+    },
+    {
+      "file": "before-balances.png",
+      "bytes": 132643,
+      "sha256": "df25b6493ee0aadbc56f83089df8b9c69c06d81a63f44adf9e53899564553342"
+    },
+    {
+      "file": "before-calendar.png",
+      "bytes": 100747,
+      "sha256": "a30dc5f51f500838e0b0b8374841b709d0e4b741822c9817aed77d476317ff95"
+    },
+    {
+      "file": "before-decision.png",
+      "bytes": 109522,
+      "sha256": "956f582ed2154de1cb804bc748975e7a172e8f3380767f132519992ca9fffa9f"
+    },
+    {
+      "file": "before-holidays.png",
+      "bytes": 85633,
+      "sha256": "e0ecd4b51718fa79a7d498bf636ccb00b4831c6a4ea469722e2ef5e1d058cb38"
+    },
+    {
+      "file": "before-mobile-approvals.png",
+      "bytes": 69926,
+      "sha256": "1c9cb678e37b11512ebdcf49ffe61f906f92ade8bc373baeac7b70554cd4e75e"
+    },
+    {
+      "file": "before-mobile-calendar.png",
+      "bytes": 55120,
+      "sha256": "5427e5d7598d126be6917e8839458ce2329304081acabcaddf072e40fd071eda"
+    },
+    {
+      "file": "before-policies-empty.png",
+      "bytes": 74938,
+      "sha256": "637ff718ed63cddf8cfc5a5384f88c67341b7a633fc7376d110092c070aecdee"
+    },
+    {
+      "file": "before-policies.png",
+      "bytes": 122710,
+      "sha256": "aaef31a8dbdd1cd7c524c1e62bccc0dabcfa6239b4b64b5758b74b39d1758a18"
+    },
+    {
+      "file": "before-request.png",
+      "bytes": 124733,
+      "sha256": "e893bad19bcd8aeda4e1220978dc9e0faa302a0d6b1272a37c9ef77dd8a55e0e"
+    }
+  ]
+}
