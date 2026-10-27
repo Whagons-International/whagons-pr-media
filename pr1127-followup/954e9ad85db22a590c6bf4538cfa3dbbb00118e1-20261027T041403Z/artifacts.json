@@ -640,6 +640,26 @@
       "active": false,
       "bytes": 117244,
       "sha256": "20d695629540b90f3349634e251b4aaf3e72272ebdca6c19d951dcbe941cdf02"
+    },
+    {
+      "target": "pr1127-followup/954e9ad85db22a590c6bf4538cfa3dbbb00118e1-20261027T041403Z/after/after-revoke-sharing-shared-session.jpg",
+      "url": "https://raw.githubusercontent.com/Whagons-International/whagons-pr-media/pr1127-followup-954e9ad8-20261027T041403Z/pr1127-followup/954e9ad85db22a590c6bf4538cfa3dbbb00118e1-20261027T041403Z/after/after-revoke-sharing-shared-session.jpg",
+      "side": "after",
+      "kind": "screenshot",
+      "step": "revoke-sharing",
+      "active": true,
+      "bytes": 37064,
+      "sha256": "5c93a3d4f2b752e05bdf0f299dc71dc007d69e2fcd4201c9151752b9ee1dea47",
+      "provenance": {
+        "originalTraceSha256": "19623a3f2084983b78a5a762b36c066baa9a06be58655617612c049727fd4f4b",
+        "traceFile": "0-trace.trace",
+        "resource": "page@7d84b9ed2679f2410393147051940f12-1793074418909.jpeg",
+        "captureTimestamp": "2026-10-27T04:13:38.909Z",
+        "originalViewport": "1280x800",
+        "nativeImageSize": "800x500",
+        "pixelModification": false,
+        "assertion": "Shared-session report count zero, passed in the unchanged revocation spec."
+      }
     }
   ],
   "recoveredFrame": {
