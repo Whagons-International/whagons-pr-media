@@ -1,0 +1,64 @@
+{
+  "browserSourceHead": "339ca9f22315000b901d01d98dfad59e9fd92191",
+  "mergedStagingBase": "2434db02f2b1559ae37ad42ccfd1045dc429d621",
+  "environment": "private pr1092, synthetic testing/e2e-parallel tenants, Firebase Auth Emulator, pinned Rust runtime fc5726ad",
+  "screenshots": [
+    {
+      "file": "01-before-ranking.png",
+      "sha256": "461a3c75104de3652bb750fff5993db07a66d20b8d83b44201d948a1220dd890",
+      "capturedAt": "2026-10-30T05:08:19.122295+00:00"
+    },
+    {
+      "file": "02-ranked.png",
+      "sha256": "e4313be885cb7ebfa836dbc1c24529d841eb36a74dd981749e15fa1b24171d16",
+      "capturedAt": "2026-10-30T05:08:27.745432+00:00"
+    },
+    {
+      "file": "03-edited-draft.png",
+      "sha256": "e3fc30c61f488b9bea618ad26b59e204bda30cd18fe593503b94ecd41f1ff709",
+      "capturedAt": "2026-10-30T05:08:28.078437+00:00"
+    },
+    {
+      "file": "04-schedule.png",
+      "sha256": "9fb2402c818af22ccdde2b16753c5db70790fa0fad01da3d8a18037963ed1614",
+      "capturedAt": "2026-10-30T05:08:28.714447+00:00"
+    },
+    {
+      "file": "05-handled.png",
+      "sha256": "3c66cbde1e70b7ca3627347ce63551e1a68df8a3ffab76c94444aa46b0cddd6d",
+      "capturedAt": "2026-10-30T05:08:30.714479+00:00"
+    },
+    {
+      "file": "06-phone.png",
+      "sha256": "6827491c8b712dc5198564b726c99837a9e991b4c0a808bb0998e130c579bd16",
+      "capturedAt": "2026-10-30T05:08:30.869482+00:00"
+    },
+    {
+      "file": "07-empty-default-path.png",
+      "sha256": "8c1fa7ad55e65c8d8d192dfd1a6ed9f863246f66d4de0ac8c1e2ce74c300557a",
+      "capturedAt": "2026-10-30T05:09:17.876230+00:00"
+    },
+    {
+      "file": "08-spanish-phone.png",
+      "sha256": "213c81a0e4a1ef5cfd3feb19caeb0af3e8d785b406efe2ea5dad64f887785436",
+      "capturedAt": "2026-10-30T05:09:22.964311+00:00"
+    },
+    {
+      "file": "09-restricted-member.png",
+      "sha256": "0f5a0f83ab9be0a83ebda8f55cf6ec8eae76aa6401f96880f54f12e79aeef391",
+      "capturedAt": "2026-10-30T05:09:26.826372+00:00"
+    }
+  ],
+  "passed": [
+    "real Jev ranking and OpenRouter draft",
+    "draft subject/body editing and mailto",
+    "activity scheduling and handled state",
+    "390px phone E2E",
+    "default Everything > More > CRM > Today path without enabling a feature",
+    "empty state",
+    "Spanish phone",
+    "member with CRM access cannot see unrelated deals"
+  ],
+  "diagnostics": "The extra strict zero-console diagnostic assertion failed on expected SDK incompleteReplica fallback for crm.saveActivity/taskUsers. All workflow assertions and the repository E2E spec passed. Earlier runs also logged presence/userPresence and auth startup fallback diagnostics. Edge walkthrough console/pageerror list was empty.",
+  "limitation": "No outbound email was sent. Snapshot files contain synthetic fixture data."
+}
