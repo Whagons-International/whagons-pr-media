@@ -1,0 +1,11 @@
+{
+  "label": "after",
+  "browser": "Microsoft Edge 157.0.4341.60",
+  "step1Alert": null,
+  "step1Url": "http://testing.localhost:25173/auth/signin",
+  "step1SessionEmail": "staging-smoke-admin@whagons.com",
+  "step2Outcome": "left-signin",
+  "step2Url": "http://testing.localhost:25173/welcome",
+  "step2Alerts": [],
+  "step2SessionEmail": "staging-smoke-test@whagons.com"
+}

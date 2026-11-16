@@ -1,0 +1,13 @@
+{
+  "label": "before",
+  "browser": "Microsoft Edge 157.0.4341.60",
+  "step1Alert": null,
+  "step1Url": "http://testing.localhost:25173/auth/signin",
+  "step1SessionEmail": "staging-smoke-admin@whagons.com",
+  "step2Outcome": "stayed-on-signin",
+  "step2Url": "http://testing.localhost:25173/auth/signin",
+  "step2Alerts": [
+    "No pudimos asociar el inicio de sesión como staging-smoke-admin@whagons.com con un usuario de esta organización. Pide a un administrador que verifique el correo de tu cuenta de Whagons y tu acceso a este espacio."
+  ],
+  "step2SessionEmail": "staging-smoke-admin@whagons.com"
+}
